@@ -1,0 +1,106 @@
+{
+  "P1_laminar_refinement": {
+    "status": "implemented_and_unit_checked",
+    "artifacts": [
+      "hierarchy.json",
+      "tests/test_hypergraph_agglomerative.py",
+      "tests/test_temporal_hypergraph.py"
+    ],
+    "remaining_evaluation": "Report coverage/nesting validation for final exported runs."
+  },
+  "P2_size_budget": {
+    "status": "implemented",
+    "artifacts": [
+      "summary.json levels actual_groups"
+    ],
+    "remaining_evaluation": "Confirm budgets in metrics.json for selected snapshots."
+  },
+  "P3_semantic_coherence": {
+    "status": "automated_proxy_with_null_completed_not_expert_validated",
+    "artifacts": [
+      "blind_development_review_hypergraph_2020.*",
+      "results/coherence_null_2024_gamma0p1.json",
+      "results/coherence_type_preserving_null_2024_gamma0p1.json",
+      "results/blind_scientific_coherence_review.json"
+    ],
+    "remaining_evaluation": "Blind scientific coherence review ratings still blank; lexical proxy is not expert validation."
+  },
+  "P4_hyperedge_fidelity": {
+    "status": "implemented_reference_tests_exist",
+    "artifacts": [
+      "quotient_*.json",
+      "tests/test_quotient.py"
+    ],
+    "remaining_evaluation": "Report fragmentation and verify provenance preservation for final runs."
+  },
+  "P5_temporal_stability": {
+    "status": "cross_snapshot_and_perturbation_metrics_completed_development",
+    "artifacts": [
+      "temporal_identity_events.json",
+      "results/temporal_comparison_2022_2024.json",
+      "results/stability_bootstrap_*.json",
+      "results/perturb_lambda_*/robustness_summary.json",
+      "results/perturbation_uncertainty.json"
+    ],
+    "remaining_evaluation": "Cross-snapshot ARI with confidence intervals and perturbation stability over five seeds."
+  },
+  "P6_faithful_labels": {
+    "status": "extractive_fallback_generated_not_reviewed",
+    "artifacts": [
+      "hierarchy_labeled_extractive.json files",
+      "results/label_faithfulness_review_sample.json"
+    ],
+    "remaining_evaluation": "Human/NLI ratings blank; aggregate overclaim as unsupported_or_wrong/reviewed."
+  },
+  "T1_data_audit": {
+    "status": "implemented",
+    "artifacts": [
+      "data/processed/baseline_input/audit.json"
+    ],
+    "remaining_evaluation": "Summarize in report."
+  },
+  "T2_method_formal_statement": {
+    "status": "partly_documented",
+    "artifacts": [
+      "README.md",
+      "docs/EVALUATION_PROTOCOL.md"
+    ],
+    "remaining_evaluation": "Write final report section: objective, tradeoffs, complexity, guarantees vs empirical."
+  },
+  "T3_temporal_coupling": {
+    "status": "implemented_first_method",
+    "artifacts": [
+      "src/tkh_abstraction/temporal_hypergraph.py"
+    ],
+    "remaining_evaluation": "Evaluate stability; do not treat implementation tests as evidence of quality."
+  },
+  "T4_hyperedge_collapse": {
+    "status": "implemented",
+    "artifacts": [
+      "src/tkh_abstraction/quotient.py",
+      "docs/STEP_2_COARSENING.md"
+    ],
+    "remaining_evaluation": "Explain what coarsening preserves/hides in report."
+  },
+  "T5_labeling_faithfulness": {
+    "status": "extractive_fallback_generated_not_evaluated",
+    "artifacts": [
+      "src/tkh_abstraction/labels.py",
+      "hierarchy_labeled_extractive.json files"
+    ],
+    "remaining_evaluation": "Implement labeler and overclaim protocol; scores currently blank."
+  },
+  "T6_extrinsic_utility": {
+    "status": "retrieval_and_isolated_scoring_completed_with_limitations",
+    "artifacts": [
+      "src/tkh_abstraction/retrieval.py",
+      "results/retrieval_frozen_2024_gamma0p1.json",
+      "results/retrieval_frozen_2026_gamma0p1.json",
+      "results/retrieval_score_2026_gamma0p1.json",
+      "results/benchmark_target_mapping_audit.json",
+      "results/retrieval_claim_scoring_2026_gamma0p1.json"
+    ],
+    "remaining_evaluation": "Type B needs real evidence judgment; hierarchy currently underperforms flat Type A recall."
+  },
+  "report_draft": "docs/report_draft.md"
+}

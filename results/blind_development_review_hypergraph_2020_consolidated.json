@@ -1,0 +1,1362 @@
+{
+  "source_file": "results/blind_development_review_hypergraph_2020.csv",
+  "rating_column": "human_coherence_rating_blank",
+  "notes_column": "human_notes_blank",
+  "consolidated_groups": [
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2747",
+      "group_size": "12",
+      "ratings": [
+        "0"
+      ],
+      "notes": [
+        "all Jarvis terms related together maybe too semantic but still unsure"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "0"
+      ],
+      "unique_notes": [
+        "all Jarvis terms related together maybe too semantic but still unsure"
+      ],
+      "rating": "0",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2849",
+      "group_size": "16",
+      "ratings": [
+        "unsure"
+      ],
+      "notes": [
+        "the chemical names seem to be connected together"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "unsure"
+      ],
+      "unique_notes": [
+        "the chemical names seem to be connected together"
+      ],
+      "rating": "unsure",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2969",
+      "group_size": "22",
+      "ratings": [
+        "0"
+      ],
+      "notes": [
+        "all \"body descriptors\" grouped together"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "0"
+      ],
+      "unique_notes": [
+        "all \"body descriptors\" grouped together"
+      ],
+      "rating": "0",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2972",
+      "group_size": "112",
+      "ratings": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "notes": [
+        "definitely related to AFLOW",
+        "not realted to AFLOW btu grouped together",
+        "no similar work but simialr theme material science could be a possible broad connection",
+        "related to each other through materials",
+        "related to materail science",
+        "realted to each other",
+        "realted to each other thorugh a similar work",
+        "definitely related",
+        "definitely realated",
+        "related to material science"
+      ],
+      "rows_with_rating": 11,
+      "rows_total": 15,
+      "unique_ratings": [
+        "1",
+        "2"
+      ],
+      "unique_notes": [
+        "definitely related to AFLOW",
+        "not realted to AFLOW btu grouped together",
+        "no similar work but simialr theme material science could be a possible broad connection",
+        "related to each other through materials",
+        "related to materail science",
+        "realted to each other",
+        "realted to each other thorugh a similar work",
+        "definitely related",
+        "definitely realated",
+        "related to material science"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2978",
+      "group_size": "55",
+      "ratings": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "usnure",
+        "unsure",
+        "1",
+        "unsure",
+        "unsure",
+        "unsure",
+        "1",
+        "unsure"
+      ],
+      "notes": [
+        "seemssomething realted to autominer all the central nodes seem connected through this key word.",
+        "realted to Matbench",
+        "might be related to ML technique"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1",
+        "usnure",
+        "unsure"
+      ],
+      "unique_notes": [
+        "seemssomething realted to autominer all the central nodes seem connected through this key word.",
+        "realted to Matbench",
+        "might be related to ML technique"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2986",
+      "group_size": "80",
+      "ratings": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "unsure",
+        "1",
+        "1",
+        "2",
+        "unsure",
+        "unsure",
+        "1",
+        "1",
+        "0"
+      ],
+      "notes": [
+        "doestn belong here realted to quantum",
+        "a method",
+        "describes a model called DeepPMD which is successfully doing some calculation but not sure whther thsi realates to the above claim",
+        "seems like a problem that the DeepPMD model is able to solve",
+        "seems coherent with the theme",
+        "soemthing related to batteries and lithium which might be scietifically coherent with the themes",
+        "but seems realted to molecular dynamics",
+        "possibly realted to chemistry",
+        "realted to chemistry and a metric",
+        "definitely related to the central claims",
+        "could be a metric",
+        "might me some material",
+        "might be related to coating of electrolytes",
+        "possibly related to the problem",
+        "thsi is something realted to quantum doestn belong here"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "0",
+        "1",
+        "unsure",
+        "2"
+      ],
+      "unique_notes": [
+        "doestn belong here realted to quantum",
+        "a method",
+        "describes a model called DeepPMD which is successfully doing some calculation but not sure whther thsi realates to the above claim",
+        "seems like a problem that the DeepPMD model is able to solve",
+        "seems coherent with the theme",
+        "soemthing related to batteries and lithium which might be scietifically coherent with the themes",
+        "but seems realted to molecular dynamics",
+        "possibly realted to chemistry",
+        "realted to chemistry and a metric",
+        "definitely related to the central claims",
+        "could be a metric",
+        "might me some material",
+        "might be related to coating of electrolytes",
+        "possibly related to the problem",
+        "thsi is something realted to quantum doestn belong here"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2988",
+      "group_size": "100",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2989",
+      "group_size": "54",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2991",
+      "group_size": "361",
+      "ratings": [
+        "2",
+        "2",
+        "1",
+        "unsure",
+        "0",
+        "1",
+        "unsure",
+        "unsure",
+        "unsure",
+        "1",
+        "1",
+        "1",
+        "1",
+        "unsure",
+        "1"
+      ],
+      "notes": [
+        "article and realted claims seem related but that realtion could only be semantic",
+        "relates to the aricle headline",
+        "could be a technique",
+        "unsure whter JARVIS is related to AFLOW",
+        "could be an internal technique",
+        "could be a technique",
+        "could be realted to technical implementation",
+        "might be related",
+        "seems realted to a technique",
+        "the sampled data seems coherent especially since it is not too semantic"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1",
+        "unsure",
+        "0"
+      ],
+      "unique_notes": [
+        "article and realted claims seem related but that realtion could only be semantic",
+        "relates to the aricle headline",
+        "could be a technique",
+        "unsure whter JARVIS is related to AFLOW",
+        "could be an internal technique",
+        "could be realted to technical implementation",
+        "might be related",
+        "seems realted to a technique",
+        "the sampled data seems coherent especially since it is not too semantic"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2994",
+      "group_size": "430",
+      "ratings": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "unsure",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "unsure",
+        "2"
+      ],
+      "notes": [
+        "The sampled members appear to describe the article ‘Universal Machine Learning for Molecules and Crystals.’ This suggests a shared article context",
+        "maybe be scientifcally coherent and thematically similar describe a possible solution to the problem",
+        "describes a method seems reasonable adn fitting",
+        "could possibly be a optimiser used for machine learning technique",
+        "techinque seems related",
+        "not sure whether it connects to the article hard to Say",
+        "could possibly be a technique used for graph convolution networks but hard to establish scientifical coherence",
+        "might be a sub task",
+        "could be an internal task related to molecular or crystal interatomic interaction",
+        "could be something related to moment estimation in molecular dynamics",
+        "possibly a chemical name for a molecule",
+        "a method to calculate some distance",
+        "possibly a chemical name",
+        "not sure this could be a some basic irreducible set of molecules but it is not clear",
+        "could possibly point to a molecule"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "unsure",
+        "1"
+      ],
+      "unique_notes": [
+        "The sampled members appear to describe the article ‘Universal Machine Learning for Molecules and Crystals.’ This suggests a shared article context",
+        "maybe be scientifcally coherent and thematically similar describe a possible solution to the problem",
+        "describes a method seems reasonable adn fitting",
+        "could possibly be a optimiser used for machine learning technique",
+        "techinque seems related",
+        "not sure whether it connects to the article hard to Say",
+        "could possibly be a technique used for graph convolution networks but hard to establish scientifical coherence",
+        "might be a sub task",
+        "could be an internal task related to molecular or crystal interatomic interaction",
+        "could be something related to moment estimation in molecular dynamics",
+        "possibly a chemical name for a molecule",
+        "a method to calculate some distance",
+        "possibly a chemical name",
+        "not sure this could be a some basic irreducible set of molecules but it is not clear",
+        "could possibly point to a molecule"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2996",
+      "group_size": "120",
+      "ratings": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "unsure",
+        "1",
+        "1",
+        "unsure",
+        "2",
+        "unsure",
+        "2",
+        "unsure"
+      ],
+      "notes": [
+        "seems coherent since it is realted to other claims in thsi group realted to amorphous carbon",
+        "realted but could also be a semantic connection",
+        "related",
+        "realted to carbon and its interatomic potential",
+        "related",
+        "realted to the theme of molecular dynamics",
+        "related to MD simulation",
+        "might be a chemical name of something related to C",
+        "definitely realted work concerns amorphous carbon and silicon multiple documents related",
+        "could be realted to molecular dynamics",
+        "related to elasticity",
+        "related to physics"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1",
+        "unsure"
+      ],
+      "unique_notes": [
+        "seems coherent since it is realted to other claims in thsi group realted to amorphous carbon",
+        "realted but could also be a semantic connection",
+        "related",
+        "realted to carbon and its interatomic potential",
+        "realted to the theme of molecular dynamics",
+        "related to MD simulation",
+        "might be a chemical name of something related to C",
+        "definitely realted work concerns amorphous carbon and silicon multiple documents related",
+        "could be realted to molecular dynamics",
+        "related to elasticity",
+        "related to physics"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2997",
+      "group_size": "143",
+      "ratings": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "unsure",
+        "1",
+        "2",
+        "unsure",
+        "unsure",
+        "1",
+        "1"
+      ],
+      "notes": [
+        "all central claims and tasks seem to be related to material properties",
+        "hard to know whether they are semantically connected",
+        "realted to materail science",
+        "could be related",
+        "related to material science",
+        "could be a task in the material scienece property prediction theme",
+        "possibly a task",
+        "might be a model used to predict fracture in materials",
+        "realted to elasticity and materials",
+        "thsi seems realteedt o ion batteries",
+        "could be method or a model prediction",
+        "definitely related to the theme"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1",
+        "unsure"
+      ],
+      "unique_notes": [
+        "all central claims and tasks seem to be related to material properties",
+        "hard to know whether they are semantically connected",
+        "realted to materail science",
+        "could be related",
+        "related to material science",
+        "could be a task in the material scienece property prediction theme",
+        "possibly a task",
+        "might be a model used to predict fracture in materials",
+        "realted to elasticity and materials",
+        "thsi seems realteedt o ion batteries",
+        "could be method or a model prediction",
+        "definitely related to the theme"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2784",
+      "group_size": "23",
+      "ratings": [
+        "1"
+      ],
+      "notes": [
+        "fracture realted doesnt really mean they are scientifcally related"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "1"
+      ],
+      "unique_notes": [
+        "fracture realted doesnt really mean they are scientifcally related"
+      ],
+      "rating": "1",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2858",
+      "group_size": "20",
+      "ratings": [
+        "0"
+      ],
+      "notes": [
+        "all the chemical names are grouped together even in random and peripheral"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "0"
+      ],
+      "unique_notes": [
+        "all the chemical names are grouped together even in random and peripheral"
+      ],
+      "rating": "0",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2958",
+      "group_size": "41",
+      "ratings": [
+        "1"
+      ],
+      "notes": [
+        "carbon related papers"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "1"
+      ],
+      "unique_notes": [
+        "carbon related papers"
+      ],
+      "rating": "1",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2963",
+      "group_size": "44",
+      "ratings": [
+        "1"
+      ],
+      "notes": [
+        "automatminer and Matbench realted paper might be scientifcallycoherretn but not so sure"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "1"
+      ],
+      "unique_notes": [
+        "automatminer and Matbench realted paper might be scientifcallycoherretn but not so sure"
+      ],
+      "rating": "1",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2971",
+      "group_size": "143",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2973",
+      "group_size": "39",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2975",
+      "group_size": "28",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2977",
+      "group_size": "95",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2985",
+      "group_size": "102",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2986",
+      "group_size": "108",
+      "ratings": [
+        "1"
+      ],
+      "notes": [
+        "all authors who have worked on similar papers are grouped together"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "1"
+      ],
+      "unique_notes": [
+        "all authors who have worked on similar papers are grouped together"
+      ],
+      "rating": "1",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2996",
+      "group_size": "340",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_B",
+      "anonymous_group_id": "L0_c2997",
+      "group_size": "522",
+      "ratings": [
+        "2",
+        "2"
+      ],
+      "notes": [
+        "quantum related",
+        "quantum related"
+      ],
+      "rows_with_rating": 2,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2"
+      ],
+      "unique_notes": [
+        "quantum related"
+      ],
+      "rating": "2",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2833",
+      "group_size": "23",
+      "ratings": [
+        "2",
+        "1"
+      ],
+      "notes": [
+        "seems related to fracture in materails but seems too semantic",
+        "seems connected with carbon but not necessarily scientifically coherent"
+      ],
+      "rows_with_rating": 2,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1"
+      ],
+      "unique_notes": [
+        "seems related to fracture in materails but seems too semantic",
+        "seems connected with carbon but not necessarily scientifically coherent"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2856",
+      "group_size": "20",
+      "ratings": [
+        "0"
+      ],
+      "notes": [
+        "everything related to chemical names is grouped together not sure whther they ae scientifcally coherent"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "0"
+      ],
+      "unique_notes": [
+        "everything related to chemical names is grouped together not sure whther they ae scientifcally coherent"
+      ],
+      "rating": "0",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2902",
+      "group_size": "28",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2929",
+      "group_size": "33",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2935",
+      "group_size": "79",
+      "ratings": [
+        "2",
+        "2",
+        "1"
+      ],
+      "notes": [
+        "this is similar to dev_run_A all the authors of material science related papers are linked together but there are some incoherencies also",
+        "they have collaborated in the arti_00024",
+        "collaborated on AFLOW not necessarilythe the same article as the above or below authors"
+      ],
+      "rows_with_rating": 3,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1"
+      ],
+      "unique_notes": [
+        "this is similar to dev_run_A all the authors of material science related papers are linked together but there are some incoherencies also",
+        "they have collaborated in the arti_00024",
+        "collaborated on AFLOW not necessarilythe the same article as the above or below authors"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2960",
+      "group_size": "73",
+      "ratings": [
+        "unsure"
+      ],
+      "notes": [
+        "evenrything seems connected together by the keyword materials property"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "unsure"
+      ],
+      "unique_notes": [
+        "evenrything seems connected together by the keyword materials property"
+      ],
+      "rating": "unsure",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2975",
+      "group_size": "52",
+      "ratings": [
+        "1"
+      ],
+      "notes": [
+        "seems related to dft and AFLOW"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "1"
+      ],
+      "unique_notes": [
+        "seems related to dft and AFLOW"
+      ],
+      "rating": "1",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2982",
+      "group_size": "140",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2994",
+      "group_size": "264",
+      "ratings": [
+        "1"
+      ],
+      "notes": [
+        "the central nodes seem connected"
+      ],
+      "rows_with_rating": 1,
+      "rows_total": 15,
+      "unique_ratings": [
+        "1"
+      ],
+      "unique_notes": [
+        "the central nodes seem connected"
+      ],
+      "rating": "1",
+      "rating_status": "filled"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2995",
+      "group_size": "230",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2996",
+      "group_size": "203",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2997",
+      "group_size": "360",
+      "ratings": [],
+      "notes": [],
+      "rows_with_rating": 0,
+      "rows_total": 15,
+      "unique_ratings": [],
+      "unique_notes": [],
+      "rating": "",
+      "rating_status": "missing"
+    }
+  ],
+  "conflicts": [
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2994",
+      "group_size": "430",
+      "ratings": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "unsure",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "unsure",
+        "2"
+      ],
+      "notes": [
+        "The sampled members appear to describe the article ‘Universal Machine Learning for Molecules and Crystals.’ This suggests a shared article context",
+        "maybe be scientifcally coherent and thematically similar describe a possible solution to the problem",
+        "describes a method seems reasonable adn fitting",
+        "could possibly be a optimiser used for machine learning technique",
+        "techinque seems related",
+        "not sure whether it connects to the article hard to Say",
+        "could possibly be a technique used for graph convolution networks but hard to establish scientifical coherence",
+        "might be a sub task",
+        "could be an internal task related to molecular or crystal interatomic interaction",
+        "could be something related to moment estimation in molecular dynamics",
+        "possibly a chemical name for a molecule",
+        "a method to calculate some distance",
+        "possibly a chemical name",
+        "not sure this could be a some basic irreducible set of molecules but it is not clear",
+        "could possibly point to a molecule"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "unsure",
+        "1"
+      ],
+      "unique_notes": [
+        "The sampled members appear to describe the article ‘Universal Machine Learning for Molecules and Crystals.’ This suggests a shared article context",
+        "maybe be scientifcally coherent and thematically similar describe a possible solution to the problem",
+        "describes a method seems reasonable adn fitting",
+        "could possibly be a optimiser used for machine learning technique",
+        "techinque seems related",
+        "not sure whether it connects to the article hard to Say",
+        "could possibly be a technique used for graph convolution networks but hard to establish scientifical coherence",
+        "might be a sub task",
+        "could be an internal task related to molecular or crystal interatomic interaction",
+        "could be something related to moment estimation in molecular dynamics",
+        "possibly a chemical name for a molecule",
+        "a method to calculate some distance",
+        "possibly a chemical name",
+        "not sure this could be a some basic irreducible set of molecules but it is not clear",
+        "could possibly point to a molecule"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2991",
+      "group_size": "361",
+      "ratings": [
+        "2",
+        "2",
+        "1",
+        "unsure",
+        "0",
+        "1",
+        "unsure",
+        "unsure",
+        "unsure",
+        "1",
+        "1",
+        "1",
+        "1",
+        "unsure",
+        "1"
+      ],
+      "notes": [
+        "article and realted claims seem related but that realtion could only be semantic",
+        "relates to the aricle headline",
+        "could be a technique",
+        "unsure whter JARVIS is related to AFLOW",
+        "could be an internal technique",
+        "could be a technique",
+        "could be realted to technical implementation",
+        "might be related",
+        "seems realted to a technique",
+        "the sampled data seems coherent especially since it is not too semantic"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1",
+        "unsure",
+        "0"
+      ],
+      "unique_notes": [
+        "article and realted claims seem related but that realtion could only be semantic",
+        "relates to the aricle headline",
+        "could be a technique",
+        "unsure whter JARVIS is related to AFLOW",
+        "could be an internal technique",
+        "could be realted to technical implementation",
+        "might be related",
+        "seems realted to a technique",
+        "the sampled data seems coherent especially since it is not too semantic"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2986",
+      "group_size": "80",
+      "ratings": [
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "unsure",
+        "1",
+        "1",
+        "2",
+        "unsure",
+        "unsure",
+        "1",
+        "1",
+        "0"
+      ],
+      "notes": [
+        "doestn belong here realted to quantum",
+        "a method",
+        "describes a model called DeepPMD which is successfully doing some calculation but not sure whther thsi realates to the above claim",
+        "seems like a problem that the DeepPMD model is able to solve",
+        "seems coherent with the theme",
+        "soemthing related to batteries and lithium which might be scietifically coherent with the themes",
+        "but seems realted to molecular dynamics",
+        "possibly realted to chemistry",
+        "realted to chemistry and a metric",
+        "definitely related to the central claims",
+        "could be a metric",
+        "might me some material",
+        "might be related to coating of electrolytes",
+        "possibly related to the problem",
+        "thsi is something realted to quantum doestn belong here"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "0",
+        "1",
+        "unsure",
+        "2"
+      ],
+      "unique_notes": [
+        "doestn belong here realted to quantum",
+        "a method",
+        "describes a model called DeepPMD which is successfully doing some calculation but not sure whther thsi realates to the above claim",
+        "seems like a problem that the DeepPMD model is able to solve",
+        "seems coherent with the theme",
+        "soemthing related to batteries and lithium which might be scietifically coherent with the themes",
+        "but seems realted to molecular dynamics",
+        "possibly realted to chemistry",
+        "realted to chemistry and a metric",
+        "definitely related to the central claims",
+        "could be a metric",
+        "might me some material",
+        "might be related to coating of electrolytes",
+        "possibly related to the problem",
+        "thsi is something realted to quantum doestn belong here"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2996",
+      "group_size": "120",
+      "ratings": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "unsure",
+        "1",
+        "1",
+        "unsure",
+        "2",
+        "unsure",
+        "2",
+        "unsure"
+      ],
+      "notes": [
+        "seems coherent since it is realted to other claims in thsi group realted to amorphous carbon",
+        "realted but could also be a semantic connection",
+        "related",
+        "realted to carbon and its interatomic potential",
+        "related",
+        "realted to the theme of molecular dynamics",
+        "related to MD simulation",
+        "might be a chemical name of something related to C",
+        "definitely realted work concerns amorphous carbon and silicon multiple documents related",
+        "could be realted to molecular dynamics",
+        "related to elasticity",
+        "related to physics"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1",
+        "unsure"
+      ],
+      "unique_notes": [
+        "seems coherent since it is realted to other claims in thsi group realted to amorphous carbon",
+        "realted but could also be a semantic connection",
+        "related",
+        "realted to carbon and its interatomic potential",
+        "realted to the theme of molecular dynamics",
+        "related to MD simulation",
+        "might be a chemical name of something related to C",
+        "definitely realted work concerns amorphous carbon and silicon multiple documents related",
+        "could be realted to molecular dynamics",
+        "related to elasticity",
+        "related to physics"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2997",
+      "group_size": "143",
+      "ratings": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "unsure",
+        "1",
+        "2",
+        "unsure",
+        "unsure",
+        "1",
+        "1"
+      ],
+      "notes": [
+        "all central claims and tasks seem to be related to material properties",
+        "hard to know whether they are semantically connected",
+        "realted to materail science",
+        "could be related",
+        "related to material science",
+        "could be a task in the material scienece property prediction theme",
+        "possibly a task",
+        "might be a model used to predict fracture in materials",
+        "realted to elasticity and materials",
+        "thsi seems realteedt o ion batteries",
+        "could be method or a model prediction",
+        "definitely related to the theme"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1",
+        "unsure"
+      ],
+      "unique_notes": [
+        "all central claims and tasks seem to be related to material properties",
+        "hard to know whether they are semantically connected",
+        "realted to materail science",
+        "could be related",
+        "related to material science",
+        "could be a task in the material scienece property prediction theme",
+        "possibly a task",
+        "might be a model used to predict fracture in materials",
+        "realted to elasticity and materials",
+        "thsi seems realteedt o ion batteries",
+        "could be method or a model prediction",
+        "definitely related to the theme"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2978",
+      "group_size": "55",
+      "ratings": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "usnure",
+        "unsure",
+        "1",
+        "unsure",
+        "unsure",
+        "unsure",
+        "1",
+        "unsure"
+      ],
+      "notes": [
+        "seemssomething realted to autominer all the central nodes seem connected through this key word.",
+        "realted to Matbench",
+        "might be related to ML technique"
+      ],
+      "rows_with_rating": 15,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1",
+        "usnure",
+        "unsure"
+      ],
+      "unique_notes": [
+        "seemssomething realted to autominer all the central nodes seem connected through this key word.",
+        "realted to Matbench",
+        "might be related to ML technique"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_A",
+      "anonymous_group_id": "L0_c2972",
+      "group_size": "112",
+      "ratings": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2"
+      ],
+      "notes": [
+        "definitely related to AFLOW",
+        "not realted to AFLOW btu grouped together",
+        "no similar work but simialr theme material science could be a possible broad connection",
+        "related to each other through materials",
+        "related to materail science",
+        "realted to each other",
+        "realted to each other thorugh a similar work",
+        "definitely related",
+        "definitely realated",
+        "related to material science"
+      ],
+      "rows_with_rating": 11,
+      "rows_total": 15,
+      "unique_ratings": [
+        "1",
+        "2"
+      ],
+      "unique_notes": [
+        "definitely related to AFLOW",
+        "not realted to AFLOW btu grouped together",
+        "no similar work but simialr theme material science could be a possible broad connection",
+        "related to each other through materials",
+        "related to materail science",
+        "realted to each other",
+        "realted to each other thorugh a similar work",
+        "definitely related",
+        "definitely realated",
+        "related to material science"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2833",
+      "group_size": "23",
+      "ratings": [
+        "2",
+        "1"
+      ],
+      "notes": [
+        "seems related to fracture in materails but seems too semantic",
+        "seems connected with carbon but not necessarily scientifically coherent"
+      ],
+      "rows_with_rating": 2,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1"
+      ],
+      "unique_notes": [
+        "seems related to fracture in materails but seems too semantic",
+        "seems connected with carbon but not necessarily scientifically coherent"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    },
+    {
+      "anonymous_run_id": "dev_run_C",
+      "anonymous_group_id": "L0_c2935",
+      "group_size": "79",
+      "ratings": [
+        "2",
+        "2",
+        "1"
+      ],
+      "notes": [
+        "this is similar to dev_run_A all the authors of material science related papers are linked together but there are some incoherencies also",
+        "they have collaborated in the arti_00024",
+        "collaborated on AFLOW not necessarilythe the same article as the above or below authors"
+      ],
+      "rows_with_rating": 3,
+      "rows_total": 15,
+      "unique_ratings": [
+        "2",
+        "1"
+      ],
+      "unique_notes": [
+        "this is similar to dev_run_A all the authors of material science related papers are linked together but there are some incoherencies also",
+        "they have collaborated in the arti_00024",
+        "collaborated on AFLOW not necessarilythe the same article as the above or below authors"
+      ],
+      "rating": "",
+      "rating_status": "conflict"
+    }
+  ]
+}

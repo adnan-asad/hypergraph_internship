@@ -1,0 +1,25 @@
+{
+  "time_utc": "2026-09-26T13:58:19.733396+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.4.2",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "checks": [
+    {
+      "check": "unit_tests",
+      "returncode": 0,
+      "log": "verification/unit_tests.log"
+    },
+    {
+      "check": "saved_results",
+      "returncode": 0,
+      "log": "verification/saved_results.log"
+    }
+  ],
+  "full_model_or_clustering_rerun": false
+}

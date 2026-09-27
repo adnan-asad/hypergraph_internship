@@ -1,0 +1,699 @@
+{
+  "protocol": "evaluation_llm/PROTOCOL.md",
+  "coherence": {
+    "0": {
+      "actual": {
+        "n": 12,
+        "mean": 2.75,
+        "bootstrap95": [
+          2.1666666666666665,
+          3.3333333333333335
+        ],
+        "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+      },
+      "null": {
+        "n": 12,
+        "mean": 1.75,
+        "bootstrap95": [
+          1.5,
+          2
+        ],
+        "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+      },
+      "paired_actual_minus_null": {
+        "n": 12,
+        "mean": 1,
+        "bootstrap95": [
+          0.5,
+          1.5
+        ],
+        "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+      },
+      "actual_rating_ge3": 7,
+      "null_rating_ge3": 0
+    },
+    "0p1": {
+      "actual": {
+        "n": 12,
+        "mean": 2.3333333333333335,
+        "bootstrap95": [
+          1.75,
+          2.9166666666666665
+        ],
+        "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+      },
+      "null": {
+        "n": 12,
+        "mean": 1.6666666666666667,
+        "bootstrap95": [
+          1.4166666666666667,
+          1.9166666666666667
+        ],
+        "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+      },
+      "paired_actual_minus_null": {
+        "n": 12,
+        "mean": 0.6666666666666666,
+        "bootstrap95": [
+          0,
+          1.3333333333333333
+        ],
+        "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+      },
+      "actual_rating_ge3": 5,
+      "null_rating_ge3": 0
+    }
+  },
+  "faithfulness": {
+    "sample_count": 32,
+    "counts": {
+      "accurate_informative": 16,
+      "supported_but_vague": 16,
+      "unsupported_or_wrong": 0,
+      "insufficient_evidence": 0
+    },
+    "overclaim_numerator": 0,
+    "determinate_denominator": 32,
+    "overclaim_rate": 0.0,
+    "descriptive_wilson95": [
+      0,
+      0.1071827150573635
+    ],
+    "all_sample_uncertainty_bounds": [
+      0.0,
+      0.0
+    ],
+    "scope": "Balanced sample of 4 groups per required level and snapshot; descriptive sample-level rate, not a population-weighted estimate or verified external-paper truth.",
+    "human_spotcheck_status": "qualitative_checks_recorded"
+  },
+  "retrieval_macro": {
+    "A": {
+      "hierarchy": {
+        "questions": 14,
+        "claim_coverage": 0.12500069375069375,
+        "citation_coverage": 0.05952380952380952,
+        "direct_method_recall": 0.06412337662337662,
+        "method_mention_recall": 0.29389955282812424
+      },
+      "flat": {
+        "questions": 14,
+        "claim_coverage": 0.12947399822399822,
+        "citation_coverage": 0.05952380952380952,
+        "direct_method_recall": 0.06412337662337662,
+        "method_mention_recall": 0.3177090766376481
+      }
+    },
+    "B": {
+      "hierarchy": {
+        "questions": 4,
+        "claim_coverage": 0.17202380952380952,
+        "citation_coverage": 0.6
+      },
+      "flat": {
+        "questions": 4,
+        "claim_coverage": 0.17202380952380952,
+        "citation_coverage": 0.6
+      }
+    }
+  },
+  "retrieval_per_question": [
+    {
+      "packet_id": "R001",
+      "question_id": "Q12",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 39,
+      "claim_full": 0,
+      "claim_partial": 2,
+      "claim_coverage": 0.02564102564102564,
+      "citation_count": 15,
+      "citation_coverage": 0.0,
+      "method_count": 13,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.38461538461538464
+    },
+    {
+      "packet_id": "R002",
+      "question_id": "Q6",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 9,
+      "claim_full": 0,
+      "claim_partial": 3,
+      "claim_coverage": 0.16666666666666666,
+      "citation_count": 3,
+      "citation_coverage": 0.3333333333333333,
+      "method_count": 3,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.3333333333333333
+    },
+    {
+      "packet_id": "R003",
+      "question_id": "Q4",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 9,
+      "claim_full": 1,
+      "claim_partial": 2,
+      "claim_coverage": 0.2222222222222222,
+      "citation_count": 3,
+      "citation_coverage": 0.0,
+      "method_count": 3,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.6666666666666666
+    },
+    {
+      "packet_id": "R004",
+      "question_id": "Q8",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 6,
+      "claim_full": 3,
+      "claim_partial": 0,
+      "claim_coverage": 0.5,
+      "citation_count": 2,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.5,
+      "method_mention_recall": 0.5
+    },
+    {
+      "packet_id": "R005",
+      "question_id": "Q10",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 6,
+      "claim_full": 0,
+      "claim_partial": 1,
+      "claim_coverage": 0.08333333333333333,
+      "citation_count": 4,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.0
+    },
+    {
+      "packet_id": "R006",
+      "question_id": "Q14",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 33,
+      "claim_full": 0,
+      "claim_partial": 4,
+      "claim_coverage": 0.06060606060606061,
+      "citation_count": 11,
+      "citation_coverage": 0.0,
+      "method_count": 11,
+      "direct_method_recall": 0.2727272727272727,
+      "method_mention_recall": 0.5454545454545454
+    },
+    {
+      "packet_id": "R007",
+      "question_id": "Q1",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 21,
+      "claim_full": 0,
+      "claim_partial": 0,
+      "claim_coverage": 0.0,
+      "citation_count": 7,
+      "citation_coverage": 0.0,
+      "method_count": 7,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.14285714285714285
+    },
+    {
+      "packet_id": "R008",
+      "question_id": "Q5",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 6,
+      "claim_full": 0,
+      "claim_partial": 1,
+      "claim_coverage": 0.08333333333333333,
+      "citation_count": 2,
+      "citation_coverage": 0.5,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.0
+    },
+    {
+      "packet_id": "R009",
+      "question_id": "Q8",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 6,
+      "claim_full": 3,
+      "claim_partial": 0,
+      "claim_coverage": 0.5,
+      "citation_count": 2,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.5,
+      "method_mention_recall": 0.5
+    },
+    {
+      "packet_id": "R010",
+      "question_id": "Q4",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 9,
+      "claim_full": 1,
+      "claim_partial": 2,
+      "claim_coverage": 0.2222222222222222,
+      "citation_count": 3,
+      "citation_coverage": 0.0,
+      "method_count": 3,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.6666666666666666
+    },
+    {
+      "packet_id": "R011",
+      "question_id": "Q13",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 24,
+      "claim_full": 0,
+      "claim_partial": 1,
+      "claim_coverage": 0.020833333333333332,
+      "citation_count": 8,
+      "citation_coverage": 0.0,
+      "method_count": 8,
+      "direct_method_recall": 0.125,
+      "method_mention_recall": 0.375
+    },
+    {
+      "packet_id": "R012",
+      "question_id": "Q2",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 10,
+      "claim_full": 0,
+      "claim_partial": 2,
+      "claim_coverage": 0.1,
+      "citation_count": 7,
+      "citation_coverage": 0.0,
+      "method_count": 3,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.3333333333333333
+    },
+    {
+      "packet_id": "R013",
+      "question_id": "Q3",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 6,
+      "claim_full": 0,
+      "claim_partial": 2,
+      "claim_coverage": 0.16666666666666666,
+      "citation_count": 2,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.5
+    },
+    {
+      "packet_id": "R014",
+      "question_id": "Q9",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 9,
+      "claim_full": 0,
+      "claim_partial": 0,
+      "claim_coverage": 0.0,
+      "citation_count": 2,
+      "citation_coverage": 0.0,
+      "method_count": 3,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.3333333333333333
+    },
+    {
+      "packet_id": "R015",
+      "question_id": "Q18",
+      "type": "B",
+      "mode": "flat",
+      "claim_count": 10,
+      "claim_full": 1,
+      "claim_partial": 2,
+      "claim_coverage": 0.2,
+      "citation_count": 5,
+      "citation_coverage": 0.4
+    },
+    {
+      "packet_id": "R016",
+      "question_id": "Q18",
+      "type": "B",
+      "mode": "hierarchy",
+      "claim_count": 10,
+      "claim_full": 1,
+      "claim_partial": 2,
+      "claim_coverage": 0.2,
+      "citation_count": 5,
+      "citation_coverage": 0.4
+    },
+    {
+      "packet_id": "R017",
+      "question_id": "Q7",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 6,
+      "claim_full": 0,
+      "claim_partial": 0,
+      "claim_coverage": 0.0,
+      "citation_count": 2,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.0
+    },
+    {
+      "packet_id": "R018",
+      "question_id": "Q17",
+      "type": "B",
+      "mode": "hierarchy",
+      "claim_count": 7,
+      "claim_full": 0,
+      "claim_partial": 1,
+      "claim_coverage": 0.07142857142857142,
+      "citation_count": 5,
+      "citation_coverage": 0.6
+    },
+    {
+      "packet_id": "R019",
+      "question_id": "Q1",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 21,
+      "claim_full": 0,
+      "claim_partial": 0,
+      "claim_coverage": 0.0,
+      "citation_count": 7,
+      "citation_coverage": 0.0,
+      "method_count": 7,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.14285714285714285
+    },
+    {
+      "packet_id": "R020",
+      "question_id": "Q11",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 4,
+      "claim_full": 0,
+      "claim_partial": 2,
+      "claim_coverage": 0.25,
+      "citation_count": 3,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.0
+    },
+    {
+      "packet_id": "R021",
+      "question_id": "Q7",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 6,
+      "claim_full": 0,
+      "claim_partial": 0,
+      "claim_coverage": 0.0,
+      "citation_count": 2,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.0
+    },
+    {
+      "packet_id": "R022",
+      "question_id": "Q11",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 4,
+      "claim_full": 0,
+      "claim_partial": 2,
+      "claim_coverage": 0.25,
+      "citation_count": 3,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.0
+    },
+    {
+      "packet_id": "R023",
+      "question_id": "Q16",
+      "type": "B",
+      "mode": "hierarchy",
+      "claim_count": 9,
+      "claim_full": 0,
+      "claim_partial": 3,
+      "claim_coverage": 0.16666666666666666,
+      "citation_count": 4,
+      "citation_coverage": 1.0
+    },
+    {
+      "packet_id": "R024",
+      "question_id": "Q17",
+      "type": "B",
+      "mode": "flat",
+      "claim_count": 7,
+      "claim_full": 0,
+      "claim_partial": 1,
+      "claim_coverage": 0.07142857142857142,
+      "citation_count": 5,
+      "citation_coverage": 0.6
+    },
+    {
+      "packet_id": "R025",
+      "question_id": "Q13",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 24,
+      "claim_full": 0,
+      "claim_partial": 1,
+      "claim_coverage": 0.020833333333333332,
+      "citation_count": 8,
+      "citation_coverage": 0.0,
+      "method_count": 8,
+      "direct_method_recall": 0.125,
+      "method_mention_recall": 0.375
+    },
+    {
+      "packet_id": "R026",
+      "question_id": "Q10",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 6,
+      "claim_full": 0,
+      "claim_partial": 2,
+      "claim_coverage": 0.16666666666666666,
+      "citation_count": 4,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.0
+    },
+    {
+      "packet_id": "R027",
+      "question_id": "Q9",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 9,
+      "claim_full": 0,
+      "claim_partial": 1,
+      "claim_coverage": 0.05555555555555555,
+      "citation_count": 2,
+      "citation_coverage": 0.0,
+      "method_count": 3,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.3333333333333333
+    },
+    {
+      "packet_id": "R028",
+      "question_id": "Q2",
+      "type": "A",
+      "mode": "flat",
+      "claim_count": 10,
+      "claim_full": 0,
+      "claim_partial": 3,
+      "claim_coverage": 0.15,
+      "citation_count": 7,
+      "citation_coverage": 0.0,
+      "method_count": 3,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.6666666666666666
+    },
+    {
+      "packet_id": "R029",
+      "question_id": "Q15",
+      "type": "B",
+      "mode": "flat",
+      "claim_count": 10,
+      "claim_full": 1,
+      "claim_partial": 3,
+      "claim_coverage": 0.25,
+      "citation_count": 5,
+      "citation_coverage": 0.4
+    },
+    {
+      "packet_id": "R030",
+      "question_id": "Q5",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 6,
+      "claim_full": 0,
+      "claim_partial": 1,
+      "claim_coverage": 0.08333333333333333,
+      "citation_count": 2,
+      "citation_coverage": 0.5,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.0
+    },
+    {
+      "packet_id": "R031",
+      "question_id": "Q14",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 33,
+      "claim_full": 0,
+      "claim_partial": 5,
+      "claim_coverage": 0.07575757575757576,
+      "citation_count": 11,
+      "citation_coverage": 0.0,
+      "method_count": 11,
+      "direct_method_recall": 0.2727272727272727,
+      "method_mention_recall": 0.5454545454545454
+    },
+    {
+      "packet_id": "R032",
+      "question_id": "Q6",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 9,
+      "claim_full": 0,
+      "claim_partial": 3,
+      "claim_coverage": 0.16666666666666666,
+      "citation_count": 3,
+      "citation_coverage": 0.3333333333333333,
+      "method_count": 3,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.3333333333333333
+    },
+    {
+      "packet_id": "R033",
+      "question_id": "Q3",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 6,
+      "claim_full": 0,
+      "claim_partial": 2,
+      "claim_coverage": 0.16666666666666666,
+      "citation_count": 2,
+      "citation_coverage": 0.0,
+      "method_count": 2,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.5
+    },
+    {
+      "packet_id": "R034",
+      "question_id": "Q15",
+      "type": "B",
+      "mode": "hierarchy",
+      "claim_count": 10,
+      "claim_full": 1,
+      "claim_partial": 3,
+      "claim_coverage": 0.25,
+      "citation_count": 5,
+      "citation_coverage": 0.4
+    },
+    {
+      "packet_id": "R035",
+      "question_id": "Q12",
+      "type": "A",
+      "mode": "hierarchy",
+      "claim_count": 39,
+      "claim_full": 0,
+      "claim_partial": 2,
+      "claim_coverage": 0.02564102564102564,
+      "citation_count": 15,
+      "citation_coverage": 0.0,
+      "method_count": 13,
+      "direct_method_recall": 0.0,
+      "method_mention_recall": 0.38461538461538464
+    },
+    {
+      "packet_id": "R036",
+      "question_id": "Q16",
+      "type": "B",
+      "mode": "flat",
+      "claim_count": 9,
+      "claim_full": 0,
+      "claim_partial": 3,
+      "claim_coverage": 0.16666666666666666,
+      "citation_count": 4,
+      "citation_coverage": 1.0
+    }
+  ],
+  "human_spotchecks": {
+    "qualitatively_reviewed": 6,
+    "explicit_ratings_or_agreement": 1,
+    "requested": 6,
+    "records": [
+      {
+        "packet_id": "C004",
+        "task": "coherence",
+        "llm_judgment": "1",
+        "human_agrees": "",
+        "human_rating": "1",
+        "human_notes": "The group is too large for me to agree or disagree confidently; I give it 1. This rating reflects uncertainty about group size/coverage, not an exhaustive assessment of all members."
+      },
+      {
+        "packet_id": "C006",
+        "task": "coherence",
+        "llm_judgment": "1",
+        "human_agrees": "",
+        "human_rating": "",
+        "human_notes": "The examples have author names and only some connection. No explicit numerical rating or agreement decision was supplied."
+      },
+      {
+        "packet_id": "F002",
+        "task": "faithfulness",
+        "llm_judgment": "accurate_informative",
+        "human_agrees": "",
+        "human_rating": "",
+        "human_notes": "The group is very large, but the examples appear related to energy potentials and DFT transforms. No explicit categorical rating was supplied."
+      },
+      {
+        "packet_id": "F003",
+        "task": "faithfulness",
+        "llm_judgment": "accurate_informative",
+        "human_agrees": "",
+        "human_rating": "",
+        "human_notes": "High-throughput and DFT keywords occur, but I cannot say for sure that they are semantically connected or form a scientifically coherent meaning. No explicit categorical rating was supplied."
+      },
+      {
+        "packet_id": "F001",
+        "task": "faithfulness",
+        "llm_judgment": "supported_but_vague",
+        "human_agrees": "",
+        "human_rating": "",
+        "human_notes": "Vague, but searching methods appear together. No explicit support/overclaim category was supplied."
+      },
+      {
+        "packet_id": "F005",
+        "task": "faithfulness",
+        "llm_judgment": "supported_but_vague",
+        "human_agrees": "",
+        "human_rating": "",
+        "human_notes": "Same assessment as F001: vague, with searching methods together. No explicit support/overclaim category was supplied."
+      }
+    ]
+  },
+  "limitations": [
+    "One fresh-context LLM per task; no repeated stochastic judging.",
+    "Blindness hides configuration identities, not the observable content of groups.",
+    "Matched null is one type/size-preserving randomization per configuration.",
+    "Human completion is reported separately; prior developer review is not substituted for new checks.",
+    "Post-hoc evidence scoring of frozen coarse-filter retrieval; no generated answers or multilevel routing measured."
+  ]
+}

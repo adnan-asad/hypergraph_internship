@@ -1,0 +1,1161 @@
+[
+  {
+    "id": "L0_c4313",
+    "size": 249,
+    "type_counts": {
+      "component": 65,
+      "cited_work": 58,
+      "method": 45,
+      "technique": 44,
+      "claim": 17,
+      "future_topic": 9,
+      "task": 4,
+      "article": 3,
+      "metric": 2,
+      "problem": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "cite_00464",
+        "type": "cited_work",
+        "surface_form": "Message passing networks"
+      },
+      {
+        "id": "meth_00043",
+        "type": "method",
+        "surface_form": "Global Convolution Networks"
+      },
+      {
+        "id": "cite_00352",
+        "type": "cited_work",
+        "surface_form": "Crystal Graph Convolutional Neural Networks"
+      },
+      {
+        "id": "meth_00218",
+        "type": "method",
+        "surface_form": "crystal graph convolutional neural networks"
+      },
+      {
+        "id": "cite_00135",
+        "type": "cited_work",
+        "surface_form": "Message Passing Neural Network"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "comp_00042",
+        "type": "component",
+        "surface_form": "E3Linear layer"
+      },
+      {
+        "id": "comp_00470",
+        "type": "component",
+        "surface_form": "CGCNN convolution layers"
+      },
+      {
+        "id": "cite_00124",
+        "type": "cited_work",
+        "surface_form": "Interaction Network"
+      },
+      {
+        "id": "comp_00293",
+        "type": "component",
+        "surface_form": "ConvLSTM network architecture"
+      },
+      {
+        "id": "comp_00320",
+        "type": "component",
+        "surface_form": "Alternative GNN backbones"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00397",
+        "type": "component",
+        "surface_form": "AFLOW.IN / VASP POSCAR output generator"
+      },
+      {
+        "id": "futu_00061",
+        "type": "future_topic",
+        "surface_form": "Completion of Quantum ESPRESSO software integration"
+      },
+      {
+        "id": "comp_00806",
+        "type": "component",
+        "surface_form": "Cutoff function"
+      },
+      {
+        "id": "meth_00366",
+        "type": "method",
+        "surface_form": "Ultra-soft pseudopotentials"
+      },
+      {
+        "id": "comp_00284",
+        "type": "component",
+        "surface_form": "Modified softplus activation"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4308",
+    "size": 442,
+    "type_counts": {
+      "claim": 125,
+      "task": 96,
+      "problem": 49,
+      "technique": 36,
+      "method": 34,
+      "component": 32,
+      "cited_work": 23,
+      "future_topic": 18,
+      "dataset": 14,
+      "article": 9,
+      "metric": 6
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00213",
+        "type": "task",
+        "surface_form": "Atomic potential energy prediction"
+      },
+      {
+        "id": "prob_00122",
+        "type": "problem",
+        "surface_form": "Accurate data‑driven interatomic potentials"
+      },
+      {
+        "id": "task_00177",
+        "type": "task",
+        "surface_form": "Prediction of potential energy, atomic forces, and virial tensor"
+      },
+      {
+        "id": "arti_00016",
+        "type": "article",
+        "surface_form": "Deep Potential Molecular Dynamics: a scalable model with the accuracy of quantum mechanics"
+      },
+      {
+        "id": "cite_00217",
+        "type": "cited_work",
+        "surface_form": "Deep Potential Molecular Dynamics"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "meth_00192",
+        "type": "method",
+        "surface_form": "Universal Force Field"
+      },
+      {
+        "id": "meth_00208",
+        "type": "method",
+        "surface_form": "Behler-Parrinello neural network"
+      },
+      {
+        "id": "task_00246",
+        "type": "task",
+        "surface_form": "High‑throughput screening of Li‑ion battery anodes"
+      },
+      {
+        "id": "task_00522",
+        "type": "task",
+        "surface_form": "Ionic diffusion coefficient prediction"
+      },
+      {
+        "id": "comp_00246",
+        "type": "component",
+        "surface_form": "Integration with i‑PI for NPT simulations"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "meth_00050",
+        "type": "method",
+        "surface_form": "SchNet"
+      },
+      {
+        "id": "cite_00005",
+        "type": "cited_work",
+        "surface_form": "SchNet"
+      },
+      {
+        "id": "cite_00482",
+        "type": "cited_work",
+        "surface_form": "Behler‑Parrinello"
+      },
+      {
+        "id": "prob_00203",
+        "type": "problem",
+        "surface_form": "HF‑induced cathode degradation mitigation"
+      },
+      {
+        "id": "tech_00689",
+        "type": "technique",
+        "surface_form": "Nosé-Hoover thermostat"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4309",
+    "size": 144,
+    "type_counts": {
+      "task": 43,
+      "claim": 37,
+      "problem": 20,
+      "dataset": 12,
+      "method": 8,
+      "component": 6,
+      "technique": 6,
+      "future_topic": 6,
+      "article": 3,
+      "cited_work": 2,
+      "metric": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "prob_00034",
+        "type": "problem",
+        "surface_form": "Scalable electronic‑structure prediction for moiré systems"
+      },
+      {
+        "id": "task_00178",
+        "type": "task",
+        "surface_form": "Prediction of DFT Hamiltonian for crystalline materials"
+      },
+      {
+        "id": "clai_00584",
+        "type": "claim",
+        "surface_form": "DeepH‑E3 generalizes across diverse material systems—including graphene, MoS₂, bismuthene, Bi₂Se₃, and Bi₂Te₃—achieving consistently sub‑meV Hamiltonian prediction errors."
+      },
+      {
+        "id": "clai_00373",
+        "type": "claim",
+        "surface_form": "DeepH predicts DFT Hamiltonian matrix elements for graphene with an average mean absolute error of 2.1 meV and a coefficient of determination r² = 0.9994 across all orbital combinations."
+      },
+      {
+        "id": "task_00058",
+        "type": "task",
+        "surface_form": "Electronic band‑structure prediction"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "meth_00248",
+        "type": "method",
+        "surface_form": "van der Waals functional OptB88"
+      },
+      {
+        "id": "clai_00384",
+        "type": "claim",
+        "surface_form": "DeepH can be applied to both periodic and non‑periodic systems, including three‑dimensional bulk carbon allotropes and quasi‑zero‑dimensional molecules, achieving sub‑meV mean absolute error for Hamiltonian predictions."
+      },
+      {
+        "id": "meth_00232",
+        "type": "method",
+        "surface_form": "Graph Neural Network for atomic property prediction in defective crystalline solids"
+      },
+      {
+        "id": "task_00273",
+        "type": "task",
+        "surface_form": "hybrid functional band‑structure calculation"
+      },
+      {
+        "id": "clai_00382",
+        "type": "claim",
+        "surface_form": "DeepH resolves the accuracy‑efficiency dilemma of DFT, enabling efficient ab‑initio electronic‑structure calculations for large‑scale material systems."
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00057",
+        "type": "component",
+        "surface_form": "Virtual Hamiltonian construction"
+      },
+      {
+        "id": "meth_00118",
+        "type": "method",
+        "surface_form": "DeepH-E3"
+      },
+      {
+        "id": "tech_00371",
+        "type": "technique",
+        "surface_form": "Linear‑optics calculations with OptB88‑vdW and TB‑mBJ"
+      },
+      {
+        "id": "comp_00345",
+        "type": "component",
+        "surface_form": "Heterostructure design app"
+      },
+      {
+        "id": "tech_00128",
+        "type": "technique",
+        "surface_form": "Virtual Hamiltonian interpolation"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4314",
+    "size": 159,
+    "type_counts": {
+      "technique": 49,
+      "component": 46,
+      "method": 20,
+      "cited_work": 19,
+      "claim": 12,
+      "problem": 9,
+      "metric": 1,
+      "future_topic": 1,
+      "dataset": 1,
+      "article": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "tech_00285",
+        "type": "technique",
+        "surface_form": "Gaussian radial basis functions for distance encoding"
+      },
+      {
+        "id": "comp_00053",
+        "type": "component",
+        "surface_form": "Gaussian radial basis expansion"
+      },
+      {
+        "id": "tech_00118",
+        "type": "technique",
+        "surface_form": "Gaussian radial basis expansion"
+      },
+      {
+        "id": "comp_00058",
+        "type": "component",
+        "surface_form": "Atomic‑like localized basis representation"
+      },
+      {
+        "id": "comp_00285",
+        "type": "component",
+        "surface_form": "Gaussian‑basis distance expansion"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "tech_00075",
+        "type": "technique",
+        "surface_form": "Gaussian radial basis functions"
+      },
+      {
+        "id": "cite_00233",
+        "type": "cited_work",
+        "surface_form": "Formate on Cu study"
+      },
+      {
+        "id": "meth_00252",
+        "type": "method",
+        "surface_form": "G0W0 many‑body perturbation theory"
+      },
+      {
+        "id": "tech_00116",
+        "type": "technique",
+        "surface_form": "Wigner‑Eckart theorem"
+      },
+      {
+        "id": "tech_00264",
+        "type": "technique",
+        "surface_form": "Kernel normalisation and integer power"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "metr_00084",
+        "type": "metric",
+        "surface_form": "force_std_dev"
+      },
+      {
+        "id": "cite_00234",
+        "type": "cited_work",
+        "surface_form": "Formate synthesis on copper"
+      },
+      {
+        "id": "cite_00200",
+        "type": "cited_work",
+        "surface_form": "SOAP"
+      },
+      {
+        "id": "comp_00581",
+        "type": "component",
+        "surface_form": "Pulay charge mixer"
+      },
+      {
+        "id": "cite_00233",
+        "type": "cited_work",
+        "surface_form": "Formate on Cu study"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4224",
+    "size": 106,
+    "type_counts": {
+      "task": 32,
+      "claim": 22,
+      "problem": 14,
+      "future_topic": 12,
+      "method": 7,
+      "dataset": 7,
+      "component": 5,
+      "article": 3,
+      "cited_work": 3,
+      "technique": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00376",
+        "type": "task",
+        "surface_form": "computational materials discovery"
+      },
+      {
+        "id": "task_00038",
+        "type": "task",
+        "surface_form": "computational materials"
+      },
+      {
+        "id": "prob_00113",
+        "type": "problem",
+        "surface_form": "Scalable materials discovery"
+      },
+      {
+        "id": "task_00012",
+        "type": "task",
+        "surface_form": "computational materials science"
+      },
+      {
+        "id": "task_00439",
+        "type": "task",
+        "surface_form": "high-throughput materials discovery"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "comp_00441",
+        "type": "component",
+        "surface_form": "Materials-specific featurization library"
+      },
+      {
+        "id": "task_00033",
+        "type": "task",
+        "surface_form": "computational physics"
+      },
+      {
+        "id": "cite_00018",
+        "type": "cited_work",
+        "surface_form": "Materials Project"
+      },
+      {
+        "id": "prob_00270",
+        "type": "problem",
+        "surface_form": "Sparse materials datasets"
+      },
+      {
+        "id": "task_00482",
+        "type": "task",
+        "surface_form": "High-throughput materials database creation"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "clai_00016",
+        "type": "claim",
+        "surface_form": "The distribution of chromium coordination environments in oxides derived from the database matches known chemical principles: Cr⁶⁺ prefers tetrahedral (4‑fold) coordination, while Cr³⁺ prefers octahedral (6‑fold) coordination."
+      },
+      {
+        "id": "clai_00036",
+        "type": "claim",
+        "surface_form": "JARVIS‑Tools implements automatic k‑point convergence protocols that improve the precision of DFT calculations."
+      },
+      {
+        "id": "tech_00103",
+        "type": "technique",
+        "surface_form": "High‑throughput screening"
+      },
+      {
+        "id": "clai_00012",
+        "type": "claim",
+        "surface_form": "Automated validation checks compare calculated oxidation states, cell volumes, and bond lengths against experimental data and flag outliers for user review."
+      },
+      {
+        "id": "comp_00392",
+        "type": "component",
+        "surface_form": "Nanoparticle generator"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4311",
+    "size": 214,
+    "type_counts": {
+      "technique": 68,
+      "component": 42,
+      "task": 32,
+      "problem": 24,
+      "method": 14,
+      "claim": 12,
+      "cited_work": 10,
+      "future_topic": 5,
+      "metric": 3,
+      "dataset": 3,
+      "article": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00447",
+        "type": "task",
+        "surface_form": "Gap-deformation potential prediction"
+      },
+      {
+        "id": "task_00459",
+        "type": "task",
+        "surface_form": "Gap deformation potential prediction"
+      },
+      {
+        "id": "task_00453",
+        "type": "task",
+        "surface_form": "Fixed shape deformation potential prediction"
+      },
+      {
+        "id": "prob_00615",
+        "type": "problem",
+        "surface_form": "Near-surface structure sampling"
+      },
+      {
+        "id": "task_00157",
+        "type": "task",
+        "surface_form": "Elastic modulus prediction"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "comp_00031",
+        "type": "component",
+        "surface_form": "Distance binning"
+      },
+      {
+        "id": "task_00443",
+        "type": "task",
+        "surface_form": "Convex hull distance prediction"
+      },
+      {
+        "id": "tech_00631",
+        "type": "technique",
+        "surface_form": "NKPPRA-based k-point sampling"
+      },
+      {
+        "id": "task_00204",
+        "type": "task",
+        "surface_form": "Crack path prediction in crystalline solids"
+      },
+      {
+        "id": "futu_00169",
+        "type": "future_topic",
+        "surface_form": "Exploiting intermediate PES data (energies, forces, stresses) from high‑throughput relaxations to further improve IAP accuracy"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "prob_00607",
+        "type": "problem",
+        "surface_form": "preventing sp chain overprediction"
+      },
+      {
+        "id": "comp_00257",
+        "type": "component",
+        "surface_form": "Edge update network"
+      },
+      {
+        "id": "comp_00048",
+        "type": "component",
+        "surface_form": "Edge update block"
+      },
+      {
+        "id": "metr_00088",
+        "type": "metric",
+        "surface_form": "Young's modulus"
+      },
+      {
+        "id": "tech_00096",
+        "type": "technique",
+        "surface_form": "Polynomial mutation"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4315",
+    "size": 131,
+    "type_counts": {
+      "component": 36,
+      "problem": 24,
+      "technique": 22,
+      "claim": 19,
+      "task": 7,
+      "future_topic": 7,
+      "dataset": 6,
+      "method": 5,
+      "cited_work": 3,
+      "article": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "clai_00315",
+        "type": "claim",
+        "surface_form": "Automatminer Express preset achieves the best performance on 8 of 13 tasks in the Matbench benchmark."
+      },
+      {
+        "id": "comp_00439",
+        "type": "component",
+        "surface_form": "Automatminer pipeline"
+      },
+      {
+        "id": "clai_00661",
+        "type": "claim",
+        "surface_form": "AFLOW can automatically calculate a wide suite of physical observables across a large database of structures with minimal human intervention."
+      },
+      {
+        "id": "comp_00447",
+        "type": "component",
+        "surface_form": "Automatminer"
+      },
+      {
+        "id": "meth_00307",
+        "type": "method",
+        "surface_form": "Automatminer"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "cite_00274",
+        "type": "cited_work",
+        "surface_form": "AFLOW"
+      },
+      {
+        "id": "data_00095",
+        "type": "dataset",
+        "surface_form": "OQMD"
+      },
+      {
+        "id": "data_00114",
+        "type": "dataset",
+        "surface_form": "Matbench"
+      },
+      {
+        "id": "meth_00355",
+        "type": "method",
+        "surface_form": "AFLOW high-throughput DFT calculation protocol"
+      },
+      {
+        "id": "tech_00366",
+        "type": "technique",
+        "surface_form": "Automated workflow orchestration"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "tech_00325",
+        "type": "technique",
+        "surface_form": "RESTful JSON API"
+      },
+      {
+        "id": "comp_00343",
+        "type": "component",
+        "surface_form": "REST‑API"
+      },
+      {
+        "id": "prob_00274",
+        "type": "problem",
+        "surface_form": "Researcher intervention requirement"
+      },
+      {
+        "id": "tech_00324",
+        "type": "technique",
+        "surface_form": "Crowd‑sourced issue reporting"
+      },
+      {
+        "id": "tech_00360",
+        "type": "technique",
+        "surface_form": "REST‑API data exchange"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4296",
+    "size": 267,
+    "type_counts": {
+      "technique": 100,
+      "component": 47,
+      "problem": 47,
+      "task": 23,
+      "method": 16,
+      "metric": 9,
+      "cited_work": 9,
+      "claim": 6,
+      "future_topic": 6,
+      "dataset": 4
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00001",
+        "type": "task",
+        "surface_form": "machine learning"
+      },
+      {
+        "id": "prob_00280",
+        "type": "problem",
+        "surface_form": "Generalization error estimation"
+      },
+      {
+        "id": "meth_00051",
+        "type": "method",
+        "surface_form": "Gradient-domain machine learning"
+      },
+      {
+        "id": "tech_00023",
+        "type": "technique",
+        "surface_form": "Ensemble learning"
+      },
+      {
+        "id": "task_00242",
+        "type": "task",
+        "surface_form": "Machine‑learning property prediction"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "meth_00286",
+        "type": "method",
+        "surface_form": "cluster expansions"
+      },
+      {
+        "id": "prob_00278",
+        "type": "problem",
+        "surface_form": "Unbiased model comparison"
+      },
+      {
+        "id": "comp_00244",
+        "type": "component",
+        "surface_form": "C++ gradient module for descriptor derivatives"
+      },
+      {
+        "id": "task_00169",
+        "type": "task",
+        "surface_form": "Force‑error benchmarking"
+      },
+      {
+        "id": "tech_00699",
+        "type": "technique",
+        "surface_form": "iterative configuration addition"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "tech_00358",
+        "type": "technique",
+        "surface_form": "Error‑handler auto‑resubmit"
+      },
+      {
+        "id": "data_00068",
+        "type": "dataset",
+        "surface_form": "Poisson ratio"
+      },
+      {
+        "id": "prob_00114",
+        "type": "problem",
+        "surface_form": "Continuity of physical quantities"
+      },
+      {
+        "id": "comp_00387",
+        "type": "component",
+        "surface_form": "Error‑detection and auto‑restart module"
+      },
+      {
+        "id": "tech_00339",
+        "type": "technique",
+        "surface_form": "Sum and Max aggregation"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4298",
+    "size": 132,
+    "type_counts": {
+      "author": 116,
+      "cited_work": 15,
+      "dataset": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "auth_00013",
+        "type": "author",
+        "surface_form": "Wei Chen"
+      },
+      {
+        "id": "auth_00163",
+        "type": "author",
+        "surface_form": "Albert Davydov"
+      },
+      {
+        "id": "auth_00142",
+        "type": "author",
+        "surface_form": "Markus J. Buehler"
+      },
+      {
+        "id": "auth_00190",
+        "type": "author",
+        "surface_form": "Michal Jahnatek"
+      },
+      {
+        "id": "auth_00273",
+        "type": "author",
+        "surface_form": "Marco Fornari"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "auth_00143",
+        "type": "author",
+        "surface_form": "Geoffroy Hautier"
+      },
+      {
+        "id": "auth_00149",
+        "type": "author",
+        "surface_form": "Zhenze Yang"
+      },
+      {
+        "id": "auth_00009",
+        "type": "author",
+        "surface_form": "Qi Wang"
+      },
+      {
+        "id": "auth_00140",
+        "type": "author",
+        "surface_form": "Yu-Chuan Hsu"
+      },
+      {
+        "id": "auth_00281",
+        "type": "author",
+        "surface_form": "Federico Zipoli"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "auth_00115",
+        "type": "author",
+        "surface_form": "Shyue Ping Ong"
+      },
+      {
+        "id": "cite_00465",
+        "type": "cited_work",
+        "surface_form": "Ward et al. method"
+      },
+      {
+        "id": "cite_00466",
+        "type": "cited_work",
+        "surface_form": "Goodall et al. method"
+      },
+      {
+        "id": "auth_00101",
+        "type": "author",
+        "surface_form": "Lixin Sun"
+      },
+      {
+        "id": "cite_00457",
+        "type": "cited_work",
+        "surface_form": "Xie & Grossman"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4312",
+    "size": 264,
+    "type_counts": {
+      "cited_work": 72,
+      "method": 40,
+      "dataset": 33,
+      "component": 30,
+      "metric": 27,
+      "technique": 19,
+      "author": 15,
+      "task": 14,
+      "claim": 8,
+      "problem": 5,
+      "future_topic": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "cite_00279",
+        "type": "cited_work",
+        "surface_form": "DFT+U"
+      },
+      {
+        "id": "meth_00100",
+        "type": "method",
+        "surface_form": "DFT+U"
+      },
+      {
+        "id": "comp_00555",
+        "type": "component",
+        "surface_form": "CGAT-2"
+      },
+      {
+        "id": "comp_00556",
+        "type": "component",
+        "surface_form": "DCGAT-2"
+      },
+      {
+        "id": "data_00133",
+        "type": "dataset",
+        "surface_form": "DCGAT-2"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "tech_00409",
+        "type": "technique",
+        "surface_form": "dynamic band‑count adjustment"
+      },
+      {
+        "id": "metr_00006",
+        "type": "metric",
+        "surface_form": "DAF"
+      },
+      {
+        "id": "cite_00469",
+        "type": "cited_work",
+        "surface_form": "Leaky ReLU"
+      },
+      {
+        "id": "metr_00004",
+        "type": "metric",
+        "surface_form": "RMSE"
+      },
+      {
+        "id": "cite_00291",
+        "type": "cited_work",
+        "surface_form": "PAW"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "data_00214",
+        "type": "dataset",
+        "surface_form": "Custom test set"
+      },
+      {
+        "id": "prob_00384",
+        "type": "problem",
+        "surface_form": "Aliasing errors in Fourier transforms"
+      },
+      {
+        "id": "comp_00388",
+        "type": "component",
+        "surface_form": "Aconvasp command‑line tool"
+      },
+      {
+        "id": "tech_00409",
+        "type": "technique",
+        "surface_form": "dynamic band‑count adjustment"
+      },
+      {
+        "id": "comp_00356",
+        "type": "component",
+        "surface_form": "CFID descriptor set"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4164",
+    "size": 32,
+    "type_counts": {
+      "dataset": 32
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "data_00223",
+        "type": "dataset",
+        "surface_form": "MD-17 Benzene (original)"
+      },
+      {
+        "id": "data_00019",
+        "type": "dataset",
+        "surface_form": "MD-17 Benzene"
+      },
+      {
+        "id": "data_00226",
+        "type": "dataset",
+        "surface_form": "MD-17 Naphthalene (original)"
+      },
+      {
+        "id": "data_00221",
+        "type": "dataset",
+        "surface_form": "MD-17 Aspirin (original)"
+      },
+      {
+        "id": "data_00229",
+        "type": "dataset",
+        "surface_form": "MD-17 Toluene (original)"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "data_00054",
+        "type": "dataset",
+        "surface_form": "Ethanol"
+      },
+      {
+        "id": "data_00236",
+        "type": "dataset",
+        "surface_form": "Aspirin (MD-17)"
+      },
+      {
+        "id": "data_00022",
+        "type": "dataset",
+        "surface_form": "MD-17 Naphthalene"
+      },
+      {
+        "id": "data_00226",
+        "type": "dataset",
+        "surface_form": "MD-17 Naphthalene (original)"
+      },
+      {
+        "id": "data_00221",
+        "type": "dataset",
+        "surface_form": "MD-17 Aspirin (original)"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "data_00054",
+        "type": "dataset",
+        "surface_form": "Ethanol"
+      },
+      {
+        "id": "data_00050",
+        "type": "dataset",
+        "surface_form": "Uracil"
+      },
+      {
+        "id": "data_00052",
+        "type": "dataset",
+        "surface_form": "Salicylic acid"
+      },
+      {
+        "id": "data_00051",
+        "type": "dataset",
+        "surface_form": "Naphthalene"
+      },
+      {
+        "id": "data_00053",
+        "type": "dataset",
+        "surface_form": "Malonaldehyde"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4191",
+    "size": 24,
+    "type_counts": {
+      "task": 12,
+      "dataset": 5,
+      "problem": 4,
+      "future_topic": 2,
+      "claim": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00687",
+        "type": "task",
+        "surface_form": "Atomistic simulations of amorphous carbon"
+      },
+      {
+        "id": "task_00704",
+        "type": "task",
+        "surface_form": "amorphous carbon structure generation"
+      },
+      {
+        "id": "prob_00605",
+        "type": "problem",
+        "surface_form": "Large-scale amorphous carbon simulation"
+      },
+      {
+        "id": "task_00690",
+        "type": "task",
+        "surface_form": "Nanoscale amorphous carbon structure simulations"
+      },
+      {
+        "id": "data_00199",
+        "type": "dataset",
+        "surface_form": "amorphous carbon structures"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "data_00205",
+        "type": "dataset",
+        "surface_form": "Liquid carbon 9000K"
+      },
+      {
+        "id": "clai_00682",
+        "type": "claim",
+        "surface_form": "GAP predictions for Young's modulus of amorphous carbon agree very well with experimental values at all relevant densities, while screened Tersoff potential captures the trend but significantly overestimates absolute values."
+      },
+      {
+        "id": "task_00701",
+        "type": "task",
+        "surface_form": "Tetrahedral amorphous carbon (ta-C) modeling"
+      },
+      {
+        "id": "task_00700",
+        "type": "task",
+        "surface_form": "Amorphous carbon (a-C) structure generation"
+      },
+      {
+        "id": "prob_00606",
+        "type": "problem",
+        "surface_form": "accurate interatomic potential for amorphous carbon"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "data_00205",
+        "type": "dataset",
+        "surface_form": "Liquid carbon 9000K"
+      },
+      {
+        "id": "data_00206",
+        "type": "dataset",
+        "surface_form": "Liquid carbon 5000K"
+      },
+      {
+        "id": "prob_00604",
+        "type": "problem",
+        "surface_form": "Transferability across carbon phases"
+      },
+      {
+        "id": "task_00696",
+        "type": "task",
+        "surface_form": "Interatomic potential development for carbon"
+      },
+      {
+        "id": "clai_00682",
+        "type": "claim",
+        "surface_form": "GAP predictions for Young's modulus of amorphous carbon agree very well with experimental values at all relevant densities, while screened Tersoff potential captures the trend but significantly overestimates absolute values."
+      }
+    ]
+  }
+]

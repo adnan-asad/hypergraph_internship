@@ -1,0 +1,1451 @@
+{
+  "rubric": [
+    "accurate_informative",
+    "supported_but_vague",
+    "unsupported_or_wrong",
+    "insufficient_evidence"
+  ],
+  "aggregation": "overclaim_rate=(unsupported_or_wrong)/(reviewed labels); vague reported separately",
+  "items": [
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2977",
+      "persistent_id": "H2020_k12_0007",
+      "level_name": "k12",
+      "label": "network / message / convolution / networks",
+      "gloss": "Extractive summary only: 95 nodes; examples include Molecular Graph Convolutions (GC); Molecular Graph Convolution; Molecular Graph Convolution",
+      "supporting_node_ids": [
+        "cite_00140",
+        "meth_00047",
+        "cite_00125",
+        "meth_00049",
+        "cite_00129"
+      ],
+      "supporting_text": [
+        "Molecular Graph Convolutions (GC)",
+        "Molecular Graph Convolution",
+        "Molecular Graph Convolution",
+        "Spectral graph convolution",
+        "Spectral Graph Convolution"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2997",
+      "persistent_id": "H2020_k12_0011",
+      "level_name": "k12",
+      "label": "energy / potential / gap / force",
+      "gloss": "Extractive summary only: 522 nodes; examples include ab initio molecular dynamics; Car-Parrinello molecular dynamics; Time-scale limitation in first-principles molecular dynamics",
+      "supporting_node_ids": [
+        "meth_00101",
+        "meth_00207",
+        "prob_00412",
+        "meth_00384",
+        "task_00175"
+      ],
+      "supporting_text": [
+        "ab initio molecular dynamics",
+        "Car-Parrinello molecular dynamics",
+        "Time-scale limitation in first-principles molecular dynamics",
+        "First-principles molecular dynamics",
+        "Molecular dynamics simulation of liquid water and ice"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2985",
+      "persistent_id": "H2020_k12_0008",
+      "level_name": "k12",
+      "label": "project / high / computational / jarvis",
+      "gloss": "Extractive summary only: 102 nodes; examples include Materials property prediction from electronic bandstructure; Prediction of material properties; Accurate prediction of material properties",
+      "supporting_node_ids": [
+        "task_00346",
+        "task_00163",
+        "prob_00143",
+        "prob_00271",
+        "task_00344"
+      ],
+      "supporting_text": [
+        "Materials property prediction from electronic bandstructure",
+        "Prediction of material properties",
+        "Accurate prediction of material properties",
+        "Materials property prediction benchmarking",
+        "Materials property prediction from composition"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2784",
+      "persistent_id": "H2020_k12_0000",
+      "level_name": "k12",
+      "label": "fracture / crack / orientation / simulations",
+      "gloss": "Extractive summary only: 23 nodes; examples include Crack matrix y; Crack‑pattern prediction; Crack path prediction in crystalline solids",
+      "supporting_node_ids": [
+        "comp_00299",
+        "task_00200",
+        "task_00204",
+        "tech_00313",
+        "tech_00316"
+      ],
+      "supporting_text": [
+        "Crack matrix y",
+        "Crack‑pattern prediction",
+        "Crack path prediction in crystalline solids",
+        "Pixel‑wise crack‑length measurement",
+        "One‑hot crack labeling"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2963",
+      "persistent_id": "H2020_k12_0003",
+      "level_name": "k12",
+      "label": "automatminer / matbench / tasks / preset",
+      "gloss": "Extractive summary only: 44 nodes; examples include Data mining with Matminer; Matminer; Matminer",
+      "supporting_node_ids": [
+        "tech_00365",
+        "meth_00265",
+        "cite_00339",
+        "comp_00440",
+        "data_00115"
+      ],
+      "supporting_text": [
+        "Data mining with Matminer",
+        "Matminer",
+        "Matminer",
+        "Matbench test suite",
+        "Matbench test suite v0.1"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2958",
+      "persistent_id": "H2020_k12_0002",
+      "level_name": "k12",
+      "label": "carbon / amorphous / gap / liquid",
+      "gloss": "Extractive summary only: 41 nodes; examples include surface energy prediction for amorphous materials; High-density amorphous phase modeling; Amorphous carbon (a-C) structure modeling",
+      "supporting_node_ids": [
+        "prob_00610",
+        "task_00693",
+        "task_00691",
+        "task_00694",
+        "task_00701"
+      ],
+      "supporting_text": [
+        "surface energy prediction for amorphous materials",
+        "High-density amorphous phase modeling",
+        "Amorphous carbon (a-C) structure modeling",
+        "Amorphous carbon surface (ta-C) modeling",
+        "Tetrahedral amorphous carbon (ta-C) modeling"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2973",
+      "persistent_id": "H2020_k12_0005",
+      "level_name": "k12",
+      "label": "dft / aflow / database / calculations",
+      "gloss": "Extractive summary only: 39 nodes; examples include The AFLOWLIB data is accessible through a REST-API for standardized data exchange.; AFLOW workflow engine; AFLOW",
+      "supporting_node_ids": [
+        "clai_00224",
+        "comp_00385",
+        "cite_00274",
+        "clai_00661",
+        "clai_00669"
+      ],
+      "supporting_text": [
+        "The AFLOWLIB data is accessible through a REST-API for standardized data exchange.",
+        "AFLOW workflow engine",
+        "AFLOW",
+        "AFLOW can automatically calculate a wide suite of physical observables across a large database of structures with minimal human intervention.",
+        "The AFLOW database currently contains approximately 400 experimental prototype structures and several million bcc/fcc/hcp‑derived superstructures."
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2996",
+      "persistent_id": "H2020_k12_0010",
+      "level_name": "k12",
+      "label": "training / analysis / sampling / mae",
+      "gloss": "Extractive summary only: 340 nodes; examples include JARVIS‑Tools workflow; JARVIS-FF workflow; JARVIS-ML workflow",
+      "supporting_node_ids": [
+        "comp_00359",
+        "comp_00348",
+        "comp_00349",
+        "comp_00354",
+        "clai_00038"
+      ],
+      "supporting_text": [
+        "JARVIS‑Tools workflow",
+        "JARVIS-FF workflow",
+        "JARVIS-ML workflow",
+        "JARVIS-FF database",
+        "A REST‑API is provided for programmatic download and upload of JARVIS data, supporting community contributions and interoperability."
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2986",
+      "persistent_id": "H2020_k12_0009",
+      "level_name": "k12",
+      "label": "wang / chen / han / zhang",
+      "gloss": "Extractive summary only: 108 nodes; examples include Chen Zheng; Wei Chen; Chi Chen",
+      "supporting_node_ids": [
+        "auth_00138",
+        "auth_00013",
+        "auth_00114",
+        "auth_00024",
+        "auth_00009"
+      ],
+      "supporting_text": [
+        "Chen Zheng",
+        "Wei Chen",
+        "Chi Chen",
+        "Han Wang",
+        "Qi Wang"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2971",
+      "persistent_id": "H2020_k12_0004",
+      "level_name": "k12",
+      "label": "set2set / lda+u / tight / binding",
+      "gloss": "Extractive summary only: 143 nodes; examples include Set2Set pooling; Set2Set readout; Set2Set",
+      "supporting_node_ids": [
+        "tech_00084",
+        "comp_00018",
+        "cite_00130",
+        "meth_00066",
+        "comp_00473"
+      ],
+      "supporting_text": [
+        "Set2Set pooling",
+        "Set2Set readout",
+        "Set2Set",
+        "Set2Set",
+        "Set2Set"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2975",
+      "persistent_id": "H2020_k12_0006",
+      "level_name": "k12",
+      "label": "descriptor / soap / body / descriptors",
+      "gloss": "Extractive summary only: 28 nodes; examples include SOAP descriptor with sparse points; SOAP sparse points; SOAP descriptor construction",
+      "supporting_node_ids": [
+        "comp_00816",
+        "comp_00822",
+        "tech_00260",
+        "meth_00433",
+        "comp_00221"
+      ],
+      "supporting_text": [
+        "SOAP descriptor with sparse points",
+        "SOAP sparse points",
+        "SOAP descriptor construction",
+        "SOAP descriptors",
+        "SOAP descriptor"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L0_c2858",
+      "persistent_id": "H2020_k12_0001",
+      "level_name": "k12",
+      "label": "md-17 / original / revised / aspirin",
+      "gloss": "Extractive summary only: 20 nodes; examples include Salicylic acid; MD-17 Salicylic acid (original); Aspirin",
+      "supporting_node_ids": [
+        "data_00052",
+        "data_00228",
+        "data_00034",
+        "data_00221",
+        "data_00231"
+      ],
+      "supporting_text": [
+        "Salicylic acid",
+        "MD-17 Salicylic acid (original)",
+        "Aspirin",
+        "MD-17 Aspirin (original)",
+        "MD-17 Aspirin (revised)"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L1_c2955",
+      "persistent_id": "H2020_k48_0041",
+      "level_name": "k48",
+      "label": "network / message / passing / energy",
+      "gloss": "Extractive summary only: 84 nodes; examples include Residual connections; Residual skip connections; Fully‑connected hidden layers",
+      "supporting_node_ids": [
+        "tech_00047",
+        "tech_00304",
+        "comp_00266",
+        "comp_00474",
+        "tech_00292"
+      ],
+      "supporting_text": [
+        "Residual connections",
+        "Residual skip connections",
+        "Fully‑connected hidden layers",
+        "Skip connection Add layers",
+        "Normalized summation pooling"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L1_c2961",
+      "persistent_id": "H2020_k48_0047",
+      "level_name": "k48",
+      "label": "energy / crystal / training / mean",
+      "gloss": "Extractive summary only: 85 nodes; examples include CGCNN convolution layers; CGCNN; Application of CGCNN to additional material classes beyond perovskites",
+      "supporting_node_ids": [
+        "comp_00470",
+        "cite_00354",
+        "futu_00001",
+        "futu_00002",
+        "futu_00003"
+      ],
+      "supporting_text": [
+        "CGCNN convolution layers",
+        "CGCNN",
+        "Application of CGCNN to additional material classes beyond perovskites",
+        "Integration of CGCNN predictions with experimental validation pipelines",
+        "Extension of CGCNN to predict dynamic or temperature‑dependent properties"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L1_c2940",
+      "persistent_id": "H2020_k48_0028",
+      "level_name": "k48",
+      "label": "expansion / ace / basis / tensorial",
+      "gloss": "Extractive summary only: 30 nodes; examples include SineCoulombMatrix featurizer; SineCoulombMatrix; Coulomb Matrix",
+      "supporting_node_ids": [
+        "comp_00443",
+        "cite_00348",
+        "cite_00133",
+        "meth_00310",
+        "cite_00355"
+      ],
+      "supporting_text": [
+        "SineCoulombMatrix featurizer",
+        "SineCoulombMatrix",
+        "Coulomb Matrix",
+        "Sine Coulomb Matrix",
+        "Sine Coulomb Matrix"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L1_c2930",
+      "persistent_id": "H2020_k48_0024",
+      "level_name": "k48",
+      "label": "project / high / computational / jarvis",
+      "gloss": "Extractive summary only: 83 nodes; examples include High‑throughput screening; Computational cost of materials screening; High‑throughput materials screening",
+      "supporting_node_ids": [
+        "tech_00103",
+        "prob_00413",
+        "prob_00146",
+        "futu_00004",
+        "prob_00094"
+      ],
+      "supporting_text": [
+        "High‑throughput screening",
+        "Computational cost of materials screening",
+        "High‑throughput materials screening",
+        "Use of CGCNN‑derived empirical rules for high‑throughput materials screening",
+        "Accelerated materials discovery"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L1_c2954",
+      "persistent_id": "H2020_k48_0040",
+      "level_name": "k48",
+      "label": "oqmd / ternary / stable / sp3",
+      "gloss": "Extractive summary only: 34 nodes; examples include sp3 atom counting; sp2/sp3 atom counting; Underestimated sp3 concentration in ta-C",
+      "supporting_node_ids": [
+        "tech_00914",
+        "tech_00923",
+        "prob_00590",
+        "task_00710",
+        "data_00211"
+      ],
+      "supporting_text": [
+        "sp3 atom counting",
+        "sp2/sp3 atom counting",
+        "Underestimated sp3 concentration in ta-C",
+        "sp2/sp3 concentration monitoring",
+        "Experimental sp3 data"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L1_c2810",
+      "persistent_id": "H2020_k48_0010",
+      "level_name": "k48",
+      "label": "silicon / gap / potential / dft",
+      "gloss": "Extractive summary only: 18 nodes; examples include Formation energies of vacancy and interstitial point defects (hexagonal, tetrahedral, dumbbell) are predicted by GAP within 10% of DFT values, providing uniform accuracy across these defects.; For extrapolative planar defects not included in the training set—specifically the (112) Σ3 grain boundary and unstable stacking fault energies on the (111) shuffle and glide planes—GAP errors remain within 20% of DFT, outperforming other models.; The Gaussian process regression framework underlying GAP provides an uncertainty quantification that qualitatively estimates the potential’s accuracy for any given atomic configuration.",
+      "supporting_node_ids": [
+        "clai_00228",
+        "clai_00229",
+        "clai_00231",
+        "clai_00226",
+        "clai_00233"
+      ],
+      "supporting_text": [
+        "Formation energies of vacancy and interstitial point defects (hexagonal, tetrahedral, dumbbell) are predicted by GAP within 10% of DFT values, providing uniform accuracy across these defects.",
+        "For extrapolative planar defects not included in the training set—specifically the (112) Σ3 grain boundary and unstable stacking fault energies on the (111) shuffle and glide planes—GAP errors remain within 20% of DFT, outperforming other models.",
+        "The Gaussian process regression framework underlying GAP provides an uncertainty quantification that qualitatively estimates the potential’s accuracy for any given atomic configuration.",
+        "For bulk elastic constants (B, C11, C12, C44) the GAP model achieves fractional errors of less than 10% relative to DFT, outperforming all other evaluated interatomic potentials.",
+        "A training database of manageable size, constructed from DFT configurations covering relevant phases and defects, is sufficient to achieve high transferability of the GAP model across diverse silicon configurations."
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L1_c2784",
+      "persistent_id": "H2020_k48_0009",
+      "level_name": "k48",
+      "label": "fracture / crack / orientation / simulations",
+      "gloss": "Extractive summary only: 23 nodes; examples include Crack matrix y; Crack‑pattern prediction; Crack path prediction in crystalline solids",
+      "supporting_node_ids": [
+        "comp_00299",
+        "task_00200",
+        "task_00204",
+        "tech_00313",
+        "tech_00316"
+      ],
+      "supporting_text": [
+        "Crack matrix y",
+        "Crack‑pattern prediction",
+        "Crack path prediction in crystalline solids",
+        "Pixel‑wise crack‑length measurement",
+        "One‑hot crack labeling"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2020",
+      "group_id": "L1_c2945",
+      "persistent_id": "H2020_k48_0032",
+      "level_name": "k48",
+      "label": "automatminer / preset / automl / search",
+      "gloss": "Extractive summary only: 31 nodes; examples include Automatminer pipeline; Descriptor-based Automatminer and RF models have lower errors on small datasets but their improvement rates are shallower, with AutoML's advantage over conventional techniques narrowing as sample count increases and essentially lost near 10^5 samples.; For small datasets (<10^4 samples), inexpensive Automatminer presets (~1-5 minute training) retain the bulk of performance compared to expensive presets (24h+ training), with Express retaining 95% or more of the accuracy of more expensive presets at less than 50% of the computational cost on data-scarce tasks.",
+      "supporting_node_ids": [
+        "comp_00439",
+        "clai_00318",
+        "clai_00320",
+        "clai_00316",
+        "comp_00447"
+      ],
+      "supporting_text": [
+        "Automatminer pipeline",
+        "Descriptor-based Automatminer and RF models have lower errors on small datasets but their improvement rates are shallower, with AutoML's advantage over conventional techniques narrowing as sample count increases and essentially lost near 10^5 samples.",
+        "For small datasets (<10^4 samples), inexpensive Automatminer presets (~1-5 minute training) retain the bulk of performance compared to expensive presets (24h+ training), with Express retaining 95% or more of the accuracy of more expensive presets at less than 50% of the computational cost on data-scarce tasks.",
+        "Automatminer's auto-generated models outperform or equal the Random Forest model across all Matbench tasks except predicting formation energies across the Materials Project.",
+        "Automatminer"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8313",
+      "persistent_id": "H2020_k12_0011",
+      "level_name": "k12",
+      "label": "energy / potential / dft / force",
+      "gloss": "Extractive summary only: 1234 nodes; examples include AMBER force field; Universal Force Field; Force‑field benchmarking",
+      "supporting_node_ids": [
+        "meth_00191",
+        "meth_00192",
+        "task_00234",
+        "task_00241",
+        "prob_00323"
+      ],
+      "supporting_text": [
+        "AMBER force field",
+        "Universal Force Field",
+        "Force‑field benchmarking",
+        "Classical force‑field property benchmarking",
+        "Accuracy limitations of classical force fields"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c7990",
+      "persistent_id": "G01_2024_k12_new_0000",
+      "level_name": "k12",
+      "label": "phonon / band / dispersion / full",
+      "gloss": "Extractive summary only: 85 nodes; examples include Augmenting a minimal 1×1×1 supercell training set with Hessian data yields more accurate phonon predictions than training on a larger 3×3×3 supercell alone.; Application of equivariant GNN phonon predictions to drug‑discovery related molecular systems; The E(3)-equivariant graph neural network architecture automatically preserves crystalline symmetries, yielding the correct acoustic‑sum‑rule zero modes without additional corrections.",
+      "supporting_node_ids": [
+        "clai_00415",
+        "futu_00106",
+        "clai_00416",
+        "arti_00006",
+        "meth_00123"
+      ],
+      "supporting_text": [
+        "Augmenting a minimal 1×1×1 supercell training set with Hessian data yields more accurate phonon predictions than training on a larger 3×3×3 supercell alone.",
+        "Application of equivariant GNN phonon predictions to drug‑discovery related molecular systems",
+        "The E(3)-equivariant graph neural network architecture automatically preserves crystalline symmetries, yielding the correct acoustic‑sum‑rule zero modes without additional corrections.",
+        "Phonon predictions with E(3)-equivariant graph neural networks",
+        "Phonax (E(3)-equivariant graph neural network framework for phonon and Hessian prediction)"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8303",
+      "persistent_id": "H2020_k12_0010",
+      "level_name": "k12",
+      "label": "training / regression / feature / loss",
+      "gloss": "Extractive summary only: 646 nodes; examples include Automatminer pipeline; Descriptor-based Automatminer and RF models have lower errors on small datasets but their improvement rates are shallower, with AutoML's advantage over conventional techniques narrowing as sample count increases and essentially lost near 10^5 samples.; For small datasets (<10^4 samples), inexpensive Automatminer presets (~1-5 minute training) retain the bulk of performance compared to expensive presets (24h+ training), with Express retaining 95% or more of the accuracy of more expensive presets at less than 50% of the computational cost on data-scarce tasks.",
+      "supporting_node_ids": [
+        "comp_00439",
+        "clai_00318",
+        "clai_00320",
+        "clai_00316",
+        "comp_00447"
+      ],
+      "supporting_text": [
+        "Automatminer pipeline",
+        "Descriptor-based Automatminer and RF models have lower errors on small datasets but their improvement rates are shallower, with AutoML's advantage over conventional techniques narrowing as sample count increases and essentially lost near 10^5 samples.",
+        "For small datasets (<10^4 samples), inexpensive Automatminer presets (~1-5 minute training) retain the bulk of performance compared to expensive presets (24h+ training), with Express retaining 95% or more of the accuracy of more expensive presets at less than 50% of the computational cost on data-scarce tasks.",
+        "Automatminer's auto-generated models outperform or equal the Random Forest model across all Matbench tasks except predicting formation energies across the Materials Project.",
+        "Automatminer"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8215",
+      "persistent_id": "H2020_k12_0005",
+      "level_name": "k12",
+      "label": "dft / d4ft / calculations / high",
+      "gloss": "Extractive summary only: 72 nodes; examples include high-throughput DFT validation; High‑throughput DFT; Scalable high‑throughput DFT management",
+      "supporting_node_ids": [
+        "tech_00597",
+        "tech_00321",
+        "prob_00215",
+        "prob_00029",
+        "prob_00385"
+      ],
+      "supporting_text": [
+        "high-throughput DFT validation",
+        "High‑throughput DFT",
+        "Scalable high‑throughput DFT management",
+        "Computational cost of large‑scale DFT",
+        "Computational cost in high-throughput DFT"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8315",
+      "persistent_id": "H2020_k12_0008",
+      "level_name": "k12",
+      "label": "melting / amorphous / carbon / discovery",
+      "gloss": "Extractive summary only: 205 nodes; examples include Feature selection for materials property prediction; Data heterogeneity in materials property prediction; Materials property prediction benchmarking",
+      "supporting_node_ids": [
+        "prob_00633",
+        "prob_00632",
+        "prob_00271",
+        "task_00163",
+        "prob_00143"
+      ],
+      "supporting_text": [
+        "Feature selection for materials property prediction",
+        "Data heterogeneity in materials property prediction",
+        "Materials property prediction benchmarking",
+        "Prediction of material properties",
+        "Accurate prediction of material properties"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8307",
+      "persistent_id": "G01_2024_k12_new_0003",
+      "level_name": "k12",
+      "label": "phase / energy / sampling / simulations",
+      "gloss": "Extractive summary only: 350 nodes; examples include Semi‑Grand Canonical Monte Carlo with umbrella sampling; Semi-Grand Canonical Monte Carlo; kinetic Monte Carlo",
+      "supporting_node_ids": [
+        "tech_00169",
+        "meth_00146",
+        "cite_00388",
+        "cite_00402",
+        "meth_00154"
+      ],
+      "supporting_text": [
+        "Semi‑Grand Canonical Monte Carlo with umbrella sampling",
+        "Semi-Grand Canonical Monte Carlo",
+        "kinetic Monte Carlo",
+        "Parallel Monte Carlo",
+        "Monte Carlo simulation"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8314",
+      "persistent_id": "G01_2024_k12_new_0005",
+      "level_name": "k12",
+      "label": "md-17 / oc20 / original / equiformerv2",
+      "gloss": "Extractive summary only: 343 nodes; examples include Malonaldehyde; MD-17 Malonaldehyde (original); MD-17 Malonaldehyde",
+      "supporting_node_ids": [
+        "data_00053",
+        "data_00225",
+        "data_00021",
+        "data_00234",
+        "data_00054"
+      ],
+      "supporting_text": [
+        "Malonaldehyde",
+        "MD-17 Malonaldehyde (original)",
+        "MD-17 Malonaldehyde",
+        "MD-17 Malonaldehyde (revised)",
+        "Ethanol"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8310",
+      "persistent_id": "H2020_k12_0009",
+      "level_name": "k12",
+      "label": "wang / han / zhang / yang",
+      "gloss": "Extractive summary only: 284 nodes; examples include Yibo Wang; Yingze Wang; Han Wang",
+      "supporting_node_ids": [
+        "auth_00027",
+        "auth_00236",
+        "auth_00024",
+        "auth_00009",
+        "auth_00193"
+      ],
+      "supporting_text": [
+        "Yibo Wang",
+        "Yingze Wang",
+        "Han Wang",
+        "Qi Wang",
+        "Shidong Wang"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8309",
+      "persistent_id": "G01_2024_k12_new_0004",
+      "level_name": "k12",
+      "label": "descriptor / linear / virtual / scaling",
+      "gloss": "Extractive summary only: 571 nodes; examples include Local scaling transformation; Neural basis with local scaling transformation; Neural local scaling transformation",
+      "supporting_node_ids": [
+        "tech_00298",
+        "comp_00274",
+        "comp_00270",
+        "tech_00297",
+        "data_00252"
+      ],
+      "supporting_text": [
+        "Local scaling transformation",
+        "Neural basis with local scaling transformation",
+        "Neural local scaling transformation",
+        "Neural local scaling",
+        "N (local scaling)"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8306",
+      "persistent_id": "H2020_k12_0007",
+      "level_name": "k12",
+      "label": "network / networks / message / passing",
+      "gloss": "Extractive summary only: 151 nodes; examples include Crystal-Graph Attention Network; Crystal Graph Attention Network; Crystal-graph attention networks",
+      "supporting_node_ids": [
+        "meth_00340",
+        "meth_00349",
+        "cite_00463",
+        "cite_00473",
+        "meth_00028"
+      ],
+      "supporting_text": [
+        "Crystal-Graph Attention Network",
+        "Crystal Graph Attention Network",
+        "Crystal-graph attention networks",
+        "Crystal Graph Attention Networks",
+        "Graph Attention"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8302",
+      "persistent_id": "G01_2024_k12_new_0002",
+      "level_name": "k12",
+      "label": "equivariant / tensor / network / networks",
+      "gloss": "Extractive summary only: 172 nodes; examples include Parallel equivariant graph attention; Equivariant graph attention block; Equivariant graph attention",
+      "supporting_node_ids": [
+        "tech_00449",
+        "comp_00437",
+        "comp_00425",
+        "tech_00439",
+        "prob_00312"
+      ],
+      "supporting_text": [
+        "Parallel equivariant graph attention",
+        "Equivariant graph attention block",
+        "Equivariant graph attention",
+        "equivariant graph attention",
+        "Euclidean equivariance in graph neural networks"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L0_c8272",
+      "persistent_id": "G01_2024_k12_new_0001",
+      "level_name": "k12",
+      "label": "basis / spherical / radial / harmonics",
+      "gloss": "Extractive summary only: 51 nodes; examples include Spherical‑harmonics embedding; Spherical‑harmonic embedding of geometric inputs; Spherical harmonic encoding",
+      "supporting_node_ids": [
+        "comp_00233",
+        "tech_00267",
+        "tech_00282",
+        "comp_00051",
+        "tech_00532"
+      ],
+      "supporting_text": [
+        "Spherical‑harmonics embedding",
+        "Spherical‑harmonic embedding of geometric inputs",
+        "Spherical harmonic encoding",
+        "Spherical harmonics encoding",
+        "Spherical harmonics encoding"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L1_c8279",
+      "persistent_id": "G01_2022_k48_new_0009",
+      "level_name": "k48",
+      "label": "gnn / energy / mean / accuracy",
+      "gloss": "Extractive summary only: 179 nodes; examples include GNN‑based phase‑space evaluator; Application of GNN‑assisted phase‑space integration to financial mathematics (e.g., pricing of derivatives); The GNN‑assisted integration framework can be applied to high‑dimensional integration problems beyond atomistics.",
+      "supporting_node_ids": [
+        "comp_00073",
+        "futu_00042",
+        "clai_00150",
+        "clai_00149",
+        "clai_00151"
+      ],
+      "supporting_text": [
+        "GNN‑based phase‑space evaluator",
+        "Application of GNN‑assisted phase‑space integration to financial mathematics (e.g., pricing of derivatives)",
+        "The GNN‑assisted integration framework can be applied to high‑dimensional integration problems beyond atomistics.",
+        "Training the GNN on high‑fidelity Monte‑Carlo integration data enables accurate prediction of phase‑averaged energies and their derivatives for atomic clusters.",
+        "Incorporating E(3)‑equivariance into the GNN architecture provides a significant performance boost over standard multilayer perceptrons for phase‑space integration tasks."
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L1_c8274",
+      "persistent_id": "G01_2024_k48_new_0016",
+      "level_name": "k48",
+      "label": "dft / crystal / gap / energy",
+      "gloss": "Extractive summary only: 193 nodes; examples include Special Quasirandom Structures; Quasi‑crystals; Virtual-Crystal Approximation",
+      "supporting_node_ids": [
+        "meth_00328",
+        "futu_00097",
+        "meth_00327",
+        "clai_00007",
+        "prob_00089"
+      ],
+      "supporting_text": [
+        "Special Quasirandom Structures",
+        "Quasi‑crystals",
+        "Virtual-Crystal Approximation",
+        "Representing crystals as graphs of atoms and bonds provides a universal, size‑invariant input format applicable to any periodic crystal system.",
+        "Scalable crystal representation"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L1_c8278",
+      "persistent_id": "G01_2024_k48_new_0018",
+      "level_name": "k48",
+      "label": "band / twisted / dft / structure",
+      "gloss": "Extractive summary only: 135 nodes; examples include GAP; Band gap; band gap (eV)",
+      "supporting_node_ids": [
+        "cite_00191",
+        "data_00064",
+        "metr_00081",
+        "tech_00612",
+        "task_00331"
+      ],
+      "supporting_text": [
+        "GAP",
+        "Band gap",
+        "band gap (eV)",
+        "Band gap filtering",
+        "Band gap prediction"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L1_c7990",
+      "persistent_id": "H2020_k48_0004",
+      "level_name": "k48",
+      "label": "phonon / band / dispersion / full",
+      "gloss": "Extractive summary only: 85 nodes; examples include Augmenting a minimal 1×1×1 supercell training set with Hessian data yields more accurate phonon predictions than training on a larger 3×3×3 supercell alone.; Application of equivariant GNN phonon predictions to drug‑discovery related molecular systems; The E(3)-equivariant graph neural network architecture automatically preserves crystalline symmetries, yielding the correct acoustic‑sum‑rule zero modes without additional corrections.",
+      "supporting_node_ids": [
+        "clai_00415",
+        "futu_00106",
+        "clai_00416",
+        "arti_00006",
+        "meth_00123"
+      ],
+      "supporting_text": [
+        "Augmenting a minimal 1×1×1 supercell training set with Hessian data yields more accurate phonon predictions than training on a larger 3×3×3 supercell alone.",
+        "Application of equivariant GNN phonon predictions to drug‑discovery related molecular systems",
+        "The E(3)-equivariant graph neural network architecture automatically preserves crystalline symmetries, yielding the correct acoustic‑sum‑rule zero modes without additional corrections.",
+        "Phonon predictions with E(3)-equivariant graph neural networks",
+        "Phonax (E(3)-equivariant graph neural network framework for phonon and Hessian prediction)"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L1_c8230",
+      "persistent_id": "H2020_k48_0036",
+      "level_name": "k48",
+      "label": "diffusion / ionic / energy / electrolytes",
+      "gloss": "Extractive summary only: 81 nodes; examples include solid-state electrolytes; Solid‑state electrolytes; Framework to identify novel solid-state electrolytes",
+      "supporting_node_ids": [
+        "task_00534",
+        "futu_00055",
+        "futu_00128",
+        "futu_00129",
+        "task_00494"
+      ],
+      "supporting_text": [
+        "solid-state electrolytes",
+        "Solid‑state electrolytes",
+        "Framework to identify novel solid-state electrolytes",
+        "Screening of material databases for solid-state electrolytes",
+        "Solid-electrolyte candidate screening"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L1_c8213",
+      "persistent_id": "H2020_k48_0032",
+      "level_name": "k48",
+      "label": "matbench / automatminer / tasks / preset",
+      "gloss": "Extractive summary only: 39 nodes; examples include Automatminer pipeline; Descriptor-based Automatminer and RF models have lower errors on small datasets but their improvement rates are shallower, with AutoML's advantage over conventional techniques narrowing as sample count increases and essentially lost near 10^5 samples.; For small datasets (<10^4 samples), inexpensive Automatminer presets (~1-5 minute training) retain the bulk of performance compared to expensive presets (24h+ training), with Express retaining 95% or more of the accuracy of more expensive presets at less than 50% of the computational cost on data-scarce tasks.",
+      "supporting_node_ids": [
+        "comp_00439",
+        "clai_00318",
+        "clai_00320",
+        "clai_00316",
+        "comp_00447"
+      ],
+      "supporting_text": [
+        "Automatminer pipeline",
+        "Descriptor-based Automatminer and RF models have lower errors on small datasets but their improvement rates are shallower, with AutoML's advantage over conventional techniques narrowing as sample count increases and essentially lost near 10^5 samples.",
+        "For small datasets (<10^4 samples), inexpensive Automatminer presets (~1-5 minute training) retain the bulk of performance compared to expensive presets (24h+ training), with Express retaining 95% or more of the accuracy of more expensive presets at less than 50% of the computational cost on data-scarce tasks.",
+        "Automatminer's auto-generated models outperform or equal the Random Forest model across all Matbench tasks except predicting formation energies across the Materials Project.",
+        "Automatminer"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L1_c8043",
+      "persistent_id": "G01_2024_k48_new_0003",
+      "level_name": "k48",
+      "label": "m3gnet / chgnet / atom / energy",
+      "gloss": "Extractive summary only: 39 nodes; examples include CHGNet can accurately discriminate different valence states of transition metals, as demonstrated with V oxidation in Na4V2(PO4)3.; CHGNet uniquely includes electronic effects of valences by explicitly embedding magnetic moments on the vector representation of each atom, enabling charge-informed atomistic simulations.; CHGNet enables nanosecond‑scale molecular dynamics simulations of garnet Li₃La₃Te₂O₁₂, yielding lithium self‑diffusion coefficients with quantified uncertainty.",
+      "supporting_node_ids": [
+        "clai_00276",
+        "clai_00260",
+        "clai_00074",
+        "clai_00069",
+        "clai_00071"
+      ],
+      "supporting_text": [
+        "CHGNet can accurately discriminate different valence states of transition metals, as demonstrated with V oxidation in Na4V2(PO4)3.",
+        "CHGNet uniquely includes electronic effects of valences by explicitly embedding magnetic moments on the vector representation of each atom, enabling charge-informed atomistic simulations.",
+        "CHGNet enables nanosecond‑scale molecular dynamics simulations of garnet Li₃La₃Te₂O₁₂, yielding lithium self‑diffusion coefficients with quantified uncertainty.",
+        "In charge‑informed molecular dynamics of Li₀.₅MnO₂ at 1100 K, CHGNet predicts the emergence of Mn²⁺ after ~0.8 ns, coinciding with a ~50 meV/oxygen reduction in potential energy and the formation of a spinel‑like phase, indicating a correlation between charge disproportionation and phase transformation.",
+        "CHGNet accurately predicts the dramatic increase in Li‑ion diffusivity and the reduction of activation energy (~160 meV) in slightly Li‑stuffed Li₃La₃Te₂O₁₂, matching DFT‑computed values and the activated diffusion network theory."
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2024",
+      "group_id": "L1_c8215",
+      "persistent_id": "H2020_k48_0023",
+      "level_name": "k48",
+      "label": "dft / d4ft / calculations / high",
+      "gloss": "Extractive summary only: 72 nodes; examples include high-throughput DFT validation; High‑throughput DFT; Scalable high‑throughput DFT management",
+      "supporting_node_ids": [
+        "tech_00597",
+        "tech_00321",
+        "prob_00215",
+        "prob_00029",
+        "prob_00385"
+      ],
+      "supporting_text": [
+        "high-throughput DFT validation",
+        "High‑throughput DFT",
+        "Scalable high‑throughput DFT management",
+        "Computational cost of large‑scale DFT",
+        "Computational cost in high-throughput DFT"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11582",
+      "persistent_id": "H2020_k12_0007",
+      "level_name": "k12",
+      "label": "network / message / networks / passing",
+      "gloss": "Extractive summary only: 339 nodes; examples include Crystal-Graph Attention Network; Crystal Graph Attention Network; Crystal-graph attention networks",
+      "supporting_node_ids": [
+        "meth_00340",
+        "meth_00349",
+        "cite_00463",
+        "cite_00473",
+        "meth_00028"
+      ],
+      "supporting_text": [
+        "Crystal-Graph Attention Network",
+        "Crystal Graph Attention Network",
+        "Crystal-graph attention networks",
+        "Crystal Graph Attention Networks",
+        "Graph Attention"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11581",
+      "persistent_id": "H2020_k12_0011",
+      "level_name": "k12",
+      "label": "energy / potential / molecular / dft",
+      "gloss": "Extractive summary only: 1848 nodes; examples include Inter-molecular force estimation; Force prediction for molecules; Force prediction for molecular dynamics",
+      "supporting_node_ids": [
+        "prob_00585",
+        "task_00592",
+        "task_00512",
+        "task_00577",
+        "meth_00387"
+      ],
+      "supporting_text": [
+        "Inter-molecular force estimation",
+        "Force prediction for molecules",
+        "Force prediction for molecular dynamics",
+        "molecular force prediction",
+        "Classical Force Field Molecular Dynamics"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11278",
+      "persistent_id": "G01_2024_k12_new_0000",
+      "level_name": "k12",
+      "label": "phonon / band / dispersion / full",
+      "gloss": "Extractive summary only: 106 nodes; examples include The k-MVN model can handle phonon prediction for alloys ranging from binary to five-component high entropy alloys by encoding atomic composition through weighted atomic masses.; High entropy alloy phonon prediction; High entropy alloy phonon prediction",
+      "supporting_node_ids": [
+        "clai_00617",
+        "prob_00319",
+        "task_00397",
+        "task_00382",
+        "task_00396"
+      ],
+      "supporting_text": [
+        "The k-MVN model can handle phonon prediction for alloys ranging from binary to five-component high entropy alloys by encoding atomic composition through weighted atomic masses.",
+        "High entropy alloy phonon prediction",
+        "High entropy alloy phonon prediction",
+        "Alloy system phonon validation",
+        "Ternary alloy phonon prediction"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11583",
+      "persistent_id": "G01_2026_k12_new_0002",
+      "level_name": "k12",
+      "label": "force / phase / energy / temperature",
+      "gloss": "Extractive summary only: 284 nodes; examples include Phase diagram construction and stability assessment; phase stability determination; Generation of phase diagrams and voltage profiles",
+      "supporting_node_ids": [
+        "task_00207",
+        "prob_00221",
+        "task_00089",
+        "task_00141",
+        "task_00146"
+      ],
+      "supporting_text": [
+        "Phase diagram construction and stability assessment",
+        "phase stability determination",
+        "Generation of phase diagrams and voltage profiles",
+        "Finite‑temperature phase‑diagram construction",
+        "Phase‑diagram calculation via cluster expansion"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11564",
+      "persistent_id": "H2020_k12_0010",
+      "level_name": "k12",
+      "label": "training / regression / matbench / sampling",
+      "gloss": "Extractive summary only: 954 nodes; examples include Semi‑Grand Canonical Monte Carlo with umbrella sampling; Semi-Grand Canonical Monte Carlo; Metropolis Monte Carlo",
+      "supporting_node_ids": [
+        "tech_00169",
+        "meth_00146",
+        "meth_00133",
+        "cite_00387",
+        "cite_00388"
+      ],
+      "supporting_text": [
+        "Semi‑Grand Canonical Monte Carlo with umbrella sampling",
+        "Semi-Grand Canonical Monte Carlo",
+        "Metropolis Monte Carlo",
+        "Monte Carlo",
+        "kinetic Monte Carlo"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11557",
+      "persistent_id": "H2020_k12_0008",
+      "level_name": "k12",
+      "label": "discovery / screening / project / design",
+      "gloss": "Extractive summary only: 193 nodes; examples include DScribe provides a library of descriptors for machine learning in materials science.; Development of new machine‑learning models for material‑property predictions; machine learning for materials",
+      "supporting_node_ids": [
+        "clai_00263",
+        "futu_00011",
+        "task_00356",
+        "futu_00133",
+        "task_00125"
+      ],
+      "supporting_text": [
+        "DScribe provides a library of descriptors for machine learning in materials science.",
+        "Development of new machine‑learning models for material‑property predictions",
+        "machine learning for materials",
+        "Strategies to mitigate data limitations in materials‑science machine learning",
+        "Material Failure Prediction"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11577",
+      "persistent_id": "G01_2026_k12_new_0001",
+      "level_name": "k12",
+      "label": "basis / tensor / loss / spherical",
+      "gloss": "Extractive summary only: 469 nodes; examples include Voigt-Reuss-Hill average; Voigt‑Reuss‑Hill averaging; Voigt-Reuss-Hill averaging",
+      "supporting_node_ids": [
+        "cite_00027",
+        "tech_00394",
+        "cite_00478",
+        "tech_00619",
+        "meth_00445"
+      ],
+      "supporting_text": [
+        "Voigt-Reuss-Hill average",
+        "Voigt‑Reuss‑Hill averaging",
+        "Voigt-Reuss-Hill averaging",
+        "Voigt-Reuss-Hill averaging",
+        "Voigt-Reuss-Hill averaging"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11575",
+      "persistent_id": "H2020_k12_0009",
+      "level_name": "k12",
+      "label": "wang / yang / zhang / han",
+      "gloss": "Extractive summary only: 351 nodes; examples include Kesong Yang; Zhenze Yang; Soojung Yang",
+      "supporting_node_ids": [
+        "auth_00195",
+        "auth_00149",
+        "auth_00152",
+        "auth_00238",
+        "auth_00124"
+      ],
+      "supporting_text": [
+        "Kesong Yang",
+        "Zhenze Yang",
+        "Soojung Yang",
+        "Jiabin Yang",
+        "Yang Zhong"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11508",
+      "persistent_id": "G01_2024_k12_new_0005",
+      "level_name": "k12",
+      "label": "mole / oqmd / tpot / pet",
+      "gloss": "Extractive summary only: 408 nodes; examples include JAX; JAX-MD; JAX-MD",
+      "supporting_node_ids": [
+        "meth_00087",
+        "meth_00125",
+        "cite_00410",
+        "meth_00381",
+        "cite_00340"
+      ],
+      "supporting_text": [
+        "JAX",
+        "JAX-MD",
+        "JAX-MD",
+        "JAX MD",
+        "JAX MD"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11570",
+      "persistent_id": "G01_2024_k12_new_0004",
+      "level_name": "k12",
+      "label": "descriptor / embedding / scaling / local",
+      "gloss": "Extractive summary only: 706 nodes; examples include Two-body descriptors only; Two-body descriptor; 2-body descriptor",
+      "supporting_node_ids": [
+        "comp_00812",
+        "comp_00798",
+        "comp_00803",
+        "comp_00546",
+        "comp_00547"
+      ],
+      "supporting_text": [
+        "Two-body descriptors only",
+        "Two-body descriptor",
+        "2-body descriptor",
+        "two-body embedding full-information descriptor",
+        "two-body embedding radial descriptor"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11304",
+      "persistent_id": "H2020_k12_0005",
+      "level_name": "k12",
+      "label": "dft / calculations / high / throughput",
+      "gloss": "Extractive summary only: 67 nodes; examples include Computational expense of DFT calculations; computational cost bottleneck in DFT; Computational cost of large‑scale DFT",
+      "supporting_node_ids": [
+        "prob_00552",
+        "prob_00526",
+        "prob_00029",
+        "prob_00385",
+        "task_00240"
+      ],
+      "supporting_text": [
+        "Computational expense of DFT calculations",
+        "computational cost bottleneck in DFT",
+        "Computational cost of large‑scale DFT",
+        "Computational cost in high-throughput DFT",
+        "High‑throughput DFT property calculation"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L0_c11321",
+      "persistent_id": "G01_2026_k12_new_0000",
+      "level_name": "k12",
+      "label": "equivariant / network / equivariance / representations",
+      "gloss": "Extractive summary only: 73 nodes; examples include High computational cost of equivariant MPNNs; computational complexity bottleneck in equivariant GNNs; Lack of rotational equivariance in existing GNN‑IPs",
+      "supporting_node_ids": [
+        "prob_00023",
+        "prob_00238",
+        "prob_00091",
+        "comp_00062",
+        "comp_00070"
+      ],
+      "supporting_text": [
+        "High computational cost of equivariant MPNNs",
+        "computational complexity bottleneck in equivariant GNNs",
+        "Lack of rotational equivariance in existing GNN‑IPs",
+        "Symmetry‑aware E(3)‑equivariant GNN energy model",
+        "E(3)-equivariant GNN architecture"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L1_c11536",
+      "persistent_id": "G01_2026_k48_new_0011",
+      "level_name": "k48",
+      "label": "activation / network / gnn / convolution",
+      "gloss": "Extractive summary only: 151 nodes; examples include Gate layer; Gated activation layers; GatedMLP activation",
+      "supporting_node_ids": [
+        "comp_00044",
+        "comp_00500",
+        "tech_00238",
+        "prob_00256",
+        "cite_00511"
+      ],
+      "supporting_text": [
+        "Gate layer",
+        "Gated activation layers",
+        "GatedMLP activation",
+        "Limited degree information in gate activation",
+        "Gate Activation"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L1_c11520",
+      "persistent_id": "G01_2026_k48_new_0006",
+      "level_name": "k48",
+      "label": "energy / gnn / gap / training",
+      "gloss": "Extractive summary only: 161 nodes; examples include GDML cannot be trained on 50,000 MD17 examples due to its quadratic scaling with the number of atoms and samples, whereas SchNet scales to that dataset size.; Including force information in the training loss causally improves SchNet’s generalization to previously unseen chemical structures in ISO17.; Training SchNet with forces on only 1,000 examples yields better accuracy than training on 50,000 examples using energies alone, demonstrating that force information improves data efficiency.",
+      "supporting_node_ids": [
+        "clai_00084",
+        "clai_00083",
+        "clai_00081",
+        "clai_00080",
+        "clai_00082"
+      ],
+      "supporting_text": [
+        "GDML cannot be trained on 50,000 MD17 examples due to its quadratic scaling with the number of atoms and samples, whereas SchNet scales to that dataset size.",
+        "Including force information in the training loss causally improves SchNet’s generalization to previously unseen chemical structures in ISO17.",
+        "Training SchNet with forces on only 1,000 examples yields better accuracy than training on 50,000 examples using energies alone, demonstrating that force information improves data efficiency.",
+        "When trained on MD17 trajectories with a combined energy‑and‑force loss, SchNet achieves energy MAE ≤0.12 kcal/mol and force MAE ≤0.33 kcal/mol/Å, matching or surpassing GDML and DTNN on all tested molecules, including flexible ones such as malonaldehyde and ethanol.",
+        "On the ISO17 benchmark, SchNet reaches chemical‑accuracy (≈0.5 kcal/mol MAE) for energy predictions on molecules seen during training and further improves predictions on unseen isomers when forces are included in training."
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L1_c11546",
+      "persistent_id": "G01_2024_k48_new_0005",
+      "level_name": "k48",
+      "label": "mae / energy / dataset / accuracy",
+      "gloss": "Extractive summary only: 294 nodes; examples include OMol25 Val-Comp; OMol 2M Val-Comp; OMol25 Val-Comp SPICE",
+      "supporting_node_ids": [
+        "data_00152",
+        "data_00155",
+        "data_00153",
+        "data_00154",
+        "data_00165"
+      ],
+      "supporting_text": [
+        "OMol25 Val-Comp",
+        "OMol 2M Val-Comp",
+        "OMol25 Val-Comp SPICE",
+        "OMol25 Val-Comp Reactivity",
+        "OMol-1"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L1_c11517",
+      "persistent_id": "G01_2024_k48_new_0018",
+      "level_name": "k48",
+      "label": "dft / structure / hamiltonian / band",
+      "gloss": "Extractive summary only: 212 nodes; examples include Materials property prediction from electronic bandstructure; Electronic band‑structure prediction; band structure prediction",
+      "supporting_node_ids": [
+        "task_00346",
+        "task_00058",
+        "prob_00377",
+        "tech_00410",
+        "clai_00223"
+      ],
+      "supporting_text": [
+        "Materials property prediction from electronic bandstructure",
+        "Electronic band‑structure prediction",
+        "band structure prediction",
+        "zero‑weight extra k‑path for band structures",
+        "BANDS calculations use 128 k-points per segment for single element structures and 20 k-points for compounds along high-symmetry paths."
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L1_c11278",
+      "persistent_id": "H2020_k48_0004",
+      "level_name": "k48",
+      "label": "phonon / band / dispersion / full",
+      "gloss": "Extractive summary only: 106 nodes; examples include The k-MVN model can handle phonon prediction for alloys ranging from binary to five-component high entropy alloys by encoding atomic composition through weighted atomic masses.; High entropy alloy phonon prediction; High entropy alloy phonon prediction",
+      "supporting_node_ids": [
+        "clai_00617",
+        "prob_00319",
+        "task_00397",
+        "task_00382",
+        "task_00396"
+      ],
+      "supporting_text": [
+        "The k-MVN model can handle phonon prediction for alloys ranging from binary to five-component high entropy alloys by encoding atomic composition through weighted atomic masses.",
+        "High entropy alloy phonon prediction",
+        "High entropy alloy phonon prediction",
+        "Alloy system phonon validation",
+        "Ternary alloy phonon prediction"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L1_c11538",
+      "persistent_id": "H2020_k48_0036",
+      "level_name": "k48",
+      "label": "ionic / screening / conductivity / diffusion",
+      "gloss": "Extractive summary only: 147 nodes; examples include Capturing temperature‑dependent diffusion without re‑running AIMD; Different MSD‑fitting window strategies (full trajectory, 0‑ps start, 1‑ps start, 5‑ps start) yield consistent diffusion estimates in the high‑diffusion regime, while the 0‑ps start overestimates slopes in the slow‑diffusion region.; Finite‑size tests using a larger supercell and an ML‑IAP (SevenNet) show that diffusion coefficients converge within statistical uncertainties, confirming that the AIMD results are not significantly affected by supercell size.",
+      "supporting_node_ids": [
+        "prob_00190",
+        "clai_00348",
+        "clai_00333",
+        "comp_00628",
+        "comp_00623"
+      ],
+      "supporting_text": [
+        "Capturing temperature‑dependent diffusion without re‑running AIMD",
+        "Different MSD‑fitting window strategies (full trajectory, 0‑ps start, 1‑ps start, 5‑ps start) yield consistent diffusion estimates in the high‑diffusion regime, while the 0‑ps start overestimates slopes in the slow‑diffusion region.",
+        "Finite‑size tests using a larger supercell and an ML‑IAP (SevenNet) show that diffusion coefficients converge within statistical uncertainties, confirming that the AIMD results are not significantly affected by supercell size.",
+        "Diffusion coefficient convergence criterion",
+        "DiffusionAnalyzer"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L1_c11513",
+      "persistent_id": "G01_2024_k48_new_0002",
+      "level_name": "k48",
+      "label": "temperature / melting / stability / transitions",
+      "gloss": "Extractive summary only: 87 nodes; examples include Lindemann melting law; Lindemann melting criterion; Lindemann melting criterion",
+      "supporting_node_ids": [
+        "cite_00032",
+        "meth_00438",
+        "cite_00012",
+        "prob_00619",
+        "prob_00625"
+      ],
+      "supporting_text": [
+        "Lindemann melting law",
+        "Lindemann melting criterion",
+        "Lindemann melting criterion",
+        "computational infeasibility of first-principles melting simulations",
+        "capturing cluster-specific melting behavior"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    },
+    {
+      "snapshot": "2026",
+      "group_id": "L1_c11526",
+      "persistent_id": "H2020_k48_0032",
+      "level_name": "k48",
+      "label": "matbench / automatminer / discovery / tasks",
+      "gloss": "Extractive summary only: 69 nodes; examples include Matbench regression tasks; Matbench classification tasks; Matbench tasks include predicting optical, thermal, electronic, thermodynamic, tensile, and elastic properties given materials composition and/or crystal structure.",
+      "supporting_node_ids": [
+        "task_00351",
+        "task_00352",
+        "clai_00313",
+        "futu_00075",
+        "task_00161"
+      ],
+      "supporting_text": [
+        "Matbench regression tasks",
+        "Matbench classification tasks",
+        "Matbench tasks include predicting optical, thermal, electronic, thermodynamic, tensile, and elastic properties given materials composition and/or crystal structure.",
+        "Evaluating new materials ML algorithms on the Matbench benchmark",
+        "property prediction on MatBench benchmarks"
+      ],
+      "rating_blank": "",
+      "notes_blank": ""
+    }
+  ]
+}

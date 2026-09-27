@@ -1,0 +1,438 @@
+{
+  "source_file": "results/blind_development_review_hypergraph_2020.csv",
+  "coverage": {
+    "dev_run_A": {
+      "reviewed_fraction": 0.25,
+      "groups_total": 12,
+      "groups_reviewed": 3,
+      "groups_conflicting": 7
+    },
+    "dev_run_B": {
+      "reviewed_fraction": 0.5,
+      "groups_total": 12,
+      "groups_reviewed": 6,
+      "groups_conflicting": 0
+    },
+    "dev_run_C": {
+      "reviewed_fraction": 0.3333333333333333,
+      "groups_total": 12,
+      "groups_reviewed": 4,
+      "groups_conflicting": 2
+    }
+  },
+  "fair_comparison_supported_by_coverage": false,
+  "summary_by_run": {
+    "dev_run_A": {
+      "groups_total": 12,
+      "groups_reviewed": 3,
+      "groups_missing": 2,
+      "groups_conflicting": 7,
+      "rating_distribution": {
+        "0": 2,
+        "unsure": 1
+      },
+      "notes": [
+        {
+          "anonymous_group_id": "L0_c2747",
+          "note": "all Jarvis terms related together maybe too semantic but still unsure"
+        },
+        {
+          "anonymous_group_id": "L0_c2849",
+          "note": "the chemical names seem to be connected together"
+        },
+        {
+          "anonymous_group_id": "L0_c2969",
+          "note": "all \"body descriptors\" grouped together"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "definitely related to AFLOW"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "not realted to AFLOW btu grouped together"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "no similar work but simialr theme material science could be a possible broad connection"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "related to each other through materials"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "related to materail science"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "realted to each other"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "realted to each other thorugh a similar work"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "definitely related"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "definitely realated"
+        },
+        {
+          "anonymous_group_id": "L0_c2972",
+          "note": "related to material science"
+        },
+        {
+          "anonymous_group_id": "L0_c2978",
+          "note": "seemssomething realted to autominer all the central nodes seem connected through this key word."
+        },
+        {
+          "anonymous_group_id": "L0_c2978",
+          "note": "realted to Matbench"
+        },
+        {
+          "anonymous_group_id": "L0_c2978",
+          "note": "might be related to ML technique"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "doestn belong here realted to quantum"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "a method"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "describes a model called DeepPMD which is successfully doing some calculation but not sure whther thsi realates to the above claim"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "seems like a problem that the DeepPMD model is able to solve"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "seems coherent with the theme"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "soemthing related to batteries and lithium which might be scietifically coherent with the themes"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "but seems realted to molecular dynamics"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "possibly realted to chemistry"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "realted to chemistry and a metric"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "definitely related to the central claims"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "could be a metric"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "might me some material"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "might be related to coating of electrolytes"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "possibly related to the problem"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "thsi is something realted to quantum doestn belong here"
+        },
+        {
+          "anonymous_group_id": "L0_c2991",
+          "note": "article and realted claims seem related but that realtion could only be semantic"
+        },
+        {
+          "anonymous_group_id": "L0_c2991",
+          "note": "relates to the aricle headline"
+        },
+        {
+          "anonymous_group_id": "L0_c2991",
+          "note": "could be a technique"
+        },
+        {
+          "anonymous_group_id": "L0_c2991",
+          "note": "unsure whter JARVIS is related to AFLOW"
+        },
+        {
+          "anonymous_group_id": "L0_c2991",
+          "note": "could be an internal technique"
+        },
+        {
+          "anonymous_group_id": "L0_c2991",
+          "note": "could be realted to technical implementation"
+        },
+        {
+          "anonymous_group_id": "L0_c2991",
+          "note": "might be related"
+        },
+        {
+          "anonymous_group_id": "L0_c2991",
+          "note": "seems realted to a technique"
+        },
+        {
+          "anonymous_group_id": "L0_c2991",
+          "note": "the sampled data seems coherent especially since it is not too semantic"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "The sampled members appear to describe the article ‘Universal Machine Learning for Molecules and Crystals.’ This suggests a shared article context"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "maybe be scientifcally coherent and thematically similar describe a possible solution to the problem"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "describes a method seems reasonable adn fitting"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "could possibly be a optimiser used for machine learning technique"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "techinque seems related"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "not sure whether it connects to the article hard to Say"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "could possibly be a technique used for graph convolution networks but hard to establish scientifical coherence"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "might be a sub task"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "could be an internal task related to molecular or crystal interatomic interaction"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "could be something related to moment estimation in molecular dynamics"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "possibly a chemical name for a molecule"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "a method to calculate some distance"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "possibly a chemical name"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "not sure this could be a some basic irreducible set of molecules but it is not clear"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "could possibly point to a molecule"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "seems coherent since it is realted to other claims in thsi group realted to amorphous carbon"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "realted but could also be a semantic connection"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "related"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "realted to carbon and its interatomic potential"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "realted to the theme of molecular dynamics"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "related to MD simulation"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "might be a chemical name of something related to C"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "definitely realted work concerns amorphous carbon and silicon multiple documents related"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "could be realted to molecular dynamics"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "related to elasticity"
+        },
+        {
+          "anonymous_group_id": "L0_c2996",
+          "note": "related to physics"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "all central claims and tasks seem to be related to material properties"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "hard to know whether they are semantically connected"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "realted to materail science"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "could be related"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "related to material science"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "could be a task in the material scienece property prediction theme"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "possibly a task"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "might be a model used to predict fracture in materials"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "realted to elasticity and materials"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "thsi seems realteedt o ion batteries"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "could be method or a model prediction"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "definitely related to the theme"
+        }
+      ]
+    },
+    "dev_run_B": {
+      "groups_total": 12,
+      "groups_reviewed": 6,
+      "groups_missing": 6,
+      "groups_conflicting": 0,
+      "rating_distribution": {
+        "1": 4,
+        "0": 1,
+        "2": 1
+      },
+      "notes": [
+        {
+          "anonymous_group_id": "L0_c2784",
+          "note": "fracture realted doesnt really mean they are scientifcally related"
+        },
+        {
+          "anonymous_group_id": "L0_c2858",
+          "note": "all the chemical names are grouped together even in random and peripheral"
+        },
+        {
+          "anonymous_group_id": "L0_c2958",
+          "note": "carbon related papers"
+        },
+        {
+          "anonymous_group_id": "L0_c2963",
+          "note": "automatminer and Matbench realted paper might be scientifcallycoherretn but not so sure"
+        },
+        {
+          "anonymous_group_id": "L0_c2986",
+          "note": "all authors who have worked on similar papers are grouped together"
+        },
+        {
+          "anonymous_group_id": "L0_c2997",
+          "note": "quantum related"
+        }
+      ]
+    },
+    "dev_run_C": {
+      "groups_total": 12,
+      "groups_reviewed": 4,
+      "groups_missing": 6,
+      "groups_conflicting": 2,
+      "rating_distribution": {
+        "0": 1,
+        "unsure": 1,
+        "1": 2
+      },
+      "notes": [
+        {
+          "anonymous_group_id": "L0_c2833",
+          "note": "seems related to fracture in materails but seems too semantic"
+        },
+        {
+          "anonymous_group_id": "L0_c2833",
+          "note": "seems connected with carbon but not necessarily scientifically coherent"
+        },
+        {
+          "anonymous_group_id": "L0_c2856",
+          "note": "everything related to chemical names is grouped together not sure whther they ae scientifcally coherent"
+        },
+        {
+          "anonymous_group_id": "L0_c2935",
+          "note": "this is similar to dev_run_A all the authors of material science related papers are linked together but there are some incoherencies also"
+        },
+        {
+          "anonymous_group_id": "L0_c2935",
+          "note": "they have collaborated in the arti_00024"
+        },
+        {
+          "anonymous_group_id": "L0_c2935",
+          "note": "collaborated on AFLOW not necessarilythe the same article as the above or below authors"
+        },
+        {
+          "anonymous_group_id": "L0_c2960",
+          "note": "evenrything seems connected together by the keyword materials property"
+        },
+        {
+          "anonymous_group_id": "L0_c2975",
+          "note": "seems related to dft and AFLOW"
+        },
+        {
+          "anonymous_group_id": "L0_c2994",
+          "note": "the central nodes seem connected"
+        }
+      ]
+    }
+  },
+  "conflict_count": 9,
+  "warning": "Do not infer ratings from blank cells; unequal or sparse coverage is not a fair basis to rank runs."
+}

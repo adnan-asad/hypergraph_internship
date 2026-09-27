@@ -1,0 +1,169 @@
+{
+  "baseline": "lexical_tfidf_agglomerative_euclidean_ward",
+  "scientific_quality_warning": "Execution success only. This surface-form baseline is not independent semantic understanding and does not optimize hyperedge fragmentation or temporal stability.",
+  "snapshot_meta": {
+    "cutoff": 2020,
+    "policy": "node:first_seen; edge:max(year,article_year,endpoint_first_seen)",
+    "node_text_versioned": false,
+    "contains_historical_metadata": true,
+    "warning": "Filter future provenance/last_seen from generation inputs; text is unversioned."
+  },
+  "node_count": 1505,
+  "edge_count": 374,
+  "budgets": [
+    12,
+    48,
+    120
+  ],
+  "levels": [
+    {
+      "level": 0,
+      "level_name": "k12",
+      "requested_groups": 12,
+      "actual_groups": 12,
+      "fragmentation": 0.4814940311543015,
+      "group_size_distribution": {
+        "min": 12,
+        "max": 1033,
+        "histogram": {
+          "12": 1,
+          "15": 1,
+          "21": 1,
+          "25": 1,
+          "28": 1,
+          "29": 1,
+          "42": 1,
+          "53": 1,
+          "55": 1,
+          "71": 1,
+          "121": 1,
+          "1033": 1
+        }
+      }
+    },
+    {
+      "level": 1,
+      "level_name": "k48",
+      "requested_groups": 48,
+      "actual_groups": 48,
+      "fragmentation": 0.6416439105445083,
+      "group_size_distribution": {
+        "min": 5,
+        "max": 398,
+        "histogram": {
+          "5": 2,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 5,
+          "10": 3,
+          "12": 2,
+          "13": 3,
+          "14": 3,
+          "15": 2,
+          "17": 2,
+          "18": 3,
+          "20": 1,
+          "21": 5,
+          "23": 2,
+          "25": 4,
+          "28": 2,
+          "30": 1,
+          "36": 1,
+          "44": 1,
+          "55": 1,
+          "286": 1,
+          "398": 1
+        }
+      }
+    },
+    {
+      "level": 2,
+      "level_name": "k120",
+      "requested_groups": 120,
+      "actual_groups": 120,
+      "fragmentation": 0.7760891688762085,
+      "group_size_distribution": {
+        "min": 3,
+        "max": 218,
+        "histogram": {
+          "3": 9,
+          "4": 8,
+          "5": 11,
+          "6": 8,
+          "7": 13,
+          "8": 2,
+          "9": 16,
+          "10": 8,
+          "11": 3,
+          "12": 9,
+          "13": 7,
+          "14": 4,
+          "15": 3,
+          "16": 4,
+          "17": 2,
+          "18": 3,
+          "21": 1,
+          "23": 2,
+          "24": 1,
+          "26": 2,
+          "28": 1,
+          "33": 1,
+          "105": 1,
+          "218": 1
+        }
+      }
+    },
+    {
+      "level": 3,
+      "level_name": "leaves",
+      "requested_groups": 1505,
+      "actual_groups": 1505,
+      "fragmentation": 1.0,
+      "group_size_distribution": {
+        "min": 1,
+        "max": 1,
+        "histogram": {
+          "1": 1505
+        }
+      }
+    }
+  ],
+  "dependencies": {
+    "python_requires": ">=3.10",
+    "scikit-learn": "1.4.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "cloudpickle": "3.1.2",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "feature_metadata": {
+    "text_fields": [
+      "surface_form"
+    ],
+    "vectorizer": {
+      "analyzer": "char_wb",
+      "ngram_range": [
+        3,
+        5
+      ],
+      "lowercase": true,
+      "strip_accents": "unicode",
+      "norm": "l2",
+      "vocabulary_size": 22894
+    },
+    "matrix_shape": [
+      1505,
+      22894
+    ],
+    "zero_vector_count": 0,
+    "zero_vector_node_ids": []
+  },
+  "node_ordering": "input snapshot order is preserved; ties are resolved deterministically by scikit-learn for fixed input order and by descending cluster id in cut_tree",
+  "distance": "Euclidean over the same character n-gram TF-IDF(surface_form)",
+  "linkage": "ward",
+  "runtime_seconds": 9.897007205996488,
+  "input_path": "data/processed/baseline_input/snapshot_2020.json",
+  "input_sha256": "11e25c97ca0ee5107287909344efffe94f5b88b5eb5432315d6f028ed026a3cb"
+}

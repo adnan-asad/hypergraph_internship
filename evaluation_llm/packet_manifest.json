@@ -1,0 +1,8 @@
+{
+  "seed": 260926,
+  "packets": {
+    "coherence_packets.json": "4486c44d551cd93819e777a4bc9e96eefce9d66fc38577c88dbfe4beb73c7879",
+    "faithfulness_packets.json": "6472ae2be73c8aead74cfb38c4f373ac4cfe43ddb76ae4689cfe550f3d3b4e3c",
+    "retrieval_packets.json": "0ff16e8a1c081def7fe343f856a8be7671a02a5f56a947b1678d6847d402a279"
+  }
+}

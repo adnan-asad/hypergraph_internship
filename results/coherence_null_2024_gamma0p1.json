@@ -1,0 +1,212 @@
+{
+  "k12": {
+    "metric": "automated lexical char-ngram TF-IDF centroid cosine proxy independent of MiniLM clustering embeddings; not expert validation",
+    "level": "k12",
+    "actual": {
+      "group_weighted_mean": 0.25120003975973576,
+      "node_weighted_mean": 0.18782969945794048
+    },
+    "null": [
+      {
+        "seed": 0,
+        "group_weighted_mean": 0.1485493874102153,
+        "node_weighted_mean": 0.13754324681919178
+      },
+      {
+        "seed": 1,
+        "group_weighted_mean": 0.14987128393805707,
+        "node_weighted_mean": 0.13765826475187531
+      },
+      {
+        "seed": 2,
+        "group_weighted_mean": 0.14769542795397325,
+        "node_weighted_mean": 0.13772160243302514
+      },
+      {
+        "seed": 3,
+        "group_weighted_mean": 0.14718314109403738,
+        "node_weighted_mean": 0.1376979028950303
+      },
+      {
+        "seed": 4,
+        "group_weighted_mean": 0.14840385821213617,
+        "node_weighted_mean": 0.13740717964551868
+      },
+      {
+        "seed": 5,
+        "group_weighted_mean": 0.15043300780021915,
+        "node_weighted_mean": 0.1378269873477199
+      },
+      {
+        "seed": 6,
+        "group_weighted_mean": 0.1479653331300538,
+        "node_weighted_mean": 0.13785485678095014
+      },
+      {
+        "seed": 7,
+        "group_weighted_mean": 0.15046335866453162,
+        "node_weighted_mean": 0.1375923890408121
+      },
+      {
+        "seed": 8,
+        "group_weighted_mean": 0.14704976546915358,
+        "node_weighted_mean": 0.1377897277266044
+      },
+      {
+        "seed": 9,
+        "group_weighted_mean": 0.15129593066006863,
+        "node_weighted_mean": 0.13762352137184183
+      }
+    ],
+    "null_summary": {
+      "group_weighted_mean": {
+        "mean": 0.1488910494332446,
+        "stdev": 0.001510773623566378
+      },
+      "node_weighted_mean": {
+        "mean": 0.13767156788125695,
+        "stdev": 0.00013744935751792723
+      }
+    }
+  },
+  "k48": {
+    "metric": "automated lexical char-ngram TF-IDF centroid cosine proxy independent of MiniLM clustering embeddings; not expert validation",
+    "level": "k48",
+    "actual": {
+      "group_weighted_mean": 0.37364382595644074,
+      "node_weighted_mean": 0.2850317706144862
+    },
+    "null": [
+      {
+        "seed": 0,
+        "group_weighted_mean": 0.1831095659225693,
+        "node_weighted_mean": 0.16340310854282414
+      },
+      {
+        "seed": 1,
+        "group_weighted_mean": 0.1827213732233043,
+        "node_weighted_mean": 0.164135955988427
+      },
+      {
+        "seed": 2,
+        "group_weighted_mean": 0.18256274906785988,
+        "node_weighted_mean": 0.1646790077034731
+      },
+      {
+        "seed": 3,
+        "group_weighted_mean": 0.18367988968761015,
+        "node_weighted_mean": 0.16417360198239678
+      },
+      {
+        "seed": 4,
+        "group_weighted_mean": 0.1829628627236317,
+        "node_weighted_mean": 0.16370544758929806
+      },
+      {
+        "seed": 5,
+        "group_weighted_mean": 0.18281714000244487,
+        "node_weighted_mean": 0.1642848660634904
+      },
+      {
+        "seed": 6,
+        "group_weighted_mean": 0.18229921099456867,
+        "node_weighted_mean": 0.16462405897709434
+      },
+      {
+        "seed": 7,
+        "group_weighted_mean": 0.18238606748994887,
+        "node_weighted_mean": 0.16435377591116965
+      },
+      {
+        "seed": 8,
+        "group_weighted_mean": 0.18230378039378045,
+        "node_weighted_mean": 0.16404160513470784
+      },
+      {
+        "seed": 9,
+        "group_weighted_mean": 0.18361302449657732,
+        "node_weighted_mean": 0.16402611495509298
+      }
+    ],
+    "null_summary": {
+      "group_weighted_mean": {
+        "mean": 0.18284556640022956,
+        "stdev": 0.0005019887843144109
+      },
+      "node_weighted_mean": {
+        "mean": 0.16414275428479744,
+        "stdev": 0.0003868813299155037
+      }
+    }
+  },
+  "k120": {
+    "metric": "automated lexical char-ngram TF-IDF centroid cosine proxy independent of MiniLM clustering embeddings; not expert validation",
+    "level": "k120",
+    "actual": {
+      "group_weighted_mean": 0.45618067391308714,
+      "node_weighted_mean": 0.38241830155573425
+    },
+    "null": [
+      {
+        "seed": 0,
+        "group_weighted_mean": 0.23361774224378198,
+        "node_weighted_mean": 0.20705156162038216
+      },
+      {
+        "seed": 1,
+        "group_weighted_mean": 0.23284645995926023,
+        "node_weighted_mean": 0.2068761936378333
+      },
+      {
+        "seed": 2,
+        "group_weighted_mean": 0.2337769484450535,
+        "node_weighted_mean": 0.207002216140439
+      },
+      {
+        "seed": 3,
+        "group_weighted_mean": 0.23320049910244517,
+        "node_weighted_mean": 0.20701886055467272
+      },
+      {
+        "seed": 4,
+        "group_weighted_mean": 0.23358316774171878,
+        "node_weighted_mean": 0.20679574726461117
+      },
+      {
+        "seed": 5,
+        "group_weighted_mean": 0.2339056694515183,
+        "node_weighted_mean": 0.20744073675559513
+      },
+      {
+        "seed": 6,
+        "group_weighted_mean": 0.23265331509399811,
+        "node_weighted_mean": 0.20724139820784135
+      },
+      {
+        "seed": 7,
+        "group_weighted_mean": 0.233393158431729,
+        "node_weighted_mean": 0.20726792777905975
+      },
+      {
+        "seed": 8,
+        "group_weighted_mean": 0.23320866550231234,
+        "node_weighted_mean": 0.20682795109908442
+      },
+      {
+        "seed": 9,
+        "group_weighted_mean": 0.23350507864762596,
+        "node_weighted_mean": 0.2066569276281416
+      }
+    ],
+    "null_summary": {
+      "group_weighted_mean": {
+        "mean": 0.23336907046194433,
+        "stdev": 0.00039730064469064116
+      },
+      "node_weighted_mean": {
+        "mean": 0.20701795206876605,
+        "stdev": 0.000242315316594498
+      }
+    }
+  }
+}

@@ -1,0 +1,1146 @@
+[
+  {
+    "id": "L0_c2962",
+    "size": 29,
+    "type_counts": {
+      "method": 11,
+      "cited_work": 9,
+      "component": 4,
+      "claim": 2,
+      "technique": 1,
+      "article": 1,
+      "problem": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "cite_00572",
+        "type": "cited_work",
+        "surface_form": "neural network potentials"
+      },
+      {
+        "id": "cite_00135",
+        "type": "cited_work",
+        "surface_form": "Message Passing Neural Network"
+      },
+      {
+        "id": "meth_00030",
+        "type": "method",
+        "surface_form": "Message Passing Neural Network"
+      },
+      {
+        "id": "cite_00123",
+        "type": "cited_work",
+        "surface_form": "Gated Graph Neural Network"
+      },
+      {
+        "id": "cite_00453",
+        "type": "cited_work",
+        "surface_form": "Behler-Parrinello neural network potential"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "comp_00282",
+        "type": "component",
+        "surface_form": "Graph‑network module"
+      },
+      {
+        "id": "cite_00135",
+        "type": "cited_work",
+        "surface_form": "Message Passing Neural Network"
+      },
+      {
+        "id": "cite_00123",
+        "type": "cited_work",
+        "surface_form": "Gated Graph Neural Network"
+      },
+      {
+        "id": "clai_00139",
+        "type": "claim",
+        "surface_form": "Across all QM9 properties, the MPNN reduces the mean absolute error by 30–70 % relative to the best previously reported graph‑neural‑network baseline."
+      },
+      {
+        "id": "meth_00045",
+        "type": "method",
+        "surface_form": "Neural fingerprint"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "tech_00088",
+        "type": "technique",
+        "surface_form": "Directed message channels"
+      },
+      {
+        "id": "comp_00029",
+        "type": "component",
+        "surface_form": "Directed message channels"
+      },
+      {
+        "id": "clai_00139",
+        "type": "claim",
+        "surface_form": "Across all QM9 properties, the MPNN reduces the mean absolute error by 30–70 % relative to the best previously reported graph‑neural‑network baseline."
+      },
+      {
+        "id": "cite_00482",
+        "type": "cited_work",
+        "surface_form": "Behler‑Parrinello"
+      },
+      {
+        "id": "comp_00282",
+        "type": "component",
+        "surface_form": "Graph‑network module"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2995",
+    "size": 1033,
+    "type_counts": {
+      "technique": 200,
+      "component": 164,
+      "claim": 152,
+      "author": 105,
+      "problem": 89,
+      "cited_work": 87,
+      "method": 79,
+      "task": 63,
+      "dataset": 30,
+      "metric": 29,
+      "future_topic": 29,
+      "article": 6
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "clai_00689",
+        "type": "claim",
+        "surface_form": "The training database includes liquid and amorphous structures, randomly distorted crystalline allotropes (diamond and graphite), and isolated dimer DFT data, extended iteratively by performing melt-quench simulations driven by previous GAP versions with DFT single-point computations for validation snapshots."
+      },
+      {
+        "id": "prob_00132",
+        "type": "problem",
+        "surface_form": "Efficient training of interatomic potentials with forces and virial regularization"
+      },
+      {
+        "id": "clai_00079",
+        "type": "claim",
+        "surface_form": "SchNet provides rotationally invariant energy predictions and rotationally equivariant, energy‑conserving force predictions by defining forces as the negative gradient of the predicted energy."
+      },
+      {
+        "id": "clai_00233",
+        "type": "claim",
+        "surface_form": "A training database of manageable size, constructed from DFT configurations covering relevant phases and defects, is sufficient to achieve high transferability of the GAP model across diverse silicon configurations."
+      },
+      {
+        "id": "clai_00688",
+        "type": "claim",
+        "surface_form": "All fitting coefficients in the GAP model enter linearly, allowing solution via simple linear algebra rather than difficult nonlinear parameter optimization required for traditional potentials and neural networks."
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "tech_00484",
+        "type": "technique",
+        "surface_form": "ROC-AUC evaluation"
+      },
+      {
+        "id": "prob_00132",
+        "type": "problem",
+        "surface_form": "Efficient training of interatomic potentials with forces and virial regularization"
+      },
+      {
+        "id": "clai_00679",
+        "type": "claim",
+        "surface_form": "GAP radial and angular distribution functions for liquid and amorphous carbon closely match DFT reference results, including peak locations, extents, and overall curve shapes."
+      },
+      {
+        "id": "clai_00213",
+        "type": "claim",
+        "surface_form": "The AFLOWLIB repository contains calculated properties of over 625,000 materials across Binary Alloy Project, Electronic Structure database, Heusler database, and Elements database."
+      },
+      {
+        "id": "tech_00493",
+        "type": "technique",
+        "surface_form": "Normalization"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "metr_00026",
+        "type": "metric",
+        "surface_form": "F1"
+      },
+      {
+        "id": "cite_00138",
+        "type": "cited_work",
+        "surface_form": "ECFP4"
+      },
+      {
+        "id": "auth_00194",
+        "type": "author",
+        "surface_form": "Junkai Xue"
+      },
+      {
+        "id": "meth_00094",
+        "type": "method",
+        "surface_form": "i-PI"
+      },
+      {
+        "id": "cite_00139",
+        "type": "cited_work",
+        "surface_form": "HDAD"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2788",
+    "size": 15,
+    "type_counts": {
+      "cited_work": 7,
+      "method": 5,
+      "article": 1,
+      "technique": 1,
+      "component": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "tech_00052",
+        "type": "technique",
+        "surface_form": "Graph convolution"
+      },
+      {
+        "id": "cite_00127",
+        "type": "cited_work",
+        "surface_form": "Graph Convolutional Network"
+      },
+      {
+        "id": "meth_00005",
+        "type": "method",
+        "surface_form": "Graph Convolutional Network"
+      },
+      {
+        "id": "cite_00125",
+        "type": "cited_work",
+        "surface_form": "Molecular Graph Convolution"
+      },
+      {
+        "id": "meth_00047",
+        "type": "method",
+        "surface_form": "Molecular Graph Convolution"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "cite_00127",
+        "type": "cited_work",
+        "surface_form": "Graph Convolutional Network"
+      },
+      {
+        "id": "cite_00143",
+        "type": "cited_work",
+        "surface_form": "Kipf & Welling Graph Convolutional Networks"
+      },
+      {
+        "id": "meth_00047",
+        "type": "method",
+        "surface_form": "Molecular Graph Convolution"
+      },
+      {
+        "id": "meth_00033",
+        "type": "method",
+        "surface_form": "convolutional LSTM"
+      },
+      {
+        "id": "cite_00140",
+        "type": "cited_work",
+        "surface_form": "Molecular Graph Convolutions (GC)"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "arti_00020",
+        "type": "article",
+        "surface_form": "Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties"
+      },
+      {
+        "id": "meth_00033",
+        "type": "method",
+        "surface_form": "convolutional LSTM"
+      },
+      {
+        "id": "cite_00144",
+        "type": "cited_work",
+        "surface_form": "Duvenaud et al. Graph Convolutional Networks"
+      },
+      {
+        "id": "cite_00143",
+        "type": "cited_work",
+        "surface_form": "Kipf & Welling Graph Convolutional Networks"
+      },
+      {
+        "id": "cite_00140",
+        "type": "cited_work",
+        "surface_form": "Molecular Graph Convolutions (GC)"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2925",
+    "size": 25,
+    "type_counts": {
+      "task": 8,
+      "problem": 5,
+      "technique": 4,
+      "method": 4,
+      "article": 3,
+      "future_topic": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "tech_00321",
+        "type": "technique",
+        "surface_form": "High‑throughput DFT"
+      },
+      {
+        "id": "tech_00361",
+        "type": "technique",
+        "surface_form": "High‑throughput DFT calculations"
+      },
+      {
+        "id": "task_00483",
+        "type": "task",
+        "surface_form": "High-throughput DFT calculations"
+      },
+      {
+        "id": "tech_00637",
+        "type": "technique",
+        "surface_form": "high-throughput calculations"
+      },
+      {
+        "id": "prob_00146",
+        "type": "problem",
+        "surface_form": "High‑throughput materials screening"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "prob_00215",
+        "type": "problem",
+        "surface_form": "Scalable high‑throughput DFT management"
+      },
+      {
+        "id": "meth_00231",
+        "type": "method",
+        "surface_form": "Materials Project high‑throughput computational workflow and open data platform"
+      },
+      {
+        "id": "meth_00268",
+        "type": "method",
+        "surface_form": "Open Quantum Materials Database"
+      },
+      {
+        "id": "prob_00146",
+        "type": "problem",
+        "surface_form": "High‑throughput materials screening"
+      },
+      {
+        "id": "arti_00027",
+        "type": "article",
+        "surface_form": "AFLOW: an automatic framework for high-throughput materials discovery"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "meth_00268",
+        "type": "method",
+        "surface_form": "Open Quantum Materials Database"
+      },
+      {
+        "id": "futu_00004",
+        "type": "future_topic",
+        "surface_form": "Use of CGCNN‑derived empirical rules for high‑throughput materials screening"
+      },
+      {
+        "id": "arti_00026",
+        "type": "article",
+        "surface_form": "Materials Design and Discovery with High-Throughput Density Functional Theory: The Open Quantum Materials Database (OQMD)"
+      },
+      {
+        "id": "task_00246",
+        "type": "task",
+        "surface_form": "High‑throughput screening of Li‑ion battery anodes"
+      },
+      {
+        "id": "prob_00215",
+        "type": "problem",
+        "surface_form": "Scalable high‑throughput DFT management"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2991",
+    "size": 42,
+    "type_counts": {
+      "task": 9,
+      "method": 9,
+      "cited_work": 6,
+      "technique": 5,
+      "component": 3,
+      "claim": 3,
+      "problem": 3,
+      "future_topic": 2,
+      "article": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00438",
+        "type": "task",
+        "surface_form": "machine learning potentials"
+      },
+      {
+        "id": "task_00706",
+        "type": "task",
+        "surface_form": "machine learning potential training"
+      },
+      {
+        "id": "arti_00028",
+        "type": "article",
+        "surface_form": "Machine learning a general purpose interatomic potential for silicon"
+      },
+      {
+        "id": "arti_00048",
+        "type": "article",
+        "surface_form": "Machine-learning based interatomic potential for amorphous carbon"
+      },
+      {
+        "id": "meth_00210",
+        "type": "method",
+        "surface_form": "Deep Potential"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "task_00356",
+        "type": "task",
+        "surface_form": "machine learning for materials"
+      },
+      {
+        "id": "comp_00217",
+        "type": "component",
+        "surface_form": "Repulsive pair potential"
+      },
+      {
+        "id": "meth_00209",
+        "type": "method",
+        "surface_form": "Deep Potential method"
+      },
+      {
+        "id": "meth_00273",
+        "type": "method",
+        "surface_form": "Machine‑learning stability prediction for crystal structures"
+      },
+      {
+        "id": "prob_00606",
+        "type": "problem",
+        "surface_form": "accurate interatomic potential for amorphous carbon"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "cite_00570",
+        "type": "cited_work",
+        "surface_form": "REBO"
+      },
+      {
+        "id": "tech_00059",
+        "type": "technique",
+        "surface_form": "Adam optimizer with learning‑rate schedule"
+      },
+      {
+        "id": "task_00197",
+        "type": "task",
+        "surface_form": "Transfer‑learning for small‑data properties"
+      },
+      {
+        "id": "clai_00230",
+        "type": "claim",
+        "surface_form": "Combining a simple repulsive pair potential with a many‑body SOAP‑kernel term in the GAP framework yields meV‑per‑atom accuracy for silicon energetics."
+      },
+      {
+        "id": "tech_00498",
+        "type": "technique",
+        "surface_form": "Transfer learning from graph networks"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2992",
+    "size": 53,
+    "type_counts": {
+      "task": 21,
+      "problem": 15,
+      "future_topic": 3,
+      "technique": 3,
+      "claim": 3,
+      "dataset": 2,
+      "component": 2,
+      "metric": 1,
+      "cited_work": 1,
+      "method": 1,
+      "article": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00337",
+        "type": "task",
+        "surface_form": "Materials property prediction"
+      },
+      {
+        "id": "task_00239",
+        "type": "task",
+        "surface_form": "Materials property prediction via ML"
+      },
+      {
+        "id": "prob_00269",
+        "type": "problem",
+        "surface_form": "Automated materials property prediction"
+      },
+      {
+        "id": "task_00163",
+        "type": "task",
+        "surface_form": "Prediction of material properties"
+      },
+      {
+        "id": "task_00038",
+        "type": "task",
+        "surface_form": "computational materials"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "prob_00199",
+        "type": "problem",
+        "surface_form": "Accelerated property prediction"
+      },
+      {
+        "id": "cite_00018",
+        "type": "cited_work",
+        "surface_form": "Materials Project"
+      },
+      {
+        "id": "task_00337",
+        "type": "task",
+        "surface_form": "Materials property prediction"
+      },
+      {
+        "id": "data_00089",
+        "type": "dataset",
+        "surface_form": "Materials Project formation energy"
+      },
+      {
+        "id": "task_00033",
+        "type": "task",
+        "surface_form": "computational physics"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "prob_00609",
+        "type": "problem",
+        "surface_form": "accuracy-cost tradeoff in atomistic modeling"
+      },
+      {
+        "id": "tech_00487",
+        "type": "technique",
+        "surface_form": "Unknown value imputation"
+      },
+      {
+        "id": "clai_00132",
+        "type": "claim",
+        "surface_form": "The multiple‑tower architecture reduces the computational complexity of a propagation step from O(n²d²) to O(n²d²/k) and yields a 2× speedup for n=9, d=200, k=8."
+      },
+      {
+        "id": "clai_00572",
+        "type": "claim",
+        "surface_form": "The computational cost of DeePMD scales linearly with the number of atoms and is several orders of magnitude lower than equivalent AIMD simulations, comparable to empirical force fields."
+      },
+      {
+        "id": "clai_00676",
+        "type": "claim",
+        "surface_form": "The Gaussian approximation potential (GAP) enables atomistic simulations with close-to-DFT accuracy at computational costs many orders of magnitude lower than quantum-mechanical methods."
+      }
+    ]
+  },
+  {
+    "id": "L0_c2996",
+    "size": 55,
+    "type_counts": {
+      "task": 19,
+      "technique": 10,
+      "method": 8,
+      "problem": 6,
+      "dataset": 6,
+      "component": 3,
+      "future_topic": 2,
+      "article": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00036",
+        "type": "task",
+        "surface_form": "Molecular dynamics simulation"
+      },
+      {
+        "id": "task_00175",
+        "type": "task",
+        "surface_form": "Molecular dynamics simulation of liquid water and ice"
+      },
+      {
+        "id": "tech_00362",
+        "type": "technique",
+        "surface_form": "Classical molecular dynamics simulations"
+      },
+      {
+        "id": "task_00686",
+        "type": "task",
+        "surface_form": "Atomistic simulations of liquid carbon"
+      },
+      {
+        "id": "task_00705",
+        "type": "task",
+        "surface_form": "liquid carbon simulation"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "data_00206",
+        "type": "dataset",
+        "surface_form": "Liquid carbon 5000K"
+      },
+      {
+        "id": "task_00164",
+        "type": "task",
+        "surface_form": "Large‑scale atomistic simulations"
+      },
+      {
+        "id": "task_00026",
+        "type": "task",
+        "surface_form": "Molecular dynamics trajectory modeling"
+      },
+      {
+        "id": "task_00615",
+        "type": "task",
+        "surface_form": "Melt-quench simulation"
+      },
+      {
+        "id": "data_00035",
+        "type": "dataset",
+        "surface_form": "Liquid water"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "data_00149",
+        "type": "dataset",
+        "surface_form": "LLZO"
+      },
+      {
+        "id": "data_00148",
+        "type": "dataset",
+        "surface_form": "LGPS"
+      },
+      {
+        "id": "data_00150",
+        "type": "dataset",
+        "surface_form": "NASICON"
+      },
+      {
+        "id": "prob_00419",
+        "type": "problem",
+        "surface_form": "Non-physical trajectory generation in early training"
+      },
+      {
+        "id": "data_00035",
+        "type": "dataset",
+        "surface_form": "Liquid water"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2993",
+    "size": 71,
+    "type_counts": {
+      "task": 21,
+      "technique": 11,
+      "claim": 8,
+      "problem": 7,
+      "component": 6,
+      "method": 6,
+      "future_topic": 4,
+      "dataset": 4,
+      "cited_work": 3,
+      "article": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00352",
+        "type": "task",
+        "surface_form": "Matbench classification tasks"
+      },
+      {
+        "id": "task_00351",
+        "type": "task",
+        "surface_form": "Matbench regression tasks"
+      },
+      {
+        "id": "data_00117",
+        "type": "dataset",
+        "surface_form": "Matbench experimental metallicity classification"
+      },
+      {
+        "id": "clai_00311",
+        "type": "claim",
+        "surface_form": "Matbench v0.1 is a benchmark suite containing 13 supervised machine learning tasks (10 regression, 3 classification) for materials property prediction, with dataset sizes ranging from 312 to 132,752 samples."
+      },
+      {
+        "id": "task_00343",
+        "type": "task",
+        "surface_form": "Experimental band gap regression/classification"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "task_00037",
+        "type": "task",
+        "surface_form": "Molecule‑level property regression"
+      },
+      {
+        "id": "meth_00370",
+        "type": "method",
+        "surface_form": "GW approximation"
+      },
+      {
+        "id": "clai_00002",
+        "type": "claim",
+        "surface_form": "CGCNN classifies metals versus semiconductors with an area under the ROC curve of 0.95 and an overall accuracy of 0.90."
+      },
+      {
+        "id": "task_00333",
+        "type": "task",
+        "surface_form": "Bulk metallic glass formation prediction"
+      },
+      {
+        "id": "clai_00033",
+        "type": "claim",
+        "surface_form": "Beyond‑DFT methods (HSE06, PBE0, G0W0, DMFT) are generated for a subset of materials to provide higher‑level reference data and enable uncertainty quantification."
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00445",
+        "type": "component",
+        "surface_form": "Ensemble-based decision tree feature selector"
+      },
+      {
+        "id": "comp_00368",
+        "type": "component",
+        "surface_form": "Decision‑tree based ML model"
+      },
+      {
+        "id": "task_00336",
+        "type": "task",
+        "surface_form": "Steel yield strength prediction"
+      },
+      {
+        "id": "clai_00002",
+        "type": "claim",
+        "surface_form": "CGCNN classifies metals versus semiconductors with an area under the ROC curve of 0.95 and an overall accuracy of 0.90."
+      },
+      {
+        "id": "tech_00102",
+        "type": "technique",
+        "surface_form": "Gaussian smearing"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2997",
+    "size": 121,
+    "type_counts": {
+      "task": 55,
+      "problem": 17,
+      "component": 13,
+      "dataset": 11,
+      "claim": 9,
+      "technique": 8,
+      "metric": 4,
+      "future_topic": 2,
+      "method": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00708",
+        "type": "task",
+        "surface_form": "surface energy calculation"
+      },
+      {
+        "id": "prob_00610",
+        "type": "problem",
+        "surface_form": "surface energy prediction for amorphous materials"
+      },
+      {
+        "id": "task_00480",
+        "type": "task",
+        "surface_form": "Band structure calculation"
+      },
+      {
+        "id": "task_00276",
+        "type": "task",
+        "surface_form": "Formation energy prediction"
+      },
+      {
+        "id": "task_00284",
+        "type": "task",
+        "surface_form": "Energy prediction"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "meth_00270",
+        "type": "method",
+        "surface_form": "Convex hull stability analysis"
+      },
+      {
+        "id": "comp_00023",
+        "type": "component",
+        "surface_form": "Shifted softplus activation"
+      },
+      {
+        "id": "task_00484",
+        "type": "task",
+        "surface_form": "Static energy calculations"
+      },
+      {
+        "id": "comp_00624",
+        "type": "component",
+        "surface_form": "Deep neural network potential energy surface"
+      },
+      {
+        "id": "prob_00376",
+        "type": "problem",
+        "surface_form": "electronic structure of correlated systems"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "data_00203",
+        "type": "dataset",
+        "surface_form": "a-C"
+      },
+      {
+        "id": "data_00204",
+        "type": "dataset",
+        "surface_form": "ta-C"
+      },
+      {
+        "id": "prob_00382",
+        "type": "problem",
+        "surface_form": "Fermi edge handling"
+      },
+      {
+        "id": "tech_00073",
+        "type": "technique",
+        "surface_form": "Shifted softplus non‑linearity"
+      },
+      {
+        "id": "meth_00290",
+        "type": "method",
+        "surface_form": "convex hull"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2885",
+    "size": 28,
+    "type_counts": {
+      "component": 18,
+      "problem": 3,
+      "technique": 3,
+      "claim": 2,
+      "method": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "comp_00221",
+        "type": "component",
+        "surface_form": "SOAP descriptor"
+      },
+      {
+        "id": "meth_00434",
+        "type": "method",
+        "surface_form": "SOAP descriptor"
+      },
+      {
+        "id": "comp_00810",
+        "type": "component",
+        "surface_form": "MB descriptor"
+      },
+      {
+        "id": "comp_00809",
+        "type": "component",
+        "surface_form": "3b descriptor"
+      },
+      {
+        "id": "comp_00808",
+        "type": "component",
+        "surface_form": "2b descriptor"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "comp_00800",
+        "type": "component",
+        "surface_form": "Many-body descriptor"
+      },
+      {
+        "id": "clai_00138",
+        "type": "claim",
+        "surface_form": "Learning directly from molecular graphs without handcrafted descriptors enables the MPNN to achieve lower prediction errors than descriptor‑based methods."
+      },
+      {
+        "id": "prob_00130",
+        "type": "problem",
+        "surface_form": "Symmetry preservation without handcrafted descriptors"
+      },
+      {
+        "id": "comp_00799",
+        "type": "component",
+        "surface_form": "Three-body descriptor"
+      },
+      {
+        "id": "comp_00811",
+        "type": "component",
+        "surface_form": "Combined structural descriptors"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00339",
+        "type": "component",
+        "surface_form": "CFID"
+      },
+      {
+        "id": "tech_00109",
+        "type": "technique",
+        "surface_form": "Hierarchical Body‑Order Expansion"
+      },
+      {
+        "id": "prob_00267",
+        "type": "problem",
+        "surface_form": "Paradox of choice in descriptor/model selection"
+      },
+      {
+        "id": "prob_00018",
+        "type": "problem",
+        "surface_form": "Learning from graph topology without handcrafted descriptors"
+      },
+      {
+        "id": "prob_00130",
+        "type": "problem",
+        "surface_form": "Symmetry preservation without handcrafted descriptors"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2927",
+    "size": 21,
+    "type_counts": {
+      "dataset": 21
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "data_00223",
+        "type": "dataset",
+        "surface_form": "MD-17 Benzene (original)"
+      },
+      {
+        "id": "data_00221",
+        "type": "dataset",
+        "surface_form": "MD-17 Aspirin (original)"
+      },
+      {
+        "id": "data_00229",
+        "type": "dataset",
+        "surface_form": "MD-17 Toluene (original)"
+      },
+      {
+        "id": "data_00225",
+        "type": "dataset",
+        "surface_form": "MD-17 Malonaldehyde (original)"
+      },
+      {
+        "id": "data_00224",
+        "type": "dataset",
+        "surface_form": "MD-17 Ethanol (original)"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "data_00234",
+        "type": "dataset",
+        "surface_form": "MD-17 Malonaldehyde (revised)"
+      },
+      {
+        "id": "data_00052",
+        "type": "dataset",
+        "surface_form": "Salicylic acid"
+      },
+      {
+        "id": "data_00034",
+        "type": "dataset",
+        "surface_form": "Aspirin"
+      },
+      {
+        "id": "data_00222",
+        "type": "dataset",
+        "surface_form": "MD-17 Azobenzene (original)"
+      },
+      {
+        "id": "data_00221",
+        "type": "dataset",
+        "surface_form": "MD-17 Aspirin (original)"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "data_00052",
+        "type": "dataset",
+        "surface_form": "Salicylic acid"
+      },
+      {
+        "id": "data_00051",
+        "type": "dataset",
+        "surface_form": "Naphthalene"
+      },
+      {
+        "id": "data_00053",
+        "type": "dataset",
+        "surface_form": "Malonaldehyde"
+      },
+      {
+        "id": "data_00034",
+        "type": "dataset",
+        "surface_form": "Aspirin"
+      },
+      {
+        "id": "data_00003",
+        "type": "dataset",
+        "surface_form": "Benzene"
+      }
+    ]
+  },
+  {
+    "id": "L0_c2723",
+    "size": 12,
+    "type_counts": {
+      "component": 7,
+      "method": 2,
+      "task": 1,
+      "technique": 1,
+      "cited_work": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "comp_00447",
+        "type": "component",
+        "surface_form": "Automatminer"
+      },
+      {
+        "id": "meth_00307",
+        "type": "method",
+        "surface_form": "Automatminer"
+      },
+      {
+        "id": "comp_00454",
+        "type": "component",
+        "surface_form": "Automatminer Express preset"
+      },
+      {
+        "id": "cite_00339",
+        "type": "cited_work",
+        "surface_form": "Matminer"
+      },
+      {
+        "id": "meth_00265",
+        "type": "method",
+        "surface_form": "Matminer"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "cite_00339",
+        "type": "cited_work",
+        "surface_form": "Matminer"
+      },
+      {
+        "id": "task_00355",
+        "type": "task",
+        "surface_form": "Automatminer preset comparison"
+      },
+      {
+        "id": "comp_00456",
+        "type": "component",
+        "surface_form": "Automatminer Debug_single preset"
+      },
+      {
+        "id": "comp_00454",
+        "type": "component",
+        "surface_form": "Automatminer Express preset"
+      },
+      {
+        "id": "comp_00447",
+        "type": "component",
+        "surface_form": "Automatminer"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "tech_00365",
+        "type": "technique",
+        "surface_form": "Data mining with Matminer"
+      },
+      {
+        "id": "comp_00456",
+        "type": "component",
+        "surface_form": "Automatminer Debug_single preset"
+      },
+      {
+        "id": "comp_00442",
+        "type": "component",
+        "surface_form": "Automatminer autofeaturizer Express preset"
+      },
+      {
+        "id": "comp_00439",
+        "type": "component",
+        "surface_form": "Automatminer pipeline"
+      },
+      {
+        "id": "task_00355",
+        "type": "task",
+        "surface_form": "Automatminer preset comparison"
+      }
+    ]
+  }
+]

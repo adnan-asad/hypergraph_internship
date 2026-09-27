@@ -1,0 +1,546 @@
+{
+  "C001": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8306"
+  },
+  "C002": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8281"
+  },
+  "C003": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c7988"
+  },
+  "C004": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8314"
+  },
+  "C005": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8277"
+  },
+  "C006": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8310"
+  },
+  "C007": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8312"
+  },
+  "C008": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8300"
+  },
+  "C009": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8313"
+  },
+  "C010": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8271"
+  },
+  "C011": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8310"
+  },
+  "C012": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8215"
+  },
+  "C013": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8308"
+  },
+  "C014": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8314"
+  },
+  "C015": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8311"
+  },
+  "C016": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8311"
+  },
+  "C017": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8272"
+  },
+  "C018": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8306"
+  },
+  "C019": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8315"
+  },
+  "C020": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8272"
+  },
+  "C021": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8314"
+  },
+  "C022": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8303"
+  },
+  "C023": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8277"
+  },
+  "C024": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8309"
+  },
+  "C025": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8308"
+  },
+  "C026": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8313"
+  },
+  "C027": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8302"
+  },
+  "C028": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8313"
+  },
+  "C029": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8314"
+  },
+  "C030": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8315"
+  },
+  "C031": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8271"
+  },
+  "C032": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8303"
+  },
+  "C033": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c7990"
+  },
+  "C034": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8309"
+  },
+  "C035": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8300"
+  },
+  "C036": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8315"
+  },
+  "C037": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8313"
+  },
+  "C038": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c7988"
+  },
+  "C039": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8217"
+  },
+  "C040": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c7990"
+  },
+  "C041": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8281"
+  },
+  "C042": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8302"
+  },
+  "C043": {
+    "gamma": "0p1",
+    "condition": "null",
+    "group_id": "L0_c8307"
+  },
+  "C044": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8307"
+  },
+  "C045": {
+    "gamma": "0",
+    "condition": "actual",
+    "group_id": "L0_c8217"
+  },
+  "C046": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8315"
+  },
+  "C047": {
+    "gamma": "0",
+    "condition": "null",
+    "group_id": "L0_c8312"
+  },
+  "C048": {
+    "gamma": "0p1",
+    "condition": "actual",
+    "group_id": "L0_c8215"
+  },
+  "F001": {
+    "year": 2026,
+    "level": "k12",
+    "group_id": "L0_c11564"
+  },
+  "F002": {
+    "year": 2024,
+    "level": "k12",
+    "group_id": "L0_c8313"
+  },
+  "F003": {
+    "year": 2022,
+    "level": "k12",
+    "group_id": "L0_c4229"
+  },
+  "F004": {
+    "year": 2022,
+    "level": "k48",
+    "group_id": "L1_c3793"
+  },
+  "F005": {
+    "year": 2024,
+    "level": "k48",
+    "group_id": "L1_c8258"
+  },
+  "F006": {
+    "year": 2020,
+    "level": "k48",
+    "group_id": "L1_c2784"
+  },
+  "F007": {
+    "year": 2024,
+    "level": "k48",
+    "group_id": "L1_c8270"
+  },
+  "F008": {
+    "year": 2020,
+    "level": "k12",
+    "group_id": "L0_c2784"
+  },
+  "F009": {
+    "year": 2022,
+    "level": "k48",
+    "group_id": "L1_c4246"
+  },
+  "F010": {
+    "year": 2024,
+    "level": "k12",
+    "group_id": "L0_c8310"
+  },
+  "F011": {
+    "year": 2022,
+    "level": "k12",
+    "group_id": "L0_c4312"
+  },
+  "F012": {
+    "year": 2024,
+    "level": "k48",
+    "group_id": "L1_c8228"
+  },
+  "F013": {
+    "year": 2022,
+    "level": "k12",
+    "group_id": "L0_c4313"
+  },
+  "F014": {
+    "year": 2020,
+    "level": "k12",
+    "group_id": "L0_c2973"
+  },
+  "F015": {
+    "year": 2022,
+    "level": "k48",
+    "group_id": "L1_c3932"
+  },
+  "F016": {
+    "year": 2020,
+    "level": "k48",
+    "group_id": "L1_c2610"
+  },
+  "F017": {
+    "year": 2026,
+    "level": "k48",
+    "group_id": "L1_c11534"
+  },
+  "F018": {
+    "year": 2022,
+    "level": "k12",
+    "group_id": "L0_c4309"
+  },
+  "F019": {
+    "year": 2026,
+    "level": "k48",
+    "group_id": "L1_c11543"
+  },
+  "F020": {
+    "year": 2020,
+    "level": "k48",
+    "group_id": "L1_c2945"
+  },
+  "F021": {
+    "year": 2026,
+    "level": "k12",
+    "group_id": "L0_c11508"
+  },
+  "F022": {
+    "year": 2024,
+    "level": "k12",
+    "group_id": "L0_c8309"
+  },
+  "F023": {
+    "year": 2020,
+    "level": "k12",
+    "group_id": "L0_c2996"
+  },
+  "F024": {
+    "year": 2024,
+    "level": "k12",
+    "group_id": "L0_c8314"
+  },
+  "F025": {
+    "year": 2020,
+    "level": "k12",
+    "group_id": "L0_c2975"
+  },
+  "F026": {
+    "year": 2026,
+    "level": "k12",
+    "group_id": "L0_c11577"
+  },
+  "F027": {
+    "year": 2022,
+    "level": "k48",
+    "group_id": "L1_c4156"
+  },
+  "F028": {
+    "year": 2026,
+    "level": "k12",
+    "group_id": "L0_c11278"
+  },
+  "F029": {
+    "year": 2026,
+    "level": "k48",
+    "group_id": "L1_c11541"
+  },
+  "F030": {
+    "year": 2026,
+    "level": "k48",
+    "group_id": "L1_c11525"
+  },
+  "F031": {
+    "year": 2024,
+    "level": "k48",
+    "group_id": "L1_c8256"
+  },
+  "F032": {
+    "year": 2020,
+    "level": "k48",
+    "group_id": "L1_c2900"
+  },
+  "R001": {
+    "question_id": "Q12",
+    "mode": "flat"
+  },
+  "R002": {
+    "question_id": "Q6",
+    "mode": "flat"
+  },
+  "R003": {
+    "question_id": "Q4",
+    "mode": "flat"
+  },
+  "R004": {
+    "question_id": "Q8",
+    "mode": "hierarchy"
+  },
+  "R005": {
+    "question_id": "Q10",
+    "mode": "hierarchy"
+  },
+  "R006": {
+    "question_id": "Q14",
+    "mode": "flat"
+  },
+  "R007": {
+    "question_id": "Q1",
+    "mode": "flat"
+  },
+  "R008": {
+    "question_id": "Q5",
+    "mode": "flat"
+  },
+  "R009": {
+    "question_id": "Q8",
+    "mode": "flat"
+  },
+  "R010": {
+    "question_id": "Q4",
+    "mode": "hierarchy"
+  },
+  "R011": {
+    "question_id": "Q13",
+    "mode": "flat"
+  },
+  "R012": {
+    "question_id": "Q2",
+    "mode": "hierarchy"
+  },
+  "R013": {
+    "question_id": "Q3",
+    "mode": "flat"
+  },
+  "R014": {
+    "question_id": "Q9",
+    "mode": "flat"
+  },
+  "R015": {
+    "question_id": "Q18",
+    "mode": "flat"
+  },
+  "R016": {
+    "question_id": "Q18",
+    "mode": "hierarchy"
+  },
+  "R017": {
+    "question_id": "Q7",
+    "mode": "hierarchy"
+  },
+  "R018": {
+    "question_id": "Q17",
+    "mode": "hierarchy"
+  },
+  "R019": {
+    "question_id": "Q1",
+    "mode": "hierarchy"
+  },
+  "R020": {
+    "question_id": "Q11",
+    "mode": "flat"
+  },
+  "R021": {
+    "question_id": "Q7",
+    "mode": "flat"
+  },
+  "R022": {
+    "question_id": "Q11",
+    "mode": "hierarchy"
+  },
+  "R023": {
+    "question_id": "Q16",
+    "mode": "hierarchy"
+  },
+  "R024": {
+    "question_id": "Q17",
+    "mode": "flat"
+  },
+  "R025": {
+    "question_id": "Q13",
+    "mode": "hierarchy"
+  },
+  "R026": {
+    "question_id": "Q10",
+    "mode": "flat"
+  },
+  "R027": {
+    "question_id": "Q9",
+    "mode": "hierarchy"
+  },
+  "R028": {
+    "question_id": "Q2",
+    "mode": "flat"
+  },
+  "R029": {
+    "question_id": "Q15",
+    "mode": "flat"
+  },
+  "R030": {
+    "question_id": "Q5",
+    "mode": "hierarchy"
+  },
+  "R031": {
+    "question_id": "Q14",
+    "mode": "hierarchy"
+  },
+  "R032": {
+    "question_id": "Q6",
+    "mode": "hierarchy"
+  },
+  "R033": {
+    "question_id": "Q3",
+    "mode": "hierarchy"
+  },
+  "R034": {
+    "question_id": "Q15",
+    "mode": "hierarchy"
+  },
+  "R035": {
+    "question_id": "Q12",
+    "mode": "hierarchy"
+  },
+  "R036": {
+    "question_id": "Q16",
+    "mode": "flat"
+  }
+}

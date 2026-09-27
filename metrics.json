@@ -1,0 +1,4846 @@
+{
+  "status": "Audited saved experiment evidence; not a rerun of full clustering.",
+  "graph_sha256": "5cc507de0432c111c2bbbc5b50899f952fd24f515313c7c4e99450d8d0211b3b",
+  "export_validation": [
+    {
+      "year": 2020,
+      "nodes": 1505,
+      "hyperedges": 374,
+      "groups": {
+        "k12": 12,
+        "k48": 48,
+        "k120": 120,
+        "leaves": 1505
+      },
+      "partition_nested_and_quotient_checks": "passed",
+      "extractive_glosses_checked": 1685,
+      "extractive_integrity_failures": 0,
+      "source": "results\\hypergraph_agglomerative_lambda_0p1_2020"
+    },
+    {
+      "year": 2022,
+      "nodes": 2164,
+      "hyperedges": 526,
+      "groups": {
+        "k12": 12,
+        "k48": 48,
+        "k120": 120,
+        "leaves": 2164
+      },
+      "partition_nested_and_quotient_checks": "passed",
+      "extractive_glosses_checked": 2344,
+      "extractive_integrity_failures": 0,
+      "source": "results\\temporal_lambda_0p1_gamma_0p1_2022"
+    },
+    {
+      "year": 2024,
+      "nodes": 4164,
+      "hyperedges": 983,
+      "groups": {
+        "k12": 12,
+        "k48": 48,
+        "k120": 120,
+        "leaves": 4164
+      },
+      "partition_nested_and_quotient_checks": "passed",
+      "extractive_glosses_checked": 4344,
+      "extractive_integrity_failures": 0,
+      "source": "results\\temporal_lambda_0p1_gamma_0p1_2024"
+    },
+    {
+      "year": 2026,
+      "nodes": 5798,
+      "hyperedges": 1429,
+      "groups": {
+        "k12": 12,
+        "k48": 48,
+        "k120": 120,
+        "leaves": 5798
+      },
+      "partition_nested_and_quotient_checks": "passed",
+      "extractive_glosses_checked": 5978,
+      "extractive_integrity_failures": 0,
+      "source": "results\\temporal_lambda_0p1_gamma_0p1_2026_eval"
+    }
+  ],
+  "coherence_lexical_proxy": {
+    "k12": {
+      "metric": "automated lexical char-ngram TF-IDF centroid cosine proxy independent of MiniLM clustering embeddings; not expert validation",
+      "level": "k12",
+      "actual": {
+        "group_weighted_mean": 0.25120003975973576,
+        "node_weighted_mean": 0.18782969945794048
+      },
+      "null": [
+        {
+          "seed": 0,
+          "group_weighted_mean": 0.1485493874102153,
+          "node_weighted_mean": 0.13754324681919178
+        },
+        {
+          "seed": 1,
+          "group_weighted_mean": 0.14987128393805707,
+          "node_weighted_mean": 0.13765826475187531
+        },
+        {
+          "seed": 2,
+          "group_weighted_mean": 0.14769542795397325,
+          "node_weighted_mean": 0.13772160243302514
+        },
+        {
+          "seed": 3,
+          "group_weighted_mean": 0.14718314109403738,
+          "node_weighted_mean": 0.1376979028950303
+        },
+        {
+          "seed": 4,
+          "group_weighted_mean": 0.14840385821213617,
+          "node_weighted_mean": 0.13740717964551868
+        },
+        {
+          "seed": 5,
+          "group_weighted_mean": 0.15043300780021915,
+          "node_weighted_mean": 0.1378269873477199
+        },
+        {
+          "seed": 6,
+          "group_weighted_mean": 0.1479653331300538,
+          "node_weighted_mean": 0.13785485678095014
+        },
+        {
+          "seed": 7,
+          "group_weighted_mean": 0.15046335866453162,
+          "node_weighted_mean": 0.1375923890408121
+        },
+        {
+          "seed": 8,
+          "group_weighted_mean": 0.14704976546915358,
+          "node_weighted_mean": 0.1377897277266044
+        },
+        {
+          "seed": 9,
+          "group_weighted_mean": 0.15129593066006863,
+          "node_weighted_mean": 0.13762352137184183
+        }
+      ],
+      "null_summary": {
+        "group_weighted_mean": {
+          "mean": 0.1488910494332446,
+          "stdev": 0.001510773623566378
+        },
+        "node_weighted_mean": {
+          "mean": 0.13767156788125695,
+          "stdev": 0.00013744935751792723
+        }
+      }
+    },
+    "k48": {
+      "metric": "automated lexical char-ngram TF-IDF centroid cosine proxy independent of MiniLM clustering embeddings; not expert validation",
+      "level": "k48",
+      "actual": {
+        "group_weighted_mean": 0.37364382595644074,
+        "node_weighted_mean": 0.2850317706144862
+      },
+      "null": [
+        {
+          "seed": 0,
+          "group_weighted_mean": 0.1831095659225693,
+          "node_weighted_mean": 0.16340310854282414
+        },
+        {
+          "seed": 1,
+          "group_weighted_mean": 0.1827213732233043,
+          "node_weighted_mean": 0.164135955988427
+        },
+        {
+          "seed": 2,
+          "group_weighted_mean": 0.18256274906785988,
+          "node_weighted_mean": 0.1646790077034731
+        },
+        {
+          "seed": 3,
+          "group_weighted_mean": 0.18367988968761015,
+          "node_weighted_mean": 0.16417360198239678
+        },
+        {
+          "seed": 4,
+          "group_weighted_mean": 0.1829628627236317,
+          "node_weighted_mean": 0.16370544758929806
+        },
+        {
+          "seed": 5,
+          "group_weighted_mean": 0.18281714000244487,
+          "node_weighted_mean": 0.1642848660634904
+        },
+        {
+          "seed": 6,
+          "group_weighted_mean": 0.18229921099456867,
+          "node_weighted_mean": 0.16462405897709434
+        },
+        {
+          "seed": 7,
+          "group_weighted_mean": 0.18238606748994887,
+          "node_weighted_mean": 0.16435377591116965
+        },
+        {
+          "seed": 8,
+          "group_weighted_mean": 0.18230378039378045,
+          "node_weighted_mean": 0.16404160513470784
+        },
+        {
+          "seed": 9,
+          "group_weighted_mean": 0.18361302449657732,
+          "node_weighted_mean": 0.16402611495509298
+        }
+      ],
+      "null_summary": {
+        "group_weighted_mean": {
+          "mean": 0.18284556640022956,
+          "stdev": 0.0005019887843144109
+        },
+        "node_weighted_mean": {
+          "mean": 0.16414275428479744,
+          "stdev": 0.0003868813299155037
+        }
+      }
+    },
+    "k120": {
+      "metric": "automated lexical char-ngram TF-IDF centroid cosine proxy independent of MiniLM clustering embeddings; not expert validation",
+      "level": "k120",
+      "actual": {
+        "group_weighted_mean": 0.45618067391308714,
+        "node_weighted_mean": 0.38241830155573425
+      },
+      "null": [
+        {
+          "seed": 0,
+          "group_weighted_mean": 0.23361774224378198,
+          "node_weighted_mean": 0.20705156162038216
+        },
+        {
+          "seed": 1,
+          "group_weighted_mean": 0.23284645995926023,
+          "node_weighted_mean": 0.2068761936378333
+        },
+        {
+          "seed": 2,
+          "group_weighted_mean": 0.2337769484450535,
+          "node_weighted_mean": 0.207002216140439
+        },
+        {
+          "seed": 3,
+          "group_weighted_mean": 0.23320049910244517,
+          "node_weighted_mean": 0.20701886055467272
+        },
+        {
+          "seed": 4,
+          "group_weighted_mean": 0.23358316774171878,
+          "node_weighted_mean": 0.20679574726461117
+        },
+        {
+          "seed": 5,
+          "group_weighted_mean": 0.2339056694515183,
+          "node_weighted_mean": 0.20744073675559513
+        },
+        {
+          "seed": 6,
+          "group_weighted_mean": 0.23265331509399811,
+          "node_weighted_mean": 0.20724139820784135
+        },
+        {
+          "seed": 7,
+          "group_weighted_mean": 0.233393158431729,
+          "node_weighted_mean": 0.20726792777905975
+        },
+        {
+          "seed": 8,
+          "group_weighted_mean": 0.23320866550231234,
+          "node_weighted_mean": 0.20682795109908442
+        },
+        {
+          "seed": 9,
+          "group_weighted_mean": 0.23350507864762596,
+          "node_weighted_mean": 0.2066569276281416
+        }
+      ],
+      "null_summary": {
+        "group_weighted_mean": {
+          "mean": 0.23336907046194433,
+          "stdev": 0.00039730064469064116
+        },
+        "node_weighted_mean": {
+          "mean": 0.20701795206876605,
+          "stdev": 0.000242315316594498
+        }
+      }
+    }
+  },
+  "coherence_type_preserving_null": {
+    "k12": {
+      "metric": "lexical char-ngram TF-IDF centroid cosine; proxy only; type-composition-preserving null",
+      "actual": {
+        "group_weighted_mean": 0.25120003975973576,
+        "node_weighted_mean": 0.18782969945794048
+      },
+      "null": [
+        {
+          "seed": 0,
+          "group_weighted_mean": 0.1530487308010359,
+          "node_weighted_mean": 0.1455985036260966
+        },
+        {
+          "seed": 1,
+          "group_weighted_mean": 0.15395429645036754,
+          "node_weighted_mean": 0.14551043531386343
+        },
+        {
+          "seed": 2,
+          "group_weighted_mean": 0.1531504396586267,
+          "node_weighted_mean": 0.14559597092930077
+        },
+        {
+          "seed": 3,
+          "group_weighted_mean": 0.15278012128993512,
+          "node_weighted_mean": 0.14503984019119986
+        },
+        {
+          "seed": 4,
+          "group_weighted_mean": 0.1532631942691024,
+          "node_weighted_mean": 0.14510162215420683
+        },
+        {
+          "seed": 5,
+          "group_weighted_mean": 0.15107642568314997,
+          "node_weighted_mean": 0.14505062505363903
+        },
+        {
+          "seed": 6,
+          "group_weighted_mean": 0.15297308529045764,
+          "node_weighted_mean": 0.14522677283240842
+        },
+        {
+          "seed": 7,
+          "group_weighted_mean": 0.1534705948702512,
+          "node_weighted_mean": 0.14554914375891007
+        },
+        {
+          "seed": 8,
+          "group_weighted_mean": 0.15318152423849704,
+          "node_weighted_mean": 0.1452876348264814
+        },
+        {
+          "seed": 9,
+          "group_weighted_mean": 0.15373157761598374,
+          "node_weighted_mean": 0.14573461396541157
+        }
+      ],
+      "null_summary": {
+        "group_weighted_mean": {
+          "mean": 0.15306299901674073,
+          "stdev": 0.0007820270348892117
+        },
+        "node_weighted_mean": {
+          "mean": 0.1453695162651518,
+          "stdev": 0.00025784640189062326
+        }
+      }
+    },
+    "k48": {
+      "metric": "lexical char-ngram TF-IDF centroid cosine; proxy only; type-composition-preserving null",
+      "actual": {
+        "group_weighted_mean": 0.37364382595644074,
+        "node_weighted_mean": 0.2850317706144862
+      },
+      "null": [
+        {
+          "seed": 0,
+          "group_weighted_mean": 0.19362376440389736,
+          "node_weighted_mean": 0.1728781471567772
+        },
+        {
+          "seed": 1,
+          "group_weighted_mean": 0.19386821627601977,
+          "node_weighted_mean": 0.1720991368151373
+        },
+        {
+          "seed": 2,
+          "group_weighted_mean": 0.19326114043534667,
+          "node_weighted_mean": 0.1726179948148935
+        },
+        {
+          "seed": 3,
+          "group_weighted_mean": 0.19346910922281915,
+          "node_weighted_mean": 0.17241430475416172
+        },
+        {
+          "seed": 4,
+          "group_weighted_mean": 0.19358476428003057,
+          "node_weighted_mean": 0.1723252803263965
+        },
+        {
+          "seed": 5,
+          "group_weighted_mean": 0.19369440073070573,
+          "node_weighted_mean": 0.17320397133768403
+        },
+        {
+          "seed": 6,
+          "group_weighted_mean": 0.1941443108106209,
+          "node_weighted_mean": 0.17296504788589534
+        },
+        {
+          "seed": 7,
+          "group_weighted_mean": 0.19326195783901512,
+          "node_weighted_mean": 0.17216080697066874
+        },
+        {
+          "seed": 8,
+          "group_weighted_mean": 0.19443883828082356,
+          "node_weighted_mean": 0.17249927852988664
+        },
+        {
+          "seed": 9,
+          "group_weighted_mean": 0.19397209830246784,
+          "node_weighted_mean": 0.17342178731977562
+        }
+      ],
+      "null_summary": {
+        "group_weighted_mean": {
+          "mean": 0.19373186005817467,
+          "stdev": 0.00037894434693436756
+        },
+        "node_weighted_mean": {
+          "mean": 0.17265857559112766,
+          "stdev": 0.00044479799097877157
+        }
+      }
+    },
+    "k120": {
+      "metric": "lexical char-ngram TF-IDF centroid cosine; proxy only; type-composition-preserving null",
+      "actual": {
+        "group_weighted_mean": 0.45618067391308714,
+        "node_weighted_mean": 0.38241830155573425
+      },
+      "null": [
+        {
+          "seed": 0,
+          "group_weighted_mean": 0.24202172093348798,
+          "node_weighted_mean": 0.21582677610781054
+        },
+        {
+          "seed": 1,
+          "group_weighted_mean": 0.24175685949758643,
+          "node_weighted_mean": 0.21552075902226234
+        },
+        {
+          "seed": 2,
+          "group_weighted_mean": 0.24219698350100724,
+          "node_weighted_mean": 0.2161061916936482
+        },
+        {
+          "seed": 3,
+          "group_weighted_mean": 0.24133577019170238,
+          "node_weighted_mean": 0.2154003356570549
+        },
+        {
+          "seed": 4,
+          "group_weighted_mean": 0.24130740602734335,
+          "node_weighted_mean": 0.21519293082293064
+        },
+        {
+          "seed": 5,
+          "group_weighted_mean": 0.24247923942113836,
+          "node_weighted_mean": 0.21655213238501606
+        },
+        {
+          "seed": 6,
+          "group_weighted_mean": 0.24196666816923262,
+          "node_weighted_mean": 0.21682221677411354
+        },
+        {
+          "seed": 7,
+          "group_weighted_mean": 0.24195740280845596,
+          "node_weighted_mean": 0.21586374159204896
+        },
+        {
+          "seed": 8,
+          "group_weighted_mean": 0.24154486005617676,
+          "node_weighted_mean": 0.21539505224145736
+        },
+        {
+          "seed": 9,
+          "group_weighted_mean": 0.24086830964846054,
+          "node_weighted_mean": 0.21621183959114135
+        }
+      ],
+      "null_summary": {
+        "group_weighted_mean": {
+          "mean": 0.24174352202545915,
+          "stdev": 0.0004809644376035846
+        },
+        "node_weighted_mean": {
+          "mean": 0.2158891975887484,
+          "stdev": 0.0005343153558679648
+        }
+      }
+    }
+  },
+  "perturbation": {
+    "2022": {
+      "k12": {
+        "gamma0": {
+          "mean": 0.5906735498117729,
+          "stdev": 0.056711738970159194,
+          "n": 5,
+          "approx_95_ci": [
+            0.5202679141310586,
+            0.6610791854924872
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "gamma0p1": {
+          "mean": 0.5734859736580156,
+          "stdev": 0.09968210365350222,
+          "n": 5,
+          "approx_95_ci": [
+            0.4497341367163105,
+            0.6972378105997206
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "paired_gamma0p1_minus_gamma0": {
+          "mean": -0.017187576153757378,
+          "stdev": 0.09330295519806231,
+          "n": 5,
+          "approx_95_ci": [
+            -0.13301992393391127,
+            0.0986447716263965
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+      },
+      "k48": {
+        "gamma0": {
+          "mean": 0.5641491106102117,
+          "stdev": 0.05552775708922587,
+          "n": 5,
+          "approx_95_ci": [
+            0.49521334692558305,
+            0.6330848742948403
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "gamma0p1": {
+          "mean": 0.5828646384043298,
+          "stdev": 0.03972334164535787,
+          "n": 5,
+          "approx_95_ci": [
+            0.5335495024079673,
+            0.6321797744006923
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "paired_gamma0p1_minus_gamma0": {
+          "mean": 0.018715527794118114,
+          "stdev": 0.06652944030646922,
+          "n": 5,
+          "approx_95_ci": [
+            -0.06387843989789313,
+            0.10130949548612936
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+      },
+      "k120": {
+        "gamma0": {
+          "mean": 0.7630966724243546,
+          "stdev": 0.03026007474349629,
+          "n": 5,
+          "approx_95_ci": [
+            0.7255298505149999,
+            0.8006634943337094
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "gamma0p1": {
+          "mean": 0.7496896077659259,
+          "stdev": 0.038011755443485125,
+          "n": 5,
+          "approx_95_ci": [
+            0.7024993460328723,
+            0.7968798694989794
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "paired_gamma0p1_minus_gamma0": {
+          "mean": -0.013407064658428825,
+          "stdev": 0.024794506692350463,
+          "n": 5,
+          "approx_95_ci": [
+            -0.0441885754490467,
+            0.017374446132189053
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+      }
+    },
+    "2024": {
+      "k12": {
+        "gamma0": {
+          "mean": 0.3761706312936448,
+          "stdev": 0.08410027555086266,
+          "n": 5,
+          "approx_95_ci": [
+            0.27176308765973634,
+            0.4805781749275533
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "gamma0p1": {
+          "mean": 0.44687732859344076,
+          "stdev": 0.03682281458480704,
+          "n": 5,
+          "approx_95_ci": [
+            0.4011630952534868,
+            0.4925915619333947
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "paired_gamma0p1_minus_gamma0": {
+          "mean": 0.07070669729979594,
+          "stdev": 0.1155797880623845,
+          "n": 5,
+          "approx_95_ci": [
+            -0.07278155748033387,
+            0.21419495207992573
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+      },
+      "k48": {
+        "gamma0": {
+          "mean": 0.4610868446458082,
+          "stdev": 0.027178280508190628,
+          "n": 5,
+          "approx_95_ci": [
+            0.42734596223529375,
+            0.4948277270563226
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "gamma0p1": {
+          "mean": 0.47171031719916945,
+          "stdev": 0.021116465183382317,
+          "n": 5,
+          "approx_95_ci": [
+            0.44549496599387506,
+            0.49792566840446384
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "paired_gamma0p1_minus_gamma0": {
+          "mean": 0.010623472553361258,
+          "stdev": 0.013895467154679127,
+          "n": 5,
+          "approx_95_ci": [
+            -0.006627262759488987,
+            0.027874207866211503
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+      },
+      "k120": {
+        "gamma0": {
+          "mean": 0.6105958859592598,
+          "stdev": 0.03484957575867502,
+          "n": 5,
+          "approx_95_ci": [
+            0.5673313594423817,
+            0.653860412476138
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "gamma0p1": {
+          "mean": 0.631153205387141,
+          "stdev": 0.03032651868263985,
+          "n": 5,
+          "approx_95_ci": [
+            0.5935038956567904,
+            0.6688025151174917
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "paired_gamma0p1_minus_gamma0": {
+          "mean": 0.020557319427881214,
+          "stdev": 0.01623866483606706,
+          "n": 5,
+          "approx_95_ci": [
+            0.0003975863435025685,
+            0.04071705251225986
+          ],
+          "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+        },
+        "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+      }
+    }
+  },
+  "cross_snapshot": {
+    "stability_bootstrap_2020_2022_gamma0": {
+      "k12": {
+        "ari": 0.3228684502614618,
+        "ci95": [
+          0.29718838372414275,
+          0.3561081367638642
+        ],
+        "shared_nodes": 1505,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      },
+      "k48": {
+        "ari": 0.43274216857255204,
+        "ci95": [
+          0.41185284913519005,
+          0.48071335502339274
+        ],
+        "shared_nodes": 1505,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      },
+      "k120": {
+        "ari": 0.6185465519980207,
+        "ci95": [
+          0.6021028821701049,
+          0.6730443101981518
+        ],
+        "shared_nodes": 1505,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      }
+    },
+    "stability_bootstrap_2020_2022_gamma0p1": {
+      "k12": {
+        "ari": 0.5899099427961185,
+        "ci95": [
+          0.5542185416896523,
+          0.6284936285586575
+        ],
+        "shared_nodes": 1505,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      },
+      "k48": {
+        "ari": 0.4716006215916442,
+        "ci95": [
+          0.4489522363881871,
+          0.5205909141292046
+        ],
+        "shared_nodes": 1505,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      },
+      "k120": {
+        "ari": 0.6375677820976661,
+        "ci95": [
+          0.6204302605009379,
+          0.6906568752410276
+        ],
+        "shared_nodes": 1505,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      }
+    },
+    "stability_bootstrap_2022_2024_gamma0": {
+      "k12": {
+        "ari": 0.3666307632012392,
+        "ci95": [
+          0.34069698795296155,
+          0.3968636670386293
+        ],
+        "shared_nodes": 2164,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      },
+      "k48": {
+        "ari": 0.3070966643479059,
+        "ci95": [
+          0.2964214163623176,
+          0.3385015319143462
+        ],
+        "shared_nodes": 2164,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      },
+      "k120": {
+        "ari": 0.4575583598364279,
+        "ci95": [
+          0.44799190828304325,
+          0.5044634768232894
+        ],
+        "shared_nodes": 2164,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      }
+    },
+    "stability_bootstrap_2022_2024_gamma0p1": {
+      "k12": {
+        "ari": 0.38577186479222075,
+        "ci95": [
+          0.3599164238921171,
+          0.4167974322589979
+        ],
+        "shared_nodes": 2164,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      },
+      "k48": {
+        "ari": 0.3350111847735711,
+        "ci95": [
+          0.32241482843035957,
+          0.36713830302741146
+        ],
+        "shared_nodes": 2164,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      },
+      "k120": {
+        "ari": 0.4874340857039484,
+        "ci95": [
+          0.4756430233773968,
+          0.5361818181690594
+        ],
+        "shared_nodes": 2164,
+        "resampling_unit": "shared node",
+        "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+      }
+    }
+  },
+  "label_faithfulness": {
+    "sample_count": 32,
+    "counts": {
+      "accurate_informative": 16,
+      "supported_but_vague": 16,
+      "unsupported_or_wrong": 0,
+      "insufficient_evidence": 0
+    },
+    "overclaim_numerator": 0,
+    "determinate_denominator": 32,
+    "overclaim_rate": 0.0,
+    "descriptive_wilson95": [
+      0,
+      0.1071827150573635
+    ],
+    "all_sample_uncertainty_bounds": [
+      0.0,
+      0.0
+    ],
+    "scope": "Balanced sample of 4 groups per required level and snapshot; descriptive sample-level rate, not a population-weighted estimate or verified external-paper truth.",
+    "human_spotcheck_status": "qualitative_checks_recorded"
+  },
+  "retrieval_historical_substring_proxy": {
+    "config": {
+      "candidate_types": [
+        "claim",
+        "method"
+      ],
+      "query_encoder": "all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "top_groups": 4,
+      "result_count": 20,
+      "snapshot": "data/processed/baseline_input/snapshot_2026.json",
+      "note": "Outputs frozen before benchmark scoring; do not tune after scoring."
+    },
+    "summary": {
+      "A_hierarchy_mean_recall": 0.27380060415774704,
+      "A_flat_mean_recall": 0.2976101279672708
+    },
+    "question_results": [
+      {
+        "question_id": "Q1",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 7,
+        "found_count": 2,
+        "recall": 0.2857142857142857,
+        "precision_proxy": 0.15,
+        "missing_targets": [
+          "MACE",
+          "M3GNet",
+          "CHGNet",
+          "NequIP",
+          "EquiformerV2"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 766
+        }
+      },
+      {
+        "question_id": "Q1",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 7,
+        "found_count": 2,
+        "recall": 0.2857142857142857,
+        "precision_proxy": 0.15,
+        "missing_targets": [
+          "MACE",
+          "M3GNet",
+          "CHGNet",
+          "NequIP",
+          "EquiformerV2"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q2",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 3,
+        "found_count": 1,
+        "recall": 0.3333333333333333,
+        "precision_proxy": 0.2,
+        "missing_targets": [
+          "D4FT",
+          "HamGNN"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 684
+        }
+      },
+      {
+        "question_id": "Q2",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 3,
+        "found_count": 2,
+        "recall": 0.6666666666666666,
+        "precision_proxy": 0.2,
+        "missing_targets": [
+          "HamGNN"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q3",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 2,
+        "found_count": 1,
+        "recall": 0.5,
+        "precision_proxy": 0.15,
+        "missing_targets": [
+          "xDeepH"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 658
+        }
+      },
+      {
+        "question_id": "Q3",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 2,
+        "found_count": 1,
+        "recall": 0.5,
+        "precision_proxy": 0.15,
+        "missing_targets": [
+          "xDeepH"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q4",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 3,
+        "found_count": 1,
+        "recall": 0.3333333333333333,
+        "precision_proxy": 0.1,
+        "missing_targets": [
+          "Hessian training",
+          "MACE-F"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 703
+        }
+      },
+      {
+        "question_id": "Q4",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 3,
+        "found_count": 1,
+        "recall": 0.3333333333333333,
+        "precision_proxy": 0.1,
+        "missing_targets": [
+          "Hessian training",
+          "MACE-F"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q5",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 2,
+        "found_count": 0,
+        "recall": 0.0,
+        "precision_proxy": 0.0,
+        "missing_targets": [
+          "Bead-mapping",
+          "GNN+GPP"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 735
+        }
+      },
+      {
+        "question_id": "Q5",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 2,
+        "found_count": 0,
+        "recall": 0.0,
+        "precision_proxy": 0.0,
+        "missing_targets": [
+          "Bead-mapping",
+          "GNN+GPP"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q6",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 3,
+        "found_count": 1,
+        "recall": 0.3333333333333333,
+        "precision_proxy": 0.05,
+        "missing_targets": [
+          "DeePMD+AL",
+          "MLIP descriptors"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 703
+        }
+      },
+      {
+        "question_id": "Q6",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 3,
+        "found_count": 1,
+        "recall": 0.3333333333333333,
+        "precision_proxy": 0.05,
+        "missing_targets": [
+          "DeePMD+AL",
+          "MLIP descriptors"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q7",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 2,
+        "found_count": 0,
+        "recall": 0.0,
+        "precision_proxy": 0.0,
+        "missing_targets": [
+          "GNN free energies",
+          "symbolic regression"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 800
+        }
+      },
+      {
+        "question_id": "Q7",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 2,
+        "found_count": 0,
+        "recall": 0.0,
+        "precision_proxy": 0.0,
+        "missing_targets": [
+          "GNN free energies",
+          "symbolic regression"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q8",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 2,
+        "found_count": 1,
+        "recall": 0.5,
+        "precision_proxy": 0.15,
+        "missing_targets": [
+          "GNN stress fields"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 800
+        }
+      },
+      {
+        "question_id": "Q8",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 2,
+        "found_count": 1,
+        "recall": 0.5,
+        "precision_proxy": 0.15,
+        "missing_targets": [
+          "GNN stress fields"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q9",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 3,
+        "found_count": 1,
+        "recall": 0.3333333333333333,
+        "precision_proxy": 0.05,
+        "missing_targets": [
+          "E(3)-equivariant GNNs",
+          "NequIP"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 817
+        }
+      },
+      {
+        "question_id": "Q9",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 3,
+        "found_count": 1,
+        "recall": 0.3333333333333333,
+        "precision_proxy": 0.05,
+        "missing_targets": [
+          "E(3)-equivariant GNNs",
+          "NequIP"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q10",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 2,
+        "found_count": 0,
+        "recall": 0.0,
+        "precision_proxy": 0.0,
+        "missing_targets": [
+          "GNNs + ACE descriptors",
+          "SchNet"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 735
+        }
+      },
+      {
+        "question_id": "Q10",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 2,
+        "found_count": 0,
+        "recall": 0.0,
+        "precision_proxy": 0.0,
+        "missing_targets": [
+          "GNNs + ACE descriptors",
+          "SchNet"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q11",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 2,
+        "found_count": 0,
+        "recall": 0.0,
+        "precision_proxy": 0.0,
+        "missing_targets": [
+          "CE→MC→NN→PF",
+          "hybrid frameworks"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 823
+        }
+      },
+      {
+        "question_id": "Q11",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 2,
+        "found_count": 0,
+        "recall": 0.0,
+        "precision_proxy": 0.0,
+        "missing_targets": [
+          "CE→MC→NN→PF",
+          "hybrid frameworks"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q12",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 13,
+        "found_count": 5,
+        "recall": 0.38461538461538464,
+        "precision_proxy": 0.3,
+        "missing_targets": [
+          "MACE",
+          "NequIP",
+          "CHGNet",
+          "Orb",
+          "eSEN",
+          "PET",
+          "UMA",
+          "EquiformerV2"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 735
+        }
+      },
+      {
+        "question_id": "Q12",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 13,
+        "found_count": 5,
+        "recall": 0.38461538461538464,
+        "precision_proxy": 0.3,
+        "missing_targets": [
+          "MACE",
+          "NequIP",
+          "CHGNet",
+          "Orb",
+          "eSEN",
+          "PET",
+          "UMA",
+          "EquiformerV2"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q13",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 8,
+        "found_count": 3,
+        "recall": 0.375,
+        "precision_proxy": 0.15,
+        "missing_targets": [
+          "M3GNet",
+          "NequIP",
+          "MACE",
+          "CHGNet",
+          "EquiformerV2"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 743
+        }
+      },
+      {
+        "question_id": "Q13",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 8,
+        "found_count": 3,
+        "recall": 0.375,
+        "precision_proxy": 0.15,
+        "missing_targets": [
+          "M3GNet",
+          "NequIP",
+          "MACE",
+          "CHGNet",
+          "EquiformerV2"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q14",
+        "type": "A",
+        "mode": "hierarchy",
+        "target_count": 11,
+        "found_count": 5,
+        "recall": 0.45454545454545453,
+        "precision_proxy": 0.45,
+        "missing_targets": [
+          "JARVIS-DFT",
+          "MPtrj",
+          "OQMD",
+          "Alexandria",
+          "GNoME",
+          "WBM"
+        ],
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 800
+        }
+      },
+      {
+        "question_id": "Q14",
+        "type": "A",
+        "mode": "flat",
+        "target_count": 11,
+        "found_count": 5,
+        "recall": 0.45454545454545453,
+        "precision_proxy": 0.45,
+        "missing_targets": [
+          "JARVIS-DFT",
+          "MPtrj",
+          "OQMD",
+          "Alexandria",
+          "GNoME",
+          "WBM"
+        ],
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q15",
+        "type": "B",
+        "mode": "hierarchy",
+        "required_claim_count": 10,
+        "surface_text_found_count": 0,
+        "surface_text_recall_proxy": 0.0,
+        "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 800
+        }
+      },
+      {
+        "question_id": "Q15",
+        "type": "B",
+        "mode": "flat",
+        "required_claim_count": 10,
+        "surface_text_found_count": 0,
+        "surface_text_recall_proxy": 0.0,
+        "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q16",
+        "type": "B",
+        "mode": "hierarchy",
+        "required_claim_count": 9,
+        "surface_text_found_count": 0,
+        "surface_text_recall_proxy": 0.0,
+        "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 753
+        }
+      },
+      {
+        "question_id": "Q16",
+        "type": "B",
+        "mode": "flat",
+        "required_claim_count": 9,
+        "surface_text_found_count": 0,
+        "surface_text_recall_proxy": 0.0,
+        "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q17",
+        "type": "B",
+        "mode": "hierarchy",
+        "required_claim_count": 7,
+        "surface_text_found_count": 0,
+        "surface_text_recall_proxy": 0.0,
+        "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 703
+        }
+      },
+      {
+        "question_id": "Q17",
+        "type": "B",
+        "mode": "flat",
+        "required_claim_count": 7,
+        "surface_text_found_count": 0,
+        "surface_text_recall_proxy": 0.0,
+        "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      },
+      {
+        "question_id": "Q18",
+        "type": "B",
+        "mode": "hierarchy",
+        "required_claim_count": 10,
+        "surface_text_found_count": 0,
+        "surface_text_recall_proxy": 0.0,
+        "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+        "retrieval_work": {
+          "groups_scored": 12,
+          "nodes_scored": 857
+        }
+      },
+      {
+        "question_id": "Q18",
+        "type": "B",
+        "mode": "flat",
+        "required_claim_count": 10,
+        "surface_text_found_count": 0,
+        "surface_text_recall_proxy": 0.0,
+        "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+        "retrieval_work": {
+          "nodes_scored": 1138
+        }
+      }
+    ],
+    "unresolved_entity_mappings": [
+      {
+        "question_id": "Q1",
+        "target": "MACE",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q1",
+        "target": "M3GNet",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q1",
+        "target": "CHGNet",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q1",
+        "target": "NequIP",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q1",
+        "target": "EquiformerV2",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q1",
+        "target": "MACE",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q1",
+        "target": "M3GNet",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q1",
+        "target": "CHGNet",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q1",
+        "target": "NequIP",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q1",
+        "target": "EquiformerV2",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q2",
+        "target": "D4FT",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q2",
+        "target": "HamGNN",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q2",
+        "target": "HamGNN",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q3",
+        "target": "xDeepH",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q3",
+        "target": "xDeepH",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q4",
+        "target": "Hessian training",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q4",
+        "target": "MACE-F",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q4",
+        "target": "Hessian training",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q4",
+        "target": "MACE-F",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q5",
+        "target": "Bead-mapping",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q5",
+        "target": "GNN+GPP",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q5",
+        "target": "Bead-mapping",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q5",
+        "target": "GNN+GPP",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q6",
+        "target": "DeePMD+AL",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q6",
+        "target": "MLIP descriptors",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q6",
+        "target": "DeePMD+AL",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q6",
+        "target": "MLIP descriptors",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q7",
+        "target": "GNN free energies",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q7",
+        "target": "symbolic regression",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q7",
+        "target": "GNN free energies",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q7",
+        "target": "symbolic regression",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q8",
+        "target": "GNN stress fields",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q8",
+        "target": "GNN stress fields",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q9",
+        "target": "E(3)-equivariant GNNs",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q9",
+        "target": "NequIP",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q9",
+        "target": "E(3)-equivariant GNNs",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q9",
+        "target": "NequIP",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q10",
+        "target": "GNNs + ACE descriptors",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q10",
+        "target": "SchNet",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q10",
+        "target": "GNNs + ACE descriptors",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q10",
+        "target": "SchNet",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q11",
+        "target": "CE→MC→NN→PF",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q11",
+        "target": "hybrid frameworks",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q11",
+        "target": "CE→MC→NN→PF",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q11",
+        "target": "hybrid frameworks",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q12",
+        "target": "MACE",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q12",
+        "target": "NequIP",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q12",
+        "target": "CHGNet",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q12",
+        "target": "Orb",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q12",
+        "target": "eSEN",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q12",
+        "target": "PET",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q12",
+        "target": "UMA",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q12",
+        "target": "EquiformerV2",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q12",
+        "target": "MACE",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q12",
+        "target": "NequIP",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q12",
+        "target": "CHGNet",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q12",
+        "target": "Orb",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q12",
+        "target": "eSEN",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q12",
+        "target": "PET",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q12",
+        "target": "UMA",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q12",
+        "target": "EquiformerV2",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q13",
+        "target": "M3GNet",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q13",
+        "target": "NequIP",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q13",
+        "target": "MACE",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q13",
+        "target": "CHGNet",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q13",
+        "target": "EquiformerV2",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q13",
+        "target": "M3GNet",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q13",
+        "target": "NequIP",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q13",
+        "target": "MACE",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q13",
+        "target": "CHGNet",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q13",
+        "target": "EquiformerV2",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q14",
+        "target": "JARVIS-DFT",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q14",
+        "target": "MPtrj",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q14",
+        "target": "OQMD",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q14",
+        "target": "Alexandria",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q14",
+        "target": "GNoME",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q14",
+        "target": "WBM",
+        "mode": "hierarchy"
+      },
+      {
+        "question_id": "Q14",
+        "target": "JARVIS-DFT",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q14",
+        "target": "MPtrj",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q14",
+        "target": "OQMD",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q14",
+        "target": "Alexandria",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q14",
+        "target": "GNoME",
+        "mode": "flat"
+      },
+      {
+        "question_id": "Q14",
+        "target": "WBM",
+        "mode": "flat"
+      }
+    ],
+    "warning": "Scoring is isolated after retrieval output freeze; Type B surface matching is incomplete."
+  },
+  "retrieval_strict_diagnostic": {
+    "policy": "Post-hoc strict normalized exact-name diagnostic, method/dataset nodes only. No substring matches, aliases or claim mentions counted as recovered methods. Frozen retrieval unchanged.",
+    "limitations": [
+      "Unresolved aliases count as misses: this is a conservative diagnostic, not a complete semantic benchmark score.",
+      "Type B and claim entailment remain unscored.",
+      "Candidate pool excluded datasets, making dataset recovery impossible.",
+      "Work excludes encoding, centroid formation, sorting, and offline clustering; it is not measured latency."
+    ],
+    "type_A_macro_recall": {
+      "hierarchy": 0.0,
+      "flat": 0.0
+    },
+    "mapping_coverage": {
+      "target_occurrences": 63,
+      "exactly_mapped": 32
+    },
+    "per_question": [
+      {
+        "question_id": "Q1",
+        "mode": "hierarchy",
+        "targets": 7,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q1",
+        "mode": "flat",
+        "targets": 7,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q2",
+        "mode": "hierarchy",
+        "targets": 3,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q2",
+        "mode": "flat",
+        "targets": 3,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q3",
+        "mode": "hierarchy",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q3",
+        "mode": "flat",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q4",
+        "mode": "hierarchy",
+        "targets": 3,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q4",
+        "mode": "flat",
+        "targets": 3,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q5",
+        "mode": "hierarchy",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q5",
+        "mode": "flat",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q6",
+        "mode": "hierarchy",
+        "targets": 3,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q6",
+        "mode": "flat",
+        "targets": 3,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q7",
+        "mode": "hierarchy",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q7",
+        "mode": "flat",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q8",
+        "mode": "hierarchy",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q8",
+        "mode": "flat",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q9",
+        "mode": "hierarchy",
+        "targets": 3,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q9",
+        "mode": "flat",
+        "targets": 3,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q10",
+        "mode": "hierarchy",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q10",
+        "mode": "flat",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q11",
+        "mode": "hierarchy",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q11",
+        "mode": "flat",
+        "targets": 2,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q12",
+        "mode": "hierarchy",
+        "targets": 13,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q12",
+        "mode": "flat",
+        "targets": 13,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q13",
+        "mode": "hierarchy",
+        "targets": 8,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q13",
+        "mode": "flat",
+        "targets": 8,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q14",
+        "mode": "hierarchy",
+        "targets": 11,
+        "hits": [],
+        "recall": 0.0
+      },
+      {
+        "question_id": "Q14",
+        "mode": "flat",
+        "targets": 11,
+        "hits": [],
+        "recall": 0.0
+      }
+    ],
+    "target_mapping": [
+      {
+        "question_id": "Q1",
+        "target": "MACE",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q1",
+        "target": "M3GNet",
+        "exact_node_ids": [
+          "meth_00037"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q1",
+        "target": "CHGNet",
+        "exact_node_ids": [
+          "meth_00038"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q1",
+        "target": "GAP",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q1",
+        "target": "NequIP",
+        "exact_node_ids": [
+          "meth_00058"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q1",
+        "target": "ACE",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q1",
+        "target": "EquiformerV2",
+        "exact_node_ids": [
+          "meth_00081"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q2",
+        "target": "DeepH",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q2",
+        "target": "D4FT",
+        "exact_node_ids": [
+          "meth_00222"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q2",
+        "target": "HamGNN",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q3",
+        "target": "xDeepH",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q3",
+        "target": "DeepH-E3",
+        "exact_node_ids": [
+          "meth_00118"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q4",
+        "target": "Hessian training",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q4",
+        "target": "VGNN",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q4",
+        "target": "MACE-F",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q5",
+        "target": "Bead-mapping",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q5",
+        "target": "GNN+GPP",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q6",
+        "target": "DeePMD+AL",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q6",
+        "target": "LiFlow",
+        "exact_node_ids": [
+          "meth_00239"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q6",
+        "target": "MLIP descriptors",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q7",
+        "target": "GNN free energies",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q7",
+        "target": "symbolic regression",
+        "exact_node_ids": [
+          "meth_00068"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q8",
+        "target": "ConvLSTM",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q8",
+        "target": "GNN stress fields",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q9",
+        "target": "E(3)-equivariant GNNs",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q9",
+        "target": "physics-informed",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q9",
+        "target": "NequIP",
+        "exact_node_ids": [
+          "meth_00058"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q10",
+        "target": "GNNs + ACE descriptors",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q10",
+        "target": "SchNet",
+        "exact_node_ids": [
+          "meth_00050"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q11",
+        "target": "CE→MC→NN→PF",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q11",
+        "target": "hybrid frameworks",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q12",
+        "target": "MACE",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q12",
+        "target": "NequIP",
+        "exact_node_ids": [
+          "meth_00058"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q12",
+        "target": "CHGNet",
+        "exact_node_ids": [
+          "meth_00038"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q12",
+        "target": "M3GNet",
+        "exact_node_ids": [
+          "meth_00037"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q12",
+        "target": "SevenNet",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q12",
+        "target": "GAP",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q12",
+        "target": "DeePMD",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q12",
+        "target": "MatterSim",
+        "exact_node_ids": [
+          "meth_00091"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q12",
+        "target": "Orb",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q12",
+        "target": "eSEN",
+        "exact_node_ids": [
+          "meth_00293"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q12",
+        "target": "PET",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q12",
+        "target": "UMA",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q12",
+        "target": "EquiformerV2",
+        "exact_node_ids": [
+          "meth_00081"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q13",
+        "target": "CGCNN",
+        "exact_node_ids": [
+          "meth_00054"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q13",
+        "target": "SchNet",
+        "exact_node_ids": [
+          "meth_00050"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q13",
+        "target": "MEGNet",
+        "exact_node_ids": [
+          "meth_00036"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q13",
+        "target": "M3GNet",
+        "exact_node_ids": [
+          "meth_00037"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q13",
+        "target": "NequIP",
+        "exact_node_ids": [
+          "meth_00058"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q13",
+        "target": "MACE",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q13",
+        "target": "CHGNet",
+        "exact_node_ids": [
+          "meth_00038"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q13",
+        "target": "EquiformerV2",
+        "exact_node_ids": [
+          "meth_00081"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q14",
+        "target": "Matbench Discovery",
+        "exact_node_ids": [
+          "data_00013",
+          "meth_00159",
+          "data_00164"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q14",
+        "target": "Matbench",
+        "exact_node_ids": [
+          "data_00114",
+          "meth_00348"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q14",
+        "target": "JARVIS-DFT",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q14",
+        "target": "Materials Project",
+        "exact_node_ids": [
+          "meth_00143",
+          "data_00061"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q14",
+        "target": "MPtrj",
+        "exact_node_ids": [
+          "data_00102"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q14",
+        "target": "OQMD",
+        "exact_node_ids": [
+          "data_00095"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q14",
+        "target": "AFLOW",
+        "exact_node_ids": [],
+        "status": "unresolved_alias_or_absent"
+      },
+      {
+        "question_id": "Q14",
+        "target": "Alexandria",
+        "exact_node_ids": [
+          "meth_00295"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q14",
+        "target": "GNoME",
+        "exact_node_ids": [
+          "meth_00169",
+          "data_00144"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q14",
+        "target": "WBM",
+        "exact_node_ids": [
+          "data_00175"
+        ],
+        "status": "mapped"
+      },
+      {
+        "question_id": "Q14",
+        "target": "OMat24",
+        "exact_node_ids": [
+          "data_00101"
+        ],
+        "status": "mapped"
+      }
+    ],
+    "work": [
+      {
+        "question_id": "Q1",
+        "hierarchy_node_scores": 766,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.6836555360281195
+      },
+      {
+        "question_id": "Q2",
+        "hierarchy_node_scores": 684,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.6115992970123023
+      },
+      {
+        "question_id": "Q3",
+        "hierarchy_node_scores": 658,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.5887521968365553
+      },
+      {
+        "question_id": "Q4",
+        "hierarchy_node_scores": 703,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.6282952548330404
+      },
+      {
+        "question_id": "Q5",
+        "hierarchy_node_scores": 735,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.656414762741652
+      },
+      {
+        "question_id": "Q6",
+        "hierarchy_node_scores": 703,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.6282952548330404
+      },
+      {
+        "question_id": "Q7",
+        "hierarchy_node_scores": 800,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.7135325131810193
+      },
+      {
+        "question_id": "Q8",
+        "hierarchy_node_scores": 800,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.7135325131810193
+      },
+      {
+        "question_id": "Q9",
+        "hierarchy_node_scores": 817,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.7284710017574693
+      },
+      {
+        "question_id": "Q10",
+        "hierarchy_node_scores": 735,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.656414762741652
+      },
+      {
+        "question_id": "Q11",
+        "hierarchy_node_scores": 823,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.7337434094903339
+      },
+      {
+        "question_id": "Q12",
+        "hierarchy_node_scores": 735,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.656414762741652
+      },
+      {
+        "question_id": "Q13",
+        "hierarchy_node_scores": 743,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.663444639718805
+      },
+      {
+        "question_id": "Q14",
+        "hierarchy_node_scores": 800,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.7135325131810193
+      },
+      {
+        "question_id": "Q15",
+        "hierarchy_node_scores": 800,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.7135325131810193
+      },
+      {
+        "question_id": "Q16",
+        "hierarchy_node_scores": 753,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.672231985940246
+      },
+      {
+        "question_id": "Q17",
+        "hierarchy_node_scores": 703,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.6282952548330404
+      },
+      {
+        "question_id": "Q18",
+        "hierarchy_node_scores": 857,
+        "group_scores": 12,
+        "flat_node_scores": 1138,
+        "score_count_ratio": 0.7636203866432337
+      }
+    ],
+    "mean_score_count_ratio": 0.6752099199375122
+  },
+  "developer_review": {
+    "source": "C:\\Users\\admin\\Downloads\\developer_review_2020.csv",
+    "sha256": "240c9c9824dd6cf7be74c212f1daacf84ba8a1e5b1ff1e54ea4edf98e7109c63",
+    "reviewer": "Adnan, project developer; anonymous run labels; guided discussion occurred; not independent expert review",
+    "unit": "Recorded rating entry; scope mixes member-level and group-level judgments",
+    "repairs": [
+      {
+        "line": 2,
+        "action": "Rejoined excess final columns with commas to recover the unquoted human note",
+        "original_column_count": 10
+      },
+      {
+        "line": 84,
+        "action": "Normalized usnure to unsure for analysis; original preserved"
+      }
+    ],
+    "overall": {
+      "displayed_rows": 540,
+      "recorded_ratings": 120,
+      "blank_rows": 420,
+      "rating_0": 7,
+      "rating_1": 50,
+      "rating_2": 38,
+      "unsure": 25,
+      "numeric_ratings": 95,
+      "numeric_rating_2_percent": 40.0
+    },
+    "runs": {
+      "dev_run_A": {
+        "displayed_rows": 180,
+        "recorded_ratings": 104,
+        "blank_rows": 76,
+        "rating_0": 5,
+        "rating_1": 42,
+        "rating_2": 33,
+        "unsure": 24,
+        "numeric_ratings": 80,
+        "numeric_rating_2_percent": 41.25,
+        "total_groups": 12,
+        "groups_with_ratings": 10,
+        "groups_with_multiple_values": 7,
+        "sample_kind": {
+          "central": {
+            "displayed_rows": 60,
+            "recorded_ratings": 38,
+            "blank_rows": 22,
+            "rating_0": 4,
+            "rating_1": 12,
+            "rating_2": 20,
+            "unsure": 2,
+            "numeric_ratings": 36,
+            "numeric_rating_2_percent": 55.55555555555556
+          },
+          "random": {
+            "displayed_rows": 60,
+            "recorded_ratings": 34,
+            "blank_rows": 26,
+            "rating_0": 0,
+            "rating_1": 20,
+            "rating_2": 5,
+            "unsure": 9,
+            "numeric_ratings": 25,
+            "numeric_rating_2_percent": 20.0
+          },
+          "peripheral": {
+            "displayed_rows": 60,
+            "recorded_ratings": 32,
+            "blank_rows": 28,
+            "rating_0": 1,
+            "rating_1": 10,
+            "rating_2": 8,
+            "unsure": 13,
+            "numeric_ratings": 19,
+            "numeric_rating_2_percent": 42.10526315789474
+          }
+        }
+      },
+      "dev_run_B": {
+        "displayed_rows": 180,
+        "recorded_ratings": 7,
+        "blank_rows": 173,
+        "rating_0": 1,
+        "rating_1": 4,
+        "rating_2": 2,
+        "unsure": 0,
+        "numeric_ratings": 7,
+        "numeric_rating_2_percent": 28.571428571428573,
+        "total_groups": 12,
+        "groups_with_ratings": 6,
+        "groups_with_multiple_values": 0,
+        "sample_kind": {
+          "central": {
+            "displayed_rows": 60,
+            "recorded_ratings": 6,
+            "blank_rows": 54,
+            "rating_0": 1,
+            "rating_1": 4,
+            "rating_2": 1,
+            "unsure": 0,
+            "numeric_ratings": 6,
+            "numeric_rating_2_percent": 16.666666666666668
+          },
+          "random": {
+            "displayed_rows": 60,
+            "recorded_ratings": 1,
+            "blank_rows": 59,
+            "rating_0": 0,
+            "rating_1": 0,
+            "rating_2": 1,
+            "unsure": 0,
+            "numeric_ratings": 1,
+            "numeric_rating_2_percent": 100.0
+          },
+          "peripheral": {
+            "displayed_rows": 60,
+            "recorded_ratings": 0,
+            "blank_rows": 60,
+            "rating_0": 0,
+            "rating_1": 0,
+            "rating_2": 0,
+            "unsure": 0,
+            "numeric_ratings": 0,
+            "numeric_rating_2_percent": null
+          }
+        }
+      },
+      "dev_run_C": {
+        "displayed_rows": 180,
+        "recorded_ratings": 9,
+        "blank_rows": 171,
+        "rating_0": 1,
+        "rating_1": 4,
+        "rating_2": 3,
+        "unsure": 1,
+        "numeric_ratings": 8,
+        "numeric_rating_2_percent": 37.5,
+        "total_groups": 12,
+        "groups_with_ratings": 6,
+        "groups_with_multiple_values": 2,
+        "sample_kind": {
+          "central": {
+            "displayed_rows": 60,
+            "recorded_ratings": 7,
+            "blank_rows": 53,
+            "rating_0": 1,
+            "rating_1": 2,
+            "rating_2": 3,
+            "unsure": 1,
+            "numeric_ratings": 6,
+            "numeric_rating_2_percent": 50.0
+          },
+          "random": {
+            "displayed_rows": 60,
+            "recorded_ratings": 1,
+            "blank_rows": 59,
+            "rating_0": 0,
+            "rating_1": 1,
+            "rating_2": 0,
+            "unsure": 0,
+            "numeric_ratings": 1,
+            "numeric_rating_2_percent": 0.0
+          },
+          "peripheral": {
+            "displayed_rows": 60,
+            "recorded_ratings": 1,
+            "blank_rows": 59,
+            "rating_0": 0,
+            "rating_1": 1,
+            "rating_2": 0,
+            "unsure": 0,
+            "numeric_ratings": 1,
+            "numeric_rating_2_percent": 0.0
+          }
+        }
+      }
+    },
+    "groups": [
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2747",
+        "group_size": 12,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 1,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "0"
+        ],
+        "notes": [
+          {
+            "source_line": 152,
+            "node_id": "comp_00348",
+            "rating": "0",
+            "text": "all Jarvis terms related together maybe too semantic but still unsure"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2849",
+        "group_size": 16,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 1,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [
+          "unsure"
+        ],
+        "notes": [
+          {
+            "source_line": 167,
+            "node_id": "data_00223",
+            "rating": "unsure",
+            "text": "the chemical names seem to be connected together"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2969",
+        "group_size": 22,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 1,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "0"
+        ],
+        "notes": [
+          {
+            "source_line": 137,
+            "node_id": "comp_00803",
+            "rating": "0",
+            "text": "all \"body descriptors\" grouped together"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2972",
+        "group_size": 112,
+        "displayed_rows": 15,
+        "recorded_ratings": 11,
+        "blank_rows": 4,
+        "rating_0": 0,
+        "rating_1": 7,
+        "rating_2": 4,
+        "unsure": 0,
+        "numeric_ratings": 11,
+        "numeric_rating_2_percent": 36.36363636363637,
+        "distinct_recorded_values": [
+          "1",
+          "2"
+        ],
+        "notes": [
+          {
+            "source_line": 92,
+            "node_id": "auth_00190",
+            "rating": "1",
+            "text": "definitely related to AFLOW"
+          },
+          {
+            "source_line": 93,
+            "node_id": "auth_00142",
+            "rating": "1",
+            "text": "not realted to AFLOW btu grouped together"
+          },
+          {
+            "source_line": 94,
+            "node_id": "auth_00169",
+            "rating": "1",
+            "text": "no similar work but simialr theme material science could be a possible broad connection"
+          },
+          {
+            "source_line": 95,
+            "node_id": "auth_00013",
+            "rating": "1",
+            "text": "related to each other through materials"
+          },
+          {
+            "source_line": 96,
+            "node_id": "auth_00163",
+            "rating": "1",
+            "text": "related to materail science"
+          },
+          {
+            "source_line": 97,
+            "node_id": "auth_00157",
+            "rating": "1",
+            "text": "realted to each other"
+          },
+          {
+            "source_line": 98,
+            "node_id": "auth_00018",
+            "rating": "2",
+            "text": "realted to each other thorugh a similar work"
+          },
+          {
+            "source_line": 99,
+            "node_id": "auth_00142",
+            "rating": "2",
+            "text": "definitely related"
+          },
+          {
+            "source_line": 100,
+            "node_id": "auth_00182",
+            "rating": "2",
+            "text": "definitely realated"
+          },
+          {
+            "source_line": 102,
+            "node_id": "auth_00115",
+            "rating": "1",
+            "text": "related to material science"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2978",
+        "group_size": 55,
+        "displayed_rows": 15,
+        "recorded_ratings": 15,
+        "blank_rows": 0,
+        "rating_0": 0,
+        "rating_1": 4,
+        "rating_2": 5,
+        "unsure": 6,
+        "numeric_ratings": 9,
+        "numeric_rating_2_percent": 55.55555555555556,
+        "distinct_recorded_values": [
+          "1",
+          "2",
+          "unsure"
+        ],
+        "notes": [
+          {
+            "source_line": 77,
+            "node_id": "clai_00315",
+            "rating": "2",
+            "text": "seemssomething realted to autominer all the central nodes seem connected through this key word."
+          },
+          {
+            "source_line": 86,
+            "node_id": "clai_00311",
+            "rating": "1",
+            "text": "realted to Matbench"
+          },
+          {
+            "source_line": 90,
+            "node_id": "prob_00278",
+            "rating": "1",
+            "text": "might be related to ML technique"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2986",
+        "group_size": 80,
+        "displayed_rows": 15,
+        "recorded_ratings": 15,
+        "blank_rows": 0,
+        "rating_0": 2,
+        "rating_1": 9,
+        "rating_2": 1,
+        "unsure": 3,
+        "numeric_ratings": 12,
+        "numeric_rating_2_percent": 8.333333333333334,
+        "distinct_recorded_values": [
+          "0",
+          "1",
+          "2",
+          "unsure"
+        ],
+        "notes": [
+          {
+            "source_line": 32,
+            "node_id": "clai_00659",
+            "rating": "0",
+            "text": "doestn belong here realted to quantum"
+          },
+          {
+            "source_line": 33,
+            "node_id": "clai_00485",
+            "rating": "1",
+            "text": "a method "
+          },
+          {
+            "source_line": 34,
+            "node_id": "clai_00475",
+            "rating": "1",
+            "text": "describes a model called DeepPMD which is successfully doing some calculation but not sure whther thsi realates to the above claim "
+          },
+          {
+            "source_line": 35,
+            "node_id": "prob_00206",
+            "rating": "1",
+            "text": "seems like a problem that the DeepPMD model is able to solve"
+          },
+          {
+            "source_line": 36,
+            "node_id": "task_00251",
+            "rating": "1",
+            "text": "seems coherent with the theme"
+          },
+          {
+            "source_line": 37,
+            "node_id": "task_00247",
+            "rating": "1",
+            "text": "soemthing related to batteries and lithium which might be scietifically coherent with the themes"
+          },
+          {
+            "source_line": 38,
+            "node_id": "clai_00652",
+            "rating": "unsure",
+            "text": " but seems realted to molecular dynamics"
+          },
+          {
+            "source_line": 39,
+            "node_id": "metr_00044",
+            "rating": "1",
+            "text": "possibly realted to chemistry "
+          },
+          {
+            "source_line": 40,
+            "node_id": "metr_00080",
+            "rating": "1",
+            "text": "realted to chemistry and a metric"
+          },
+          {
+            "source_line": 41,
+            "node_id": "clai_00475",
+            "rating": "2",
+            "text": "definitely related to the central claims"
+          },
+          {
+            "source_line": 42,
+            "node_id": "metr_00079",
+            "rating": "unsure",
+            "text": "could be a metric"
+          },
+          {
+            "source_line": 43,
+            "node_id": "data_00150",
+            "rating": "unsure",
+            "text": "might me some material"
+          },
+          {
+            "source_line": 44,
+            "node_id": "comp_00363",
+            "rating": "1",
+            "text": "might be related to coating of electrolytes"
+          },
+          {
+            "source_line": 45,
+            "node_id": "prob_00203",
+            "rating": "1",
+            "text": "possibly related to the problem"
+          },
+          {
+            "source_line": 46,
+            "node_id": "futu_00174",
+            "rating": "0",
+            "text": "thsi is something realted to quantum doestn belong here"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2988",
+        "group_size": 100,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2989",
+        "group_size": 54,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2991",
+        "group_size": 361,
+        "displayed_rows": 15,
+        "recorded_ratings": 15,
+        "blank_rows": 0,
+        "rating_0": 1,
+        "rating_1": 7,
+        "rating_2": 2,
+        "unsure": 5,
+        "numeric_ratings": 10,
+        "numeric_rating_2_percent": 20.0,
+        "distinct_recorded_values": [
+          "0",
+          "1",
+          "2",
+          "unsure"
+        ],
+        "notes": [
+          {
+            "source_line": 17,
+            "node_id": "arti_00049",
+            "rating": "2",
+            "text": "article and realted claims seem related but that realtion could only be semantic"
+          },
+          {
+            "source_line": 18,
+            "node_id": "clai_00214",
+            "rating": "2",
+            "text": "relates to the aricle headline"
+          },
+          {
+            "source_line": 19,
+            "node_id": "tech_00637",
+            "rating": "1",
+            "text": "could be a technique"
+          },
+          {
+            "source_line": 20,
+            "node_id": "clai_00036",
+            "rating": "unsure",
+            "text": "unsure whter JARVIS is related to AFLOW"
+          },
+          {
+            "source_line": 22,
+            "node_id": "comp_00395",
+            "rating": "1",
+            "text": "could be an internal technique"
+          },
+          {
+            "source_line": 26,
+            "node_id": "tech_00354",
+            "rating": "1",
+            "text": "could be a technique"
+          },
+          {
+            "source_line": 27,
+            "node_id": "tech_00325",
+            "rating": "1",
+            "text": "could be realted to technical implementation"
+          },
+          {
+            "source_line": 28,
+            "node_id": "tech_00324",
+            "rating": "1",
+            "text": "might be related"
+          },
+          {
+            "source_line": 29,
+            "node_id": "comp_00343",
+            "rating": "1",
+            "text": "seems realted to a technique"
+          },
+          {
+            "source_line": 31,
+            "node_id": "tech_00326",
+            "rating": "1",
+            "text": "the sampled data seems coherent especially since it is not too semantic"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2994",
+        "group_size": 430,
+        "displayed_rows": 15,
+        "recorded_ratings": 15,
+        "blank_rows": 0,
+        "rating_0": 0,
+        "rating_1": 4,
+        "rating_2": 9,
+        "unsure": 2,
+        "numeric_ratings": 13,
+        "numeric_rating_2_percent": 69.23076923076923,
+        "distinct_recorded_values": [
+          "1",
+          "2",
+          "unsure"
+        ],
+        "notes": [
+          {
+            "source_line": 2,
+            "node_id": "arti_00021",
+            "rating": "2",
+            "text": "The sampled members appear to describe the article ‘Universal Machine Learning for Molecules and Crystals.’ This suggests a shared article context, but I have not yet established whether they form a coherent scientific theme beyond that connection"
+          },
+          {
+            "source_line": 3,
+            "node_id": "cite_00352",
+            "rating": "2",
+            "text": "maybe be scientifcally coherent and thematically similar describe a possible solution to the problem"
+          },
+          {
+            "source_line": 4,
+            "node_id": "meth_00218",
+            "rating": "2",
+            "text": "describes a method seems reasonable adn fitting"
+          },
+          {
+            "source_line": 5,
+            "node_id": "cite_00142",
+            "rating": "2",
+            "text": "could possibly be a optimiser used for machine learning technique"
+          },
+          {
+            "source_line": 6,
+            "node_id": "tech_00032",
+            "rating": "2",
+            "text": "techinque seems related"
+          },
+          {
+            "source_line": 7,
+            "node_id": "prob_00130",
+            "rating": "unsure",
+            "text": "not sure whether it connects to the article hard to Say"
+          },
+          {
+            "source_line": 8,
+            "node_id": "cite_00135",
+            "rating": "1",
+            "text": "could possibly be a technique used for graph convolution networks but hard to establish scientifical coherence"
+          },
+          {
+            "source_line": 9,
+            "node_id": "task_00698",
+            "rating": "1",
+            "text": "might be a sub task"
+          },
+          {
+            "source_line": 10,
+            "node_id": "task_00198",
+            "rating": "1",
+            "text": "could be an internal task related to molecular or crystal interatomic interaction"
+          },
+          {
+            "source_line": 11,
+            "node_id": "meth_00015",
+            "rating": "1",
+            "text": "could be something related to moment estimation in molecular dynamics"
+          },
+          {
+            "source_line": 12,
+            "node_id": "data_00052",
+            "rating": "2",
+            "text": "possibly a chemical name for a molecule"
+          },
+          {
+            "source_line": 13,
+            "node_id": "data_00068",
+            "rating": "2",
+            "text": "a method to calculate some distance"
+          },
+          {
+            "source_line": 14,
+            "node_id": "data_00053",
+            "rating": "2",
+            "text": "possibly a chemical name"
+          },
+          {
+            "source_line": 15,
+            "node_id": "comp_00290",
+            "rating": "unsure",
+            "text": "not sure this could be a some basic irreducible set of molecules but it is not clear"
+          },
+          {
+            "source_line": 16,
+            "node_id": "data_00050",
+            "rating": "2",
+            "text": "could possibly point to a molecule"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2996",
+        "group_size": 120,
+        "displayed_rows": 15,
+        "recorded_ratings": 15,
+        "blank_rows": 0,
+        "rating_0": 0,
+        "rating_1": 3,
+        "rating_2": 8,
+        "unsure": 4,
+        "numeric_ratings": 11,
+        "numeric_rating_2_percent": 72.72727272727273,
+        "distinct_recorded_values": [
+          "1",
+          "2",
+          "unsure"
+        ],
+        "notes": [
+          {
+            "source_line": 47,
+            "node_id": "prob_00606",
+            "rating": "2",
+            "text": "seems coherent since it is realted to other claims in thsi group realted to amorphous carbon"
+          },
+          {
+            "source_line": 48,
+            "node_id": "task_00687",
+            "rating": "2",
+            "text": "realted but could also be a semantic connection"
+          },
+          {
+            "source_line": 49,
+            "node_id": "prob_00602",
+            "rating": "2",
+            "text": "related"
+          },
+          {
+            "source_line": 51,
+            "node_id": "clai_00686",
+            "rating": "2",
+            "text": "realted to carbon and its interatomic potential"
+          },
+          {
+            "source_line": 52,
+            "node_id": "task_00696",
+            "rating": "2",
+            "text": "related"
+          },
+          {
+            "source_line": 53,
+            "node_id": "meth_00384",
+            "rating": "1",
+            "text": "realted to the theme of molecular dynamics"
+          },
+          {
+            "source_line": 55,
+            "node_id": "task_00176",
+            "rating": "1",
+            "text": "related to MD simulation"
+          },
+          {
+            "source_line": 56,
+            "node_id": "data_00204",
+            "rating": "1",
+            "text": "might be a chemical name of something related to C"
+          },
+          {
+            "source_line": 58,
+            "node_id": "auth_00059",
+            "rating": "2",
+            "text": "definitely realted work concerns amorphous carbon and silicon multiple documents related"
+          },
+          {
+            "source_line": 59,
+            "node_id": "prob_00607",
+            "rating": "unsure",
+            "text": "could be realted to molecular dynamics"
+          },
+          {
+            "source_line": 60,
+            "node_id": "metr_00088",
+            "rating": "2",
+            "text": "related to elasticity"
+          },
+          {
+            "source_line": 61,
+            "node_id": "metr_00084",
+            "rating": "unsure",
+            "text": "related to physics"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2997",
+        "group_size": 143,
+        "displayed_rows": 15,
+        "recorded_ratings": 15,
+        "blank_rows": 0,
+        "rating_0": 0,
+        "rating_1": 8,
+        "rating_2": 4,
+        "unsure": 3,
+        "numeric_ratings": 12,
+        "numeric_rating_2_percent": 33.333333333333336,
+        "distinct_recorded_values": [
+          "1",
+          "2",
+          "unsure"
+        ],
+        "notes": [
+          {
+            "source_line": 62,
+            "node_id": "task_00337",
+            "rating": "2",
+            "text": "all central claims and tasks seem to be related to material properties"
+          },
+          {
+            "source_line": 64,
+            "node_id": "prob_00269",
+            "rating": "2",
+            "text": "hard to know whether they are semantically connected"
+          },
+          {
+            "source_line": 65,
+            "node_id": "task_00345",
+            "rating": "1",
+            "text": "realted to materail science"
+          },
+          {
+            "source_line": 66,
+            "node_id": "task_00344",
+            "rating": "1",
+            "text": "could be related"
+          },
+          {
+            "source_line": 67,
+            "node_id": "meth_00231",
+            "rating": "1",
+            "text": "related to material science"
+          },
+          {
+            "source_line": 68,
+            "node_id": "task_00232",
+            "rating": "1",
+            "text": "could be a task in the material scienece property prediction theme"
+          },
+          {
+            "source_line": 69,
+            "node_id": "task_00332",
+            "rating": "1",
+            "text": "possibly a task "
+          },
+          {
+            "source_line": 71,
+            "node_id": "meth_00230",
+            "rating": "1",
+            "text": "might be a model used to predict fracture in materials"
+          },
+          {
+            "source_line": 72,
+            "node_id": "tech_00925",
+            "rating": "2",
+            "text": "realted to elasticity and materials"
+          },
+          {
+            "source_line": 74,
+            "node_id": "clai_00013",
+            "rating": "unsure",
+            "text": "thsi seems realteedt o ion batteries"
+          },
+          {
+            "source_line": 75,
+            "node_id": "meth_00033",
+            "rating": "1",
+            "text": "could be method or a model prediction"
+          },
+          {
+            "source_line": 76,
+            "node_id": "meth_00270",
+            "rating": "1",
+            "text": "definitely related to the theme"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2784",
+        "group_size": 23,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 0,
+        "rating_1": 1,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "1"
+        ],
+        "notes": [
+          {
+            "source_line": 227,
+            "node_id": "prob_00168",
+            "rating": "1",
+            "text": "fracture realted doesnt really mean they are scientifcally related"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2858",
+        "group_size": 20,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 1,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "0"
+        ],
+        "notes": [
+          {
+            "source_line": 347,
+            "node_id": "data_00223",
+            "rating": "0",
+            "text": "all the chemical names are grouped together even in random and peripheral"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2958",
+        "group_size": 41,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 0,
+        "rating_1": 1,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "1"
+        ],
+        "notes": [
+          {
+            "source_line": 257,
+            "node_id": "task_00687",
+            "rating": "1",
+            "text": "carbon related papers"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2963",
+        "group_size": 44,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 0,
+        "rating_1": 1,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "1"
+        ],
+        "notes": [
+          {
+            "source_line": 242,
+            "node_id": "comp_00447",
+            "rating": "1",
+            "text": "automatminer and Matbench realted paper might be scientifcallycoherretn but not so sure"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2971",
+        "group_size": 143,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2973",
+        "group_size": 39,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2975",
+        "group_size": 28,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2977",
+        "group_size": 95,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2985",
+        "group_size": 102,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2986",
+        "group_size": 108,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 0,
+        "rating_1": 1,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "1"
+        ],
+        "notes": [
+          {
+            "source_line": 302,
+            "node_id": "auth_00190",
+            "rating": "1",
+            "text": "all authors who have worked on similar papers are grouped together"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2996",
+        "group_size": 340,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_B",
+        "group_id": "L0_c2997",
+        "group_size": 522,
+        "displayed_rows": 15,
+        "recorded_ratings": 2,
+        "blank_rows": 13,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 2,
+        "unsure": 0,
+        "numeric_ratings": 2,
+        "numeric_rating_2_percent": 100.0,
+        "distinct_recorded_values": [
+          "2"
+        ],
+        "notes": [
+          {
+            "source_line": 198,
+            "node_id": "task_00177",
+            "rating": "2",
+            "text": "quantum related"
+          },
+          {
+            "source_line": 203,
+            "node_id": "futu_00174",
+            "rating": "2",
+            "text": "quantum related"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2833",
+        "group_size": 23,
+        "displayed_rows": 15,
+        "recorded_ratings": 2,
+        "blank_rows": 13,
+        "rating_0": 0,
+        "rating_1": 1,
+        "rating_2": 1,
+        "unsure": 0,
+        "numeric_ratings": 2,
+        "numeric_rating_2_percent": 50.0,
+        "distinct_recorded_values": [
+          "1",
+          "2"
+        ],
+        "notes": [
+          {
+            "source_line": 437,
+            "node_id": "prob_00168",
+            "rating": "2",
+            "text": "seems related to fracture in materails but seems too semantic"
+          },
+          {
+            "source_line": 451,
+            "node_id": "comp_00294",
+            "rating": "1",
+            "text": "seems connected with carbon but not necessarily scientifically coherent"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2856",
+        "group_size": 20,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 1,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "0"
+        ],
+        "notes": [
+          {
+            "source_line": 527,
+            "node_id": "data_00223",
+            "rating": "0",
+            "text": "everything related to chemical names is grouped together not sure whther they ae scientifcally coherent"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2902",
+        "group_size": 28,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2929",
+        "group_size": 33,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2935",
+        "group_size": 79,
+        "displayed_rows": 15,
+        "recorded_ratings": 3,
+        "blank_rows": 12,
+        "rating_0": 0,
+        "rating_1": 1,
+        "rating_2": 2,
+        "unsure": 0,
+        "numeric_ratings": 3,
+        "numeric_rating_2_percent": 66.66666666666667,
+        "distinct_recorded_values": [
+          "1",
+          "2"
+        ],
+        "notes": [
+          {
+            "source_line": 512,
+            "node_id": "auth_00142",
+            "rating": "2",
+            "text": "this is similar to dev_run_A all the authors of material science related papers are linked together but there are some incoherencies also"
+          },
+          {
+            "source_line": 514,
+            "node_id": "auth_00157",
+            "rating": "2",
+            "text": "they have collaborated in the arti_00024"
+          },
+          {
+            "source_line": 521,
+            "node_id": "auth_00272",
+            "rating": "1",
+            "text": "collaborated on AFLOW not necessarilythe the same article as the above or below authors"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2960",
+        "group_size": 73,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 1,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [
+          "unsure"
+        ],
+        "notes": [
+          {
+            "source_line": 407,
+            "node_id": "prob_00269",
+            "rating": "unsure",
+            "text": "evenrything seems connected together by the keyword materials property"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2975",
+        "group_size": 52,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 0,
+        "rating_1": 1,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "1"
+        ],
+        "notes": [
+          {
+            "source_line": 467,
+            "node_id": "tech_00361",
+            "rating": "1",
+            "text": "seems related to dft and AFLOW"
+          }
+        ]
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2982",
+        "group_size": 140,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2994",
+        "group_size": 264,
+        "displayed_rows": 15,
+        "recorded_ratings": 1,
+        "blank_rows": 14,
+        "rating_0": 0,
+        "rating_1": 1,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 1,
+        "numeric_rating_2_percent": 0.0,
+        "distinct_recorded_values": [
+          "1"
+        ],
+        "notes": [
+          {
+            "source_line": 423,
+            "node_id": "prob_00588",
+            "rating": "1",
+            "text": "the central nodes seem connected "
+          }
+        ]
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2995",
+        "group_size": 230,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2996",
+        "group_size": 203,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      },
+      {
+        "run": "dev_run_C",
+        "group_id": "L0_c2997",
+        "group_size": 360,
+        "displayed_rows": 15,
+        "recorded_ratings": 0,
+        "blank_rows": 15,
+        "rating_0": 0,
+        "rating_1": 0,
+        "rating_2": 0,
+        "unsure": 0,
+        "numeric_ratings": 0,
+        "numeric_rating_2_percent": null,
+        "distinct_recorded_values": [],
+        "notes": []
+      }
+    ],
+    "duplicate_rated_node_keys": [
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2986",
+        "node_id": "clai_00475",
+        "source_lines": [
+          34,
+          41
+        ],
+        "ratings": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2978",
+        "node_id": "metr_00022",
+        "source_lines": [
+          83,
+          87
+        ],
+        "ratings": [
+          "1",
+          "unsure"
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2978",
+        "node_id": "cite_00578",
+        "source_lines": [
+          85,
+          88
+        ],
+        "ratings": [
+          "unsure",
+          "unsure"
+        ]
+      },
+      {
+        "run": "dev_run_A",
+        "group_id": "L0_c2972",
+        "node_id": "auth_00142",
+        "source_lines": [
+          93,
+          99
+        ],
+        "ratings": [
+          "1",
+          "2"
+        ]
+      }
+    ],
+    "dedup_sensitivity": {
+      "unique_run_group_node_keys_with_rating": 116,
+      "counts": {
+        "2": 36,
+        "unsure": 23,
+        "1": 47,
+        "0": 7,
+        "unresolved_multiple_values": 3
+      }
+    },
+    "original_source_unchanged": true
+  },
+  "limitations": [
+    "Developer ratings mix row/group units and uneven coverage; not a blinded held-out expert comparison.",
+    "Ten lexical null permutations give minimum plus-one p=1/11, insufficient for a 5% significance claim.",
+    "Full multilevel retrieval is not implemented. The separate blind LLM section, when present, supplies claim-evidence judgments of frozen outputs."
+  ],
+  "blind_llm_evaluation": {
+    "protocol": "evaluation_llm/PROTOCOL.md",
+    "coherence": {
+      "0": {
+        "actual": {
+          "n": 12,
+          "mean": 2.75,
+          "bootstrap95": [
+            2.1666666666666665,
+            3.3333333333333335
+          ],
+          "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+        },
+        "null": {
+          "n": 12,
+          "mean": 1.75,
+          "bootstrap95": [
+            1.5,
+            2
+          ],
+          "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+        },
+        "paired_actual_minus_null": {
+          "n": 12,
+          "mean": 1,
+          "bootstrap95": [
+            0.5,
+            1.5
+          ],
+          "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+        },
+        "actual_rating_ge3": 7,
+        "null_rating_ge3": 0
+      },
+      "0p1": {
+        "actual": {
+          "n": 12,
+          "mean": 2.3333333333333335,
+          "bootstrap95": [
+            1.75,
+            2.9166666666666665
+          ],
+          "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+        },
+        "null": {
+          "n": 12,
+          "mean": 1.6666666666666667,
+          "bootstrap95": [
+            1.4166666666666667,
+            1.9166666666666667
+          ],
+          "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+        },
+        "paired_actual_minus_null": {
+          "n": 12,
+          "mean": 0.6666666666666666,
+          "bootstrap95": [
+            0,
+            1.3333333333333333
+          ],
+          "interpretation": "Descriptive sampled-group interval conditional on one fixed judge; graph dependence and judge uncertainty not modeled."
+        },
+        "actual_rating_ge3": 5,
+        "null_rating_ge3": 0
+      }
+    },
+    "faithfulness": {
+      "sample_count": 32,
+      "counts": {
+        "accurate_informative": 16,
+        "supported_but_vague": 16,
+        "unsupported_or_wrong": 0,
+        "insufficient_evidence": 0
+      },
+      "overclaim_numerator": 0,
+      "determinate_denominator": 32,
+      "overclaim_rate": 0.0,
+      "descriptive_wilson95": [
+        0,
+        0.1071827150573635
+      ],
+      "all_sample_uncertainty_bounds": [
+        0.0,
+        0.0
+      ],
+      "scope": "Balanced sample of 4 groups per required level and snapshot; descriptive sample-level rate, not a population-weighted estimate or verified external-paper truth.",
+      "human_spotcheck_status": "qualitative_checks_recorded"
+    },
+    "retrieval_macro": {
+      "A": {
+        "hierarchy": {
+          "questions": 14,
+          "claim_coverage": 0.12500069375069375,
+          "citation_coverage": 0.05952380952380952,
+          "direct_method_recall": 0.06412337662337662,
+          "method_mention_recall": 0.29389955282812424
+        },
+        "flat": {
+          "questions": 14,
+          "claim_coverage": 0.12947399822399822,
+          "citation_coverage": 0.05952380952380952,
+          "direct_method_recall": 0.06412337662337662,
+          "method_mention_recall": 0.3177090766376481
+        }
+      },
+      "B": {
+        "hierarchy": {
+          "questions": 4,
+          "claim_coverage": 0.17202380952380952,
+          "citation_coverage": 0.6
+        },
+        "flat": {
+          "questions": 4,
+          "claim_coverage": 0.17202380952380952,
+          "citation_coverage": 0.6
+        }
+      }
+    },
+    "retrieval_per_question": [
+      {
+        "packet_id": "R001",
+        "question_id": "Q12",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 39,
+        "claim_full": 0,
+        "claim_partial": 2,
+        "claim_coverage": 0.02564102564102564,
+        "citation_count": 15,
+        "citation_coverage": 0.0,
+        "method_count": 13,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.38461538461538464
+      },
+      {
+        "packet_id": "R002",
+        "question_id": "Q6",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 9,
+        "claim_full": 0,
+        "claim_partial": 3,
+        "claim_coverage": 0.16666666666666666,
+        "citation_count": 3,
+        "citation_coverage": 0.3333333333333333,
+        "method_count": 3,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.3333333333333333
+      },
+      {
+        "packet_id": "R003",
+        "question_id": "Q4",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 9,
+        "claim_full": 1,
+        "claim_partial": 2,
+        "claim_coverage": 0.2222222222222222,
+        "citation_count": 3,
+        "citation_coverage": 0.0,
+        "method_count": 3,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.6666666666666666
+      },
+      {
+        "packet_id": "R004",
+        "question_id": "Q8",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 6,
+        "claim_full": 3,
+        "claim_partial": 0,
+        "claim_coverage": 0.5,
+        "citation_count": 2,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.5,
+        "method_mention_recall": 0.5
+      },
+      {
+        "packet_id": "R005",
+        "question_id": "Q10",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 6,
+        "claim_full": 0,
+        "claim_partial": 1,
+        "claim_coverage": 0.08333333333333333,
+        "citation_count": 4,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.0
+      },
+      {
+        "packet_id": "R006",
+        "question_id": "Q14",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 33,
+        "claim_full": 0,
+        "claim_partial": 4,
+        "claim_coverage": 0.06060606060606061,
+        "citation_count": 11,
+        "citation_coverage": 0.0,
+        "method_count": 11,
+        "direct_method_recall": 0.2727272727272727,
+        "method_mention_recall": 0.5454545454545454
+      },
+      {
+        "packet_id": "R007",
+        "question_id": "Q1",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 21,
+        "claim_full": 0,
+        "claim_partial": 0,
+        "claim_coverage": 0.0,
+        "citation_count": 7,
+        "citation_coverage": 0.0,
+        "method_count": 7,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.14285714285714285
+      },
+      {
+        "packet_id": "R008",
+        "question_id": "Q5",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 6,
+        "claim_full": 0,
+        "claim_partial": 1,
+        "claim_coverage": 0.08333333333333333,
+        "citation_count": 2,
+        "citation_coverage": 0.5,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.0
+      },
+      {
+        "packet_id": "R009",
+        "question_id": "Q8",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 6,
+        "claim_full": 3,
+        "claim_partial": 0,
+        "claim_coverage": 0.5,
+        "citation_count": 2,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.5,
+        "method_mention_recall": 0.5
+      },
+      {
+        "packet_id": "R010",
+        "question_id": "Q4",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 9,
+        "claim_full": 1,
+        "claim_partial": 2,
+        "claim_coverage": 0.2222222222222222,
+        "citation_count": 3,
+        "citation_coverage": 0.0,
+        "method_count": 3,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.6666666666666666
+      },
+      {
+        "packet_id": "R011",
+        "question_id": "Q13",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 24,
+        "claim_full": 0,
+        "claim_partial": 1,
+        "claim_coverage": 0.020833333333333332,
+        "citation_count": 8,
+        "citation_coverage": 0.0,
+        "method_count": 8,
+        "direct_method_recall": 0.125,
+        "method_mention_recall": 0.375
+      },
+      {
+        "packet_id": "R012",
+        "question_id": "Q2",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 10,
+        "claim_full": 0,
+        "claim_partial": 2,
+        "claim_coverage": 0.1,
+        "citation_count": 7,
+        "citation_coverage": 0.0,
+        "method_count": 3,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.3333333333333333
+      },
+      {
+        "packet_id": "R013",
+        "question_id": "Q3",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 6,
+        "claim_full": 0,
+        "claim_partial": 2,
+        "claim_coverage": 0.16666666666666666,
+        "citation_count": 2,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.5
+      },
+      {
+        "packet_id": "R014",
+        "question_id": "Q9",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 9,
+        "claim_full": 0,
+        "claim_partial": 0,
+        "claim_coverage": 0.0,
+        "citation_count": 2,
+        "citation_coverage": 0.0,
+        "method_count": 3,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.3333333333333333
+      },
+      {
+        "packet_id": "R015",
+        "question_id": "Q18",
+        "type": "B",
+        "mode": "flat",
+        "claim_count": 10,
+        "claim_full": 1,
+        "claim_partial": 2,
+        "claim_coverage": 0.2,
+        "citation_count": 5,
+        "citation_coverage": 0.4
+      },
+      {
+        "packet_id": "R016",
+        "question_id": "Q18",
+        "type": "B",
+        "mode": "hierarchy",
+        "claim_count": 10,
+        "claim_full": 1,
+        "claim_partial": 2,
+        "claim_coverage": 0.2,
+        "citation_count": 5,
+        "citation_coverage": 0.4
+      },
+      {
+        "packet_id": "R017",
+        "question_id": "Q7",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 6,
+        "claim_full": 0,
+        "claim_partial": 0,
+        "claim_coverage": 0.0,
+        "citation_count": 2,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.0
+      },
+      {
+        "packet_id": "R018",
+        "question_id": "Q17",
+        "type": "B",
+        "mode": "hierarchy",
+        "claim_count": 7,
+        "claim_full": 0,
+        "claim_partial": 1,
+        "claim_coverage": 0.07142857142857142,
+        "citation_count": 5,
+        "citation_coverage": 0.6
+      },
+      {
+        "packet_id": "R019",
+        "question_id": "Q1",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 21,
+        "claim_full": 0,
+        "claim_partial": 0,
+        "claim_coverage": 0.0,
+        "citation_count": 7,
+        "citation_coverage": 0.0,
+        "method_count": 7,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.14285714285714285
+      },
+      {
+        "packet_id": "R020",
+        "question_id": "Q11",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 4,
+        "claim_full": 0,
+        "claim_partial": 2,
+        "claim_coverage": 0.25,
+        "citation_count": 3,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.0
+      },
+      {
+        "packet_id": "R021",
+        "question_id": "Q7",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 6,
+        "claim_full": 0,
+        "claim_partial": 0,
+        "claim_coverage": 0.0,
+        "citation_count": 2,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.0
+      },
+      {
+        "packet_id": "R022",
+        "question_id": "Q11",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 4,
+        "claim_full": 0,
+        "claim_partial": 2,
+        "claim_coverage": 0.25,
+        "citation_count": 3,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.0
+      },
+      {
+        "packet_id": "R023",
+        "question_id": "Q16",
+        "type": "B",
+        "mode": "hierarchy",
+        "claim_count": 9,
+        "claim_full": 0,
+        "claim_partial": 3,
+        "claim_coverage": 0.16666666666666666,
+        "citation_count": 4,
+        "citation_coverage": 1.0
+      },
+      {
+        "packet_id": "R024",
+        "question_id": "Q17",
+        "type": "B",
+        "mode": "flat",
+        "claim_count": 7,
+        "claim_full": 0,
+        "claim_partial": 1,
+        "claim_coverage": 0.07142857142857142,
+        "citation_count": 5,
+        "citation_coverage": 0.6
+      },
+      {
+        "packet_id": "R025",
+        "question_id": "Q13",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 24,
+        "claim_full": 0,
+        "claim_partial": 1,
+        "claim_coverage": 0.020833333333333332,
+        "citation_count": 8,
+        "citation_coverage": 0.0,
+        "method_count": 8,
+        "direct_method_recall": 0.125,
+        "method_mention_recall": 0.375
+      },
+      {
+        "packet_id": "R026",
+        "question_id": "Q10",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 6,
+        "claim_full": 0,
+        "claim_partial": 2,
+        "claim_coverage": 0.16666666666666666,
+        "citation_count": 4,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.0
+      },
+      {
+        "packet_id": "R027",
+        "question_id": "Q9",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 9,
+        "claim_full": 0,
+        "claim_partial": 1,
+        "claim_coverage": 0.05555555555555555,
+        "citation_count": 2,
+        "citation_coverage": 0.0,
+        "method_count": 3,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.3333333333333333
+      },
+      {
+        "packet_id": "R028",
+        "question_id": "Q2",
+        "type": "A",
+        "mode": "flat",
+        "claim_count": 10,
+        "claim_full": 0,
+        "claim_partial": 3,
+        "claim_coverage": 0.15,
+        "citation_count": 7,
+        "citation_coverage": 0.0,
+        "method_count": 3,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.6666666666666666
+      },
+      {
+        "packet_id": "R029",
+        "question_id": "Q15",
+        "type": "B",
+        "mode": "flat",
+        "claim_count": 10,
+        "claim_full": 1,
+        "claim_partial": 3,
+        "claim_coverage": 0.25,
+        "citation_count": 5,
+        "citation_coverage": 0.4
+      },
+      {
+        "packet_id": "R030",
+        "question_id": "Q5",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 6,
+        "claim_full": 0,
+        "claim_partial": 1,
+        "claim_coverage": 0.08333333333333333,
+        "citation_count": 2,
+        "citation_coverage": 0.5,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.0
+      },
+      {
+        "packet_id": "R031",
+        "question_id": "Q14",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 33,
+        "claim_full": 0,
+        "claim_partial": 5,
+        "claim_coverage": 0.07575757575757576,
+        "citation_count": 11,
+        "citation_coverage": 0.0,
+        "method_count": 11,
+        "direct_method_recall": 0.2727272727272727,
+        "method_mention_recall": 0.5454545454545454
+      },
+      {
+        "packet_id": "R032",
+        "question_id": "Q6",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 9,
+        "claim_full": 0,
+        "claim_partial": 3,
+        "claim_coverage": 0.16666666666666666,
+        "citation_count": 3,
+        "citation_coverage": 0.3333333333333333,
+        "method_count": 3,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.3333333333333333
+      },
+      {
+        "packet_id": "R033",
+        "question_id": "Q3",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 6,
+        "claim_full": 0,
+        "claim_partial": 2,
+        "claim_coverage": 0.16666666666666666,
+        "citation_count": 2,
+        "citation_coverage": 0.0,
+        "method_count": 2,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.5
+      },
+      {
+        "packet_id": "R034",
+        "question_id": "Q15",
+        "type": "B",
+        "mode": "hierarchy",
+        "claim_count": 10,
+        "claim_full": 1,
+        "claim_partial": 3,
+        "claim_coverage": 0.25,
+        "citation_count": 5,
+        "citation_coverage": 0.4
+      },
+      {
+        "packet_id": "R035",
+        "question_id": "Q12",
+        "type": "A",
+        "mode": "hierarchy",
+        "claim_count": 39,
+        "claim_full": 0,
+        "claim_partial": 2,
+        "claim_coverage": 0.02564102564102564,
+        "citation_count": 15,
+        "citation_coverage": 0.0,
+        "method_count": 13,
+        "direct_method_recall": 0.0,
+        "method_mention_recall": 0.38461538461538464
+      },
+      {
+        "packet_id": "R036",
+        "question_id": "Q16",
+        "type": "B",
+        "mode": "flat",
+        "claim_count": 9,
+        "claim_full": 0,
+        "claim_partial": 3,
+        "claim_coverage": 0.16666666666666666,
+        "citation_count": 4,
+        "citation_coverage": 1.0
+      }
+    ],
+    "human_spotchecks": {
+      "qualitatively_reviewed": 6,
+      "explicit_ratings_or_agreement": 1,
+      "requested": 6,
+      "records": [
+        {
+          "packet_id": "C004",
+          "task": "coherence",
+          "llm_judgment": "1",
+          "human_agrees": "",
+          "human_rating": "1",
+          "human_notes": "The group is too large for me to agree or disagree confidently; I give it 1. This rating reflects uncertainty about group size/coverage, not an exhaustive assessment of all members."
+        },
+        {
+          "packet_id": "C006",
+          "task": "coherence",
+          "llm_judgment": "1",
+          "human_agrees": "",
+          "human_rating": "",
+          "human_notes": "The examples have author names and only some connection. No explicit numerical rating or agreement decision was supplied."
+        },
+        {
+          "packet_id": "F002",
+          "task": "faithfulness",
+          "llm_judgment": "accurate_informative",
+          "human_agrees": "",
+          "human_rating": "",
+          "human_notes": "The group is very large, but the examples appear related to energy potentials and DFT transforms. No explicit categorical rating was supplied."
+        },
+        {
+          "packet_id": "F003",
+          "task": "faithfulness",
+          "llm_judgment": "accurate_informative",
+          "human_agrees": "",
+          "human_rating": "",
+          "human_notes": "High-throughput and DFT keywords occur, but I cannot say for sure that they are semantically connected or form a scientifically coherent meaning. No explicit categorical rating was supplied."
+        },
+        {
+          "packet_id": "F001",
+          "task": "faithfulness",
+          "llm_judgment": "supported_but_vague",
+          "human_agrees": "",
+          "human_rating": "",
+          "human_notes": "Vague, but searching methods appear together. No explicit support/overclaim category was supplied."
+        },
+        {
+          "packet_id": "F005",
+          "task": "faithfulness",
+          "llm_judgment": "supported_but_vague",
+          "human_agrees": "",
+          "human_rating": "",
+          "human_notes": "Same assessment as F001: vague, with searching methods together. No explicit support/overclaim category was supplied."
+        }
+      ]
+    },
+    "limitations": [
+      "One fresh-context LLM per task; no repeated stochastic judging.",
+      "Blindness hides configuration identities, not the observable content of groups.",
+      "Matched null is one type/size-preserving randomization per configuration.",
+      "Human completion is reported separately; prior developer review is not substituted for new checks.",
+      "Post-hoc evidence scoring of frozen coarse-filter retrieval; no generated answers or multilevel routing measured."
+    ]
+  }
+}

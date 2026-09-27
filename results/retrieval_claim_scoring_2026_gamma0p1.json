@@ -1,0 +1,364 @@
+{
+  "scores": [
+    {
+      "question_id": "Q1",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 17,
+      "required_claim_count": 21,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q1",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 17,
+      "required_claim_count": 21,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q2",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 16,
+      "required_claim_count": 10,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q2",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 17,
+      "required_claim_count": 10,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q3",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 16,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q3",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 17,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q4",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 17,
+      "required_claim_count": 9,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q4",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 17,
+      "required_claim_count": 9,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q5",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 13,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q5",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 13,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q6",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 20,
+      "required_claim_count": 9,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q6",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 20,
+      "required_claim_count": 9,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q7",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 19,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q7",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 19,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q8",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 17,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q8",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 17,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q9",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 18,
+      "required_claim_count": 9,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q9",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 18,
+      "required_claim_count": 9,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q10",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 15,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q10",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 15,
+      "required_claim_count": 6,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q11",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 16,
+      "required_claim_count": 4,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q11",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 17,
+      "required_claim_count": 4,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q12",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 13,
+      "required_claim_count": 39,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q12",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 13,
+      "required_claim_count": 39,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q13",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 16,
+      "required_claim_count": 24,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q13",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 16,
+      "required_claim_count": 24,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q14",
+      "type": "A",
+      "mode": "hierarchy",
+      "returned_claim_count": 17,
+      "required_claim_count": 33,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q14",
+      "type": "A",
+      "mode": "flat",
+      "returned_claim_count": 17,
+      "required_claim_count": 33,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q15",
+      "type": "B",
+      "mode": "hierarchy",
+      "returned_claim_count": 18,
+      "required_claim_count": 10,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q15",
+      "type": "B",
+      "mode": "flat",
+      "returned_claim_count": 18,
+      "required_claim_count": 10,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q16",
+      "type": "B",
+      "mode": "hierarchy",
+      "returned_claim_count": 11,
+      "required_claim_count": 9,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q16",
+      "type": "B",
+      "mode": "flat",
+      "returned_claim_count": 10,
+      "required_claim_count": 9,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q17",
+      "type": "B",
+      "mode": "hierarchy",
+      "returned_claim_count": 12,
+      "required_claim_count": 7,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q17",
+      "type": "B",
+      "mode": "flat",
+      "returned_claim_count": 12,
+      "required_claim_count": 7,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q18",
+      "type": "B",
+      "mode": "hierarchy",
+      "returned_claim_count": 14,
+      "required_claim_count": 10,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    },
+    {
+      "question_id": "Q18",
+      "type": "B",
+      "mode": "flat",
+      "returned_claim_count": 14,
+      "required_claim_count": 10,
+      "claim_text_hits": 0,
+      "claim_recall_text_proxy": 0.0,
+      "limitation": "Counts claims actually returned by frozen retriever; text proxy only."
+    }
+  ]
+}

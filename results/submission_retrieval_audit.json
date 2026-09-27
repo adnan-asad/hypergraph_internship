@@ -1,0 +1,793 @@
+{
+  "policy": "Post-hoc strict normalized exact-name diagnostic, method/dataset nodes only. No substring matches, aliases or claim mentions counted as recovered methods. Frozen retrieval unchanged.",
+  "limitations": [
+    "Unresolved aliases count as misses: this is a conservative diagnostic, not a complete semantic benchmark score.",
+    "Type B and claim entailment remain unscored.",
+    "Candidate pool excluded datasets, making dataset recovery impossible.",
+    "Work excludes encoding, centroid formation, sorting, and offline clustering; it is not measured latency."
+  ],
+  "type_A_macro_recall": {
+    "hierarchy": 0.0,
+    "flat": 0.0
+  },
+  "mapping_coverage": {
+    "target_occurrences": 63,
+    "exactly_mapped": 32
+  },
+  "per_question": [
+    {
+      "question_id": "Q1",
+      "mode": "hierarchy",
+      "targets": 7,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q1",
+      "mode": "flat",
+      "targets": 7,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q2",
+      "mode": "hierarchy",
+      "targets": 3,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q2",
+      "mode": "flat",
+      "targets": 3,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q3",
+      "mode": "hierarchy",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q3",
+      "mode": "flat",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q4",
+      "mode": "hierarchy",
+      "targets": 3,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q4",
+      "mode": "flat",
+      "targets": 3,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q5",
+      "mode": "hierarchy",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q5",
+      "mode": "flat",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q6",
+      "mode": "hierarchy",
+      "targets": 3,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q6",
+      "mode": "flat",
+      "targets": 3,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q7",
+      "mode": "hierarchy",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q7",
+      "mode": "flat",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q8",
+      "mode": "hierarchy",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q8",
+      "mode": "flat",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q9",
+      "mode": "hierarchy",
+      "targets": 3,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q9",
+      "mode": "flat",
+      "targets": 3,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q10",
+      "mode": "hierarchy",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q10",
+      "mode": "flat",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q11",
+      "mode": "hierarchy",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q11",
+      "mode": "flat",
+      "targets": 2,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q12",
+      "mode": "hierarchy",
+      "targets": 13,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q12",
+      "mode": "flat",
+      "targets": 13,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q13",
+      "mode": "hierarchy",
+      "targets": 8,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q13",
+      "mode": "flat",
+      "targets": 8,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q14",
+      "mode": "hierarchy",
+      "targets": 11,
+      "hits": [],
+      "recall": 0.0
+    },
+    {
+      "question_id": "Q14",
+      "mode": "flat",
+      "targets": 11,
+      "hits": [],
+      "recall": 0.0
+    }
+  ],
+  "target_mapping": [
+    {
+      "question_id": "Q1",
+      "target": "MACE",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q1",
+      "target": "M3GNet",
+      "exact_node_ids": [
+        "meth_00037"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q1",
+      "target": "CHGNet",
+      "exact_node_ids": [
+        "meth_00038"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q1",
+      "target": "GAP",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q1",
+      "target": "NequIP",
+      "exact_node_ids": [
+        "meth_00058"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q1",
+      "target": "ACE",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q1",
+      "target": "EquiformerV2",
+      "exact_node_ids": [
+        "meth_00081"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q2",
+      "target": "DeepH",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q2",
+      "target": "D4FT",
+      "exact_node_ids": [
+        "meth_00222"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q2",
+      "target": "HamGNN",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q3",
+      "target": "xDeepH",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q3",
+      "target": "DeepH-E3",
+      "exact_node_ids": [
+        "meth_00118"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q4",
+      "target": "Hessian training",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q4",
+      "target": "VGNN",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q4",
+      "target": "MACE-F",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q5",
+      "target": "Bead-mapping",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q5",
+      "target": "GNN+GPP",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q6",
+      "target": "DeePMD+AL",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q6",
+      "target": "LiFlow",
+      "exact_node_ids": [
+        "meth_00239"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q6",
+      "target": "MLIP descriptors",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q7",
+      "target": "GNN free energies",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q7",
+      "target": "symbolic regression",
+      "exact_node_ids": [
+        "meth_00068"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q8",
+      "target": "ConvLSTM",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q8",
+      "target": "GNN stress fields",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q9",
+      "target": "E(3)-equivariant GNNs",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q9",
+      "target": "physics-informed",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q9",
+      "target": "NequIP",
+      "exact_node_ids": [
+        "meth_00058"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q10",
+      "target": "GNNs + ACE descriptors",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q10",
+      "target": "SchNet",
+      "exact_node_ids": [
+        "meth_00050"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q11",
+      "target": "CE→MC→NN→PF",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q11",
+      "target": "hybrid frameworks",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q12",
+      "target": "MACE",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q12",
+      "target": "NequIP",
+      "exact_node_ids": [
+        "meth_00058"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q12",
+      "target": "CHGNet",
+      "exact_node_ids": [
+        "meth_00038"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q12",
+      "target": "M3GNet",
+      "exact_node_ids": [
+        "meth_00037"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q12",
+      "target": "SevenNet",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q12",
+      "target": "GAP",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q12",
+      "target": "DeePMD",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q12",
+      "target": "MatterSim",
+      "exact_node_ids": [
+        "meth_00091"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q12",
+      "target": "Orb",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q12",
+      "target": "eSEN",
+      "exact_node_ids": [
+        "meth_00293"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q12",
+      "target": "PET",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q12",
+      "target": "UMA",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q12",
+      "target": "EquiformerV2",
+      "exact_node_ids": [
+        "meth_00081"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q13",
+      "target": "CGCNN",
+      "exact_node_ids": [
+        "meth_00054"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q13",
+      "target": "SchNet",
+      "exact_node_ids": [
+        "meth_00050"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q13",
+      "target": "MEGNet",
+      "exact_node_ids": [
+        "meth_00036"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q13",
+      "target": "M3GNet",
+      "exact_node_ids": [
+        "meth_00037"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q13",
+      "target": "NequIP",
+      "exact_node_ids": [
+        "meth_00058"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q13",
+      "target": "MACE",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q13",
+      "target": "CHGNet",
+      "exact_node_ids": [
+        "meth_00038"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q13",
+      "target": "EquiformerV2",
+      "exact_node_ids": [
+        "meth_00081"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Matbench Discovery",
+      "exact_node_ids": [
+        "data_00013",
+        "meth_00159",
+        "data_00164"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Matbench",
+      "exact_node_ids": [
+        "data_00114",
+        "meth_00348"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q14",
+      "target": "JARVIS-DFT",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Materials Project",
+      "exact_node_ids": [
+        "meth_00143",
+        "data_00061"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q14",
+      "target": "MPtrj",
+      "exact_node_ids": [
+        "data_00102"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q14",
+      "target": "OQMD",
+      "exact_node_ids": [
+        "data_00095"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q14",
+      "target": "AFLOW",
+      "exact_node_ids": [],
+      "status": "unresolved_alias_or_absent"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Alexandria",
+      "exact_node_ids": [
+        "meth_00295"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q14",
+      "target": "GNoME",
+      "exact_node_ids": [
+        "meth_00169",
+        "data_00144"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q14",
+      "target": "WBM",
+      "exact_node_ids": [
+        "data_00175"
+      ],
+      "status": "mapped"
+    },
+    {
+      "question_id": "Q14",
+      "target": "OMat24",
+      "exact_node_ids": [
+        "data_00101"
+      ],
+      "status": "mapped"
+    }
+  ],
+  "work": [
+    {
+      "question_id": "Q1",
+      "hierarchy_node_scores": 766,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.6836555360281195
+    },
+    {
+      "question_id": "Q2",
+      "hierarchy_node_scores": 684,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.6115992970123023
+    },
+    {
+      "question_id": "Q3",
+      "hierarchy_node_scores": 658,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.5887521968365553
+    },
+    {
+      "question_id": "Q4",
+      "hierarchy_node_scores": 703,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.6282952548330404
+    },
+    {
+      "question_id": "Q5",
+      "hierarchy_node_scores": 735,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.656414762741652
+    },
+    {
+      "question_id": "Q6",
+      "hierarchy_node_scores": 703,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.6282952548330404
+    },
+    {
+      "question_id": "Q7",
+      "hierarchy_node_scores": 800,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.7135325131810193
+    },
+    {
+      "question_id": "Q8",
+      "hierarchy_node_scores": 800,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.7135325131810193
+    },
+    {
+      "question_id": "Q9",
+      "hierarchy_node_scores": 817,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.7284710017574693
+    },
+    {
+      "question_id": "Q10",
+      "hierarchy_node_scores": 735,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.656414762741652
+    },
+    {
+      "question_id": "Q11",
+      "hierarchy_node_scores": 823,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.7337434094903339
+    },
+    {
+      "question_id": "Q12",
+      "hierarchy_node_scores": 735,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.656414762741652
+    },
+    {
+      "question_id": "Q13",
+      "hierarchy_node_scores": 743,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.663444639718805
+    },
+    {
+      "question_id": "Q14",
+      "hierarchy_node_scores": 800,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.7135325131810193
+    },
+    {
+      "question_id": "Q15",
+      "hierarchy_node_scores": 800,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.7135325131810193
+    },
+    {
+      "question_id": "Q16",
+      "hierarchy_node_scores": 753,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.672231985940246
+    },
+    {
+      "question_id": "Q17",
+      "hierarchy_node_scores": 703,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.6282952548330404
+    },
+    {
+      "question_id": "Q18",
+      "hierarchy_node_scores": 857,
+      "group_scores": 12,
+      "flat_node_scores": 1138,
+      "score_count_ratio": 0.7636203866432337
+    }
+  ],
+  "mean_score_count_ratio": 0.6752099199375122
+}

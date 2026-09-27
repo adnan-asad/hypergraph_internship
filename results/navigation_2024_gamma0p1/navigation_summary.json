@@ -1,0 +1,15 @@
+{
+  "source_run": "results/temporal_lambda_0p1_gamma_0p1_2024",
+  "snapshot": "data/processed/baseline_input/snapshot_2024.json",
+  "note": "Additional cuts replay existing merge history; not independently optimized temporal resolutions.",
+  "cuts": {
+    "k80": {
+      "groups": 80,
+      "fragmentation": 0.38626431770138614
+    },
+    "k24": {
+      "groups": 24,
+      "fragmentation": 0.3277932498466646
+    }
+  }
+}

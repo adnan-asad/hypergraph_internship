@@ -1,0 +1,1023 @@
+{
+  "input": "data/processed/baseline_input/snapshot_2020.json",
+  "representative_rule": "first five member_ids in each exported group, preserving snapshot/tree order; no deduplication",
+  "runs": {
+    "average": {
+      "path": "results/lexical_baseline_2020",
+      "runtime_seconds": 13.925632951999432,
+      "linkage": "average",
+      "levels": [
+        {
+          "level": 0,
+          "level_name": "k12",
+          "group_count": 12,
+          "largest_group_size": 1474,
+          "largest_group_fraction": 0.9794019933554817,
+          "singleton_group_count": 6,
+          "group_size_histogram": {
+            "1": 6,
+            "2": 1,
+            "4": 1,
+            "5": 2,
+            "9": 1,
+            "1474": 1
+          },
+          "fragmentation": 0.013867104375125765
+        },
+        {
+          "level": 1,
+          "level_name": "k48",
+          "group_count": 48,
+          "largest_group_size": 1246,
+          "largest_group_fraction": 0.827906976744186,
+          "singleton_group_count": 10,
+          "group_size_histogram": {
+            "1": 10,
+            "2": 9,
+            "3": 4,
+            "4": 5,
+            "5": 2,
+            "6": 2,
+            "7": 4,
+            "8": 3,
+            "9": 1,
+            "10": 2,
+            "11": 1,
+            "13": 1,
+            "17": 1,
+            "24": 1,
+            "31": 1,
+            "1246": 1
+          },
+          "fragmentation": 0.08294764207826491
+        },
+        {
+          "level": 2,
+          "level_name": "k120",
+          "group_count": 120,
+          "largest_group_size": 212,
+          "largest_group_fraction": 0.14086378737541527,
+          "singleton_group_count": 29,
+          "group_size_histogram": {
+            "1": 29,
+            "2": 18,
+            "3": 15,
+            "4": 12,
+            "5": 4,
+            "6": 4,
+            "7": 1,
+            "8": 6,
+            "9": 2,
+            "10": 3,
+            "11": 1,
+            "13": 1,
+            "14": 2,
+            "16": 1,
+            "17": 2,
+            "19": 1,
+            "20": 1,
+            "23": 1,
+            "26": 1,
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "34": 1,
+            "36": 1,
+            "40": 1,
+            "45": 1,
+            "48": 1,
+            "53": 1,
+            "54": 1,
+            "65": 1,
+            "94": 1,
+            "114": 1,
+            "129": 1,
+            "212": 1
+          },
+          "fragmentation": 0.6499028555846739
+        },
+        {
+          "level": 3,
+          "level_name": "leaves",
+          "group_count": 1505,
+          "largest_group_size": 1,
+          "largest_group_fraction": 0.000664451827242525,
+          "singleton_group_count": 1505,
+          "group_size_histogram": {
+            "1": 1505
+          },
+          "fragmentation": 1.0
+        }
+      ],
+      "top_level_groups": [
+        {
+          "id": "L0_c2997",
+          "size": 1474,
+          "type_counts": {
+            "technique": 247,
+            "component": 221,
+            "task": 197,
+            "claim": 179,
+            "problem": 146,
+            "method": 124,
+            "author": 103,
+            "cited_work": 98,
+            "dataset": 68,
+            "future_topic": 43,
+            "metric": 32,
+            "article": 16
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "auth_00271",
+              "type": "author",
+              "surface_form": "Cormac Toher"
+            },
+            {
+              "id": "auth_00272",
+              "type": "author",
+              "surface_form": "Corey Oses"
+            },
+            {
+              "id": "metr_00025",
+              "type": "metric",
+              "surface_form": "Score [a.u.]"
+            },
+            {
+              "id": "auth_00140",
+              "type": "author",
+              "surface_form": "Yu-Chuan Hsu"
+            },
+            {
+              "id": "auth_00141",
+              "type": "author",
+              "surface_form": "Chi-Hua Yu"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2974",
+          "size": 5,
+          "type_counts": {
+            "cited_work": 2,
+            "dataset": 1,
+            "method": 1,
+            "author": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "data_00148",
+              "type": "dataset",
+              "surface_form": "LGPS"
+            },
+            {
+              "id": "meth_00267",
+              "type": "method",
+              "surface_form": "LAMMPS"
+            },
+            {
+              "id": "cite_00077",
+              "type": "cited_work",
+              "surface_form": "LAMMPS"
+            },
+            {
+              "id": "auth_00011",
+              "type": "author",
+              "surface_form": "Teodoro Laino"
+            },
+            {
+              "id": "cite_00481",
+              "type": "cited_work",
+              "surface_form": "Finnis–Sinclair"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2889",
+          "size": 4,
+          "type_counts": {
+            "cited_work": 3,
+            "dataset": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "data_00001",
+              "type": "dataset",
+              "surface_form": "QM9"
+            },
+            {
+              "id": "cite_00578",
+              "type": "cited_work",
+              "surface_form": "QML"
+            },
+            {
+              "id": "cite_00136",
+              "type": "cited_work",
+              "surface_form": "BAML"
+            },
+            {
+              "id": "cite_00495",
+              "type": "cited_work",
+              "surface_form": "GDML"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2783",
+          "size": 5,
+          "type_counts": {
+            "dataset": 4,
+            "cited_work": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "cite_00276",
+              "type": "cited_work",
+              "surface_form": "ICSD"
+            },
+            {
+              "id": "data_00237",
+              "type": "dataset",
+              "surface_form": "Ice Ih (b)"
+            },
+            {
+              "id": "data_00239",
+              "type": "dataset",
+              "surface_form": "Ice Ih (d)"
+            },
+            {
+              "id": "data_00036",
+              "type": "dataset",
+              "surface_form": "Ice Ih"
+            },
+            {
+              "id": "data_00238",
+              "type": "dataset",
+              "surface_form": "Ice Ih (c)"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2919",
+          "size": 9,
+          "type_counts": {
+            "cited_work": 5,
+            "method": 4
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "meth_00358",
+              "type": "method",
+              "surface_form": "LSDA+Hubbard U"
+            },
+            {
+              "id": "cite_00283",
+              "type": "cited_work",
+              "surface_form": "LSDA+Hubbard U"
+            },
+            {
+              "id": "meth_00186",
+              "type": "method",
+              "surface_form": "GGA+U"
+            },
+            {
+              "id": "cite_00281",
+              "type": "cited_work",
+              "surface_form": "GGA+U"
+            },
+            {
+              "id": "cite_00292",
+              "type": "cited_work",
+              "surface_form": "LDA"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2560",
+          "size": 2,
+          "type_counts": {
+            "author": 1,
+            "cited_work": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "auth_00171",
+              "type": "author",
+              "surface_form": "Bobby G. Sumpter"
+            },
+            {
+              "id": "cite_00137",
+              "type": "cited_work",
+              "surface_form": "BOB"
+            }
+          ]
+        },
+        {
+          "id": "L0_c1142",
+          "size": 1,
+          "type_counts": {
+            "metric": 1
+          },
+          "mixed_types": false,
+          "representatives": [
+            {
+              "id": "metr_00026",
+              "type": "metric",
+              "surface_form": "F1"
+            }
+          ]
+        },
+        {
+          "id": "L0_c1151",
+          "size": 1,
+          "type_counts": {
+            "metric": 1
+          },
+          "mixed_types": false,
+          "representatives": [
+            {
+              "id": "metr_00058",
+              "type": "metric",
+              "surface_form": "AFbT"
+            }
+          ]
+        },
+        {
+          "id": "L0_c1355",
+          "size": 1,
+          "type_counts": {
+            "cited_work": 1
+          },
+          "mixed_types": false,
+          "representatives": [
+            {
+              "id": "cite_00071",
+              "type": "cited_work",
+              "surface_form": "ReaxFF"
+            }
+          ]
+        },
+        {
+          "id": "L0_c1377",
+          "size": 1,
+          "type_counts": {
+            "cited_work": 1
+          },
+          "mixed_types": false,
+          "representatives": [
+            {
+              "id": "cite_00138",
+              "type": "cited_work",
+              "surface_form": "ECFP4"
+            }
+          ]
+        },
+        {
+          "id": "L0_c1407",
+          "size": 1,
+          "type_counts": {
+            "cited_work": 1
+          },
+          "mixed_types": false,
+          "representatives": [
+            {
+              "id": "cite_00291",
+              "type": "cited_work",
+              "surface_form": "PAW"
+            }
+          ]
+        },
+        {
+          "id": "L0_c1430",
+          "size": 1,
+          "type_counts": {
+            "cited_work": 1
+          },
+          "mixed_types": false,
+          "representatives": [
+            {
+              "id": "cite_00360",
+              "type": "cited_work",
+              "surface_form": "LOCO-CV"
+            }
+          ]
+        }
+      ]
+    },
+    "ward": {
+      "path": "results/lexical_ward_2020",
+      "runtime_seconds": 9.897007205996488,
+      "linkage": "ward",
+      "levels": [
+        {
+          "level": 0,
+          "level_name": "k12",
+          "group_count": 12,
+          "largest_group_size": 1033,
+          "largest_group_fraction": 0.6863787375415282,
+          "singleton_group_count": 0,
+          "group_size_histogram": {
+            "12": 1,
+            "15": 1,
+            "21": 1,
+            "25": 1,
+            "28": 1,
+            "29": 1,
+            "42": 1,
+            "53": 1,
+            "55": 1,
+            "71": 1,
+            "121": 1,
+            "1033": 1
+          },
+          "fragmentation": 0.4814940311543015
+        },
+        {
+          "level": 1,
+          "level_name": "k48",
+          "group_count": 48,
+          "largest_group_size": 398,
+          "largest_group_fraction": 0.2644518272425249,
+          "singleton_group_count": 0,
+          "group_size_histogram": {
+            "5": 2,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 5,
+            "10": 3,
+            "12": 2,
+            "13": 3,
+            "14": 3,
+            "15": 2,
+            "17": 2,
+            "18": 3,
+            "20": 1,
+            "21": 5,
+            "23": 2,
+            "25": 4,
+            "28": 2,
+            "30": 1,
+            "36": 1,
+            "44": 1,
+            "55": 1,
+            "286": 1,
+            "398": 1
+          },
+          "fragmentation": 0.6416439105445083
+        },
+        {
+          "level": 2,
+          "level_name": "k120",
+          "group_count": 120,
+          "largest_group_size": 218,
+          "largest_group_fraction": 0.14485049833887043,
+          "singleton_group_count": 0,
+          "group_size_histogram": {
+            "3": 9,
+            "4": 8,
+            "5": 11,
+            "6": 8,
+            "7": 13,
+            "8": 2,
+            "9": 16,
+            "10": 8,
+            "11": 3,
+            "12": 9,
+            "13": 7,
+            "14": 4,
+            "15": 3,
+            "16": 4,
+            "17": 2,
+            "18": 3,
+            "21": 1,
+            "23": 2,
+            "24": 1,
+            "26": 2,
+            "28": 1,
+            "33": 1,
+            "105": 1,
+            "218": 1
+          },
+          "fragmentation": 0.7760891688762085
+        },
+        {
+          "level": 3,
+          "level_name": "leaves",
+          "group_count": 1505,
+          "largest_group_size": 1,
+          "largest_group_fraction": 0.000664451827242525,
+          "singleton_group_count": 1505,
+          "group_size_histogram": {
+            "1": 1505
+          },
+          "fragmentation": 1.0
+        }
+      ],
+      "top_level_groups": [
+        {
+          "id": "L0_c2962",
+          "size": 29,
+          "type_counts": {
+            "method": 11,
+            "cited_work": 9,
+            "component": 4,
+            "claim": 2,
+            "technique": 1,
+            "article": 1,
+            "problem": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "meth_00208",
+              "type": "method",
+              "surface_form": "Behler-Parrinello neural network"
+            },
+            {
+              "id": "cite_00494",
+              "type": "cited_work",
+              "surface_form": "Behler-Parrinello neural network"
+            },
+            {
+              "id": "meth_00403",
+              "type": "method",
+              "surface_form": "Behler-Parrinello neural network potential"
+            },
+            {
+              "id": "cite_00453",
+              "type": "cited_work",
+              "surface_form": "Behler-Parrinello neural network potential"
+            },
+            {
+              "id": "cite_00134",
+              "type": "cited_work",
+              "surface_form": "Behler‑Parrinello Neural Network"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2995",
+          "size": 1033,
+          "type_counts": {
+            "technique": 200,
+            "component": 164,
+            "claim": 152,
+            "author": 105,
+            "problem": 89,
+            "cited_work": 87,
+            "method": 79,
+            "task": 63,
+            "dataset": 30,
+            "metric": 29,
+            "future_topic": 29,
+            "article": 6
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "tech_00489",
+              "type": "technique",
+              "surface_form": "Pearson correlation-based feature reduction"
+            },
+            {
+              "id": "tech_00474",
+              "type": "technique",
+              "surface_form": "Feature reduction"
+            },
+            {
+              "id": "tech_00502",
+              "type": "technique",
+              "surface_form": "Data cleaning and feature reduction"
+            },
+            {
+              "id": "prob_00169",
+              "type": "problem",
+              "surface_form": "Noise reduction in atomistic data"
+            },
+            {
+              "id": "comp_00452",
+              "type": "component",
+              "surface_form": "Dimensionality reduction stage"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2788",
+          "size": 15,
+          "type_counts": {
+            "cited_work": 7,
+            "method": 5,
+            "article": 1,
+            "technique": 1,
+            "component": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "arti_00020",
+              "type": "article",
+              "surface_form": "Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties"
+            },
+            {
+              "id": "meth_00218",
+              "type": "method",
+              "surface_form": "crystal graph convolutional neural networks"
+            },
+            {
+              "id": "cite_00352",
+              "type": "cited_work",
+              "surface_form": "Crystal Graph Convolutional Neural Networks"
+            },
+            {
+              "id": "meth_00033",
+              "type": "method",
+              "surface_form": "convolutional LSTM"
+            },
+            {
+              "id": "cite_00144",
+              "type": "cited_work",
+              "surface_form": "Duvenaud et al. Graph Convolutional Networks"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2925",
+          "size": 25,
+          "type_counts": {
+            "task": 8,
+            "problem": 5,
+            "technique": 4,
+            "method": 4,
+            "article": 3,
+            "future_topic": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "futu_00004",
+              "type": "future_topic",
+              "surface_form": "Use of CGCNN‑derived empirical rules for high‑throughput materials screening"
+            },
+            {
+              "id": "task_00246",
+              "type": "task",
+              "surface_form": "High‑throughput screening of Li‑ion battery anodes"
+            },
+            {
+              "id": "tech_00103",
+              "type": "technique",
+              "surface_form": "High‑throughput screening"
+            },
+            {
+              "id": "prob_00146",
+              "type": "problem",
+              "surface_form": "High‑throughput materials screening"
+            },
+            {
+              "id": "prob_00215",
+              "type": "problem",
+              "surface_form": "Scalable high‑throughput DFT management"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2991",
+          "size": 42,
+          "type_counts": {
+            "task": 9,
+            "method": 9,
+            "cited_work": 6,
+            "technique": 5,
+            "component": 3,
+            "claim": 3,
+            "problem": 3,
+            "future_topic": 2,
+            "article": 2
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "task_00197",
+              "type": "task",
+              "surface_form": "Transfer‑learning for small‑data properties"
+            },
+            {
+              "id": "tech_00364",
+              "type": "technique",
+              "surface_form": "Deep transfer learning"
+            },
+            {
+              "id": "tech_00498",
+              "type": "technique",
+              "surface_form": "Transfer learning from graph networks"
+            },
+            {
+              "id": "tech_00038",
+              "type": "technique",
+              "surface_form": "Active learning"
+            },
+            {
+              "id": "comp_00630",
+              "type": "component",
+              "surface_form": "active learning workflow"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2992",
+          "size": 53,
+          "type_counts": {
+            "task": 21,
+            "problem": 15,
+            "future_topic": 3,
+            "technique": 3,
+            "claim": 3,
+            "dataset": 2,
+            "component": 2,
+            "metric": 1,
+            "cited_work": 1,
+            "method": 1,
+            "article": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "task_00230",
+              "type": "task",
+              "surface_form": "Materials property calculation"
+            },
+            {
+              "id": "task_00344",
+              "type": "task",
+              "surface_form": "Materials property prediction from composition"
+            },
+            {
+              "id": "prob_00269",
+              "type": "problem",
+              "surface_form": "Automated materials property prediction"
+            },
+            {
+              "id": "task_00239",
+              "type": "task",
+              "surface_form": "Materials property prediction via ML"
+            },
+            {
+              "id": "task_00337",
+              "type": "task",
+              "surface_form": "Materials property prediction"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2996",
+          "size": 55,
+          "type_counts": {
+            "task": 19,
+            "technique": 10,
+            "method": 8,
+            "problem": 6,
+            "dataset": 6,
+            "component": 3,
+            "future_topic": 2,
+            "article": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "tech_00635",
+              "type": "technique",
+              "surface_form": "first-principles calculations"
+            },
+            {
+              "id": "prob_00412",
+              "type": "problem",
+              "surface_form": "Time-scale limitation in first-principles molecular dynamics"
+            },
+            {
+              "id": "meth_00384",
+              "type": "method",
+              "surface_form": "First-principles molecular dynamics"
+            },
+            {
+              "id": "tech_00362",
+              "type": "technique",
+              "surface_form": "Classical molecular dynamics simulations"
+            },
+            {
+              "id": "meth_00387",
+              "type": "method",
+              "surface_form": "Classical Force Field Molecular Dynamics"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2993",
+          "size": 71,
+          "type_counts": {
+            "task": 21,
+            "technique": 11,
+            "claim": 8,
+            "problem": 7,
+            "component": 6,
+            "method": 6,
+            "future_topic": 4,
+            "dataset": 4,
+            "cited_work": 3,
+            "article": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "futu_00075",
+              "type": "future_topic",
+              "surface_form": "Evaluating new materials ML algorithms on the Matbench benchmark"
+            },
+            {
+              "id": "arti_00042",
+              "type": "article",
+              "surface_form": "Benchmarking Materials Property Prediction Methods: The Matbench Test Set and Automatminer Reference Algorithm"
+            },
+            {
+              "id": "prob_00271",
+              "type": "problem",
+              "surface_form": "Materials property prediction benchmarking"
+            },
+            {
+              "id": "task_00234",
+              "type": "task",
+              "surface_form": "Force‑field benchmarking"
+            },
+            {
+              "id": "task_00241",
+              "type": "task",
+              "surface_form": "Classical force‑field property benchmarking"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2997",
+          "size": 121,
+          "type_counts": {
+            "task": 55,
+            "problem": 17,
+            "component": 13,
+            "dataset": 11,
+            "claim": 9,
+            "technique": 8,
+            "metric": 4,
+            "future_topic": 2,
+            "method": 2
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "data_00203",
+              "type": "dataset",
+              "surface_form": "a-C"
+            },
+            {
+              "id": "data_00204",
+              "type": "dataset",
+              "surface_form": "ta-C"
+            },
+            {
+              "id": "data_00200",
+              "type": "dataset",
+              "surface_form": "ta-C surfaces"
+            },
+            {
+              "id": "data_00213",
+              "type": "dataset",
+              "surface_form": "ta-C surface energies"
+            },
+            {
+              "id": "task_00714",
+              "type": "task",
+              "surface_form": "Isolated dimer potential energy surface"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2885",
+          "size": 28,
+          "type_counts": {
+            "component": 18,
+            "problem": 3,
+            "technique": 3,
+            "claim": 2,
+            "method": 2
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "clai_00138",
+              "type": "claim",
+              "surface_form": "Learning directly from molecular graphs without handcrafted descriptors enables the MPNN to achieve lower prediction errors than descriptor‑based methods."
+            },
+            {
+              "id": "prob_00018",
+              "type": "problem",
+              "surface_form": "Learning from graph topology without handcrafted descriptors"
+            },
+            {
+              "id": "prob_00130",
+              "type": "problem",
+              "surface_form": "Symmetry preservation without handcrafted descriptors"
+            },
+            {
+              "id": "comp_00339",
+              "type": "component",
+              "surface_form": "CFID"
+            },
+            {
+              "id": "comp_00356",
+              "type": "component",
+              "surface_form": "CFID descriptor set"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2927",
+          "size": 21,
+          "type_counts": {
+            "dataset": 21
+          },
+          "mixed_types": false,
+          "representatives": [
+            {
+              "id": "data_00052",
+              "type": "dataset",
+              "surface_form": "Salicylic acid"
+            },
+            {
+              "id": "data_00228",
+              "type": "dataset",
+              "surface_form": "MD-17 Salicylic acid (original)"
+            },
+            {
+              "id": "data_00051",
+              "type": "dataset",
+              "surface_form": "Naphthalene"
+            },
+            {
+              "id": "data_00226",
+              "type": "dataset",
+              "surface_form": "MD-17 Naphthalene (original)"
+            },
+            {
+              "id": "data_00227",
+              "type": "dataset",
+              "surface_form": "MD-17 Paracetamol (original)"
+            }
+          ]
+        },
+        {
+          "id": "L0_c2723",
+          "size": 12,
+          "type_counts": {
+            "component": 7,
+            "method": 2,
+            "task": 1,
+            "technique": 1,
+            "cited_work": 1
+          },
+          "mixed_types": true,
+          "representatives": [
+            {
+              "id": "comp_00455",
+              "type": "component",
+              "surface_form": "Automatminer Debug preset"
+            },
+            {
+              "id": "comp_00456",
+              "type": "component",
+              "surface_form": "Automatminer Debug_single preset"
+            },
+            {
+              "id": "comp_00442",
+              "type": "component",
+              "surface_form": "Automatminer autofeaturizer Express preset"
+            },
+            {
+              "id": "comp_00454",
+              "type": "component",
+              "surface_form": "Automatminer Express preset"
+            },
+            {
+              "id": "comp_00457",
+              "type": "component",
+              "surface_form": "Automatminer Heavy preset"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

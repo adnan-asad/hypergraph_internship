@@ -1,0 +1,1027 @@
+{
+  "config": {
+    "candidate_types": [
+      "claim",
+      "method"
+    ],
+    "query_encoder": "all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "top_groups": 4,
+    "result_count": 20,
+    "snapshot": "data/processed/baseline_input/snapshot_2026.json",
+    "note": "Outputs frozen before benchmark scoring; do not tune after scoring."
+  },
+  "summary": {
+    "A_hierarchy_mean_recall": 0.27380060415774704,
+    "A_flat_mean_recall": 0.2976101279672708
+  },
+  "question_results": [
+    {
+      "question_id": "Q1",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 7,
+      "found_count": 2,
+      "recall": 0.2857142857142857,
+      "precision_proxy": 0.15,
+      "missing_targets": [
+        "MACE",
+        "M3GNet",
+        "CHGNet",
+        "NequIP",
+        "EquiformerV2"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 766
+      }
+    },
+    {
+      "question_id": "Q1",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 7,
+      "found_count": 2,
+      "recall": 0.2857142857142857,
+      "precision_proxy": 0.15,
+      "missing_targets": [
+        "MACE",
+        "M3GNet",
+        "CHGNet",
+        "NequIP",
+        "EquiformerV2"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q2",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 3,
+      "found_count": 1,
+      "recall": 0.3333333333333333,
+      "precision_proxy": 0.2,
+      "missing_targets": [
+        "D4FT",
+        "HamGNN"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 684
+      }
+    },
+    {
+      "question_id": "Q2",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 3,
+      "found_count": 2,
+      "recall": 0.6666666666666666,
+      "precision_proxy": 0.2,
+      "missing_targets": [
+        "HamGNN"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q3",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 2,
+      "found_count": 1,
+      "recall": 0.5,
+      "precision_proxy": 0.15,
+      "missing_targets": [
+        "xDeepH"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 658
+      }
+    },
+    {
+      "question_id": "Q3",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 2,
+      "found_count": 1,
+      "recall": 0.5,
+      "precision_proxy": 0.15,
+      "missing_targets": [
+        "xDeepH"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q4",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 3,
+      "found_count": 1,
+      "recall": 0.3333333333333333,
+      "precision_proxy": 0.1,
+      "missing_targets": [
+        "Hessian training",
+        "MACE-F"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 703
+      }
+    },
+    {
+      "question_id": "Q4",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 3,
+      "found_count": 1,
+      "recall": 0.3333333333333333,
+      "precision_proxy": 0.1,
+      "missing_targets": [
+        "Hessian training",
+        "MACE-F"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q5",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 2,
+      "found_count": 0,
+      "recall": 0.0,
+      "precision_proxy": 0.0,
+      "missing_targets": [
+        "Bead-mapping",
+        "GNN+GPP"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 735
+      }
+    },
+    {
+      "question_id": "Q5",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 2,
+      "found_count": 0,
+      "recall": 0.0,
+      "precision_proxy": 0.0,
+      "missing_targets": [
+        "Bead-mapping",
+        "GNN+GPP"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q6",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 3,
+      "found_count": 1,
+      "recall": 0.3333333333333333,
+      "precision_proxy": 0.05,
+      "missing_targets": [
+        "DeePMD+AL",
+        "MLIP descriptors"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 703
+      }
+    },
+    {
+      "question_id": "Q6",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 3,
+      "found_count": 1,
+      "recall": 0.3333333333333333,
+      "precision_proxy": 0.05,
+      "missing_targets": [
+        "DeePMD+AL",
+        "MLIP descriptors"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q7",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 2,
+      "found_count": 0,
+      "recall": 0.0,
+      "precision_proxy": 0.0,
+      "missing_targets": [
+        "GNN free energies",
+        "symbolic regression"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 800
+      }
+    },
+    {
+      "question_id": "Q7",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 2,
+      "found_count": 0,
+      "recall": 0.0,
+      "precision_proxy": 0.0,
+      "missing_targets": [
+        "GNN free energies",
+        "symbolic regression"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q8",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 2,
+      "found_count": 1,
+      "recall": 0.5,
+      "precision_proxy": 0.15,
+      "missing_targets": [
+        "GNN stress fields"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 800
+      }
+    },
+    {
+      "question_id": "Q8",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 2,
+      "found_count": 1,
+      "recall": 0.5,
+      "precision_proxy": 0.15,
+      "missing_targets": [
+        "GNN stress fields"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q9",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 3,
+      "found_count": 1,
+      "recall": 0.3333333333333333,
+      "precision_proxy": 0.05,
+      "missing_targets": [
+        "E(3)-equivariant GNNs",
+        "NequIP"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 817
+      }
+    },
+    {
+      "question_id": "Q9",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 3,
+      "found_count": 1,
+      "recall": 0.3333333333333333,
+      "precision_proxy": 0.05,
+      "missing_targets": [
+        "E(3)-equivariant GNNs",
+        "NequIP"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q10",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 2,
+      "found_count": 0,
+      "recall": 0.0,
+      "precision_proxy": 0.0,
+      "missing_targets": [
+        "GNNs + ACE descriptors",
+        "SchNet"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 735
+      }
+    },
+    {
+      "question_id": "Q10",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 2,
+      "found_count": 0,
+      "recall": 0.0,
+      "precision_proxy": 0.0,
+      "missing_targets": [
+        "GNNs + ACE descriptors",
+        "SchNet"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q11",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 2,
+      "found_count": 0,
+      "recall": 0.0,
+      "precision_proxy": 0.0,
+      "missing_targets": [
+        "CE→MC→NN→PF",
+        "hybrid frameworks"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 823
+      }
+    },
+    {
+      "question_id": "Q11",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 2,
+      "found_count": 0,
+      "recall": 0.0,
+      "precision_proxy": 0.0,
+      "missing_targets": [
+        "CE→MC→NN→PF",
+        "hybrid frameworks"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q12",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 13,
+      "found_count": 5,
+      "recall": 0.38461538461538464,
+      "precision_proxy": 0.3,
+      "missing_targets": [
+        "MACE",
+        "NequIP",
+        "CHGNet",
+        "Orb",
+        "eSEN",
+        "PET",
+        "UMA",
+        "EquiformerV2"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 735
+      }
+    },
+    {
+      "question_id": "Q12",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 13,
+      "found_count": 5,
+      "recall": 0.38461538461538464,
+      "precision_proxy": 0.3,
+      "missing_targets": [
+        "MACE",
+        "NequIP",
+        "CHGNet",
+        "Orb",
+        "eSEN",
+        "PET",
+        "UMA",
+        "EquiformerV2"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q13",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 8,
+      "found_count": 3,
+      "recall": 0.375,
+      "precision_proxy": 0.15,
+      "missing_targets": [
+        "M3GNet",
+        "NequIP",
+        "MACE",
+        "CHGNet",
+        "EquiformerV2"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 743
+      }
+    },
+    {
+      "question_id": "Q13",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 8,
+      "found_count": 3,
+      "recall": 0.375,
+      "precision_proxy": 0.15,
+      "missing_targets": [
+        "M3GNet",
+        "NequIP",
+        "MACE",
+        "CHGNet",
+        "EquiformerV2"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q14",
+      "type": "A",
+      "mode": "hierarchy",
+      "target_count": 11,
+      "found_count": 5,
+      "recall": 0.45454545454545453,
+      "precision_proxy": 0.45,
+      "missing_targets": [
+        "JARVIS-DFT",
+        "MPtrj",
+        "OQMD",
+        "Alexandria",
+        "GNoME",
+        "WBM"
+      ],
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 800
+      }
+    },
+    {
+      "question_id": "Q14",
+      "type": "A",
+      "mode": "flat",
+      "target_count": 11,
+      "found_count": 5,
+      "recall": 0.45454545454545453,
+      "precision_proxy": 0.45,
+      "missing_targets": [
+        "JARVIS-DFT",
+        "MPtrj",
+        "OQMD",
+        "Alexandria",
+        "GNoME",
+        "WBM"
+      ],
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q15",
+      "type": "B",
+      "mode": "hierarchy",
+      "required_claim_count": 10,
+      "surface_text_found_count": 0,
+      "surface_text_recall_proxy": 0.0,
+      "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 800
+      }
+    },
+    {
+      "question_id": "Q15",
+      "type": "B",
+      "mode": "flat",
+      "required_claim_count": 10,
+      "surface_text_found_count": 0,
+      "surface_text_recall_proxy": 0.0,
+      "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q16",
+      "type": "B",
+      "mode": "hierarchy",
+      "required_claim_count": 9,
+      "surface_text_found_count": 0,
+      "surface_text_recall_proxy": 0.0,
+      "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 753
+      }
+    },
+    {
+      "question_id": "Q16",
+      "type": "B",
+      "mode": "flat",
+      "required_claim_count": 9,
+      "surface_text_found_count": 0,
+      "surface_text_recall_proxy": 0.0,
+      "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q17",
+      "type": "B",
+      "mode": "hierarchy",
+      "required_claim_count": 7,
+      "surface_text_found_count": 0,
+      "surface_text_recall_proxy": 0.0,
+      "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 703
+      }
+    },
+    {
+      "question_id": "Q17",
+      "type": "B",
+      "mode": "flat",
+      "required_claim_count": 7,
+      "surface_text_found_count": 0,
+      "surface_text_recall_proxy": 0.0,
+      "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    },
+    {
+      "question_id": "Q18",
+      "type": "B",
+      "mode": "hierarchy",
+      "required_claim_count": 10,
+      "surface_text_found_count": 0,
+      "surface_text_recall_proxy": 0.0,
+      "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+      "retrieval_work": {
+        "groups_scored": 12,
+        "nodes_scored": 857
+      }
+    },
+    {
+      "question_id": "Q18",
+      "type": "B",
+      "mode": "flat",
+      "required_claim_count": 10,
+      "surface_text_found_count": 0,
+      "surface_text_recall_proxy": 0.0,
+      "warning": "Type B requires claim/evidence judgment; surface matching is not sufficient.",
+      "retrieval_work": {
+        "nodes_scored": 1138
+      }
+    }
+  ],
+  "unresolved_entity_mappings": [
+    {
+      "question_id": "Q1",
+      "target": "MACE",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q1",
+      "target": "M3GNet",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q1",
+      "target": "CHGNet",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q1",
+      "target": "NequIP",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q1",
+      "target": "EquiformerV2",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q1",
+      "target": "MACE",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q1",
+      "target": "M3GNet",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q1",
+      "target": "CHGNet",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q1",
+      "target": "NequIP",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q1",
+      "target": "EquiformerV2",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q2",
+      "target": "D4FT",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q2",
+      "target": "HamGNN",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q2",
+      "target": "HamGNN",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q3",
+      "target": "xDeepH",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q3",
+      "target": "xDeepH",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q4",
+      "target": "Hessian training",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q4",
+      "target": "MACE-F",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q4",
+      "target": "Hessian training",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q4",
+      "target": "MACE-F",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q5",
+      "target": "Bead-mapping",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q5",
+      "target": "GNN+GPP",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q5",
+      "target": "Bead-mapping",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q5",
+      "target": "GNN+GPP",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q6",
+      "target": "DeePMD+AL",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q6",
+      "target": "MLIP descriptors",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q6",
+      "target": "DeePMD+AL",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q6",
+      "target": "MLIP descriptors",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q7",
+      "target": "GNN free energies",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q7",
+      "target": "symbolic regression",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q7",
+      "target": "GNN free energies",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q7",
+      "target": "symbolic regression",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q8",
+      "target": "GNN stress fields",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q8",
+      "target": "GNN stress fields",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q9",
+      "target": "E(3)-equivariant GNNs",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q9",
+      "target": "NequIP",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q9",
+      "target": "E(3)-equivariant GNNs",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q9",
+      "target": "NequIP",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q10",
+      "target": "GNNs + ACE descriptors",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q10",
+      "target": "SchNet",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q10",
+      "target": "GNNs + ACE descriptors",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q10",
+      "target": "SchNet",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q11",
+      "target": "CE→MC→NN→PF",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q11",
+      "target": "hybrid frameworks",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q11",
+      "target": "CE→MC→NN→PF",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q11",
+      "target": "hybrid frameworks",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q12",
+      "target": "MACE",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q12",
+      "target": "NequIP",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q12",
+      "target": "CHGNet",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q12",
+      "target": "Orb",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q12",
+      "target": "eSEN",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q12",
+      "target": "PET",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q12",
+      "target": "UMA",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q12",
+      "target": "EquiformerV2",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q12",
+      "target": "MACE",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q12",
+      "target": "NequIP",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q12",
+      "target": "CHGNet",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q12",
+      "target": "Orb",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q12",
+      "target": "eSEN",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q12",
+      "target": "PET",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q12",
+      "target": "UMA",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q12",
+      "target": "EquiformerV2",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q13",
+      "target": "M3GNet",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q13",
+      "target": "NequIP",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q13",
+      "target": "MACE",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q13",
+      "target": "CHGNet",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q13",
+      "target": "EquiformerV2",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q13",
+      "target": "M3GNet",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q13",
+      "target": "NequIP",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q13",
+      "target": "MACE",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q13",
+      "target": "CHGNet",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q13",
+      "target": "EquiformerV2",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q14",
+      "target": "JARVIS-DFT",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q14",
+      "target": "MPtrj",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q14",
+      "target": "OQMD",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Alexandria",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q14",
+      "target": "GNoME",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q14",
+      "target": "WBM",
+      "mode": "hierarchy"
+    },
+    {
+      "question_id": "Q14",
+      "target": "JARVIS-DFT",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q14",
+      "target": "MPtrj",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q14",
+      "target": "OQMD",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Alexandria",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q14",
+      "target": "GNoME",
+      "mode": "flat"
+    },
+    {
+      "question_id": "Q14",
+      "target": "WBM",
+      "mode": "flat"
+    }
+  ],
+  "warning": "Scoring is isolated after retrieval output freeze; Type B surface matching is incomplete."
+}

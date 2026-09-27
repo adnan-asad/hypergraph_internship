@@ -1,0 +1,204 @@
+{
+  "2022": {
+    "k12": {
+      "gamma0": {
+        "mean": 0.5906735498117729,
+        "stdev": 0.056711738970159194,
+        "n": 5,
+        "approx_95_ci": [
+          0.5202679141310586,
+          0.6610791854924872
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "gamma0p1": {
+        "mean": 0.5734859736580156,
+        "stdev": 0.09968210365350222,
+        "n": 5,
+        "approx_95_ci": [
+          0.4497341367163105,
+          0.6972378105997206
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "paired_gamma0p1_minus_gamma0": {
+        "mean": -0.017187576153757378,
+        "stdev": 0.09330295519806231,
+        "n": 5,
+        "approx_95_ci": [
+          -0.13301992393391127,
+          0.0986447716263965
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+    },
+    "k48": {
+      "gamma0": {
+        "mean": 0.5641491106102117,
+        "stdev": 0.05552775708922587,
+        "n": 5,
+        "approx_95_ci": [
+          0.49521334692558305,
+          0.6330848742948403
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "gamma0p1": {
+        "mean": 0.5828646384043298,
+        "stdev": 0.03972334164535787,
+        "n": 5,
+        "approx_95_ci": [
+          0.5335495024079673,
+          0.6321797744006923
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "paired_gamma0p1_minus_gamma0": {
+        "mean": 0.018715527794118114,
+        "stdev": 0.06652944030646922,
+        "n": 5,
+        "approx_95_ci": [
+          -0.06387843989789313,
+          0.10130949548612936
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+    },
+    "k120": {
+      "gamma0": {
+        "mean": 0.7630966724243546,
+        "stdev": 0.03026007474349629,
+        "n": 5,
+        "approx_95_ci": [
+          0.7255298505149999,
+          0.8006634943337094
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "gamma0p1": {
+        "mean": 0.7496896077659259,
+        "stdev": 0.038011755443485125,
+        "n": 5,
+        "approx_95_ci": [
+          0.7024993460328723,
+          0.7968798694989794
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "paired_gamma0p1_minus_gamma0": {
+        "mean": -0.013407064658428825,
+        "stdev": 0.024794506692350463,
+        "n": 5,
+        "approx_95_ci": [
+          -0.0441885754490467,
+          0.017374446132189053
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+    }
+  },
+  "2024": {
+    "k12": {
+      "gamma0": {
+        "mean": 0.3761706312936448,
+        "stdev": 0.08410027555086266,
+        "n": 5,
+        "approx_95_ci": [
+          0.27176308765973634,
+          0.4805781749275533
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "gamma0p1": {
+        "mean": 0.44687732859344076,
+        "stdev": 0.03682281458480704,
+        "n": 5,
+        "approx_95_ci": [
+          0.4011630952534868,
+          0.4925915619333947
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "paired_gamma0p1_minus_gamma0": {
+        "mean": 0.07070669729979594,
+        "stdev": 0.1155797880623845,
+        "n": 5,
+        "approx_95_ci": [
+          -0.07278155748033387,
+          0.21419495207992573
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+    },
+    "k48": {
+      "gamma0": {
+        "mean": 0.4610868446458082,
+        "stdev": 0.027178280508190628,
+        "n": 5,
+        "approx_95_ci": [
+          0.42734596223529375,
+          0.4948277270563226
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "gamma0p1": {
+        "mean": 0.47171031719916945,
+        "stdev": 0.021116465183382317,
+        "n": 5,
+        "approx_95_ci": [
+          0.44549496599387506,
+          0.49792566840446384
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "paired_gamma0p1_minus_gamma0": {
+        "mean": 0.010623472553361258,
+        "stdev": 0.013895467154679127,
+        "n": 5,
+        "approx_95_ci": [
+          -0.006627262759488987,
+          0.027874207866211503
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+    },
+    "k120": {
+      "gamma0": {
+        "mean": 0.6105958859592598,
+        "stdev": 0.03484957575867502,
+        "n": 5,
+        "approx_95_ci": [
+          0.5673313594423817,
+          0.653860412476138
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "gamma0p1": {
+        "mean": 0.631153205387141,
+        "stdev": 0.03032651868263985,
+        "n": 5,
+        "approx_95_ci": [
+          0.5935038956567904,
+          0.6688025151174917
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "paired_gamma0p1_minus_gamma0": {
+        "mean": 0.020557319427881214,
+        "stdev": 0.01623866483606706,
+        "n": 5,
+        "approx_95_ci": [
+          0.0003975863435025685,
+          0.04071705251225986
+        ],
+        "assumption": "t interval over five seed-level ARIs; small n, descriptive only"
+      },
+      "warning": "Do not infer significance from separate CI overlap; paired differences are descriptive with n=5."
+    }
+  }
+}

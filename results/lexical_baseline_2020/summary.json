@@ -1,0 +1,143 @@
+{
+  "baseline": "lexical_tfidf_agglomerative_cosine_average",
+  "scientific_quality_warning": "Execution success only. This surface-form baseline is not independent semantic understanding and does not optimize hyperedge fragmentation or temporal stability.",
+  "snapshot_meta": {
+    "cutoff": 2020,
+    "policy": "node:first_seen; edge:max(year,article_year,endpoint_first_seen)",
+    "node_text_versioned": false,
+    "contains_historical_metadata": true,
+    "warning": "Filter future provenance/last_seen from generation inputs; text is unversioned."
+  },
+  "node_count": 1505,
+  "edge_count": 374,
+  "budgets": [
+    12,
+    48,
+    120
+  ],
+  "levels": [
+    {
+      "level": 0,
+      "level_name": "k12",
+      "requested_groups": 12,
+      "actual_groups": 12,
+      "fragmentation": 0.013867104375125765,
+      "group_size_distribution": {
+        "min": 1,
+        "max": 1474,
+        "histogram": {
+          "1": 6,
+          "2": 1,
+          "4": 1,
+          "5": 2,
+          "9": 1,
+          "1474": 1
+        }
+      }
+    },
+    {
+      "level": 1,
+      "level_name": "k48",
+      "requested_groups": 48,
+      "actual_groups": 48,
+      "fragmentation": 0.08294764207826491,
+      "group_size_distribution": {
+        "min": 1,
+        "max": 1246,
+        "histogram": {
+          "1": 10,
+          "2": 9,
+          "3": 4,
+          "4": 5,
+          "5": 2,
+          "6": 2,
+          "7": 4,
+          "8": 3,
+          "9": 1,
+          "10": 2,
+          "11": 1,
+          "13": 1,
+          "17": 1,
+          "24": 1,
+          "31": 1,
+          "1246": 1
+        }
+      }
+    },
+    {
+      "level": 2,
+      "level_name": "k120",
+      "requested_groups": 120,
+      "actual_groups": 120,
+      "fragmentation": 0.6499028555846739,
+      "group_size_distribution": {
+        "min": 1,
+        "max": 212,
+        "histogram": {
+          "1": 29,
+          "2": 18,
+          "3": 15,
+          "4": 12,
+          "5": 4,
+          "6": 4,
+          "7": 1,
+          "8": 6,
+          "9": 2,
+          "10": 3,
+          "11": 1,
+          "13": 1,
+          "14": 2,
+          "16": 1,
+          "17": 2,
+          "19": 1,
+          "20": 1,
+          "23": 1,
+          "26": 1,
+          "27": 1,
+          "29": 1,
+          "30": 1,
+          "34": 1,
+          "36": 1,
+          "40": 1,
+          "45": 1,
+          "48": 1,
+          "53": 1,
+          "54": 1,
+          "65": 1,
+          "94": 1,
+          "114": 1,
+          "129": 1,
+          "212": 1
+        }
+      }
+    },
+    {
+      "level": 3,
+      "level_name": "leaves",
+      "requested_groups": 1505,
+      "actual_groups": 1505,
+      "fragmentation": 1.0,
+      "group_size_distribution": {
+        "min": 1,
+        "max": 1,
+        "histogram": {
+          "1": 1505
+        }
+      }
+    }
+  ],
+  "dependencies": {
+    "python_requires": ">=3.10",
+    "scikit-learn": "1.4.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "cloudpickle": "3.1.2",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "distance": "cosine over character n-gram TF-IDF(surface_form)",
+  "linkage": "average",
+  "runtime_seconds": 13.925632951999432,
+  "input_path": "data/processed/baseline_input/snapshot_2020.json",
+  "input_sha256": "11e25c97ca0ee5107287909344efffe94f5b88b5eb5432315d6f028ed026a3cb"
+}

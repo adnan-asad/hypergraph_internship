@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "L0_c4314",
+    "size": 212,
+    "type_counts": {
+      "component": 65,
+      "cited_work": 51,
+      "method": 38,
+      "technique": 32,
+      "claim": 12,
+      "dataset": 3,
+      "problem": 3,
+      "task": 3,
+      "article": 2,
+      "future_topic": 2,
+      "metric": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "cite_00464",
+        "type": "cited_work",
+        "surface_form": "Message passing networks"
+      },
+      {
+        "id": "meth_00031",
+        "type": "method",
+        "surface_form": "graph neural network"
+      },
+      {
+        "id": "cite_00352",
+        "type": "cited_work",
+        "surface_form": "Crystal Graph Convolutional Neural Networks"
+      },
+      {
+        "id": "cite_00010",
+        "type": "cited_work",
+        "surface_form": "Graph Networks"
+      },
+      {
+        "id": "meth_00228",
+        "type": "method",
+        "surface_form": "Graph Networks"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "cite_00360",
+        "type": "cited_work",
+        "surface_form": "LOCO-CV"
+      },
+      {
+        "id": "meth_00219",
+        "type": "method",
+        "surface_form": "CNN for NLP"
+      },
+      {
+        "id": "comp_00005",
+        "type": "component",
+        "surface_form": "Output layer"
+      },
+      {
+        "id": "meth_00005",
+        "type": "method",
+        "surface_form": "Graph Convolutional Network"
+      },
+      {
+        "id": "clai_00087",
+        "type": "claim",
+        "surface_form": "Continuous-filter convolutions produce smoother energy predictions than discrete filters, as illustrated in Figure 1."
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00397",
+        "type": "component",
+        "surface_form": "AFLOW.IN / VASP POSCAR output generator"
+      },
+      {
+        "id": "data_00089",
+        "type": "dataset",
+        "surface_form": "Materials Project formation energy"
+      },
+      {
+        "id": "cite_00564",
+        "type": "cited_work",
+        "surface_form": "CDVAE"
+      },
+      {
+        "id": "meth_00436",
+        "type": "method",
+        "surface_form": "environment-dependent interaction potential"
+      },
+      {
+        "id": "tech_00129",
+        "type": "technique",
+        "surface_form": "Sub‑meV regression target"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4313",
+    "size": 743,
+    "type_counts": {
+      "claim": 171,
+      "task": 146,
+      "technique": 83,
+      "problem": 76,
+      "component": 64,
+      "method": 58,
+      "future_topic": 37,
+      "dataset": 34,
+      "metric": 31,
+      "cited_work": 29,
+      "article": 14
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "prob_00138",
+        "type": "problem",
+        "surface_form": "Unified prediction of multiple electronic properties"
+      },
+      {
+        "id": "prob_00034",
+        "type": "problem",
+        "surface_form": "Scalable electronic‑structure prediction for moiré systems"
+      },
+      {
+        "id": "arti_00016",
+        "type": "article",
+        "surface_form": "Deep Potential Molecular Dynamics: a scalable model with the accuracy of quantum mechanics"
+      },
+      {
+        "id": "prob_00178",
+        "type": "problem",
+        "surface_form": "Accelerated atomic‑property prediction"
+      },
+      {
+        "id": "task_00220",
+        "type": "task",
+        "surface_form": "Atomic stress field prediction"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "clai_00499",
+        "type": "claim",
+        "surface_form": "The ML-assisted high-throughput search spanned approximately 1 billion compounds across 2500 binary and ternary structure prototypes."
+      },
+      {
+        "id": "tech_00617",
+        "type": "technique",
+        "surface_form": "Chemical element permutation"
+      },
+      {
+        "id": "clai_00558",
+        "type": "claim",
+        "surface_form": "The GNN predicts atomic tensile stress in porous graphene membranes under tensile strain with a mean normalized relative error of 4.9% and a maximum error of about 10%."
+      },
+      {
+        "id": "task_00024",
+        "type": "task",
+        "surface_form": "Molecular total energy prediction"
+      },
+      {
+        "id": "data_00028",
+        "type": "dataset",
+        "surface_form": "CCSD(T) Molecular Set – Benzene"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "cite_00274",
+        "type": "cited_work",
+        "surface_form": "AFLOW"
+      },
+      {
+        "id": "clai_00224",
+        "type": "claim",
+        "surface_form": "The AFLOWLIB data is accessible through a REST-API for standardized data exchange."
+      },
+      {
+        "id": "comp_00385",
+        "type": "component",
+        "surface_form": "AFLOW workflow engine"
+      },
+      {
+        "id": "meth_00050",
+        "type": "method",
+        "surface_form": "SchNet"
+      },
+      {
+        "id": "cite_00005",
+        "type": "cited_work",
+        "surface_form": "SchNet"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4315",
+    "size": 139,
+    "type_counts": {
+      "technique": 42,
+      "component": 37,
+      "method": 19,
+      "cited_work": 14,
+      "claim": 13,
+      "problem": 9,
+      "future_topic": 3,
+      "metric": 1,
+      "article": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "tech_00285",
+        "type": "technique",
+        "surface_form": "Gaussian radial basis functions for distance encoding"
+      },
+      {
+        "id": "tech_00124",
+        "type": "technique",
+        "surface_form": "E(3)-equivariant neural network"
+      },
+      {
+        "id": "clai_00188",
+        "type": "claim",
+        "surface_form": "The equivariant architecture scales linearly with the number of atoms because convolutions are limited to a local cutoff radius."
+      },
+      {
+        "id": "comp_00285",
+        "type": "component",
+        "surface_form": "Gaussian‑basis distance expansion"
+      },
+      {
+        "id": "prob_00163",
+        "type": "problem",
+        "surface_form": "Rotationally Invariant Tensorial Property Representation"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "clai_00529",
+        "type": "claim",
+        "surface_form": "Because the ACE basis is complete and hierarchical, it can in principle achieve arbitrary accuracy for any scalar, vectorial or tensorial property."
+      },
+      {
+        "id": "tech_00071",
+        "type": "technique",
+        "surface_form": "Radial basis function expansion of distances"
+      },
+      {
+        "id": "cite_00246",
+        "type": "cited_work",
+        "surface_form": "Moment Tensor Potentials"
+      },
+      {
+        "id": "tech_00120",
+        "type": "technique",
+        "surface_form": "Equivariant message passing"
+      },
+      {
+        "id": "futu_00064",
+        "type": "future_topic",
+        "surface_form": "Extension of Gaussian Approximation Potentials to other materials"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "metr_00084",
+        "type": "metric",
+        "surface_form": "force_std_dev"
+      },
+      {
+        "id": "cite_00200",
+        "type": "cited_work",
+        "surface_form": "SOAP"
+      },
+      {
+        "id": "comp_00290",
+        "type": "component",
+        "surface_form": "Irreducible Basis Set B"
+      },
+      {
+        "id": "clai_00527",
+        "type": "claim",
+        "surface_form": "Although the full magnetic and charge‑transfer ACE contains many parameters, hierarchical ordering of interactions allows robust and systematic fitting to reference data."
+      },
+      {
+        "id": "meth_00197",
+        "type": "method",
+        "surface_form": "SOAP kernel"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4216",
+    "size": 76,
+    "type_counts": {
+      "task": 26,
+      "problem": 13,
+      "claim": 12,
+      "future_topic": 11,
+      "dataset": 4,
+      "method": 3,
+      "component": 3,
+      "article": 2,
+      "technique": 1,
+      "cited_work": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00376",
+        "type": "task",
+        "surface_form": "computational materials discovery"
+      },
+      {
+        "id": "task_00038",
+        "type": "task",
+        "surface_form": "computational materials"
+      },
+      {
+        "id": "prob_00113",
+        "type": "problem",
+        "surface_form": "Scalable materials discovery"
+      },
+      {
+        "id": "task_00439",
+        "type": "task",
+        "surface_form": "high-throughput materials discovery"
+      },
+      {
+        "id": "task_00012",
+        "type": "task",
+        "surface_form": "computational materials science"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "task_00439",
+        "type": "task",
+        "surface_form": "high-throughput materials discovery"
+      },
+      {
+        "id": "prob_00171",
+        "type": "problem",
+        "surface_form": "Slow, trial‑and‑error materials discovery"
+      },
+      {
+        "id": "data_00061",
+        "type": "dataset",
+        "surface_form": "Materials Project"
+      },
+      {
+        "id": "task_00174",
+        "type": "task",
+        "surface_form": "Large‑scale material modeling"
+      },
+      {
+        "id": "task_00254",
+        "type": "task",
+        "surface_form": "computational materials design"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "clai_00016",
+        "type": "claim",
+        "surface_form": "The distribution of chromium coordination environments in oxides derived from the database matches known chemical principles: Cr⁶⁺ prefers tetrahedral (4‑fold) coordination, while Cr³⁺ prefers octahedral (6‑fold) coordination."
+      },
+      {
+        "id": "clai_00012",
+        "type": "claim",
+        "surface_form": "Automated validation checks compare calculated oxidation states, cell volumes, and bond lengths against experimental data and flag outliers for user review."
+      },
+      {
+        "id": "tech_00103",
+        "type": "technique",
+        "surface_form": "High‑throughput screening"
+      },
+      {
+        "id": "clai_00018",
+        "type": "claim",
+        "surface_form": "Class‑specific computational methodologies and reference reactions are applied for solid‑gas, d‑block oxide, and dissolved‑ion systems to improve agreement with experimental data."
+      },
+      {
+        "id": "task_00027",
+        "type": "task",
+        "surface_form": "quantum chemistry"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4300",
+    "size": 105,
+    "type_counts": {
+      "task": 44,
+      "claim": 19,
+      "problem": 15,
+      "technique": 11,
+      "component": 7,
+      "future_topic": 3,
+      "dataset": 2,
+      "cited_work": 1,
+      "article": 1,
+      "method": 1,
+      "metric": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00163",
+        "type": "task",
+        "surface_form": "Prediction of material properties"
+      },
+      {
+        "id": "prob_00143",
+        "type": "problem",
+        "surface_form": "Accurate prediction of material properties"
+      },
+      {
+        "id": "task_00337",
+        "type": "task",
+        "surface_form": "Materials property prediction"
+      },
+      {
+        "id": "task_00201",
+        "type": "task",
+        "surface_form": "Fracture‑toughness prediction"
+      },
+      {
+        "id": "prob_00269",
+        "type": "problem",
+        "surface_form": "Automated materials property prediction"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "prob_00147",
+        "type": "problem",
+        "surface_form": "Metal/semiconductor classification"
+      },
+      {
+        "id": "task_00697",
+        "type": "task",
+        "surface_form": "Structural property prediction"
+      },
+      {
+        "id": "prob_00177",
+        "type": "problem",
+        "surface_form": "Inverse design of low‑stress structures"
+      },
+      {
+        "id": "prob_00269",
+        "type": "problem",
+        "surface_form": "Automated materials property prediction"
+      },
+      {
+        "id": "comp_00323",
+        "type": "component",
+        "surface_form": "Stress‑field surrogate objective"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "metr_00088",
+        "type": "metric",
+        "surface_form": "Young's modulus"
+      },
+      {
+        "id": "tech_00405",
+        "type": "technique",
+        "surface_form": "Miedema and Hume‑Rothery miscibility rules"
+      },
+      {
+        "id": "tech_00925",
+        "type": "technique",
+        "surface_form": "Young's modulus averaging"
+      },
+      {
+        "id": "cite_00238",
+        "type": "cited_work",
+        "surface_form": "Ab initio thermodynamics of water"
+      },
+      {
+        "id": "clai_00055",
+        "type": "claim",
+        "surface_form": "Cluster 1 (198 compounds, mostly ionic halides and oxides) achieves 136±5 K MAE and 0.92 R², while Cluster 2 (222 compounds, mostly covalent carbides and nitrides) achieves 189±7 K MAE and 0.90 R²."
+      }
+    ]
+  },
+  {
+    "id": "L0_c4278",
+    "size": 31,
+    "type_counts": {
+      "component": 9,
+      "claim": 8,
+      "task": 4,
+      "dataset": 3,
+      "future_topic": 2,
+      "method": 2,
+      "cited_work": 1,
+      "article": 1,
+      "technique": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "clai_00315",
+        "type": "claim",
+        "surface_form": "Automatminer Express preset achieves the best performance on 8 of 13 tasks in the Matbench benchmark."
+      },
+      {
+        "id": "clai_00323",
+        "type": "claim",
+        "surface_form": "Automatminer source code and pre-processed Matbench tasks are open source and available online."
+      },
+      {
+        "id": "comp_00447",
+        "type": "component",
+        "surface_form": "Automatminer"
+      },
+      {
+        "id": "meth_00307",
+        "type": "method",
+        "surface_form": "Automatminer"
+      },
+      {
+        "id": "arti_00042",
+        "type": "article",
+        "surface_form": "Benchmarking Materials Property Prediction Methods: The Matbench Test Set and Automatminer Reference Algorithm"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "data_00116",
+        "type": "dataset",
+        "surface_form": "Matbench v0.1"
+      },
+      {
+        "id": "futu_00076",
+        "type": "future_topic",
+        "surface_form": "Comparing algorithms against the latest version of Automatminer"
+      },
+      {
+        "id": "clai_00320",
+        "type": "claim",
+        "surface_form": "For small datasets (<10^4 samples), inexpensive Automatminer presets (~1-5 minute training) retain the bulk of performance compared to expensive presets (24h+ training), with Express retaining 95% or more of the accuracy of more expensive presets at less than 50% of the computational cost on data-scarce tasks."
+      },
+      {
+        "id": "futu_00075",
+        "type": "future_topic",
+        "surface_form": "Evaluating new materials ML algorithms on the Matbench benchmark"
+      },
+      {
+        "id": "comp_00440",
+        "type": "component",
+        "surface_form": "Matbench test suite"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "tech_00496",
+        "type": "technique",
+        "surface_form": "Configurable preset system"
+      },
+      {
+        "id": "futu_00075",
+        "type": "future_topic",
+        "surface_form": "Evaluating new materials ML algorithms on the Matbench benchmark"
+      },
+      {
+        "id": "clai_00318",
+        "type": "claim",
+        "surface_form": "Descriptor-based Automatminer and RF models have lower errors on small datasets but their improvement rates are shallower, with AutoML's advantage over conventional techniques narrowing as sample count increases and essentially lost near 10^5 samples."
+      },
+      {
+        "id": "data_00115",
+        "type": "dataset",
+        "surface_form": "Matbench test suite v0.1"
+      },
+      {
+        "id": "comp_00456",
+        "type": "component",
+        "surface_form": "Automatminer Debug_single preset"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4252",
+    "size": 44,
+    "type_counts": {
+      "task": 14,
+      "claim": 14,
+      "problem": 7,
+      "dataset": 6,
+      "future_topic": 2,
+      "article": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00687",
+        "type": "task",
+        "surface_form": "Atomistic simulations of amorphous carbon"
+      },
+      {
+        "id": "task_00691",
+        "type": "task",
+        "surface_form": "Amorphous carbon (a-C) structure modeling"
+      },
+      {
+        "id": "prob_00606",
+        "type": "problem",
+        "surface_form": "accurate interatomic potential for amorphous carbon"
+      },
+      {
+        "id": "prob_00605",
+        "type": "problem",
+        "surface_form": "Large-scale amorphous carbon simulation"
+      },
+      {
+        "id": "data_00199",
+        "type": "dataset",
+        "surface_form": "amorphous carbon structures"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "clai_00681",
+        "type": "claim",
+        "surface_form": "GAP fully reproduces the stability ordering of ta-C surface energies compared to DFT calculations, with differences less than 0.01 J m−2 for the most stable surface."
+      },
+      {
+        "id": "task_00686",
+        "type": "task",
+        "surface_form": "Atomistic simulations of liquid carbon"
+      },
+      {
+        "id": "task_00695",
+        "type": "task",
+        "surface_form": "Crystalline allotrope modeling"
+      },
+      {
+        "id": "prob_00158",
+        "type": "problem",
+        "surface_form": "Lack of a unified framework for molecules and crystals"
+      },
+      {
+        "id": "data_00212",
+        "type": "dataset",
+        "surface_form": "amorphous carbon Young's modulus"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "clai_00688",
+        "type": "claim",
+        "surface_form": "All fitting coefficients in the GAP model enter linearly, allowing solution via simple linear algebra rather than difficult nonlinear parameter optimization required for traditional potentials and neural networks."
+      },
+      {
+        "id": "clai_00131",
+        "type": "claim",
+        "surface_form": "Inference with the MPNN takes roughly 10⁻² seconds per molecule, about 300,000 times faster than the DFT reference calculation (~10³ seconds)."
+      },
+      {
+        "id": "task_00695",
+        "type": "task",
+        "surface_form": "Crystalline allotrope modeling"
+      },
+      {
+        "id": "clai_00677",
+        "type": "claim",
+        "surface_form": "Combined two-body, three-body, and SOAP many-body descriptors are necessary for GAP to achieve the accuracy limit imposed by force locality and make physically meaningful predictions; models using only subsets of descriptors produce unphysical structures during molecular dynamics simulations."
+      },
+      {
+        "id": "clai_00681",
+        "type": "claim",
+        "surface_form": "GAP fully reproduces the stability ordering of ta-C surface energies compared to DFT calculations, with differences less than 0.01 J m−2 for the most stable surface."
+      }
+    ]
+  },
+  {
+    "id": "L0_c4308",
+    "size": 450,
+    "type_counts": {
+      "technique": 161,
+      "component": 105,
+      "problem": 63,
+      "method": 31,
+      "cited_work": 29,
+      "task": 22,
+      "dataset": 14,
+      "metric": 11,
+      "claim": 7,
+      "future_topic": 7
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00001",
+        "type": "task",
+        "surface_form": "machine learning"
+      },
+      {
+        "id": "prob_00280",
+        "type": "problem",
+        "surface_form": "Generalization error estimation"
+      },
+      {
+        "id": "meth_00051",
+        "type": "method",
+        "surface_form": "Gradient-domain machine learning"
+      },
+      {
+        "id": "tech_00474",
+        "type": "technique",
+        "surface_form": "Feature reduction"
+      },
+      {
+        "id": "futu_00010",
+        "type": "future_topic",
+        "surface_form": "Continuous expansion of JARVIS datasets and tools"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "cite_00130",
+        "type": "cited_work",
+        "surface_form": "Set2Set"
+      },
+      {
+        "id": "comp_00368",
+        "type": "component",
+        "surface_form": "Decision‑tree based ML model"
+      },
+      {
+        "id": "meth_00139",
+        "type": "method",
+        "surface_form": "Scikit-learn"
+      },
+      {
+        "id": "comp_00052",
+        "type": "component",
+        "surface_form": "Complex‑vector handling via time‑reversal basis"
+      },
+      {
+        "id": "tech_00303",
+        "type": "technique",
+        "surface_form": "Transfer learning of elemental embeddings"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00343",
+        "type": "component",
+        "surface_form": "REST‑API"
+      },
+      {
+        "id": "tech_00325",
+        "type": "technique",
+        "surface_form": "RESTful JSON API"
+      },
+      {
+        "id": "tech_00360",
+        "type": "technique",
+        "surface_form": "REST‑API data exchange"
+      },
+      {
+        "id": "tech_00642",
+        "type": "technique",
+        "surface_form": "DBS-to-RMM-DIIS switching"
+      },
+      {
+        "id": "tech_00358",
+        "type": "technique",
+        "surface_form": "Error‑handler auto‑resubmit"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4302",
+    "size": 129,
+    "type_counts": {
+      "author": 113,
+      "cited_work": 15,
+      "dataset": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "auth_00142",
+        "type": "author",
+        "surface_form": "Markus J. Buehler"
+      },
+      {
+        "id": "auth_00163",
+        "type": "author",
+        "surface_form": "Albert Davydov"
+      },
+      {
+        "id": "auth_00013",
+        "type": "author",
+        "surface_form": "Wei Chen"
+      },
+      {
+        "id": "auth_00190",
+        "type": "author",
+        "surface_form": "Michal Jahnatek"
+      },
+      {
+        "id": "auth_00273",
+        "type": "author",
+        "surface_form": "Marco Fornari"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "auth_00142",
+        "type": "author",
+        "surface_form": "Markus J. Buehler"
+      },
+      {
+        "id": "auth_00195",
+        "type": "author",
+        "surface_form": "Kesong Yang"
+      },
+      {
+        "id": "auth_00009",
+        "type": "author",
+        "surface_form": "Qi Wang"
+      },
+      {
+        "id": "auth_00010",
+        "type": "author",
+        "surface_form": "Yong Xu"
+      },
+      {
+        "id": "auth_00264",
+        "type": "author",
+        "surface_form": "Miguel A. L. Marques"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "cite_00465",
+        "type": "cited_work",
+        "surface_form": "Ward et al. method"
+      },
+      {
+        "id": "cite_00466",
+        "type": "cited_work",
+        "surface_form": "Goodall et al. method"
+      },
+      {
+        "id": "cite_00457",
+        "type": "cited_work",
+        "surface_form": "Xie & Grossman"
+      },
+      {
+        "id": "auth_00010",
+        "type": "author",
+        "surface_form": "Yong Xu"
+      },
+      {
+        "id": "auth_00060",
+        "type": "author",
+        "surface_form": "Xiaoxun Gong"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4280",
+    "size": 174,
+    "type_counts": {
+      "cited_work": 70,
+      "method": 36,
+      "dataset": 19,
+      "author": 18,
+      "component": 15,
+      "technique": 10,
+      "metric": 4,
+      "task": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "comp_00555",
+        "type": "component",
+        "surface_form": "CGAT-2"
+      },
+      {
+        "id": "cite_00339",
+        "type": "cited_work",
+        "surface_form": "Matminer"
+      },
+      {
+        "id": "meth_00265",
+        "type": "method",
+        "surface_form": "Matminer"
+      },
+      {
+        "id": "cite_00297",
+        "type": "cited_work",
+        "surface_form": "ACBN0"
+      },
+      {
+        "id": "meth_00266",
+        "type": "method",
+        "surface_form": "BoltzTraP"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "tech_00365",
+        "type": "technique",
+        "surface_form": "Data mining with Matminer"
+      },
+      {
+        "id": "data_00066",
+        "type": "dataset",
+        "surface_form": "Bulk moduli"
+      },
+      {
+        "id": "meth_00357",
+        "type": "method",
+        "surface_form": "GW@LDA+U"
+      },
+      {
+        "id": "meth_00035",
+        "type": "method",
+        "surface_form": "Magpie"
+      },
+      {
+        "id": "cite_00110",
+        "type": "cited_work",
+        "surface_form": "DTNN"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00356",
+        "type": "component",
+        "surface_form": "CFID descriptor set"
+      },
+      {
+        "id": "comp_00388",
+        "type": "component",
+        "surface_form": "Aconvasp command‑line tool"
+      },
+      {
+        "id": "cite_00228",
+        "type": "cited_work",
+        "surface_form": "ANI extension to S and Halogens"
+      },
+      {
+        "id": "tech_00370",
+        "type": "technique",
+        "surface_form": "BoltzTraP with constant relaxation time approximation"
+      },
+      {
+        "id": "tech_00365",
+        "type": "technique",
+        "surface_form": "Data mining with Matminer"
+      }
+    ]
+  },
+  {
+    "id": "L0_c4231",
+    "size": 29,
+    "type_counts": {
+      "problem": 12,
+      "technique": 4,
+      "component": 4,
+      "cited_work": 3,
+      "claim": 3,
+      "task": 2,
+      "method": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00483",
+        "type": "task",
+        "surface_form": "High-throughput DFT calculations"
+      },
+      {
+        "id": "tech_00616",
+        "type": "technique",
+        "surface_form": "High-throughput DFT calculations"
+      },
+      {
+        "id": "tech_00361",
+        "type": "technique",
+        "surface_form": "High‑throughput DFT calculations"
+      },
+      {
+        "id": "tech_00321",
+        "type": "technique",
+        "surface_form": "High‑throughput DFT"
+      },
+      {
+        "id": "prob_00385",
+        "type": "problem",
+        "surface_form": "Computational cost in high-throughput DFT"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "clai_00662",
+        "type": "claim",
+        "surface_form": "AFLOW detects most calculation failures, automatically corrects input parameters, restarts calculations, and can run as a Unix daemon to generate, run, correct, and converge many DFT jobs per day, yielding higher throughput than manual management."
+      },
+      {
+        "id": "comp_00398",
+        "type": "component",
+        "surface_form": "HT‑DFT+U workflow"
+      },
+      {
+        "id": "prob_00385",
+        "type": "problem",
+        "surface_form": "Computational cost in high-throughput DFT"
+      },
+      {
+        "id": "tech_00321",
+        "type": "technique",
+        "surface_form": "High‑throughput DFT"
+      },
+      {
+        "id": "comp_00335",
+        "type": "component",
+        "surface_form": "JARVIS‑DFT"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "cite_00295",
+        "type": "cited_work",
+        "surface_form": "Dudarev DFT+U"
+      },
+      {
+        "id": "cite_00296",
+        "type": "cited_work",
+        "surface_form": "Liechtenstein DFT+U"
+      },
+      {
+        "id": "clai_00010",
+        "type": "claim",
+        "surface_form": "The workflow software FireWorks together with the custodian job‑management tool automatically manages high‑throughput DFT calculations, self‑heals failed runs, and applies material‑type‑specific workflows."
+      },
+      {
+        "id": "clai_00662",
+        "type": "claim",
+        "surface_form": "AFLOW detects most calculation failures, automatically corrects input parameters, restarts calculations, and can run as a Unix daemon to generate, run, correct, and converge many DFT jobs per day, yielding higher throughput than manual management."
+      },
+      {
+        "id": "clai_00673",
+        "type": "claim",
+        "surface_form": "AFLOW implements DFT+U using the Dudarev formalism with default Ueff values for a wide range of elements."
+      }
+    ]
+  },
+  {
+    "id": "L0_c4164",
+    "size": 32,
+    "type_counts": {
+      "dataset": 32
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "data_00223",
+        "type": "dataset",
+        "surface_form": "MD-17 Benzene (original)"
+      },
+      {
+        "id": "data_00019",
+        "type": "dataset",
+        "surface_form": "MD-17 Benzene"
+      },
+      {
+        "id": "data_00226",
+        "type": "dataset",
+        "surface_form": "MD-17 Naphthalene (original)"
+      },
+      {
+        "id": "data_00221",
+        "type": "dataset",
+        "surface_form": "MD-17 Aspirin (original)"
+      },
+      {
+        "id": "data_00229",
+        "type": "dataset",
+        "surface_form": "MD-17 Toluene (original)"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "data_00222",
+        "type": "dataset",
+        "surface_form": "MD-17 Azobenzene (original)"
+      },
+      {
+        "id": "data_00054",
+        "type": "dataset",
+        "surface_form": "Ethanol"
+      },
+      {
+        "id": "data_00236",
+        "type": "dataset",
+        "surface_form": "Aspirin (MD-17)"
+      },
+      {
+        "id": "data_00022",
+        "type": "dataset",
+        "surface_form": "MD-17 Naphthalene"
+      },
+      {
+        "id": "data_00226",
+        "type": "dataset",
+        "surface_form": "MD-17 Naphthalene (original)"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "data_00054",
+        "type": "dataset",
+        "surface_form": "Ethanol"
+      },
+      {
+        "id": "data_00050",
+        "type": "dataset",
+        "surface_form": "Uracil"
+      },
+      {
+        "id": "data_00052",
+        "type": "dataset",
+        "surface_form": "Salicylic acid"
+      },
+      {
+        "id": "data_00051",
+        "type": "dataset",
+        "surface_form": "Naphthalene"
+      },
+      {
+        "id": "data_00053",
+        "type": "dataset",
+        "surface_form": "Malonaldehyde"
+      }
+    ]
+  }
+]

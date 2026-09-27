@@ -1,0 +1,671 @@
+[
+  {
+    "packet": {
+      "packet_id": "C004",
+      "group_size": 1322,
+      "members": [
+        {
+          "type": "component",
+          "text": "Iterative training loop workflow"
+        },
+        {
+          "type": "technique",
+          "text": "Confidence‑interval based neighbor selection"
+        },
+        {
+          "type": "component",
+          "text": "Cutoff function"
+        },
+        {
+          "type": "technique",
+          "text": "Automatic batch size determination"
+        },
+        {
+          "type": "technique",
+          "text": "Unit cell displacement enumeration"
+        },
+        {
+          "type": "component",
+          "text": "STM‑image database and analysis pipeline"
+        },
+        {
+          "type": "metric",
+          "text": "discovery rate"
+        },
+        {
+          "type": "task",
+          "text": "generation of input files for cluster expansion"
+        },
+        {
+          "type": "problem",
+          "text": "multi-species system modeling"
+        },
+        {
+          "type": "component",
+          "text": "Web applications"
+        },
+        {
+          "type": "technique",
+          "text": "Ensemble-averaged feature importance"
+        },
+        {
+          "type": "metric",
+          "text": "Score [a.u.]"
+        },
+        {
+          "type": "technique",
+          "text": "Sub‑meV regression target"
+        },
+        {
+          "type": "method",
+          "text": "Hillert model"
+        },
+        {
+          "type": "future_topic",
+          "text": "Accelerating meso‑level material design through AI‑driven defect‑property translation"
+        }
+      ]
+    },
+    "llm_judgment": {
+      "packet_id": "C004",
+      "rating": 1,
+      "rationale": "STM-image pipelines, batch-size determination, cluster-expansion input generation, web applications, and the Hillert model do not establish one specific concept. Generic scores and cutoff functions add no demonstrated link among these topics.",
+      "uncertainty": "Low: connections would require information absent from the member texts.",
+      "gamma": "0",
+      "condition": "actual",
+      "group_id": "L0_c8314"
+    }
+  },
+  {
+    "packet": {
+      "packet_id": "C006",
+      "group_size": 284,
+      "members": [
+        {
+          "type": "author",
+          "text": "Shyue Ping Ong"
+        },
+        {
+          "type": "author",
+          "text": "Ye Ding"
+        },
+        {
+          "type": "author",
+          "text": "Karin Rabe"
+        },
+        {
+          "type": "author",
+          "text": "Yu-Chuan Hsu"
+        },
+        {
+          "type": "author",
+          "text": "Pinar Acar"
+        },
+        {
+          "type": "author",
+          "text": "Lixin Sun"
+        },
+        {
+          "type": "author",
+          "text": "Thanh Nguyen"
+        },
+        {
+          "type": "author",
+          "text": "Houlong Zhuang"
+        },
+        {
+          "type": "author",
+          "text": "James Kermode"
+        },
+        {
+          "type": "author",
+          "text": "Yu Xia"
+        },
+        {
+          "type": "cited_work",
+          "text": "SE(3)-Equivariant Graph Neural Networks"
+        },
+        {
+          "type": "cited_work",
+          "text": "GAP"
+        },
+        {
+          "type": "author",
+          "text": "Andrea Centrone"
+        },
+        {
+          "type": "author",
+          "text": "Hai-Chen Wang"
+        },
+        {
+          "type": "author",
+          "text": "David Skinner"
+        }
+      ]
+    },
+    "llm_judgment": {
+      "packet_id": "C006",
+      "rating": 1,
+      "rationale": "The sample is predominantly author names, including Shyue Ping Ong, Karin Rabe, and Andrea Centrone. SE(3)-Equivariant Graph Neural Networks and GAP are the only explicit scientific-method topics and cannot establish a concept for the names alone.",
+      "uncertainty": "Low under the rubric excluding author-name similarity.",
+      "gamma": "0p1",
+      "condition": "null",
+      "group_id": "L0_c8310"
+    }
+  },
+  {
+    "packet": {
+      "packet_id": "F002",
+      "cutoff": 2024,
+      "group_size": 1234,
+      "label": "energy / potential / dft / force",
+      "gloss": "Extractive summary only: 1234 nodes; examples include AMBER force field; Universal Force Field; Force‑field benchmarking",
+      "evidence_members": [
+        {
+          "type": "method",
+          "text": "AMBER force field"
+        },
+        {
+          "type": "method",
+          "text": "Universal Force Field"
+        },
+        {
+          "type": "task",
+          "text": "Force‑field benchmarking"
+        },
+        {
+          "type": "task",
+          "text": "Classical force‑field property benchmarking"
+        },
+        {
+          "type": "problem",
+          "text": "Accuracy limitations of classical force fields"
+        },
+        {
+          "type": "task",
+          "text": "Prediction of Energies, Forces and Torques for Multi‑Component Materials"
+        },
+        {
+          "type": "task",
+          "text": "Electronic band‑structure prediction"
+        },
+        {
+          "type": "metric",
+          "text": "energy RMSE (meV)"
+        },
+        {
+          "type": "component",
+          "text": "BANDS"
+        },
+        {
+          "type": "component",
+          "text": "CGCNN model for deformation potential"
+        },
+        {
+          "type": "task",
+          "text": "Liquid silicon structural analysis"
+        },
+        {
+          "type": "claim",
+          "text": "By decoupling body‑order from the number of message‑passing iterations, MACE has a small receptive field of approximately 4–5 Å per layer, enabling efficient parallelisation across GPUs."
+        },
+        {
+          "type": "claim",
+          "text": "The model can fit 2.8 × 10⁹ non‑zero complex‑valued Hamiltonian matrix elements with only ~10⁵ real trainable parameters, indicating high capacity efficiency."
+        },
+        {
+          "type": "claim",
+          "text": "Beyond‑DFT methods (HSE06, PBE0, G0W0, DMFT) are generated for a subset of materials to provide higher‑level reference data and enable uncertainty quantification."
+        },
+        {
+          "type": "component",
+          "text": "NVT thermostat during training"
+        },
+        {
+          "type": "technique",
+          "text": "Alpha2F spectral function calculation"
+        },
+        {
+          "type": "task",
+          "text": "Energy gap (∆ε) prediction"
+        },
+        {
+          "type": "technique",
+          "text": "Energy‑gradient force derivation"
+        },
+        {
+          "type": "task",
+          "text": "Prediction of potential energy, atomic forces, and virial tensor"
+        },
+        {
+          "type": "task",
+          "text": "DFT energy and force prediction"
+        }
+      ],
+      "available_relation_context": [
+        {
+          "relation": "extends",
+          "year": 2022,
+          "members": [
+            "graph neural networks with three-body interactions",
+            "graph neural network",
+            "Message Passing Neural Network",
+            "DimeNet",
+            "Tersoff bond order potential",
+            "embedded-atom-method",
+            "Modified Embedded Atom Method",
+            "Behler‑Parrinello Neural Network Potential"
+          ],
+          "endpoints_truncated": true
+        },
+        {
+          "relation": "addresses",
+          "year": 2020,
+          "members": [
+            "JARVIS integrated materials design infrastructure",
+            "Materials property calculation",
+            "Solar‑cell efficiency screening",
+            "Thermoelectric performance prediction",
+            "STM image analysis",
+            "Force‑field benchmarking",
+            "Heterostructure design",
+            "Electronic structure calculation"
+          ],
+          "endpoints_truncated": true
+        },
+        {
+          "relation": "addresses",
+          "year": 2024,
+          "members": [
+            "EquiformerV2",
+            "atomic energy prediction",
+            "atomic force prediction",
+            "adsorption energy calculation",
+            "molecular property prediction on QM9",
+            "relaxation on OC20 dataset",
+            "Energy prediction",
+            "Force prediction"
+          ],
+          "endpoints_truncated": true
+        }
+      ]
+    },
+    "llm_judgment": {
+      "packet_id": "F002",
+      "category": "accurate_informative",
+      "rationale": "Energy, potential, DFT and force form an identifiable calculation/prediction subject supported by explicit energy-force tasks. Named force fields and their benchmarking provide useful concrete examples, and the relations independently connect models to these prediction tasks.",
+      "misleading_theme": false,
+      "evidence_limitations": "The examples cover only one part of a large heterogeneous group; no full-paper validation of numerical or model claims.",
+      "year": 2024,
+      "level": "k12",
+      "group_id": "L0_c8313"
+    }
+  },
+  {
+    "packet": {
+      "packet_id": "F003",
+      "cutoff": 2022,
+      "group_size": 31,
+      "label": "dft / high / throughput / calculations",
+      "gloss": "Extractive summary only: 31 nodes; examples include high-throughput DFT validation; High‑throughput DFT; Scalable high‑throughput DFT management",
+      "evidence_members": [
+        {
+          "type": "technique",
+          "text": "high-throughput DFT validation"
+        },
+        {
+          "type": "technique",
+          "text": "High‑throughput DFT"
+        },
+        {
+          "type": "problem",
+          "text": "Scalable high‑throughput DFT management"
+        },
+        {
+          "type": "problem",
+          "text": "Computational cost of large‑scale DFT"
+        },
+        {
+          "type": "problem",
+          "text": "Computational cost in high-throughput DFT"
+        },
+        {
+          "type": "claim",
+          "text": "The workflow software FireWorks together with the custodian job‑management tool automatically manages high‑throughput DFT calculations, self‑heals failed runs, and applies material‑type‑specific workflows."
+        },
+        {
+          "type": "dataset",
+          "text": "DFT carbon reference data"
+        },
+        {
+          "type": "problem",
+          "text": "Benchmarking beyond‑DFT methods"
+        },
+        {
+          "type": "component",
+          "text": "JARVIS-Beyond-DFT database"
+        },
+        {
+          "type": "task",
+          "text": "High-throughput DFT calculations"
+        },
+        {
+          "type": "component",
+          "text": "HT‑DFT+U workflow"
+        },
+        {
+          "type": "claim",
+          "text": "AFLOW implements DFT+U using the Dudarev formalism with default Ueff values for a wide range of elements."
+        },
+        {
+          "type": "problem",
+          "text": "DFT‑level accuracy with linear scaling"
+        },
+        {
+          "type": "cited_work",
+          "text": "Dudarev DFT+U"
+        },
+        {
+          "type": "method",
+          "text": "DFT+U"
+        },
+        {
+          "type": "technique",
+          "text": "High‑throughput DFT calculations"
+        }
+      ],
+      "available_relation_context": []
+    },
+    "llm_judgment": {
+      "packet_id": "F003",
+      "category": "accurate_informative",
+      "rationale": "The label reconstructs the specific subject of high-throughput DFT calculations. Validation, management and computational-cost members, together with the FireWorks/custodian claim, substantiate that subject; the gloss supplies relevant task examples.",
+      "misleading_theme": false,
+      "evidence_limitations": "No relation context is supplied and only some of the 31 members are shown.",
+      "year": 2022,
+      "level": "k12",
+      "group_id": "L0_c4229"
+    }
+  },
+  {
+    "packet": {
+      "packet_id": "F001",
+      "cutoff": 2026,
+      "group_size": 954,
+      "label": "training / regression / matbench / sampling",
+      "gloss": "Extractive summary only: 954 nodes; examples include Semi‑Grand Canonical Monte Carlo with umbrella sampling; Semi-Grand Canonical Monte Carlo; Metropolis Monte Carlo",
+      "evidence_members": [
+        {
+          "type": "technique",
+          "text": "Semi‑Grand Canonical Monte Carlo with umbrella sampling"
+        },
+        {
+          "type": "method",
+          "text": "Semi-Grand Canonical Monte Carlo"
+        },
+        {
+          "type": "method",
+          "text": "Metropolis Monte Carlo"
+        },
+        {
+          "type": "cited_work",
+          "text": "Monte Carlo"
+        },
+        {
+          "type": "cited_work",
+          "text": "kinetic Monte Carlo"
+        },
+        {
+          "type": "technique",
+          "text": "Batch size adjustment"
+        },
+        {
+          "type": "problem",
+          "text": "Combinatorial blow-up in candidate generation"
+        },
+        {
+          "type": "problem",
+          "text": "Memory usage limitations in heterogeneous datasets"
+        },
+        {
+          "type": "component",
+          "text": "Tree ensemble model"
+        },
+        {
+          "type": "component",
+          "text": "Mode‑I and Mode‑II training pipelines"
+        },
+        {
+          "type": "cited_work",
+          "text": "Matminer"
+        },
+        {
+          "type": "claim",
+          "text": "Accurate regression models can still produce high false‑positive rates near the 0 eV/atom convex‑hull decision boundary."
+        },
+        {
+          "type": "technique",
+          "text": "Set2Set pooling"
+        },
+        {
+          "type": "component",
+          "text": "SLME screening module"
+        },
+        {
+          "type": "technique",
+          "text": "Error function screening"
+        },
+        {
+          "type": "technique",
+          "text": "Ensemble-averaged feature importance"
+        },
+        {
+          "type": "component",
+          "text": "RELAX1"
+        },
+        {
+          "type": "claim",
+          "text": "Starting the training loop with sufficient data sampling a relevant portion of phase space is important for obtaining generalizable models."
+        },
+        {
+          "type": "technique",
+          "text": "Conditional flow matching regression"
+        },
+        {
+          "type": "task",
+          "text": "Matbench regression tasks"
+        }
+      ],
+      "available_relation_context": [
+        {
+          "relation": "cites",
+          "year": 2023,
+          "members": [
+            "Bridging scales with Machine Learning: From first principles statistical mechanics to continuum phase field computations to study order-disorder transitions in LixCoO2",
+            "Billiard Walk",
+            "Cahn-Hilliard equation",
+            "Allen-Cahn equation",
+            "Monte Carlo",
+            "kinetic Monte Carlo",
+            "deal.II library",
+            "mechanoChemFEM code"
+          ],
+          "endpoints_truncated": true
+        }
+      ]
+    },
+    "llm_judgment": {
+      "packet_id": "F001",
+      "category": "supported_but_vague",
+      "rationale": "Training, regression, Matbench and sampling each have witnesses, and the Monte Carlo examples are present. However, the label and three sampling examples do not explain how these diverse activities form a scientific subject or characterize the training and screening material.",
+      "misleading_theme": false,
+      "evidence_limitations": "Only a sample of 954 members and one truncated citation relation; thematic prevalence is not established.",
+      "year": 2026,
+      "level": "k12",
+      "group_id": "L0_c11564"
+    }
+  },
+  {
+    "packet": {
+      "packet_id": "F005",
+      "cutoff": 2024,
+      "group_size": 178,
+      "label": "training / active / gradient / rate",
+      "gloss": "Extractive summary only: 178 nodes; examples include Hessian eigenvalue spectrum loss; Hessian eigenvalue spectrum loss; Extension of Hessian‑based training to other higher‑order physical observables",
+      "evidence_members": [
+        {
+          "type": "component",
+          "text": "Hessian eigenvalue spectrum loss"
+        },
+        {
+          "type": "technique",
+          "text": "Hessian eigenvalue spectrum loss"
+        },
+        {
+          "type": "future_topic",
+          "text": "Extension of Hessian‑based training to other higher‑order physical observables"
+        },
+        {
+          "type": "component",
+          "text": "Hessian‑based training augmentation"
+        },
+        {
+          "type": "technique",
+          "text": "Hessian‑based loss augmentation"
+        },
+        {
+          "type": "technique",
+          "text": "Active learning"
+        },
+        {
+          "type": "method",
+          "text": "Light Gradient-Boosting Machine"
+        },
+        {
+          "type": "technique",
+          "text": "Training set augmentation via intermediate MD"
+        },
+        {
+          "type": "component",
+          "text": "Active learning workflow with Billiard Walk sampling"
+        },
+        {
+          "type": "cited_work",
+          "text": "Denoising Pre-training"
+        },
+        {
+          "type": "technique",
+          "text": "Analytic Gradient Evaluation"
+        },
+        {
+          "type": "technique",
+          "text": "Unsupervised classification"
+        },
+        {
+          "type": "technique",
+          "text": "Angular-modified attention weights"
+        },
+        {
+          "type": "technique",
+          "text": "concurrent learning procedure"
+        },
+        {
+          "type": "technique",
+          "text": "Noisy Nodes data augmentation"
+        },
+        {
+          "type": "technique",
+          "text": "Transfer learning of elemental embeddings"
+        },
+        {
+          "type": "technique",
+          "text": "Large-scale pretraining"
+        },
+        {
+          "type": "technique",
+          "text": "Active‑learning‑guided data acquisition"
+        },
+        {
+          "type": "technique",
+          "text": "conjugate-gradient relaxation"
+        },
+        {
+          "type": "technique",
+          "text": "Exponential learning rate decay"
+        }
+      ],
+      "available_relation_context": [
+        {
+          "relation": "uses_component",
+          "year": 2024,
+          "members": [
+            "Phonax (E(3)-equivariant graph neural network framework for phonon and Hessian prediction)",
+            "Phonax framework",
+            "Extended periodic graph construction",
+            "Hessian‑based training augmentation",
+            "Symmetry‑aware E(3)‑equivariant GNN energy model",
+            "Irreducible‑representation analysis for IR/Raman activity",
+            "Hessian eigenvalue spectrum loss",
+            "Generalized energy model with electric‑field coupling"
+          ],
+          "endpoints_truncated": true
+        },
+        {
+          "relation": "uses_technique",
+          "year": 2024,
+          "members": [
+            "Phonax (E(3)-equivariant graph neural network framework for phonon and Hessian prediction)",
+            "Automatic differentiation of second derivatives",
+            "Hessian‑based loss augmentation",
+            "Acoustic sum‑rule enforcement via equivariance",
+            "Fine‑tuning with experimental vibrational spectra",
+            "Hessian eigenvalue spectrum loss",
+            "Auto‑differentiation of energy model",
+            "Perturbative expansion in external electric field"
+          ],
+          "endpoints_truncated": true
+        },
+        {
+          "relation": "uses_technique",
+          "year": 2019,
+          "members": [
+            "DeePMD training protocol for diffusion coefficient computation",
+            "Active learning",
+            "Nosé-Hoover thermostat",
+            "Interquartile range outlier filtering",
+            "Minimum ion-ion distance cutoff",
+            "Maximum bond variation check",
+            "Batch size adjustment",
+            "Self-consistent training"
+          ],
+          "endpoints_truncated": true
+        },
+        {
+          "relation": "uses_technique",
+          "year": 2023,
+          "members": [
+            "DeePMD-kit v2",
+            "Local coordinate frame construction",
+            "Neighbor padding",
+            "Tensorial property fitting",
+            "GPU-accelerated custom operators",
+            "Distance-based neighbor sorting",
+            "Smooth switching function",
+            "Self-attention mechanism"
+          ],
+          "endpoints_truncated": true
+        }
+      ]
+    },
+    "llm_judgment": {
+      "packet_id": "F005",
+      "category": "supported_but_vague",
+      "rationale": "The Hessian-loss examples are faithfully extracted and training, active learning, gradients and learning rates have witnesses. Nevertheless, the keyword label does not convey the phonon/Hessian training subject evidenced by the gloss and Phonax relations, or explain its connection to the other training techniques.",
+      "misleading_theme": false,
+      "evidence_limitations": "Sampled members of 178 nodes mix distinct training mechanisms; several relation endpoints are truncated.",
+      "year": 2024,
+      "level": "k48",
+      "group_id": "L1_c8258"
+    }
+  }
+]

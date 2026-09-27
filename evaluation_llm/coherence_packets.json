@@ -1,0 +1,3173 @@
+{
+  "sampling": "15 uniform random members without replacement per group; large groups are sampled, not exhaustively judged.",
+  "packets": [
+    {
+      "packet_id": "C001",
+      "group_size": 151,
+      "members": [
+        {
+          "type": "technique",
+          "text": "Message passing neural network"
+        },
+        {
+          "type": "method",
+          "text": "ResNets"
+        },
+        {
+          "type": "future_topic",
+          "text": "Extension of graph‑network models to additional state‑dependent material properties"
+        },
+        {
+          "type": "method",
+          "text": "3D Steerable CNNs"
+        },
+        {
+          "type": "component",
+          "text": "Weighted message‑passing convolution"
+        },
+        {
+          "type": "cited_work",
+          "text": "Message Passing Neural Network (MPNN)"
+        },
+        {
+          "type": "cited_work",
+          "text": "Dimer method"
+        },
+        {
+          "type": "method",
+          "text": "PhysNet"
+        },
+        {
+          "type": "cited_work",
+          "text": "Graph Neural Network Force Field"
+        },
+        {
+          "type": "cited_work",
+          "text": "Spherical Channels"
+        },
+        {
+          "type": "cited_work",
+          "text": "DimeNet++"
+        },
+        {
+          "type": "component",
+          "text": "SevenNet package"
+        },
+        {
+          "type": "component",
+          "text": "message-passing layers"
+        },
+        {
+          "type": "cited_work",
+          "text": "Neural Message Passing"
+        },
+        {
+          "type": "method",
+          "text": "BOTNet"
+        }
+      ]
+    },
+    {
+      "packet_id": "C002",
+      "group_size": 120,
+      "members": [
+        {
+          "type": "problem",
+          "text": "High‑throughput materials screening"
+        },
+        {
+          "type": "task",
+          "text": "Stable material discovery"
+        },
+        {
+          "type": "component",
+          "text": "Materials Project database"
+        },
+        {
+          "type": "future_topic",
+          "text": "Open-source platforms for robust, sophisticated materials analyses"
+        },
+        {
+          "type": "task",
+          "text": "Layered material counting"
+        },
+        {
+          "type": "cited_work",
+          "text": "Materials Project"
+        },
+        {
+          "type": "task",
+          "text": "Materials discovery screening"
+        },
+        {
+          "type": "dataset",
+          "text": "Matbench experimental metallicity classification"
+        },
+        {
+          "type": "claim",
+          "text": "The open‑source software infrastructure of the Materials Project, including pymatgen, has attracted more than 100 active collaborators worldwide and incorporates community contributions such as FEFF and ABINIT support."
+        },
+        {
+          "type": "claim",
+          "text": "Class‑specific computational methodologies and reference reactions are applied for solid‑gas, d‑block oxide, and dissolved‑ion systems to improve agreement with experimental data."
+        },
+        {
+          "type": "claim",
+          "text": "DScribe provides a library of descriptors for machine learning in materials science."
+        },
+        {
+          "type": "claim",
+          "text": "The Materials Project database contains computed structural, electronic, and energetic data for over 33,000 inorganic compounds, generated using more than 15 million CPU‑hours of computation."
+        },
+        {
+          "type": "task",
+          "text": "High‑throughput materials screening"
+        },
+        {
+          "type": "problem",
+          "text": "Materials property prediction benchmarking"
+        },
+        {
+          "type": "task",
+          "text": "Interactive materials design and rapid prototyping"
+        }
+      ]
+    },
+    {
+      "packet_id": "C003",
+      "group_size": 85,
+      "members": [
+        {
+          "type": "task",
+          "text": "Γ-phonon prediction"
+        },
+        {
+          "type": "problem",
+          "text": "Γ-phonon spectrum prediction from crystal structure"
+        },
+        {
+          "type": "technique",
+          "text": "Direct phonon band prediction"
+        },
+        {
+          "type": "claim",
+          "text": "MVN outperforms VVN for Γ-phonon prediction, especially for complex materials, at the cost of slightly higher computational expense."
+        },
+        {
+          "type": "problem",
+          "text": "Computational efficiency in phonon calculation"
+        },
+        {
+          "type": "problem",
+          "text": "Large-scale phonon database generation"
+        },
+        {
+          "type": "claim",
+          "text": "Virtual Node Graph Neural Network (VGNN) enables graph neural networks to handle variable output dimensions by incorporating virtual nodes that resemble phonon dynamical matrices."
+        },
+        {
+          "type": "problem",
+          "text": "Topological material phonon prediction"
+        },
+        {
+          "type": "claim",
+          "text": "For very complicated materials, VVN-predicted phonons tend to have higher frequencies than ground truth, and prediction loss becomes larger as input materials become more complicated."
+        },
+        {
+          "type": "problem",
+          "text": "Phonon prediction for disordered alloy systems"
+        },
+        {
+          "type": "task",
+          "text": "Γ-point phonon prediction"
+        },
+        {
+          "type": "dataset",
+          "text": "frozen phonon database"
+        },
+        {
+          "type": "task",
+          "text": "Phonon dispersion and density‑of‑states calculation"
+        },
+        {
+          "type": "claim",
+          "text": "Three virtual node approaches were developed: vector virtual nodes (VVN) outputting 3m Γ-phonon branches, matrix virtual nodes (MVN) with m² 3×3 matrices, and momentum-dependent matrix virtual nodes (k-MVN) for full band structure prediction."
+        },
+        {
+          "type": "task",
+          "text": "Full phonon band structure prediction"
+        }
+      ]
+    },
+    {
+      "packet_id": "C004",
+      "group_size": 1322,
+      "members": [
+        {
+          "type": "component",
+          "text": "Iterative training loop workflow"
+        },
+        {
+          "type": "technique",
+          "text": "Confidence‑interval based neighbor selection"
+        },
+        {
+          "type": "component",
+          "text": "Cutoff function"
+        },
+        {
+          "type": "technique",
+          "text": "Automatic batch size determination"
+        },
+        {
+          "type": "technique",
+          "text": "Unit cell displacement enumeration"
+        },
+        {
+          "type": "component",
+          "text": "STM‑image database and analysis pipeline"
+        },
+        {
+          "type": "metric",
+          "text": "discovery rate"
+        },
+        {
+          "type": "task",
+          "text": "generation of input files for cluster expansion"
+        },
+        {
+          "type": "problem",
+          "text": "multi-species system modeling"
+        },
+        {
+          "type": "component",
+          "text": "Web applications"
+        },
+        {
+          "type": "technique",
+          "text": "Ensemble-averaged feature importance"
+        },
+        {
+          "type": "metric",
+          "text": "Score [a.u.]"
+        },
+        {
+          "type": "technique",
+          "text": "Sub‑meV regression target"
+        },
+        {
+          "type": "method",
+          "text": "Hillert model"
+        },
+        {
+          "type": "future_topic",
+          "text": "Accelerating meso‑level material design through AI‑driven defect‑property translation"
+        }
+      ]
+    },
+    {
+      "packet_id": "C005",
+      "group_size": 74,
+      "members": [
+        {
+          "type": "method",
+          "text": "Three-body Materials Graph Network"
+        },
+        {
+          "type": "cited_work",
+          "text": "Hong's neural network model"
+        },
+        {
+          "type": "cited_work",
+          "text": "posym"
+        },
+        {
+          "type": "component",
+          "text": "Atom type embedding"
+        },
+        {
+          "type": "component",
+          "text": "CGAT"
+        },
+        {
+          "type": "cited_work",
+          "text": "Graph Neural Network"
+        },
+        {
+          "type": "method",
+          "text": "Deep Potential MD"
+        },
+        {
+          "type": "component",
+          "text": "Scalar Layer Normalization"
+        },
+        {
+          "type": "method",
+          "text": "charge equilibration"
+        },
+        {
+          "type": "component",
+          "text": "Magmom regularization layer"
+        },
+        {
+          "type": "method",
+          "text": "Wren"
+        },
+        {
+          "type": "component",
+          "text": "GA optimizer"
+        },
+        {
+          "type": "method",
+          "text": "Virtual Node Graph Neural Network"
+        },
+        {
+          "type": "cited_work",
+          "text": "VESTA"
+        },
+        {
+          "type": "method",
+          "text": "Recurrent Neural Networks"
+        }
+      ]
+    },
+    {
+      "packet_id": "C006",
+      "group_size": 284,
+      "members": [
+        {
+          "type": "author",
+          "text": "Shyue Ping Ong"
+        },
+        {
+          "type": "author",
+          "text": "Ye Ding"
+        },
+        {
+          "type": "author",
+          "text": "Karin Rabe"
+        },
+        {
+          "type": "author",
+          "text": "Yu-Chuan Hsu"
+        },
+        {
+          "type": "author",
+          "text": "Pinar Acar"
+        },
+        {
+          "type": "author",
+          "text": "Lixin Sun"
+        },
+        {
+          "type": "author",
+          "text": "Thanh Nguyen"
+        },
+        {
+          "type": "author",
+          "text": "Houlong Zhuang"
+        },
+        {
+          "type": "author",
+          "text": "James Kermode"
+        },
+        {
+          "type": "author",
+          "text": "Yu Xia"
+        },
+        {
+          "type": "cited_work",
+          "text": "SE(3)-Equivariant Graph Neural Networks"
+        },
+        {
+          "type": "cited_work",
+          "text": "GAP"
+        },
+        {
+          "type": "author",
+          "text": "Andrea Centrone"
+        },
+        {
+          "type": "author",
+          "text": "Hai-Chen Wang"
+        },
+        {
+          "type": "author",
+          "text": "David Skinner"
+        }
+      ]
+    },
+    {
+      "packet_id": "C007",
+      "group_size": 343,
+      "members": [
+        {
+          "type": "metric",
+          "text": "F1"
+        },
+        {
+          "type": "cited_work",
+          "text": "NOMAD"
+        },
+        {
+          "type": "task",
+          "text": "OC20 S2EF"
+        },
+        {
+          "type": "method",
+          "text": "Grimme-D2"
+        },
+        {
+          "type": "component",
+          "text": "Automatic differentiation via JAX"
+        },
+        {
+          "type": "task",
+          "text": "OC22 IS2RE"
+        },
+        {
+          "type": "method",
+          "text": "Billiard Walk"
+        },
+        {
+          "type": "cited_work",
+          "text": "metadynamics"
+        },
+        {
+          "type": "method",
+          "text": "BoltzTraP"
+        },
+        {
+          "type": "method",
+          "text": "JAX MD"
+        },
+        {
+          "type": "dataset",
+          "text": "MD-17 Paracetamol"
+        },
+        {
+          "type": "dataset",
+          "text": "M3GNet dataset"
+        },
+        {
+          "type": "task",
+          "text": "copper system simulation"
+        },
+        {
+          "type": "method",
+          "text": "AMBER"
+        },
+        {
+          "type": "cited_work",
+          "text": "AIRSS"
+        }
+      ]
+    },
+    {
+      "packet_id": "C008",
+      "group_size": 102,
+      "members": [
+        {
+          "type": "technique",
+          "text": "Tensor‑product layer with Clebsch‑Gordan coefficients"
+        },
+        {
+          "type": "claim",
+          "text": "The equivariant architecture handles spin‑orbital Hamiltonians by separating real and imaginary components and applying a change‑of‑basis for half‑integer representations, thereby preserving equivariance without requiring complex‑valued network layers."
+        },
+        {
+          "type": "component",
+          "text": "Loop tensor contraction algorithm"
+        },
+        {
+          "type": "problem",
+          "text": "Speed-accuracy trade-off in equivariant Transformers"
+        },
+        {
+          "type": "problem",
+          "text": "Scalability of equivariant representations"
+        },
+        {
+          "type": "component",
+          "text": "E(3)-equivariant graph neural network surrogate"
+        },
+        {
+          "type": "cited_work",
+          "text": "Equivariant message passing"
+        },
+        {
+          "type": "technique",
+          "text": "E(3)-equivariant neural network"
+        },
+        {
+          "type": "component",
+          "text": "Equivariant tensor‑product layer on nodes"
+        },
+        {
+          "type": "method",
+          "text": "Equivariant representations for atomistic dynamics"
+        },
+        {
+          "type": "cited_work",
+          "text": "Group Equivariant CNN"
+        },
+        {
+          "type": "method",
+          "text": "Equivariant Neural Networks"
+        },
+        {
+          "type": "technique",
+          "text": "E(3) equivariance"
+        },
+        {
+          "type": "technique",
+          "text": "Loop tensor contraction"
+        },
+        {
+          "type": "problem",
+          "text": "Computational complexity of SO(3) tensor products"
+        }
+      ]
+    },
+    {
+      "packet_id": "C009",
+      "group_size": 1234,
+      "members": [
+        {
+          "type": "claim",
+          "text": "The Smooth Overlap of Atomic Positions (SOAP) kernel captures the regularity of the silicon potential energy surface, leading to accurate interpolation within the sampled configuration space."
+        },
+        {
+          "type": "technique",
+          "text": "Power spectrum construction"
+        },
+        {
+          "type": "claim",
+          "text": "At 0 K and zero pressure, 23 % of the 32,489 ICSD structures in the OQMD are thermodynamically stable according to grand canonical linear programming analysis."
+        },
+        {
+          "type": "technique",
+          "text": "Linear‑optics calculations with OptB88‑vdW and TB‑mBJ"
+        },
+        {
+          "type": "problem",
+          "text": "Accelerated atomic‑property prediction"
+        },
+        {
+          "type": "component",
+          "text": "Gate activation"
+        },
+        {
+          "type": "claim",
+          "text": "A 60-ps MD simulation with 112,000 atoms using SevenNet-0 required 12.7 hours, approximately 0.1 ns per day."
+        },
+        {
+          "type": "claim",
+          "text": "A general training method allows MPNNs to use larger node representation dimensions without increasing computation time or memory, providing substantial savings over previous high‑dimensional MPNNs."
+        },
+        {
+          "type": "task",
+          "text": "Crystal structure stability prediction"
+        },
+        {
+          "type": "claim",
+          "text": "AIMNet2 extends ANI to include up to 14 elemental species with additional vdW and electrostatic correction terms."
+        },
+        {
+          "type": "component",
+          "text": "Thermodynamic screening pipeline for battery anodes"
+        },
+        {
+          "type": "problem",
+          "text": "Accurate prediction of quantum‑chemical properties"
+        },
+        {
+          "type": "task",
+          "text": "Interatomic potential prediction"
+        },
+        {
+          "type": "task",
+          "text": "Enthalpy (H) prediction"
+        },
+        {
+          "type": "cited_work",
+          "text": "RMM-DIIS"
+        }
+      ]
+    },
+    {
+      "packet_id": "C010",
+      "group_size": 51,
+      "members": [
+        {
+          "type": "technique",
+          "text": "Spherical harmonic encoding"
+        },
+        {
+          "type": "component",
+          "text": "Two-cluster separation scheme"
+        },
+        {
+          "type": "component",
+          "text": "Hierarchical descriptor set"
+        },
+        {
+          "type": "technique",
+          "text": "Melt-quench simulations"
+        },
+        {
+          "type": "component",
+          "text": "Distance binning"
+        },
+        {
+          "type": "component",
+          "text": "E(3)-equivariant GNN architecture"
+        },
+        {
+          "type": "cited_work",
+          "text": "GNS-TAT"
+        },
+        {
+          "type": "technique",
+          "text": "Random angle perturbation"
+        },
+        {
+          "type": "component",
+          "text": "Coordinate‑free Wyckoff position encoding"
+        },
+        {
+          "type": "component",
+          "text": "Hessian‑based training augmentation"
+        },
+        {
+          "type": "technique",
+          "text": "QR decomposition"
+        },
+        {
+          "type": "component",
+          "text": "Symmetry‑adapted order parameters and invariant features"
+        },
+        {
+          "type": "component",
+          "text": "Node feature vectors"
+        },
+        {
+          "type": "technique",
+          "text": "Genetic‑algorithm optimization"
+        },
+        {
+          "type": "component",
+          "text": "JARVIS‑FF"
+        }
+      ]
+    },
+    {
+      "packet_id": "C011",
+      "group_size": 284,
+      "members": [
+        {
+          "type": "author",
+          "text": "Jie Jiang"
+        },
+        {
+          "type": "author",
+          "text": "Marián Rynik"
+        },
+        {
+          "type": "author",
+          "text": "Shiang Fang"
+        },
+        {
+          "type": "author",
+          "text": "Bryce Meredig"
+        },
+        {
+          "type": "author",
+          "text": "Xiaoxun Gong"
+        },
+        {
+          "type": "author",
+          "text": "Andrea Centrone"
+        },
+        {
+          "type": "author",
+          "text": "T. Mueller"
+        },
+        {
+          "type": "author",
+          "text": "Roman V. Chepulski"
+        },
+        {
+          "type": "author",
+          "text": "Jinzhe Zeng"
+        },
+        {
+          "type": "author",
+          "text": "Alex Ganose"
+        },
+        {
+          "type": "author",
+          "text": "David Skinner"
+        },
+        {
+          "type": "author",
+          "text": "Dennis M. Kochmann"
+        },
+        {
+          "type": "cited_work",
+          "text": "Willatt et al."
+        },
+        {
+          "type": "author",
+          "text": "Mordechai Kornbluth"
+        },
+        {
+          "type": "author",
+          "text": "Ethan Eisenberg"
+        }
+      ]
+    },
+    {
+      "packet_id": "C012",
+      "group_size": 72,
+      "members": [
+        {
+          "type": "claim",
+          "text": "Separable S2 activation prevents large gradients by separating activation for degree 0 and degree > 0 vectors, whereas directly replacing gate activation with S2 activation causes training instability and non-convergence."
+        },
+        {
+          "type": "claim",
+          "text": "Standard numerical integration based on truncated series expansions may incur large truncation errors for fully neural wave functions, suggesting Monte Carlo integration as a more suitable alternative."
+        },
+        {
+          "type": "metric",
+          "text": "MAE"
+        },
+        {
+          "type": "technique",
+          "text": "Neighbor padding"
+        },
+        {
+          "type": "cited_work",
+          "text": "FireWorks"
+        },
+        {
+          "type": "claim",
+          "text": "MLIPs are not fundamentally limited to specific system types (metallic, ionic, reactive vs. nonreactive), unlike distinctions that were essential for PBPs."
+        },
+        {
+          "type": "dataset",
+          "text": "Experimental sp3 data"
+        },
+        {
+          "type": "component",
+          "text": "Multiple towers"
+        },
+        {
+          "type": "method",
+          "text": "Deep Potential"
+        },
+        {
+          "type": "claim",
+          "text": "High‑throughput screening identified TiP, LiSiNi₂, and CoSi₂ as the most promising Li‑ion battery anode conversion reactions, offering high capacity, moderate voltage, and low volume expansion."
+        },
+        {
+          "type": "method",
+          "text": "Euclidean Neural Network"
+        },
+        {
+          "type": "problem",
+          "text": "Limited expressivity of two‑body messages"
+        },
+        {
+          "type": "task",
+          "text": "Gap-deformation potential prediction"
+        },
+        {
+          "type": "technique",
+          "text": "symbolic regression with feature complexity f=2,3"
+        },
+        {
+          "type": "cited_work",
+          "text": "Lindemann melting criterion"
+        }
+      ]
+    },
+    {
+      "packet_id": "C013",
+      "group_size": 277,
+      "members": [
+        {
+          "type": "claim",
+          "text": "DeePMD accurately reproduces radial distribution functions and three‑body angular distribution functions of liquid water and ice, matching AIMD results."
+        },
+        {
+          "type": "claim",
+          "text": "The GNN predicts atomic tensile stress in porous graphene membranes under tensile strain with a mean normalized relative error of 4.9% and a maximum error of about 10%."
+        },
+        {
+          "type": "component",
+          "text": "Deep Potential - Range Correction"
+        },
+        {
+          "type": "method",
+          "text": "Deep Potential - Range Correction"
+        },
+        {
+          "type": "claim",
+          "text": "Including tensile strain as an input node feature enables the GNN to accurately predict stress evolution during loading, reproducing nonlinear strain‑stress curves for porous graphene."
+        },
+        {
+          "type": "claim",
+          "text": "The GNN respects physical constraints, accurately capturing derivative properties such as stress fields that obey underlying physical laws, and predicts global properties (Young’s modulus, total potential energy) that follow known physical relationships and match MD results across different crystalline systems."
+        },
+        {
+          "type": "cited_work",
+          "text": "Vanderbilt Pseudopotential"
+        },
+        {
+          "type": "future_topic",
+          "text": "Integration of CGCNN predictions with experimental validation pipelines"
+        },
+        {
+          "type": "cited_work",
+          "text": "Behler‑Parrinello Neural Network"
+        },
+        {
+          "type": "claim",
+          "text": "A 60-ps MD simulation with 112,000 atoms using SevenNet-0 required 12.7 hours, approximately 0.1 ns per day."
+        },
+        {
+          "type": "claim",
+          "text": "NequIP achieves state-of-the-art accuracy on the MD-17 benchmark, surpassing invariant GNN‑IPs, shallow neural networks, and kernel‑based methods."
+        },
+        {
+          "type": "claim",
+          "text": "The GNN reproduces the linear decrease of Young’s modulus with vacancy concentration in porous graphene, matching MD results and yielding the fitted relation E = 823.7 − 5635.6·Cv (GPa)."
+        },
+        {
+          "type": "problem",
+          "text": "High computational cost of equivariant MPNNs"
+        },
+        {
+          "type": "claim",
+          "text": "NequIP attains chemical‑accuracy energy errors (~2 meV) on CCSD(T) benchmark molecules using only 1,000 reference configurations, outperforming sGDML and GemNet."
+        },
+        {
+          "type": "claim",
+          "text": "The E(3)‑equivariant GNN surrogate provides superior accuracy compared with third‑ and fifth‑order Gaussian quadrature for thermal expansion of copper, martensitic phase transition of iron, and grain‑boundary energy calculations, matching molecular dynamics reference data."
+        }
+      ]
+    },
+    {
+      "packet_id": "C014",
+      "group_size": 1322,
+      "members": [
+        {
+          "type": "future_topic",
+          "text": "Large‑scale study of magnetic skyrmions using xDeepH"
+        },
+        {
+          "type": "problem",
+          "text": "Transfer to new downstream tasks"
+        },
+        {
+          "type": "method",
+          "text": "Interaction Networks"
+        },
+        {
+          "type": "technique",
+          "text": "Two-stage DFT relaxation"
+        },
+        {
+          "type": "component",
+          "text": "Vector Virtual Nodes"
+        },
+        {
+          "type": "component",
+          "text": "Convex‑hull distance classification analysis"
+        },
+        {
+          "type": "component",
+          "text": "Deep Potential - Range Correction"
+        },
+        {
+          "type": "problem",
+          "text": "Data efficiency"
+        },
+        {
+          "type": "component",
+          "text": "Local atomic reference frame"
+        },
+        {
+          "type": "problem",
+          "text": "Limited candidate diversity from chemical intuition"
+        },
+        {
+          "type": "technique",
+          "text": "Reaction enumeration with stoichiometric constraints"
+        },
+        {
+          "type": "method",
+          "text": "CUR matrix decomposition"
+        },
+        {
+          "type": "problem",
+          "text": "capturing cluster-specific melting behavior"
+        },
+        {
+          "type": "cited_work",
+          "text": "Liechtenstein DFT+U"
+        },
+        {
+          "type": "method",
+          "text": "projector-augmented wave"
+        }
+      ]
+    },
+    {
+      "packet_id": "C015",
+      "group_size": 284,
+      "members": [
+        {
+          "type": "author",
+          "text": "Zechen Tang"
+        },
+        {
+          "type": "cited_work",
+          "text": "Pseudopotential library"
+        },
+        {
+          "type": "author",
+          "text": "Volker L. Deringer"
+        },
+        {
+          "type": "cited_work",
+          "text": "Deep Potential"
+        },
+        {
+          "type": "component",
+          "text": "Set2Set readout"
+        },
+        {
+          "type": "author",
+          "text": "Chun Cai"
+        },
+        {
+          "type": "author",
+          "text": "Pinghui Mo"
+        },
+        {
+          "type": "author",
+          "text": "Weike Ye"
+        },
+        {
+          "type": "cited_work",
+          "text": "GGA+U"
+        },
+        {
+          "type": "author",
+          "text": "David Vanderbilt"
+        },
+        {
+          "type": "author",
+          "text": "Kostya S. Novoselov"
+        },
+        {
+          "type": "author",
+          "text": "Vahe Gharakhanyan"
+        },
+        {
+          "type": "author",
+          "text": "Shreyas Cholia"
+        },
+        {
+          "type": "author",
+          "text": "K. T. Schütt"
+        },
+        {
+          "type": "author",
+          "text": "Ziyao Li"
+        }
+      ]
+    },
+    {
+      "packet_id": "C016",
+      "group_size": 284,
+      "members": [
+        {
+          "type": "author",
+          "text": "Ohad Levy"
+        },
+        {
+          "type": "cited_work",
+          "text": "MLatom"
+        },
+        {
+          "type": "cited_work",
+          "text": "Willatt et al."
+        },
+        {
+          "type": "author",
+          "text": "Francesca Tavazza"
+        },
+        {
+          "type": "cited_work",
+          "text": "Wang et al."
+        },
+        {
+          "type": "method",
+          "text": "Martyna–Klein–Tuckerman barostat"
+        },
+        {
+          "type": "author",
+          "text": "Xiang Fu"
+        },
+        {
+          "type": "author",
+          "text": "Xingao Gong"
+        },
+        {
+          "type": "cited_work",
+          "text": "SO3krates"
+        },
+        {
+          "type": "author",
+          "text": "Adam J. Biacchi"
+        },
+        {
+          "type": "author",
+          "text": "Dan Gunter"
+        },
+        {
+          "type": "method",
+          "text": "BOWSR"
+        },
+        {
+          "type": "author",
+          "text": "Albert P. Bartók"
+        },
+        {
+          "type": "author",
+          "text": "Noam Bernstein"
+        },
+        {
+          "type": "author",
+          "text": "Qi Wang"
+        }
+      ]
+    },
+    {
+      "packet_id": "C017",
+      "group_size": 51,
+      "members": [
+        {
+          "type": "technique",
+          "text": "Analytic Gradient Evaluation"
+        },
+        {
+          "type": "technique",
+          "text": "Loop tensor contraction"
+        },
+        {
+          "type": "task",
+          "text": "thermoelectric property assessment"
+        },
+        {
+          "type": "technique",
+          "text": "Test-time isotropic lattice scaling"
+        },
+        {
+          "type": "technique",
+          "text": "Calinski-Harabasz score optimization"
+        },
+        {
+          "type": "technique",
+          "text": "Shifted softplus non‑linearity"
+        },
+        {
+          "type": "technique",
+          "text": "feature selection with domain knowledge"
+        },
+        {
+          "type": "technique",
+          "text": "Polymorph clustering and ranking"
+        },
+        {
+          "type": "technique",
+          "text": "Data augmentation for equivariance"
+        },
+        {
+          "type": "component",
+          "text": "Phonon and elastic property predictor"
+        },
+        {
+          "type": "technique",
+          "text": "Fourier space electrostatic calculation"
+        },
+        {
+          "type": "component",
+          "text": "Fitting network"
+        },
+        {
+          "type": "technique",
+          "text": "Automatic spin polarization economization"
+        },
+        {
+          "type": "component",
+          "text": "Uncertainty quantification"
+        },
+        {
+          "type": "claim",
+          "text": "The Materials Project Trajectory dataset used to pre‑train CHGNet contains approximately 1.58 million atomic configurations spanning 94 elements, with magnetic moment labels for 76 elements, providing comprehensive chemical coverage."
+        }
+      ]
+    },
+    {
+      "packet_id": "C018",
+      "group_size": 151,
+      "members": [
+        {
+          "type": "cited_work",
+          "text": "AdsorbML"
+        },
+        {
+          "type": "component",
+          "text": "NVNMD engine"
+        },
+        {
+          "type": "method",
+          "text": "Linear response phonon method"
+        },
+        {
+          "type": "component",
+          "text": "Modified probabilistic substitution model"
+        },
+        {
+          "type": "component",
+          "text": "Spatial decomposition scheme for GNN-IPs"
+        },
+        {
+          "type": "method",
+          "text": "Voronoi tessellation"
+        },
+        {
+          "type": "method",
+          "text": "Davidson Block Subspace"
+        },
+        {
+          "type": "cited_work",
+          "text": "XGBoost"
+        },
+        {
+          "type": "component",
+          "text": "Atomic embedding layer"
+        },
+        {
+          "type": "component",
+          "text": "Radial function h"
+        },
+        {
+          "type": "component",
+          "text": "GNN interatomic potentials"
+        },
+        {
+          "type": "technique",
+          "text": "Rotation-based feature alignment"
+        },
+        {
+          "type": "method",
+          "text": "Directional message passing neural network"
+        },
+        {
+          "type": "cited_work",
+          "text": "Gradient-Enhanced ML for Molecular Energies"
+        },
+        {
+          "type": "cited_work",
+          "text": "Allen-Dynes formula"
+        }
+      ]
+    },
+    {
+      "packet_id": "C019",
+      "group_size": 205,
+      "members": [
+        {
+          "type": "problem",
+          "text": "melting temperature prediction accuracy"
+        },
+        {
+          "type": "task",
+          "text": "Amorphous carbon bulk structure generation"
+        },
+        {
+          "type": "dataset",
+          "text": "Top 1000 materials"
+        },
+        {
+          "type": "claim",
+          "text": "Class‑specific computational methodologies and reference reactions are applied for solid‑gas, d‑block oxide, and dissolved‑ion systems to improve agreement with experimental data."
+        },
+        {
+          "type": "technique",
+          "text": "High‑throughput screening"
+        },
+        {
+          "type": "task",
+          "text": "materials clustering by bonding character"
+        },
+        {
+          "type": "problem",
+          "text": "Cross-material property comparison"
+        },
+        {
+          "type": "future_topic",
+          "text": "Support for a wide variety of other technologically important applications within the data‑driven materials design paradigm"
+        },
+        {
+          "type": "task",
+          "text": "Layered material identification"
+        },
+        {
+          "type": "problem",
+          "text": "Materials property prediction benchmarking"
+        },
+        {
+          "type": "task",
+          "text": "Amorphous carbon (a-C) structure generation"
+        },
+        {
+          "type": "dataset",
+          "text": "Materials Project"
+        },
+        {
+          "type": "task",
+          "text": "Kinetic property prediction"
+        },
+        {
+          "type": "task",
+          "text": "computational materials discovery"
+        },
+        {
+          "type": "claim",
+          "text": "Visual warnings are displayed on the Materials Project website for compounds whose calculated oxidation states, cell volumes, or bond lengths deviate significantly from experimental norms, helping users assess data reliability."
+        }
+      ]
+    },
+    {
+      "packet_id": "C020",
+      "group_size": 51,
+      "members": [
+        {
+          "type": "component",
+          "text": "Gaussian‑basis distance expansion"
+        },
+        {
+          "type": "component",
+          "text": "Radial basis function edge attributes"
+        },
+        {
+          "type": "component",
+          "text": "Radial function h"
+        },
+        {
+          "type": "component",
+          "text": "Fourier‑basis angular expansion"
+        },
+        {
+          "type": "component",
+          "text": "Spherical harmonics encoding"
+        },
+        {
+          "type": "technique",
+          "text": "Spherical‑harmonic embedding of geometric inputs"
+        },
+        {
+          "type": "technique",
+          "text": "Tensor product with spherical harmonics"
+        },
+        {
+          "type": "component",
+          "text": "Spherical harmonic orientation encoding"
+        },
+        {
+          "type": "technique",
+          "text": "Gaussian radial basis functions for distance encoding"
+        },
+        {
+          "type": "technique",
+          "text": "Gaussian radial basis functions"
+        },
+        {
+          "type": "technique",
+          "text": "Spherical‑Harmonic Expansion of Cartesian Tensors"
+        },
+        {
+          "type": "component",
+          "text": "Spherical harmonics Y"
+        },
+        {
+          "type": "technique",
+          "text": "Fourier angular basis"
+        },
+        {
+          "type": "claim",
+          "text": "Representing tensors with spherical harmonics yields a dramatically sparser basis, where a rank‑N Cartesian tensor with 3^N components can be represented by (N+1)^2 spherical harmonics (e.g., a 10th‑order tensor requires 121 harmonics instead of 59 049 Cartesian components)."
+        },
+        {
+          "type": "problem",
+          "text": "Aliasing errors in Fourier transforms"
+        }
+      ]
+    },
+    {
+      "packet_id": "C021",
+      "group_size": 343,
+      "members": [
+        {
+          "type": "cited_work",
+          "text": "CENT2"
+        },
+        {
+          "type": "cited_work",
+          "text": "Support Vector Regression"
+        },
+        {
+          "type": "method",
+          "text": "Batch Normalization"
+        },
+        {
+          "type": "cited_work",
+          "text": "Pettifor"
+        },
+        {
+          "type": "dataset",
+          "text": "Small Molecules (G2)"
+        },
+        {
+          "type": "cited_work",
+          "text": "PW91"
+        },
+        {
+          "type": "cited_work",
+          "text": "Methfessel-Paxton"
+        },
+        {
+          "type": "technique",
+          "text": "Adam optimizer with staged learning‑rate decay"
+        },
+        {
+          "type": "cited_work",
+          "text": "Graph Neural Network Force Field"
+        },
+        {
+          "type": "task",
+          "text": "Pre-training on Materials Project dataset"
+        },
+        {
+          "type": "method",
+          "text": "graph neural network"
+        },
+        {
+          "type": "technique",
+          "text": "δEion convergence criterion"
+        },
+        {
+          "type": "cited_work",
+          "text": "PhysNet"
+        },
+        {
+          "type": "cited_work",
+          "text": "thermodynamic integration"
+        },
+        {
+          "type": "cited_work",
+          "text": "MEAM potential"
+        }
+      ]
+    },
+    {
+      "packet_id": "C022",
+      "group_size": 646,
+      "members": [
+        {
+          "type": "method",
+          "text": "Matbench"
+        },
+        {
+          "type": "problem",
+          "text": "Scalable materials discovery"
+        },
+        {
+          "type": "technique",
+          "text": "High-throughput DFT calculations"
+        },
+        {
+          "type": "technique",
+          "text": "Training of IDNN on chemical‑potential derivative data"
+        },
+        {
+          "type": "technique",
+          "text": "equivariant graph attention"
+        },
+        {
+          "type": "dataset",
+          "text": "Li10GeP2S12 (LGPS)"
+        },
+        {
+          "type": "technique",
+          "text": "Integrated DNN (IDNN) training"
+        },
+        {
+          "type": "claim",
+          "text": "xDeepH reduces the computational cost of electronic‑structure calculations relative to conventional constrained DFT, enabling simulations of magnetic superstructures containing thousands of atoms, such as a 4,336‑atom skyrmion supercell."
+        },
+        {
+          "type": "technique",
+          "text": "Orthogonalization of Non‑Orthogonal Basis"
+        },
+        {
+          "type": "technique",
+          "text": "Node feature and gradient exchange"
+        },
+        {
+          "type": "component",
+          "text": "Invariant polynomial feature set"
+        },
+        {
+          "type": "future_topic",
+          "text": "Task‑based evaluation frameworks for ML materials discovery"
+        },
+        {
+          "type": "technique",
+          "text": "Semi‑Grand Canonical Monte Carlo with umbrella sampling"
+        },
+        {
+          "type": "technique",
+          "text": "Deep ensemble uncertainty quantification"
+        },
+        {
+          "type": "problem",
+          "text": "Preserving crystalline symmetries automatically"
+        }
+      ]
+    },
+    {
+      "packet_id": "C023",
+      "group_size": 74,
+      "members": [
+        {
+          "type": "cited_work",
+          "text": "Crystal Graph Convolutional Neural Network"
+        },
+        {
+          "type": "cited_work",
+          "text": "Graph Attention Networks"
+        },
+        {
+          "type": "claim",
+          "text": "Continuous-filter convolutional (cfconv) layers enable convolution on arbitrarily positioned inputs, overcoming the limitations of discrete filters that require grid-aligned data."
+        },
+        {
+          "type": "method",
+          "text": "Crystal Hamiltonian Graph neural Network"
+        },
+        {
+          "type": "cited_work",
+          "text": "Molecular Graph Convolutions (GC)"
+        },
+        {
+          "type": "component",
+          "text": "Crystal graph representation"
+        },
+        {
+          "type": "method",
+          "text": "Graph Attention"
+        },
+        {
+          "type": "method",
+          "text": "Gated Graph Neural Networks"
+        },
+        {
+          "type": "cited_work",
+          "text": "Crystal Graph Attention Networks"
+        },
+        {
+          "type": "method",
+          "text": "Graph Neural Network interatomic potentials"
+        },
+        {
+          "type": "method",
+          "text": "Materials 3-body Graph Network"
+        },
+        {
+          "type": "method",
+          "text": "Graph neural network for DFT Hamiltonian"
+        },
+        {
+          "type": "component",
+          "text": "Bond graph"
+        },
+        {
+          "type": "component",
+          "text": "Graph‑network module"
+        },
+        {
+          "type": "cited_work",
+          "text": "crystal graph networks"
+        }
+      ]
+    },
+    {
+      "packet_id": "C024",
+      "group_size": 571,
+      "members": [
+        {
+          "type": "component",
+          "text": "Vertex update network"
+        },
+        {
+          "type": "method",
+          "text": "SchNet"
+        },
+        {
+          "type": "component",
+          "text": "Model deviation module"
+        },
+        {
+          "type": "method",
+          "text": "DeePMD-kit v2"
+        },
+        {
+          "type": "component",
+          "text": "Extensible featurizer sets"
+        },
+        {
+          "type": "technique",
+          "text": "Sigmoid + softplus activation combo"
+        },
+        {
+          "type": "technique",
+          "text": "Iterative queue‑based prediction"
+        },
+        {
+          "type": "problem",
+          "text": "property prediction for complex systems"
+        },
+        {
+          "type": "method",
+          "text": "E(3)-equivariant Graph Neural Network for phase‑space integration"
+        },
+        {
+          "type": "technique",
+          "text": "Unknown value imputation"
+        },
+        {
+          "type": "component",
+          "text": "Linear correction of heuristic"
+        },
+        {
+          "type": "component",
+          "text": "JaxSCF module"
+        },
+        {
+          "type": "future_topic",
+          "text": "Application of MEGNet models to a broader range of crystal properties beyond formation energy, band gap, and elastic moduli"
+        },
+        {
+          "type": "component",
+          "text": "Single MPNN with multi‑dimensional output"
+        },
+        {
+          "type": "technique",
+          "text": "deep potential molecular dynamics"
+        }
+      ]
+    },
+    {
+      "packet_id": "C025",
+      "group_size": 277,
+      "members": [
+        {
+          "type": "future_topic",
+          "text": "Integrating automatic differentiation techniques into broader DFT workflows"
+        },
+        {
+          "type": "article",
+          "text": "Materials Design and Discovery with High-Throughput Density Functional Theory: The Open Quantum Materials Database (OQMD)"
+        },
+        {
+          "type": "task",
+          "text": "Metallicity classification"
+        },
+        {
+          "type": "problem",
+          "text": "Non-physical trajectory generation in early training"
+        },
+        {
+          "type": "cited_work",
+          "text": "deal.II library"
+        },
+        {
+          "type": "claim",
+          "text": "The parallelization algorithm restricts communication range between neighboring processors to the original cutoff radius (rc) rather than rc multiplied by message-passing steps."
+        },
+        {
+          "type": "task",
+          "text": "Phonon density of states prediction"
+        },
+        {
+          "type": "task",
+          "text": "Grain‑boundary energy evaluation in aluminum and iron"
+        },
+        {
+          "type": "method",
+          "text": "Diffusive Molecular Dynamics"
+        },
+        {
+          "type": "method",
+          "text": "Graph Neural Network interatomic potentials"
+        },
+        {
+          "type": "claim",
+          "text": "CHGNet accurately predicts the dramatic increase in Li‑ion diffusivity and the reduction of activation energy (~160 meV) in slightly Li‑stuffed Li₃La₃Te₂O₁₂, matching DFT‑computed values and the activated diffusion network theory."
+        },
+        {
+          "type": "problem",
+          "text": "Efficient high‑dimensional free‑energy surrogate construction"
+        },
+        {
+          "type": "claim",
+          "text": "The open‑source software infrastructure of the Materials Project, including pymatgen, has attracted more than 100 active collaborators worldwide and incorporates community contributions such as FEFF and ABINIT support."
+        },
+        {
+          "type": "method",
+          "text": "deal.II library"
+        },
+        {
+          "type": "task",
+          "text": "Full phonon band structure prediction"
+        }
+      ]
+    },
+    {
+      "packet_id": "C026",
+      "group_size": 631,
+      "members": [
+        {
+          "type": "claim",
+          "text": "Some of the best-performing MLIPs are trained separately on energies and forces and are non-conservative, with forces not directly calculated by differentiating the PES."
+        },
+        {
+          "type": "claim",
+          "text": "Fifth‑order Gaussian quadrature yields internal energies and free‑energy curves that remain in good agreement with molecular dynamics results across the full temperature range studied."
+        },
+        {
+          "type": "task",
+          "text": "Materials clustering by bond-ionicity"
+        },
+        {
+          "type": "article",
+          "text": "Deep-Learning Density Functional Theory Hamiltonian for Efficient ab initio Electronic-Structure Calculation"
+        },
+        {
+          "type": "task",
+          "text": "Polarizability (α) prediction"
+        },
+        {
+          "type": "technique",
+          "text": "Particle mesh Ewald method"
+        },
+        {
+          "type": "component",
+          "text": "Deep ensemble of graph networks"
+        },
+        {
+          "type": "method",
+          "text": "virtual node method"
+        },
+        {
+          "type": "component",
+          "text": "Fitting network F0"
+        },
+        {
+          "type": "task",
+          "text": "ML method benchmarking"
+        },
+        {
+          "type": "method",
+          "text": "grand canonical linear programming"
+        },
+        {
+          "type": "claim",
+          "text": "At 0 K and zero pressure, 23 % of the 32,489 ICSD structures in the OQMD are thermodynamically stable according to grand canonical linear programming analysis."
+        },
+        {
+          "type": "component",
+          "text": "Neural local scaling transformation"
+        },
+        {
+          "type": "task",
+          "text": "Radial distribution function calculation"
+        },
+        {
+          "type": "claim",
+          "text": "Approximately 150,000 compounds were found with energy distance less than 50 meV/atom from the convex hull."
+        }
+      ]
+    },
+    {
+      "packet_id": "C027",
+      "group_size": 172,
+      "members": [
+        {
+          "type": "technique",
+          "text": "Self‑attention (QKV) blocks"
+        },
+        {
+          "type": "method",
+          "text": "LDA+U"
+        },
+        {
+          "type": "method",
+          "text": "Inorganic Crystal Structures Database"
+        },
+        {
+          "type": "method",
+          "text": "Crystal Hamiltonian Graph Network"
+        },
+        {
+          "type": "cited_work",
+          "text": "USPP"
+        },
+        {
+          "type": "cited_work",
+          "text": "SE(3)-Transformers"
+        },
+        {
+          "type": "technique",
+          "text": "concurrent learning procedure"
+        },
+        {
+          "type": "technique",
+          "text": "Gaussian smearing"
+        },
+        {
+          "type": "cited_work",
+          "text": "McMillan's formula"
+        },
+        {
+          "type": "claim",
+          "text": "A potential trained on DFT-PBE functional may not be suitable for layered materials or molten salts where vdW contributions are significant."
+        },
+        {
+          "type": "cited_work",
+          "text": "mechanoChemFEM code"
+        },
+        {
+          "type": "method",
+          "text": "Graph neural network for DFT Hamiltonian"
+        },
+        {
+          "type": "problem",
+          "text": "Training data bias"
+        },
+        {
+          "type": "technique",
+          "text": "Hubbard U corrections"
+        },
+        {
+          "type": "cited_work",
+          "text": "SHAP"
+        }
+      ]
+    },
+    {
+      "packet_id": "C028",
+      "group_size": 631,
+      "members": [
+        {
+          "type": "technique",
+          "text": "Classical nucleation rate calculation"
+        },
+        {
+          "type": "task",
+          "text": "Molecular dynamics of lithium‑ion conductors"
+        },
+        {
+          "type": "method",
+          "text": "Python-based Simulations of Chemistry Framework"
+        },
+        {
+          "type": "problem",
+          "text": "Scalable electronic‑structure calculation for large‑scale materials"
+        },
+        {
+          "type": "claim",
+          "text": "None of the three U-MLIPs (M3GNet, CHGNet, MACE-MP0) could accurately reproduce mixing energies of metallic binary alloys in adequate agreement with DFT results."
+        },
+        {
+          "type": "task",
+          "text": "LGPS solid electrolyte simulation"
+        },
+        {
+          "type": "problem",
+          "text": "accuracy-cost tradeoff in atomistic modeling"
+        },
+        {
+          "type": "problem",
+          "text": "Efficient molecular dynamics simulation"
+        },
+        {
+          "type": "problem",
+          "text": "Limited diversity in crystal structure discovery"
+        },
+        {
+          "type": "method",
+          "text": "embedded-atom-method"
+        },
+        {
+          "type": "cited_work",
+          "text": "Magnetic Skyrmion Prediction"
+        },
+        {
+          "type": "cited_work",
+          "text": "ANI extension to S and Halogens"
+        },
+        {
+          "type": "task",
+          "text": "Superconducting material discovery"
+        },
+        {
+          "type": "task",
+          "text": "materials screening for lithium superionic conductors"
+        },
+        {
+          "type": "dataset",
+          "text": "twisted bilayer bismuthene (TBB)"
+        }
+      ]
+    },
+    {
+      "packet_id": "C029",
+      "group_size": 343,
+      "members": [
+        {
+          "type": "claim",
+          "text": "EquiformerV2 can scale Lmax to 6 or 8 on OC20 dataset using eSCN convolutions that reduce computational cost from O(L^6) to O(L^3), whereas original Equiformer is impractical for Lmax > 2 on large-scale datasets."
+        },
+        {
+          "type": "dataset",
+          "text": "Li4P2O7 (molten)"
+        },
+        {
+          "type": "dataset",
+          "text": "Be"
+        },
+        {
+          "type": "cited_work",
+          "text": "OC22"
+        },
+        {
+          "type": "dataset",
+          "text": "N"
+        },
+        {
+          "type": "dataset",
+          "text": "B"
+        },
+        {
+          "type": "author",
+          "text": "Dallas R. Trinkle"
+        },
+        {
+          "type": "method",
+          "text": "FireWorks"
+        },
+        {
+          "type": "dataset",
+          "text": "OC20 IS2RE-Total"
+        },
+        {
+          "type": "cited_work",
+          "text": "Formate on Cu study"
+        },
+        {
+          "type": "cited_work",
+          "text": "Cormorant"
+        },
+        {
+          "type": "cited_work",
+          "text": "M3GNet"
+        },
+        {
+          "type": "cited_work",
+          "text": "ReLU"
+        },
+        {
+          "type": "dataset",
+          "text": "Water"
+        },
+        {
+          "type": "dataset",
+          "text": "OC20"
+        }
+      ]
+    },
+    {
+      "packet_id": "C030",
+      "group_size": 803,
+      "members": [
+        {
+          "type": "method",
+          "text": "Symmetry-adapted Graph Neural Network"
+        },
+        {
+          "type": "claim",
+          "text": "SchNet provides rotationally invariant energy predictions and rotationally equivariant, energy‑conserving force predictions by defining forces as the negative gradient of the predicted energy."
+        },
+        {
+          "type": "metric",
+          "text": "MAE (eV/atom)"
+        },
+        {
+          "type": "claim",
+          "text": "Assuming the order‑disorder interface energy is half the anti‑phase boundary energy, the interface energy employed in phase‑field simulations is approximately 15.45 mJ m⁻²."
+        },
+        {
+          "type": "component",
+          "text": "Atomic energy decomposition"
+        },
+        {
+          "type": "task",
+          "text": "HOMO energy (εHOMO) prediction"
+        },
+        {
+          "type": "future_topic",
+          "text": "phase transformations"
+        },
+        {
+          "type": "technique",
+          "text": "Nonlinear transformations"
+        },
+        {
+          "type": "technique",
+          "text": "Nosé-Hoover thermostat"
+        },
+        {
+          "type": "task",
+          "text": "Formation energy regression"
+        },
+        {
+          "type": "task",
+          "text": "Zero-point vibrational energy (ZPVE) prediction"
+        },
+        {
+          "type": "task",
+          "text": "Computational mechanics"
+        },
+        {
+          "type": "problem",
+          "text": "Energy discontinuities due to neighbor‑cutoff changes"
+        },
+        {
+          "type": "method",
+          "text": "r2SCAN functional"
+        },
+        {
+          "type": "component",
+          "text": "Bicrystal and gradient‑orientation extrapolation workflow"
+        }
+      ]
+    },
+    {
+      "packet_id": "C031",
+      "group_size": 51,
+      "members": [
+        {
+          "type": "technique",
+          "text": "Spherical harmonic expansion of orientation"
+        },
+        {
+          "type": "technique",
+          "text": "Radial basis function encoding"
+        },
+        {
+          "type": "technique",
+          "text": "Spherical‑harmonic directional encoding"
+        },
+        {
+          "type": "component",
+          "text": "Radial basis function edge attributes"
+        },
+        {
+          "type": "technique",
+          "text": "Gaussian radial basis expansion"
+        },
+        {
+          "type": "task",
+          "text": "Angular distribution function calculation"
+        },
+        {
+          "type": "technique",
+          "text": "Gaussian basis expansion of distances"
+        },
+        {
+          "type": "technique",
+          "text": "Gaussian radial basis functions for distance encoding"
+        },
+        {
+          "type": "component",
+          "text": "Spherical harmonic orientation encoding"
+        },
+        {
+          "type": "cited_work",
+          "text": "Gaussian Radial Basis"
+        },
+        {
+          "type": "component",
+          "text": "Spherical harmonics Y"
+        },
+        {
+          "type": "component",
+          "text": "Gaussian basis expansion"
+        },
+        {
+          "type": "technique",
+          "text": "Fourier angular basis"
+        },
+        {
+          "type": "component",
+          "text": "Spherical harmonic projections"
+        },
+        {
+          "type": "technique",
+          "text": "Smooth radial basis functions"
+        }
+      ]
+    },
+    {
+      "packet_id": "C032",
+      "group_size": 646,
+      "members": [
+        {
+          "type": "problem",
+          "text": "Need for expert domain knowledge"
+        },
+        {
+          "type": "method",
+          "text": "Automated Interactive Infrastructure and Database"
+        },
+        {
+          "type": "technique",
+          "text": "Adam optimizer with staged learning‑rate decay"
+        },
+        {
+          "type": "technique",
+          "text": "Data curation filtering"
+        },
+        {
+          "type": "cited_work",
+          "text": "Dropout"
+        },
+        {
+          "type": "method",
+          "text": "kernel ridge regression"
+        },
+        {
+          "type": "technique",
+          "text": "Polynomial mutation"
+        },
+        {
+          "type": "component",
+          "text": "Iterative training workflow"
+        },
+        {
+          "type": "technique",
+          "text": "Uncertainty quantification through deep ensembles"
+        },
+        {
+          "type": "component",
+          "text": "Feature concatenation operator"
+        },
+        {
+          "type": "technique",
+          "text": "10‑fold cross‑validation"
+        },
+        {
+          "type": "future_topic",
+          "text": "Continuous expansion of JARVIS datasets and tools"
+        },
+        {
+          "type": "technique",
+          "text": "Symbolic learning"
+        },
+        {
+          "type": "component",
+          "text": "Symbolic learning component"
+        },
+        {
+          "type": "component",
+          "text": "Iterative training loop workflow"
+        }
+      ]
+    },
+    {
+      "packet_id": "C033",
+      "group_size": 85,
+      "members": [
+        {
+          "type": "task",
+          "text": "Vicker's hardness prediction"
+        },
+        {
+          "type": "method",
+          "text": "NewtonNet"
+        },
+        {
+          "type": "problem",
+          "text": "Limited extrapolation capability"
+        },
+        {
+          "type": "problem",
+          "text": "Limited diversity in crystal structure discovery"
+        },
+        {
+          "type": "problem",
+          "text": "Melting temperature prediction"
+        },
+        {
+          "type": "problem",
+          "text": "High computational complexity of SCF"
+        },
+        {
+          "type": "component",
+          "text": "Cutoff function"
+        },
+        {
+          "type": "claim",
+          "text": "A hybrid HSE06 calculation for ZnO yields a band gap of 2.48 eV, substantially larger than the LDA/GGA gap of 0.7 eV and the PBE+U gap of 1.82 eV."
+        },
+        {
+          "type": "problem",
+          "text": "Overfitting in GNN interatomic potentials"
+        },
+        {
+          "type": "article",
+          "text": "SchNet: A continuous-filter convolutional neural network for modeling quantum interactions"
+        },
+        {
+          "type": "task",
+          "text": "Full phonon band structure prediction"
+        },
+        {
+          "type": "problem",
+          "text": "Fermi edge handling"
+        },
+        {
+          "type": "claim",
+          "text": "The use of a local‑coordinate message‑passing (LCMP) layer is critical for achieving high prediction accuracy of rotation‑covariant Hamiltonian blocks."
+        },
+        {
+          "type": "task",
+          "text": "Band structure and density‑of‑states calculation"
+        },
+        {
+          "type": "method",
+          "text": "convolutional LSTM"
+        }
+      ]
+    },
+    {
+      "packet_id": "C034",
+      "group_size": 571,
+      "members": [
+        {
+          "type": "component",
+          "text": "Self‑attention (QKV) blocks"
+        },
+        {
+          "type": "component",
+          "text": "Automatic k‑point convergence protocol"
+        },
+        {
+          "type": "component",
+          "text": "DiffusionAnalyzer"
+        },
+        {
+          "type": "technique",
+          "text": "Automated k‑point and plane‑wave cutoff convergence"
+        },
+        {
+          "type": "future_topic",
+          "text": "more accurate ground truth labels"
+        },
+        {
+          "type": "technique",
+          "text": "Allen-Dynes modification to McMillan formula"
+        },
+        {
+          "type": "component",
+          "text": "Spatial‑coordinate node features"
+        },
+        {
+          "type": "task",
+          "text": "Topological invariant analysis"
+        },
+        {
+          "type": "technique",
+          "text": "Grid search for gradient parameters"
+        },
+        {
+          "type": "method",
+          "text": "MPInterfaces"
+        },
+        {
+          "type": "component",
+          "text": "Elemental embeddings"
+        },
+        {
+          "type": "problem",
+          "text": "Generalization error estimation"
+        },
+        {
+          "type": "technique",
+          "text": "Min-max scaling"
+        },
+        {
+          "type": "problem",
+          "text": "Installation complexity"
+        },
+        {
+          "type": "problem",
+          "text": "preventing sp chain overprediction"
+        }
+      ]
+    },
+    {
+      "packet_id": "C035",
+      "group_size": 102,
+      "members": [
+        {
+          "type": "technique",
+          "text": "Branch-and-bound algorithms"
+        },
+        {
+          "type": "cited_work",
+          "text": "DPA-1"
+        },
+        {
+          "type": "method",
+          "text": "Non‑equilibrium molecular dynamics"
+        },
+        {
+          "type": "cited_work",
+          "text": "Embedded Atom Neural Network Potentials"
+        },
+        {
+          "type": "component",
+          "text": "Continuous species embedding"
+        },
+        {
+          "type": "future_topic",
+          "text": "Exploiting intermediate PES data (energies, forces, stresses) from high‑throughput relaxations to further improve IAP accuracy"
+        },
+        {
+          "type": "cited_work",
+          "text": "VASP"
+        },
+        {
+          "type": "technique",
+          "text": "Random displacement test"
+        },
+        {
+          "type": "component",
+          "text": "JARVIS‑ML"
+        },
+        {
+          "type": "claim",
+          "text": "Linear fitting of atomic properties yields substantially higher prediction errors than the GNN approach, demonstrating the superiority of the nonlinear GNN model for mapping initial structures to final property distributions."
+        },
+        {
+          "type": "claim",
+          "text": "EquiformerV2 incorporates three architectural improvements: attention re-normalization, separable S2 activation, and separable layer normalization, replacing SO(3) convolutions with eSCN convolutions to efficiently incorporate higher-degree tensors."
+        },
+        {
+          "type": "problem",
+          "text": "AutoML runtime optimization"
+        },
+        {
+          "type": "component",
+          "text": "Tensor product convolution layer"
+        },
+        {
+          "type": "method",
+          "text": "Extreme Gradient Boosting"
+        },
+        {
+          "type": "cited_work",
+          "text": "Variationally Optimized Atomic Orbitals"
+        }
+      ]
+    },
+    {
+      "packet_id": "C036",
+      "group_size": 205,
+      "members": [
+        {
+          "type": "task",
+          "text": "Martensitic phase transition modeling of iron"
+        },
+        {
+          "type": "problem",
+          "text": "Limited system sizes in amorphous materials simulation"
+        },
+        {
+          "type": "future_topic",
+          "text": "Unified free‑energy MEGNet model incorporating temperature, pressure, and entropy as global state inputs"
+        },
+        {
+          "type": "future_topic",
+          "text": "Application of machine‑learning interatomic potentials to dynamic brittle fracture simulations"
+        },
+        {
+          "type": "claim",
+          "text": "Materials within 50 meV/atom from convex hull were selected for subsequent DFT stiffness tensor calculations."
+        },
+        {
+          "type": "problem",
+          "text": "Design optimization of holey graphene"
+        },
+        {
+          "type": "task",
+          "text": "Melting temperature prediction"
+        },
+        {
+          "type": "problem",
+          "text": "Inverse design of low‑stress structures"
+        },
+        {
+          "type": "cited_work",
+          "text": "MLatom"
+        },
+        {
+          "type": "problem",
+          "text": "Generalization to structures outside training domain"
+        },
+        {
+          "type": "dataset",
+          "text": "Dipeptides"
+        },
+        {
+          "type": "claim",
+          "text": "Elemental-SDNNFF produces accurate forces for Heusler alloys constituting 55 different elements and accurate predictions of phonon properties."
+        },
+        {
+          "type": "claim",
+          "text": "EquiformerV2 outperforms state-of-the-art methods on OC20 and OC22 datasets, improving upon eSCN by 4-9% on force MAE and 4-18.9% on energy MAE."
+        },
+        {
+          "type": "task",
+          "text": "materials clustering by bonding character"
+        },
+        {
+          "type": "component",
+          "text": "Global state vector"
+        }
+      ]
+    },
+    {
+      "packet_id": "C037",
+      "group_size": 1234,
+      "members": [
+        {
+          "type": "task",
+          "text": "Solar‑cell efficiency screening"
+        },
+        {
+          "type": "method",
+          "text": "ACE with message passing"
+        },
+        {
+          "type": "method",
+          "text": "eSCN convolution"
+        },
+        {
+          "type": "problem",
+          "text": "ML potential extrapolation"
+        },
+        {
+          "type": "problem",
+          "text": "Efficient phonon band‑structure prediction"
+        },
+        {
+          "type": "method",
+          "text": "DP-GEN"
+        },
+        {
+          "type": "metric",
+          "text": "ROC-AUC"
+        },
+        {
+          "type": "future_topic",
+          "text": "Generalized energy models that include external fields"
+        },
+        {
+          "type": "task",
+          "text": "Thermal expansion prediction of copper"
+        },
+        {
+          "type": "dataset",
+          "text": "LLZO"
+        },
+        {
+          "type": "problem",
+          "text": "Accurate prediction of temperature‑dependent material properties without long MD runs"
+        },
+        {
+          "type": "method",
+          "text": "DeepH-E3"
+        },
+        {
+          "type": "component",
+          "text": "JARVIS-FF database"
+        },
+        {
+          "type": "problem",
+          "text": "False negative rate"
+        },
+        {
+          "type": "technique",
+          "text": "ROC‑AUC and MAE evaluation metrics"
+        }
+      ]
+    },
+    {
+      "packet_id": "C038",
+      "group_size": 85,
+      "members": [
+        {
+          "type": "future_topic",
+          "text": "Application of equivariant GNN phonon predictions to drug‑discovery related molecular systems"
+        },
+        {
+          "type": "task",
+          "text": "molecular dynamics"
+        },
+        {
+          "type": "claim",
+          "text": "Fine‑tuning the universal model on a small MOF dataset reduces the Hamiltonian matrix MAE to approximately 3.95 meV."
+        },
+        {
+          "type": "claim",
+          "text": "GAP predictions for Young's modulus of amorphous carbon agree very well with experimental values at all relevant densities, while screened Tersoff potential captures the trend but significantly overestimates absolute values."
+        },
+        {
+          "type": "component",
+          "text": "Continuous convolution layers"
+        },
+        {
+          "type": "technique",
+          "text": "Model‑committee error screening"
+        },
+        {
+          "type": "claim",
+          "text": "Each cataloged DFT structure provides one energy and 3N forces (N = number of atoms) for training universal MLIPs."
+        },
+        {
+          "type": "problem",
+          "text": "Uncertainty quantification"
+        },
+        {
+          "type": "problem",
+          "text": "polymorph differentiation"
+        },
+        {
+          "type": "claim",
+          "text": "Including tensile strain as an input node feature enables the GNN to accurately predict stress evolution during loading, reproducing nonlinear strain‑stress curves for porous graphene."
+        },
+        {
+          "type": "problem",
+          "text": "Computational cost of ab initio molecular dynamics"
+        },
+        {
+          "type": "task",
+          "text": "Gap deformation potential prediction"
+        },
+        {
+          "type": "task",
+          "text": "Li10GeP2S12 diffusion modeling"
+        },
+        {
+          "type": "task",
+          "text": "interface modeling"
+        },
+        {
+          "type": "problem",
+          "text": "Rotational invariance/equivariance"
+        }
+      ]
+    },
+    {
+      "packet_id": "C039",
+      "group_size": 72,
+      "members": [
+        {
+          "type": "claim",
+          "text": "DeePMD-kit is an open-source software package that facilitates molecular dynamics simulations using Deep Potential machine learning potentials for computational chemistry and materials science."
+        },
+        {
+          "type": "technique",
+          "text": "Arrhenius plot analysis"
+        },
+        {
+          "type": "problem",
+          "text": "handling heterogeneous material classes"
+        },
+        {
+          "type": "cited_work",
+          "text": "CUDA"
+        },
+        {
+          "type": "technique",
+          "text": "SO(2) linear operations"
+        },
+        {
+          "type": "future_topic",
+          "text": "Experimental synthesis of proposed compounds"
+        },
+        {
+          "type": "component",
+          "text": "Pulay charge mixer"
+        },
+        {
+          "type": "problem",
+          "text": "Parallelization challenges of GNN-IPs"
+        },
+        {
+          "type": "claim",
+          "text": "AFLOW’s cage‑finding algorithm identifies interstitial sites via a topological method, finding 14 cages (6 octahedral, 8 tetrahedral) that reduce to 5 symmetrically inequivalent positions, with radii of 2.2225 Å (octahedral) and 1.9248 Å (tetrahedral)."
+        },
+        {
+          "type": "component",
+          "text": "Melt-quench trajectory generator"
+        },
+        {
+          "type": "problem",
+          "text": "Quantitative interface‑energy calculation for coherent anti‑phase boundaries"
+        },
+        {
+          "type": "article",
+          "text": "Bridging scales with Machine Learning: From first principles statistical mechanics to continuum phase field computations to study order-disorder transitions in LixCoO2"
+        },
+        {
+          "type": "problem",
+          "text": "preventing sp chain overprediction"
+        },
+        {
+          "type": "task",
+          "text": "Magnetic moment prediction"
+        },
+        {
+          "type": "dataset",
+          "text": "Li7La3Zr2O12 (LLZO)"
+        }
+      ]
+    },
+    {
+      "packet_id": "C040",
+      "group_size": 85,
+      "members": [
+        {
+          "type": "method",
+          "text": "Linear response phonon method"
+        },
+        {
+          "type": "dataset",
+          "text": "Phonon DOS benchmark"
+        },
+        {
+          "type": "problem",
+          "text": "Automated phonon and vibrational property extraction"
+        },
+        {
+          "type": "claim",
+          "text": "The k-MVN method can predict full phonon band structures at arbitrary k points in the Brillouin zone by incorporating momentum dependence through phase factors for unit-cell translations."
+        },
+        {
+          "type": "dataset",
+          "text": "SiO2 polymorph phonon calculations"
+        },
+        {
+          "type": "technique",
+          "text": "Direct phonon band prediction"
+        },
+        {
+          "type": "problem",
+          "text": "Γ-phonon spectrum prediction from crystal structure"
+        },
+        {
+          "type": "claim",
+          "text": "The Γ-phonon database exhibits a hyperbolic relationship between average frequency and average atomic mass following ω̄ = C m̄^(-1/2) with C ≈ 1993."
+        },
+        {
+          "type": "technique",
+          "text": "Phonon dispersion analysis"
+        },
+        {
+          "type": "task",
+          "text": "Phonon dispersion prediction"
+        },
+        {
+          "type": "claim",
+          "text": "While exact phonon band matching with DFPT is not always achieved, the model captures key features such as average frequency and band gaps."
+        },
+        {
+          "type": "task",
+          "text": "Ternary alloy phonon prediction"
+        },
+        {
+          "type": "component",
+          "text": "APL phonon library"
+        },
+        {
+          "type": "claim",
+          "text": "Phonon bandstructures were validated on various alloy systems including SiGe, FeCoNi, and other high-energy alloys with agreement to existing literature."
+        },
+        {
+          "type": "future_topic",
+          "text": "Application of equivariant GNN phonon predictions to drug‑discovery related molecular systems"
+        }
+      ]
+    },
+    {
+      "packet_id": "C041",
+      "group_size": 120,
+      "members": [
+        {
+          "type": "claim",
+          "text": "GNoME discovered 381,000 new stable crystal structures on the convex hull, far exceeding the 13,000 new stable crystals discovered by external research efforts from 2021 to 2023."
+        },
+        {
+          "type": "dataset",
+          "text": "MD-17 Toluene (original)"
+        },
+        {
+          "type": "task",
+          "text": "Band structure and density‑of‑states calculation"
+        },
+        {
+          "type": "task",
+          "text": "AutoML"
+        },
+        {
+          "type": "problem",
+          "text": "surface energy prediction for amorphous materials"
+        },
+        {
+          "type": "task",
+          "text": "Phonon prediction for topological Weyl semimetals"
+        },
+        {
+          "type": "problem",
+          "text": "Slow convergence of traditional SCF"
+        },
+        {
+          "type": "task",
+          "text": "Full phonon prediction"
+        },
+        {
+          "type": "dataset",
+          "text": "MD-17 Aspirin (revised)"
+        },
+        {
+          "type": "problem",
+          "text": "Inclusion of van‑der‑Waals interactions and spin‑orbit coupling"
+        },
+        {
+          "type": "task",
+          "text": "model training and inference"
+        },
+        {
+          "type": "task",
+          "text": "Phonon frequency prediction"
+        },
+        {
+          "type": "claim",
+          "text": "The Materials Project database contains computed structural, electronic, and energetic data for over 33,000 inorganic compounds, generated using more than 15 million CPU‑hours of computation."
+        },
+        {
+          "type": "problem",
+          "text": "Prediction of voltage and phase behavior across composition and temperature"
+        },
+        {
+          "type": "future_topic",
+          "text": "Extending Matbench Discovery to quinternary and higher‑order compounds"
+        }
+      ]
+    },
+    {
+      "packet_id": "C042",
+      "group_size": 172,
+      "members": [
+        {
+          "type": "technique",
+          "text": "Loop tensor contraction"
+        },
+        {
+          "type": "task",
+          "text": "Magnetic moment prediction"
+        },
+        {
+          "type": "future_topic",
+          "text": "Optimization of local coordinate selection to reduce computational load in equivariant models"
+        },
+        {
+          "type": "cited_work",
+          "text": "Equivariant message passing"
+        },
+        {
+          "type": "cited_work",
+          "text": "E(3)-equivariant GNN"
+        },
+        {
+          "type": "claim",
+          "text": "The equivariant architecture handles spin‑orbital Hamiltonians by separating real and imaginary components and applying a change‑of‑basis for half‑integer representations, thereby preserving equivariance without requiring complex‑valued network layers."
+        },
+        {
+          "type": "technique",
+          "text": "Symmetry‑invariant feature construction"
+        },
+        {
+          "type": "cited_work",
+          "text": "Vision Transformer"
+        },
+        {
+          "type": "method",
+          "text": "E(3)-equivariant graph neural networks"
+        },
+        {
+          "type": "task",
+          "text": "equivariant deep learning"
+        },
+        {
+          "type": "cited_work",
+          "text": "SpinConv"
+        },
+        {
+          "type": "problem",
+          "text": "Symmetry preservation without handcrafted descriptors"
+        },
+        {
+          "type": "cited_work",
+          "text": "Moment Tensor Potentials"
+        },
+        {
+          "type": "claim",
+          "text": "eSCN convolutions reduce SO(3) tensor product complexity by replacing non-trivial paths with SO(2) linear operations while maintaining equivariance."
+        },
+        {
+          "type": "component",
+          "text": "E(3)-equivariant convolution"
+        }
+      ]
+    },
+    {
+      "packet_id": "C043",
+      "group_size": 350,
+      "members": [
+        {
+          "type": "task",
+          "text": "Bulk crystal equation‑of‑state calculations"
+        },
+        {
+          "type": "task",
+          "text": "oxidation energy calculation"
+        },
+        {
+          "type": "technique",
+          "text": "Whitening transformations"
+        },
+        {
+          "type": "task",
+          "text": "Large‑scale atomistic simulations"
+        },
+        {
+          "type": "method",
+          "text": "charge equilibration"
+        },
+        {
+          "type": "problem",
+          "text": "Unified prediction of multiple electronic properties"
+        },
+        {
+          "type": "technique",
+          "text": "Gaussian radial basis functions"
+        },
+        {
+          "type": "claim",
+          "text": "Cluster 1 (198 compounds, mostly ionic halides and oxides) achieves 136±5 K MAE and 0.92 R², while Cluster 2 (222 compounds, mostly covalent carbides and nitrides) achieves 189±7 K MAE and 0.90 R²."
+        },
+        {
+          "type": "task",
+          "text": "Multiscale computational modeling"
+        },
+        {
+          "type": "task",
+          "text": "Formation‑energy regression"
+        },
+        {
+          "type": "technique",
+          "text": "Maximum bond variation check"
+        },
+        {
+          "type": "future_topic",
+          "text": "Screening of material databases for solid-state electrolytes"
+        },
+        {
+          "type": "cited_work",
+          "text": "SIMPLE-NN"
+        },
+        {
+          "type": "problem",
+          "text": "Limited expressiveness of fixed LCAO basis"
+        },
+        {
+          "type": "task",
+          "text": "Kinetic property prediction"
+        }
+      ]
+    },
+    {
+      "packet_id": "C044",
+      "group_size": 350,
+      "members": [
+        {
+          "type": "task",
+          "text": "physics"
+        },
+        {
+          "type": "task",
+          "text": "Phase‑diagram calculation via cluster expansion"
+        },
+        {
+          "type": "problem",
+          "text": "Accurate stability classification for high‑throughput materials discovery"
+        },
+        {
+          "type": "problem",
+          "text": "Structural diversity deficiency"
+        },
+        {
+          "type": "method",
+          "text": "Allen–Cahn phase field model"
+        },
+        {
+          "type": "claim",
+          "text": "Phase‑field simulations reproduce the lever‑rule mass fractions of ordered and disordered phases predicted by the Monte Carlo phase diagram after accounting for a slight shift in the order‑disorder boundaries from the IDNN free‑energy surface."
+        },
+        {
+          "type": "task",
+          "text": "Atomic stress field prediction"
+        },
+        {
+          "type": "method",
+          "text": "Umbrella sampling"
+        },
+        {
+          "type": "component",
+          "text": "TMetalFraction featurizer"
+        },
+        {
+          "type": "method",
+          "text": "Monte Carlo simulation"
+        },
+        {
+          "type": "component",
+          "text": "Relaxation engine"
+        },
+        {
+          "type": "dataset",
+          "text": "FeCoNi alloys"
+        },
+        {
+          "type": "task",
+          "text": "surface stability prediction"
+        },
+        {
+          "type": "technique",
+          "text": "Error-tolerant featurizer application"
+        },
+        {
+          "type": "task",
+          "text": "Phase‑field microstructure evolution"
+        }
+      ]
+    },
+    {
+      "packet_id": "C045",
+      "group_size": 72,
+      "members": [
+        {
+          "type": "method",
+          "text": "Constrained DFT"
+        },
+        {
+          "type": "method",
+          "text": "Finite-element DFT"
+        },
+        {
+          "type": "component",
+          "text": "Calibrated DFT+U+vdW‑DF workflow"
+        },
+        {
+          "type": "problem",
+          "text": "Efficient inference compared to DFT"
+        },
+        {
+          "type": "dataset",
+          "text": "Hydrogen"
+        },
+        {
+          "type": "component",
+          "text": "HT‑DFT+U workflow"
+        },
+        {
+          "type": "claim",
+          "text": "High disagreement among model predictions (large standard deviation) can be used to flag potential DFT relaxation failures in high‑throughput screenings."
+        },
+        {
+          "type": "task",
+          "text": "High‑throughput DFT property calculation"
+        },
+        {
+          "type": "task",
+          "text": "DFT relaxation outcome prediction"
+        },
+        {
+          "type": "cited_work",
+          "text": "Liechtenstein DFT+U"
+        },
+        {
+          "type": "problem",
+          "text": "Computational cost of large‑scale DFT"
+        },
+        {
+          "type": "technique",
+          "text": "Two-stage DFT relaxation"
+        },
+        {
+          "type": "claim",
+          "text": "Approximately 40% of the UK's academic HPC was spent on DFT calculations in a recent year, most of which was AIMD."
+        },
+        {
+          "type": "problem",
+          "text": "Accuracy‑efficiency trade‑off in large‑scale DFT"
+        },
+        {
+          "type": "claim",
+          "text": "D4FT successfully converges on unstable fullerene fragments (C₁₂₀, C₁₄₀) where PySCF fails to converge within the default iteration limit."
+        }
+      ]
+    },
+    {
+      "packet_id": "C046",
+      "group_size": 803,
+      "members": [
+        {
+          "type": "task",
+          "text": "generation of input files for cluster expansion"
+        },
+        {
+          "type": "cited_work",
+          "text": "EAM"
+        },
+        {
+          "type": "cited_work",
+          "text": "Linear Atomic Cluster Expansion"
+        },
+        {
+          "type": "claim",
+          "text": "A unified free‑energy MEGNet model that incorporates temperature, pressure, and entropy as global state inputs predicts U₀, U, H, and G with a combined mean absolute error of 0.010 eV, comparable to separate single‑property models."
+        },
+        {
+          "type": "problem",
+          "text": "Variable-sized unit cell handling"
+        },
+        {
+          "type": "method",
+          "text": "Pulay charge mixing"
+        },
+        {
+          "type": "component",
+          "text": "JARVIS-FF workflow"
+        },
+        {
+          "type": "dataset",
+          "text": "B"
+        },
+        {
+          "type": "task",
+          "text": "Band‑structure and density‑of‑states prediction for large magnetic superstructures"
+        },
+        {
+          "type": "problem",
+          "text": "Automated STM image analysis"
+        },
+        {
+          "type": "cited_work",
+          "text": "MACE"
+        },
+        {
+          "type": "article",
+          "text": "Benchmarking Materials Property Prediction Methods: The Matbench Test Set and Automatminer Reference Algorithm"
+        },
+        {
+          "type": "problem",
+          "text": "Thermodynamic stability prediction"
+        },
+        {
+          "type": "technique",
+          "text": "short‑time NVT molecular dynamics"
+        },
+        {
+          "type": "metric",
+          "text": "DAF"
+        }
+      ]
+    },
+    {
+      "packet_id": "C047",
+      "group_size": 343,
+      "members": [
+        {
+          "type": "dataset",
+          "text": "acetylacetone"
+        },
+        {
+          "type": "dataset",
+          "text": "Naphthalene"
+        },
+        {
+          "type": "dataset",
+          "text": "ZnO"
+        },
+        {
+          "type": "cited_work",
+          "text": "TIP3P"
+        },
+        {
+          "type": "author",
+          "text": "Artittaya Boonkird"
+        },
+        {
+          "type": "cited_work",
+          "text": "SpookyNet"
+        },
+        {
+          "type": "component",
+          "text": "attention re-normalization"
+        },
+        {
+          "type": "cited_work",
+          "text": "3D Steerable CNNs"
+        },
+        {
+          "type": "method",
+          "text": "chemical potential equalization"
+        },
+        {
+          "type": "cited_work",
+          "text": "Machine learning and the physical sciences"
+        },
+        {
+          "type": "dataset",
+          "text": "QM9"
+        },
+        {
+          "type": "cited_work",
+          "text": "Haiku"
+        },
+        {
+          "type": "cited_work",
+          "text": "Directional Message Passing Neural Network"
+        },
+        {
+          "type": "cited_work",
+          "text": "Message Passing Neural Network (MPNN)"
+        },
+        {
+          "type": "cited_work",
+          "text": "Schmidt et al."
+        }
+      ]
+    },
+    {
+      "packet_id": "C048",
+      "group_size": 72,
+      "members": [
+        {
+          "type": "method",
+          "text": "Finite-element DFT"
+        },
+        {
+          "type": "claim",
+          "text": "D4FT successfully converges on unstable fullerene fragments (C₁₂₀, C₁₄₀) where PySCF fails to converge within the default iteration limit."
+        },
+        {
+          "type": "task",
+          "text": "High-throughput DFT calculations"
+        },
+        {
+          "type": "technique",
+          "text": "High-throughput DFT calculations"
+        },
+        {
+          "type": "problem",
+          "text": "DFT‑level accuracy with linear scaling"
+        },
+        {
+          "type": "component",
+          "text": "HT‑DFT+U workflow"
+        },
+        {
+          "type": "technique",
+          "text": "Finite‑element discretization for DFT"
+        },
+        {
+          "type": "metric",
+          "text": "ground state energy (Ha)"
+        },
+        {
+          "type": "component",
+          "text": "Mini‑batch SGD for KS‑DFT"
+        },
+        {
+          "type": "dataset",
+          "text": "Methane"
+        },
+        {
+          "type": "problem",
+          "text": "DFT computational scaling"
+        },
+        {
+          "type": "problem",
+          "text": "Automated detection of DFT calculation errors"
+        },
+        {
+          "type": "claim",
+          "text": "D4FT converges faster than JAX‑SCF, demonstrating a smaller computational complexity and reduced number of iterations."
+        },
+        {
+          "type": "problem",
+          "text": "Self-interaction error in DFT"
+        },
+        {
+          "type": "problem",
+          "text": "Benchmarking beyond‑DFT methods"
+        }
+      ]
+    }
+  ]
+}

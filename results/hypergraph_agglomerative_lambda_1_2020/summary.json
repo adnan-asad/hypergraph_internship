@@ -1,0 +1,213 @@
+{
+  "baseline": "hypergraph_agglomerative_minilm_lambda_1_gamma_0",
+  "lambda": 1.0,
+  "gamma": 0,
+  "node_count": 1505,
+  "edge_count": 374,
+  "budgets": [
+    12,
+    48,
+    120
+  ],
+  "levels": [
+    {
+      "level": 0,
+      "level_name": "k12",
+      "requested_groups": 12,
+      "actual_groups": 12,
+      "normalized_sse": 0.9023172247491326,
+      "fragmentation": 0.03602236818303191,
+      "combined_objective": 0.9383395929321645,
+      "group_size_distribution": {
+        "min": 12,
+        "max": 430,
+        "histogram": {
+          "12": 1,
+          "16": 1,
+          "22": 1,
+          "54": 1,
+          "55": 1,
+          "80": 1,
+          "100": 1,
+          "112": 1,
+          "120": 1,
+          "143": 1,
+          "361": 1,
+          "430": 1
+        }
+      },
+      "cut_source": "saved_active_partition_at_group_count"
+    },
+    {
+      "level": 1,
+      "level_name": "k48",
+      "requested_groups": 48,
+      "actual_groups": 48,
+      "normalized_sse": 0.7834213344411377,
+      "fragmentation": 0.05948316136111039,
+      "combined_objective": 0.8429044958022481,
+      "group_size_distribution": {
+        "min": 6,
+        "max": 304,
+        "histogram": {
+          "6": 2,
+          "8": 2,
+          "9": 2,
+          "10": 3,
+          "11": 1,
+          "12": 5,
+          "13": 2,
+          "14": 1,
+          "15": 1,
+          "16": 4,
+          "18": 1,
+          "19": 1,
+          "21": 1,
+          "22": 2,
+          "24": 1,
+          "25": 1,
+          "26": 2,
+          "30": 1,
+          "31": 2,
+          "32": 1,
+          "34": 1,
+          "38": 1,
+          "40": 2,
+          "42": 1,
+          "53": 1,
+          "59": 2,
+          "61": 1,
+          "80": 1,
+          "102": 1,
+          "304": 1
+        }
+      },
+      "cut_source": "saved_active_partition_at_group_count"
+    },
+    {
+      "level": 2,
+      "level_name": "k120",
+      "requested_groups": 120,
+      "actual_groups": 120,
+      "normalized_sse": 0.6579587746639578,
+      "fragmentation": 0.08770615986131869,
+      "combined_objective": 0.7456649345252765,
+      "group_size_distribution": {
+        "min": 2,
+        "max": 62,
+        "histogram": {
+          "2": 1,
+          "3": 5,
+          "4": 12,
+          "5": 11,
+          "6": 16,
+          "7": 7,
+          "8": 10,
+          "9": 8,
+          "10": 7,
+          "11": 2,
+          "12": 8,
+          "13": 4,
+          "14": 1,
+          "16": 5,
+          "18": 1,
+          "21": 1,
+          "22": 1,
+          "24": 4,
+          "25": 1,
+          "26": 1,
+          "28": 1,
+          "29": 1,
+          "30": 2,
+          "31": 4,
+          "33": 1,
+          "45": 1,
+          "53": 1,
+          "55": 1,
+          "57": 1,
+          "62": 1
+        }
+      },
+      "cut_source": "saved_active_partition_at_group_count"
+    },
+    {
+      "level": 3,
+      "level_name": "leaves",
+      "requested_groups": 1505,
+      "actual_groups": 1505,
+      "normalized_sse": 0.0,
+      "fragmentation": 1.0,
+      "combined_objective": 1.0,
+      "group_size_distribution": {
+        "min": 1,
+        "max": 1,
+        "histogram": {
+          "1": 1505
+        }
+      },
+      "cut_source": "saved_active_partition_at_group_count"
+    }
+  ],
+  "merge_runtime_seconds": 17.69193721099873,
+  "total_runtime_seconds": 25.604850105002697,
+  "total_scatter_Z_t": 1338.5830562661306,
+  "zero_scatter_semantic_contribution": false,
+  "merge_delta_summaries": {
+    "semantic_delta_normalized": {
+      "count": 1504,
+      "min": 0.0,
+      "median": 0.0004896856018914994,
+      "mean": 0.0006648936170212769,
+      "max": 0.024099881752650133
+    },
+    "structural_delta": {
+      "count": 1504,
+      "min": -0.022727272727272717,
+      "median": -0.00019098548510313216,
+      "mean": -0.0006648936170212783,
+      "max": 0
+    },
+    "combined_delta": {
+      "count": 1504,
+      "min": -0.02267152035644529,
+      "median": 0.00019067210796969684,
+      "mean": 5.790100963699183e-19,
+      "max": 0.0138500274319402
+    }
+  },
+  "candidate_policy": "exact lazy heap over all active cluster pairs; stale entries recomputed; deterministic tie order by delta_J, delta_S, delta_H, cluster ids",
+  "objective": "delta_J = delta_S_raw/Z_t + lambda*delta_H; gamma rejected/unused",
+  "input_path": "data/processed/baseline_input/snapshot_2020.json",
+  "input_sha256": "11e25c97ca0ee5107287909344efffe94f5b88b5eb5432315d6f028ed026a3cb",
+  "embedding_cache": "results/semantic_ward_2020/embeddings.npz",
+  "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_metadata": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "device": "cpu",
+    "max_seq_length": 256,
+    "tokenizer_class": "BertTokenizerFast",
+    "tokenizer_settings": {
+      "padding": false,
+      "truncation": false,
+      "add_special_tokens_for_count": true
+    },
+    "truncation_count": 0,
+    "truncated_node_ids": [],
+    "max_observed_token_length": 129,
+    "encoding_runtime_seconds": 6.63676253399899,
+    "dependencies": {
+      "python_requires": ">=3.10",
+      "sentence-transformers": "3.0.1",
+      "transformers": "4.41.2",
+      "torch": "2.2.2+cpu",
+      "huggingface-hub": "0.23.5",
+      "tokenizers": "0.19.1",
+      "numpy": "1.26.4",
+      "scikit-learn": "1.4.2",
+      "scipy": "1.15.3"
+    },
+    "input_sha256": "11e25c97ca0ee5107287909344efffe94f5b88b5eb5432315d6f028ed026a3cb"
+  }
+}

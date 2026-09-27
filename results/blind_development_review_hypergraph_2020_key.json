@@ -1,0 +1,17 @@
+{
+  "dev_run_A": {
+    "source_name": "lambda_1",
+    "path": "results/hypergraph_agglomerative_lambda_1_2020",
+    "lambda": 1
+  },
+  "dev_run_B": {
+    "source_name": "lambda_0p1",
+    "path": "results/hypergraph_agglomerative_lambda_0p1_2020",
+    "lambda": 0.1
+  },
+  "dev_run_C": {
+    "source_name": "lambda_0",
+    "path": "results/hypergraph_agglomerative_lambda_0_2020",
+    "lambda": 0
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "initial_snapshot": true,
+  "events": [
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2977",
+      "current_persistent_id": "H2020_k12_0007"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2997",
+      "current_persistent_id": "H2020_k12_0011"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2985",
+      "current_persistent_id": "H2020_k12_0008"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2784",
+      "current_persistent_id": "H2020_k12_0000"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2963",
+      "current_persistent_id": "H2020_k12_0003"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2958",
+      "current_persistent_id": "H2020_k12_0002"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2973",
+      "current_persistent_id": "H2020_k12_0005"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2996",
+      "current_persistent_id": "H2020_k12_0010"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2986",
+      "current_persistent_id": "H2020_k12_0009"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2971",
+      "current_persistent_id": "H2020_k12_0004"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2975",
+      "current_persistent_id": "H2020_k12_0006"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L0_c2858",
+      "current_persistent_id": "H2020_k12_0001"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2955",
+      "current_persistent_id": "H2020_k48_0041"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2961",
+      "current_persistent_id": "H2020_k48_0047"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2940",
+      "current_persistent_id": "H2020_k48_0028"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2930",
+      "current_persistent_id": "H2020_k48_0024"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2954",
+      "current_persistent_id": "H2020_k48_0040"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2810",
+      "current_persistent_id": "H2020_k48_0010"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2784",
+      "current_persistent_id": "H2020_k48_0009"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2945",
+      "current_persistent_id": "H2020_k48_0032"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2958",
+      "current_persistent_id": "H2020_k48_0044"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2722",
+      "current_persistent_id": "H2020_k48_0008"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2879",
+      "current_persistent_id": "H2020_k48_0016"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2896",
+      "current_persistent_id": "H2020_k48_0017"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2956",
+      "current_persistent_id": "H2020_k48_0042"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2957",
+      "current_persistent_id": "H2020_k48_0043"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2948",
+      "current_persistent_id": "H2020_k48_0034"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2572",
+      "current_persistent_id": "H2020_k48_0003"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2943",
+      "current_persistent_id": "H2020_k48_0030"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2953",
+      "current_persistent_id": "H2020_k48_0039"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2944",
+      "current_persistent_id": "H2020_k48_0031"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2959",
+      "current_persistent_id": "H2020_k48_0045"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2911",
+      "current_persistent_id": "H2020_k48_0022"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2942",
+      "current_persistent_id": "H2020_k48_0029"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2900",
+      "current_persistent_id": "H2020_k48_0020"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2952",
+      "current_persistent_id": "H2020_k48_0038"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2664",
+      "current_persistent_id": "H2020_k48_0007"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2136",
+      "current_persistent_id": "H2020_k48_0000"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2934",
+      "current_persistent_id": "H2020_k48_0026"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2951",
+      "current_persistent_id": "H2020_k48_0037"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2939",
+      "current_persistent_id": "H2020_k48_0027"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2898",
+      "current_persistent_id": "H2020_k48_0018"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2917",
+      "current_persistent_id": "H2020_k48_0023"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2946",
+      "current_persistent_id": "H2020_k48_0033"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2867",
+      "current_persistent_id": "H2020_k48_0014"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2949",
+      "current_persistent_id": "H2020_k48_0035"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2899",
+      "current_persistent_id": "H2020_k48_0019"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2950",
+      "current_persistent_id": "H2020_k48_0036"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2960",
+      "current_persistent_id": "H2020_k48_0046"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2858",
+      "current_persistent_id": "H2020_k48_0012"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2507",
+      "current_persistent_id": "H2020_k48_0002"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2876",
+      "current_persistent_id": "H2020_k48_0015"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2383",
+      "current_persistent_id": "H2020_k48_0001"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2932",
+      "current_persistent_id": "H2020_k48_0025"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2862",
+      "current_persistent_id": "H2020_k48_0013"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2625",
+      "current_persistent_id": "H2020_k48_0006"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2845",
+      "current_persistent_id": "H2020_k48_0011"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2907",
+      "current_persistent_id": "H2020_k48_0021"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2588",
+      "current_persistent_id": "H2020_k48_0004"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L1_c2610",
+      "current_persistent_id": "H2020_k48_0005"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2832",
+      "current_persistent_id": "H2020_k120_0076"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2223",
+      "current_persistent_id": "H2020_k120_0012"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2837",
+      "current_persistent_id": "H2020_k120_0080"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2751",
+      "current_persistent_id": "H2020_k120_0048"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2480",
+      "current_persistent_id": "H2020_k120_0021"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2552",
+      "current_persistent_id": "H2020_k120_0025"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c1931",
+      "current_persistent_id": "H2020_k120_0004"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2838",
+      "current_persistent_id": "H2020_k120_0081"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2779",
+      "current_persistent_id": "H2020_k120_0057"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2810",
+      "current_persistent_id": "H2020_k120_0067"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2784",
+      "current_persistent_id": "H2020_k120_0058"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2880",
+      "current_persistent_id": "H2020_k120_0110"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2815",
+      "current_persistent_id": "H2020_k120_0069"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2288",
+      "current_persistent_id": "H2020_k120_0013"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2722",
+      "current_persistent_id": "H2020_k120_0046"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2879",
+      "current_persistent_id": "H2020_k120_0109"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2580",
+      "current_persistent_id": "H2020_k120_0028"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2752",
+      "current_persistent_id": "H2020_k120_0049"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2882",
+      "current_persistent_id": "H2020_k120_0112"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2889",
+      "current_persistent_id": "H2020_k120_0119"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2850",
+      "current_persistent_id": "H2020_k120_0085"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2572",
+      "current_persistent_id": "H2020_k120_0027"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2833",
+      "current_persistent_id": "H2020_k120_0077"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2886",
+      "current_persistent_id": "H2020_k120_0116"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2856",
+      "current_persistent_id": "H2020_k120_0089"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2831",
+      "current_persistent_id": "H2020_k120_0075"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2829",
+      "current_persistent_id": "H2020_k120_0074"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2872",
+      "current_persistent_id": "H2020_k120_0102"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2877",
+      "current_persistent_id": "H2020_k120_0107"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2878",
+      "current_persistent_id": "H2020_k120_0108"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2888",
+      "current_persistent_id": "H2020_k120_0118"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2844",
+      "current_persistent_id": "H2020_k120_0082"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2477",
+      "current_persistent_id": "H2020_k120_0020"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c1932",
+      "current_persistent_id": "H2020_k120_0005"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2807",
+      "current_persistent_id": "H2020_k120_0064"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c1930",
+      "current_persistent_id": "H2020_k120_0003"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2772",
+      "current_persistent_id": "H2020_k120_0054"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2817",
+      "current_persistent_id": "H2020_k120_0070"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2871",
+      "current_persistent_id": "H2020_k120_0101"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2861",
+      "current_persistent_id": "H2020_k120_0092"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2803",
+      "current_persistent_id": "H2020_k120_0061"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2664",
+      "current_persistent_id": "H2020_k120_0035"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2883",
+      "current_persistent_id": "H2020_k120_0113"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2136",
+      "current_persistent_id": "H2020_k120_0010"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2873",
+      "current_persistent_id": "H2020_k120_0103"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2809",
+      "current_persistent_id": "H2020_k120_0066"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2804",
+      "current_persistent_id": "H2020_k120_0062"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2884",
+      "current_persistent_id": "H2020_k120_0114"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2545",
+      "current_persistent_id": "H2020_k120_0023"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2860",
+      "current_persistent_id": "H2020_k120_0091"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2852",
+      "current_persistent_id": "H2020_k120_0086"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2776",
+      "current_persistent_id": "H2020_k120_0056"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2550",
+      "current_persistent_id": "H2020_k120_0024"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2796",
+      "current_persistent_id": "H2020_k120_0060"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2689",
+      "current_persistent_id": "H2020_k120_0039"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2805",
+      "current_persistent_id": "H2020_k120_0063"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2836",
+      "current_persistent_id": "H2020_k120_0079"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2854",
+      "current_persistent_id": "H2020_k120_0087"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2867",
+      "current_persistent_id": "H2020_k120_0097"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2775",
+      "current_persistent_id": "H2020_k120_0055"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2756",
+      "current_persistent_id": "H2020_k120_0050"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2822",
+      "current_persistent_id": "H2020_k120_0071"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2787",
+      "current_persistent_id": "H2020_k120_0059"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2885",
+      "current_persistent_id": "H2020_k120_0115"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2864",
+      "current_persistent_id": "H2020_k120_0094"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c1999",
+      "current_persistent_id": "H2020_k120_0008"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2875",
+      "current_persistent_id": "H2020_k120_0105"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2858",
+      "current_persistent_id": "H2020_k120_0090"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2717",
+      "current_persistent_id": "H2020_k120_0044"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c1909",
+      "current_persistent_id": "H2020_k120_0001"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2744",
+      "current_persistent_id": "H2020_k120_0047"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2869",
+      "current_persistent_id": "H2020_k120_0099"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2507",
+      "current_persistent_id": "H2020_k120_0022"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2759",
+      "current_persistent_id": "H2020_k120_0052"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2881",
+      "current_persistent_id": "H2020_k120_0111"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2710",
+      "current_persistent_id": "H2020_k120_0041"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2876",
+      "current_persistent_id": "H2020_k120_0106"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2865",
+      "current_persistent_id": "H2020_k120_0095"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2686",
+      "current_persistent_id": "H2020_k120_0038"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2383",
+      "current_persistent_id": "H2020_k120_0016"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2720",
+      "current_persistent_id": "H2020_k120_0045"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2706",
+      "current_persistent_id": "H2020_k120_0040"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2887",
+      "current_persistent_id": "H2020_k120_0117"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2834",
+      "current_persistent_id": "H2020_k120_0078"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c1958",
+      "current_persistent_id": "H2020_k120_0007"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2868",
+      "current_persistent_id": "H2020_k120_0098"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2862",
+      "current_persistent_id": "H2020_k120_0093"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c1571",
+      "current_persistent_id": "H2020_k120_0000"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2714",
+      "current_persistent_id": "H2020_k120_0043"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2039",
+      "current_persistent_id": "H2020_k120_0009"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2403",
+      "current_persistent_id": "H2020_k120_0018"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2370",
+      "current_persistent_id": "H2020_k120_0015"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2625",
+      "current_persistent_id": "H2020_k120_0032"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2870",
+      "current_persistent_id": "H2020_k120_0100"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2825",
+      "current_persistent_id": "H2020_k120_0072"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2845",
+      "current_persistent_id": "H2020_k120_0083"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2874",
+      "current_persistent_id": "H2020_k120_0104"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2847",
+      "current_persistent_id": "H2020_k120_0084"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c1917",
+      "current_persistent_id": "H2020_k120_0002"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2811",
+      "current_persistent_id": "H2020_k120_0068"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2588",
+      "current_persistent_id": "H2020_k120_0029"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2317",
+      "current_persistent_id": "H2020_k120_0014"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2563",
+      "current_persistent_id": "H2020_k120_0026"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2653",
+      "current_persistent_id": "H2020_k120_0033"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2855",
+      "current_persistent_id": "H2020_k120_0088"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2770",
+      "current_persistent_id": "H2020_k120_0053"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2610",
+      "current_persistent_id": "H2020_k120_0031"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2712",
+      "current_persistent_id": "H2020_k120_0042"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2676",
+      "current_persistent_id": "H2020_k120_0036"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c1946",
+      "current_persistent_id": "H2020_k120_0006"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2597",
+      "current_persistent_id": "H2020_k120_0030"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2866",
+      "current_persistent_id": "H2020_k120_0096"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2194",
+      "current_persistent_id": "H2020_k120_0011"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2826",
+      "current_persistent_id": "H2020_k120_0073"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2808",
+      "current_persistent_id": "H2020_k120_0065"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2757",
+      "current_persistent_id": "H2020_k120_0051"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2467",
+      "current_persistent_id": "H2020_k120_0019"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2681",
+      "current_persistent_id": "H2020_k120_0037"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2658",
+      "current_persistent_id": "H2020_k120_0034"
+    },
+    {
+      "event_type": "birth",
+      "current_group_id": "L2_c2386",
+      "current_persistent_id": "H2020_k120_0017"
+    }
+  ]
+}

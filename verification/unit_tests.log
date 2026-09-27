@@ -1,0 +1,77 @@
+test_asserting_paper_gates_edge (test_data_pipeline.DataTests.test_asserting_paper_gates_edge) ... ok
+test_dangling_endpoint_rejected (test_data_pipeline.DataTests.test_dangling_endpoint_rejected) ... ok
+test_delays_and_isolates_audited (test_data_pipeline.DataTests.test_delays_and_isolates_audited) ... ok
+test_duplicate_node_rejected (test_data_pipeline.DataTests.test_duplicate_node_rejected) ... ok
+test_future_endpoint_postpones_whole_edge (test_data_pipeline.DataTests.test_future_endpoint_postpones_whole_edge) ... ok
+test_future_fact_gates_edge (test_data_pipeline.DataTests.test_future_fact_gates_edge) ... ok
+test_origin_date_does_not_admit_unseen_node (test_data_pipeline.DataTests.test_origin_date_does_not_admit_unseen_node) ... ok
+test_repeat_endpoint_rejected (test_data_pipeline.DataTests.test_repeat_endpoint_rejected) ... ok
+test_snapshot_does_not_mutate_raw (test_data_pipeline.DataTests.test_snapshot_does_not_mutate_raw) ... ok
+test_inventory_marks_unsatisfied_evaluation_requirements (test_evaluation_scaffold.EvaluationScaffoldTests.test_inventory_marks_unsatisfied_evaluation_requirements) ... ok
+test_perturbation_manifest_removes_edges_not_nodes (test_evaluation_scaffold.EvaluationScaffoldTests.test_perturbation_manifest_removes_edges_not_nodes) ... ok
+test_combined_delta_matches_direct_objective_difference (test_hypergraph_agglomerative.HypergraphAgglomerativeTests.test_combined_delta_matches_direct_objective_difference) ... ok
+test_gamma_rejected_by_cli_layer_contract (test_hypergraph_agglomerative.HypergraphAgglomerativeTests.test_gamma_rejected_by_cli_layer_contract) ... ok
+test_lambda_zero_follows_ward_criterion (test_hypergraph_agglomerative.HypergraphAgglomerativeTests.test_lambda_zero_follows_ward_criterion) ... ok
+test_outputs_cover_nested_budgets_and_preserve_edges (test_hypergraph_agglomerative.HypergraphAgglomerativeTests.test_outputs_cover_nested_budgets_and_preserve_edges) ... ok
+test_saved_cuts_do_not_assume_monotonic_merge_costs (test_hypergraph_agglomerative.HypergraphAgglomerativeTests.test_saved_cuts_do_not_assume_monotonic_merge_costs) ... ok
+test_selected_merge_matches_exhaustive_small (test_hypergraph_agglomerative.HypergraphAgglomerativeTests.test_selected_merge_matches_exhaustive_small) ... ok
+test_structural_delta_matches_quotient_before_after_after_prior_merge (test_hypergraph_agglomerative.HypergraphAgglomerativeTests.test_structural_delta_matches_quotient_before_after_after_prior_merge) ... ok
+test_ward_delta_matches_direct_sse (test_hypergraph_agglomerative.HypergraphAgglomerativeTests.test_ward_delta_matches_direct_sse) ... ok
+test_propagation_and_uniqueness (test_identity.IdentityTests.test_propagation_and_uniqueness) ... ok
+test_extractive_labels_keep_support_and_blank_overclaim (test_labels_scoring.LabelScoringTests.test_extractive_labels_keep_support_and_blank_overclaim) ... C:\Users\admin\Documents\Codex\2026-09-21\referenced-chatgpt-conversation-this-is-an\outputs\final_submission\tests\test_labels_scoring.py:14: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\admin\\AppData\\Local\\Temp\\tmptyog555a\\r\\hierarchy_labeled_extractive.json' mode='r' encoding='cp1252'>
+  row=json.load(open(out))['supernodes'][0]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_score_isolated_after_retrieval (test_labels_scoring.LabelScoringTests.test_score_isolated_after_retrieval) ... C:\Users\admin\Documents\Codex\2026-09-21\referenced-chatgpt-conversation-this-is-an\outputs\final_submission\src\tkh_abstraction\score_retrieval.py:12: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\admin\\AppData\\Local\\Temp\\tmp8p34ok4_\\ret.json' mode='r' encoding='utf-8'>
+  ret=json.load(open(retrieval,encoding='utf-8')); gt=json.load(open(ground_truth,encoding='utf-8'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\admin\Documents\Codex\2026-09-21\referenced-chatgpt-conversation-this-is-an\outputs\final_submission\src\tkh_abstraction\score_retrieval.py:12: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\admin\\AppData\\Local\\Temp\\tmp8p34ok4_\\gt.json' mode='r' encoding='utf-8'>
+  ret=json.load(open(retrieval,encoding='utf-8')); gt=json.load(open(ground_truth,encoding='utf-8'))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\admin\Documents\Codex\2026-09-21\referenced-chatgpt-conversation-this-is-an\outputs\final_submission\tests\test_labels_scoring.py:23: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\admin\\AppData\\Local\\Temp\\tmp8p34ok4_\\score.json' mode='r' encoding='cp1252'>
+  s=json.load(open(out))['summary']
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_nested_coverage_and_budget_counts_with_isolates (test_lexical_baseline.LexicalBaselineTests.test_nested_coverage_and_budget_counts_with_isolates) ... ok
+test_parent_consistency (test_lexical_baseline.LexicalBaselineTests.test_parent_consistency) ... ok
+test_quotient_preserves_original_hyperedges_and_provenance (test_lexical_baseline.LexicalBaselineTests.test_quotient_preserves_original_hyperedges_and_provenance) ... ok
+test_refuses_to_overwrite_nonempty_output_directory (test_lexical_baseline.LexicalBaselineTests.test_refuses_to_overwrite_nonempty_output_directory) ... ok
+test_ward_delta_matches_direct_sse_increase (test_lexical_baseline.LexicalBaselineTests.test_ward_delta_matches_direct_sse_increase) ... ok
+test_ward_linkage_uses_same_schema_and_budgets (test_lexical_baseline.LexicalBaselineTests.test_ward_linkage_uses_same_schema_and_budgets) ... ok
+test_chronological_cut_reconstruction_and_missing (test_navigation.NavigationTests.test_chronological_cut_reconstruction_and_missing) ... ok
+test_expand_collapse_roundtrip_and_invalids (test_navigation.NavigationTests.test_expand_collapse_roundtrip_and_invalids) ... ok
+test_export_frontier_preserves_hyperedges (test_navigation.NavigationTests.test_export_frontier_preserves_hyperedges) ... ok
+test_contraction_equals_direct_construction_and_original_objective (test_quotient.QuotientTests.test_contraction_equals_direct_construction_and_original_objective) ... ok
+test_empty_edge_set (test_quotient.QuotientTests.test_empty_edge_set) ... ok
+test_fully_internal_edge_is_retained (test_quotient.QuotientTests.test_fully_internal_edge_is_retained) ... ok
+test_invalid_merge_rejected (test_quotient.QuotientTests.test_invalid_merge_rejected) ... ok
+test_merge_does_not_mutate_input (test_quotient.QuotientTests.test_merge_does_not_mutate_input) ... ok
+test_parallel_edges_and_original_evidence_remain_distinct (test_quotient.QuotientTests.test_parallel_edges_and_original_evidence_remain_distinct) ... ok
+test_partial_collapse_retains_three_way_edge_and_counts (test_quotient.QuotientTests.test_partial_collapse_retains_three_way_edge_and_counts) ... ok
+test_partition_cannot_omit_isolates_or_add_nodes (test_quotient.QuotientTests.test_partition_cannot_omit_isolates_or_add_nodes) ... ok
+test_partition_cannot_overlap (test_quotient.QuotientTests.test_partition_cannot_overlap) ... ok
+test_cache_alignment_rejects_text_mismatch (test_semantic_baseline.SemanticBaselineTests.test_cache_alignment_rejects_text_mismatch) ... ok
+test_hierarchy_and_quotient_invariants (test_semantic_baseline.SemanticBaselineTests.test_hierarchy_and_quotient_invariants) ... ok
+test_validate_rejects_nonfinite_or_unnormalized (test_semantic_baseline.SemanticBaselineTests.test_validate_rejects_nonfinite_or_unnormalized) ... ok
+test_claim_mentions_are_not_method_recovery (test_submission_audit.ExactScoringTests.test_claim_mentions_are_not_method_recovery) ... ok
+test_normalized_name_and_dataset (test_submission_audit.ExactScoringTests.test_normalized_name_and_dataset) ... ok
+test_substring_is_not_exact (test_submission_audit.ExactScoringTests.test_substring_is_not_exact) ... ok
+test_gamma_zero_matches_non_temporal_components (test_temporal_hypergraph.TemporalTests.test_gamma_zero_matches_non_temporal_components) ... ok
+test_stage_transition_rebuild_matches_exhaustive (test_temporal_hypergraph.TemporalTests.test_stage_transition_rebuild_matches_exhaustive) ... ok
+test_temporal_delta_matches_pairwise_with_new_nodes (test_temporal_hypergraph.TemporalTests.test_temporal_delta_matches_pairwise_with_new_nodes) ... ok
+test_bootstrap_preserves_family_weighting (test_tuning.TuningTests.test_bootstrap_preserves_family_weighting) ... ok
+test_bootstrap_rejects_dev_overlap (test_tuning.TuningTests.test_bootstrap_rejects_dev_overlap) ... ok
+test_cohorts_must_match (test_tuning.TuningTests.test_cohorts_must_match) ... ok
+test_frozen_but_incoherent_candidate_rejected (test_tuning.TuningTests.test_frozen_but_incoherent_candidate_rejected) ... ok
+test_grid_contains_controls (test_tuning.TuningTests.test_grid_contains_controls) ... ok
+test_nan_rejected (test_tuning.TuningTests.test_nan_rejected) ... ok
+test_no_feasible_config_is_honest_failure (test_tuning.TuningTests.test_no_feasible_config_is_honest_failure) ... ok
+test_rejects_high_coherence_with_overclaims (test_tuning.TuningTests.test_rejects_high_coherence_with_overclaims) ... ok
+test_seeds_must_match (test_tuning.TuningTests.test_seeds_must_match) ... ok
+test_selects_quality_not_smallest_penalty_weights (test_tuning.TuningTests.test_selects_quality_not_smallest_penalty_weights) ... ok
+test_test_split_cannot_be_selected_on (test_tuning.TuningTests.test_test_split_cannot_be_selected_on) ... ok
+
+----------------------------------------------------------------------
+Ran 60 tests in 0.239s
+
+OK

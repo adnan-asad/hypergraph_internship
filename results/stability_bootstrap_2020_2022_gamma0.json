@@ -1,0 +1,32 @@
+{
+  "k12": {
+    "ari": 0.3228684502614618,
+    "ci95": [
+      0.29718838372414275,
+      0.3561081367638642
+    ],
+    "shared_nodes": 1505,
+    "resampling_unit": "shared node",
+    "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+  },
+  "k48": {
+    "ari": 0.43274216857255204,
+    "ci95": [
+      0.41185284913519005,
+      0.48071335502339274
+    ],
+    "shared_nodes": 1505,
+    "resampling_unit": "shared node",
+    "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+  },
+  "k120": {
+    "ari": 0.6185465519980207,
+    "ci95": [
+      0.6021028821701049,
+      0.6730443101981518
+    ],
+    "shared_nodes": 1505,
+    "resampling_unit": "shared node",
+    "warning": "Node bootstrap does not model graph dependence or uncertainty across independent corpora."
+  }
+}

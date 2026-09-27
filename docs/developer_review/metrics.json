@@ -1,0 +1,1479 @@
+{
+  "source": "C:\\Users\\admin\\Downloads\\developer_review_2020.csv",
+  "sha256": "240c9c9824dd6cf7be74c212f1daacf84ba8a1e5b1ff1e54ea4edf98e7109c63",
+  "reviewer": "Adnan, project developer; anonymous run labels; guided discussion occurred; not independent expert review",
+  "unit": "Recorded rating entry; scope mixes member-level and group-level judgments",
+  "repairs": [
+    {
+      "line": 2,
+      "action": "Rejoined excess final columns with commas to recover the unquoted human note",
+      "original_column_count": 10
+    },
+    {
+      "line": 84,
+      "action": "Normalized usnure to unsure for analysis; original preserved"
+    }
+  ],
+  "overall": {
+    "displayed_rows": 540,
+    "recorded_ratings": 120,
+    "blank_rows": 420,
+    "rating_0": 7,
+    "rating_1": 50,
+    "rating_2": 38,
+    "unsure": 25,
+    "numeric_ratings": 95,
+    "numeric_rating_2_percent": 40.0
+  },
+  "runs": {
+    "dev_run_A": {
+      "displayed_rows": 180,
+      "recorded_ratings": 104,
+      "blank_rows": 76,
+      "rating_0": 5,
+      "rating_1": 42,
+      "rating_2": 33,
+      "unsure": 24,
+      "numeric_ratings": 80,
+      "numeric_rating_2_percent": 41.25,
+      "total_groups": 12,
+      "groups_with_ratings": 10,
+      "groups_with_multiple_values": 7,
+      "sample_kind": {
+        "central": {
+          "displayed_rows": 60,
+          "recorded_ratings": 38,
+          "blank_rows": 22,
+          "rating_0": 4,
+          "rating_1": 12,
+          "rating_2": 20,
+          "unsure": 2,
+          "numeric_ratings": 36,
+          "numeric_rating_2_percent": 55.55555555555556
+        },
+        "random": {
+          "displayed_rows": 60,
+          "recorded_ratings": 34,
+          "blank_rows": 26,
+          "rating_0": 0,
+          "rating_1": 20,
+          "rating_2": 5,
+          "unsure": 9,
+          "numeric_ratings": 25,
+          "numeric_rating_2_percent": 20.0
+        },
+        "peripheral": {
+          "displayed_rows": 60,
+          "recorded_ratings": 32,
+          "blank_rows": 28,
+          "rating_0": 1,
+          "rating_1": 10,
+          "rating_2": 8,
+          "unsure": 13,
+          "numeric_ratings": 19,
+          "numeric_rating_2_percent": 42.10526315789474
+        }
+      }
+    },
+    "dev_run_B": {
+      "displayed_rows": 180,
+      "recorded_ratings": 7,
+      "blank_rows": 173,
+      "rating_0": 1,
+      "rating_1": 4,
+      "rating_2": 2,
+      "unsure": 0,
+      "numeric_ratings": 7,
+      "numeric_rating_2_percent": 28.571428571428573,
+      "total_groups": 12,
+      "groups_with_ratings": 6,
+      "groups_with_multiple_values": 0,
+      "sample_kind": {
+        "central": {
+          "displayed_rows": 60,
+          "recorded_ratings": 6,
+          "blank_rows": 54,
+          "rating_0": 1,
+          "rating_1": 4,
+          "rating_2": 1,
+          "unsure": 0,
+          "numeric_ratings": 6,
+          "numeric_rating_2_percent": 16.666666666666668
+        },
+        "random": {
+          "displayed_rows": 60,
+          "recorded_ratings": 1,
+          "blank_rows": 59,
+          "rating_0": 0,
+          "rating_1": 0,
+          "rating_2": 1,
+          "unsure": 0,
+          "numeric_ratings": 1,
+          "numeric_rating_2_percent": 100.0
+        },
+        "peripheral": {
+          "displayed_rows": 60,
+          "recorded_ratings": 0,
+          "blank_rows": 60,
+          "rating_0": 0,
+          "rating_1": 0,
+          "rating_2": 0,
+          "unsure": 0,
+          "numeric_ratings": 0,
+          "numeric_rating_2_percent": null
+        }
+      }
+    },
+    "dev_run_C": {
+      "displayed_rows": 180,
+      "recorded_ratings": 9,
+      "blank_rows": 171,
+      "rating_0": 1,
+      "rating_1": 4,
+      "rating_2": 3,
+      "unsure": 1,
+      "numeric_ratings": 8,
+      "numeric_rating_2_percent": 37.5,
+      "total_groups": 12,
+      "groups_with_ratings": 6,
+      "groups_with_multiple_values": 2,
+      "sample_kind": {
+        "central": {
+          "displayed_rows": 60,
+          "recorded_ratings": 7,
+          "blank_rows": 53,
+          "rating_0": 1,
+          "rating_1": 2,
+          "rating_2": 3,
+          "unsure": 1,
+          "numeric_ratings": 6,
+          "numeric_rating_2_percent": 50.0
+        },
+        "random": {
+          "displayed_rows": 60,
+          "recorded_ratings": 1,
+          "blank_rows": 59,
+          "rating_0": 0,
+          "rating_1": 1,
+          "rating_2": 0,
+          "unsure": 0,
+          "numeric_ratings": 1,
+          "numeric_rating_2_percent": 0.0
+        },
+        "peripheral": {
+          "displayed_rows": 60,
+          "recorded_ratings": 1,
+          "blank_rows": 59,
+          "rating_0": 0,
+          "rating_1": 1,
+          "rating_2": 0,
+          "unsure": 0,
+          "numeric_ratings": 1,
+          "numeric_rating_2_percent": 0.0
+        }
+      }
+    }
+  },
+  "groups": [
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2747",
+      "group_size": 12,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 1,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "0"
+      ],
+      "notes": [
+        {
+          "source_line": 152,
+          "node_id": "comp_00348",
+          "rating": "0",
+          "text": "all Jarvis terms related together maybe too semantic but still unsure"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2849",
+      "group_size": 16,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 1,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [
+        "unsure"
+      ],
+      "notes": [
+        {
+          "source_line": 167,
+          "node_id": "data_00223",
+          "rating": "unsure",
+          "text": "the chemical names seem to be connected together"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2969",
+      "group_size": 22,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 1,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "0"
+      ],
+      "notes": [
+        {
+          "source_line": 137,
+          "node_id": "comp_00803",
+          "rating": "0",
+          "text": "all \"body descriptors\" grouped together"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2972",
+      "group_size": 112,
+      "displayed_rows": 15,
+      "recorded_ratings": 11,
+      "blank_rows": 4,
+      "rating_0": 0,
+      "rating_1": 7,
+      "rating_2": 4,
+      "unsure": 0,
+      "numeric_ratings": 11,
+      "numeric_rating_2_percent": 36.36363636363637,
+      "distinct_recorded_values": [
+        "1",
+        "2"
+      ],
+      "notes": [
+        {
+          "source_line": 92,
+          "node_id": "auth_00190",
+          "rating": "1",
+          "text": "definitely related to AFLOW"
+        },
+        {
+          "source_line": 93,
+          "node_id": "auth_00142",
+          "rating": "1",
+          "text": "not realted to AFLOW btu grouped together"
+        },
+        {
+          "source_line": 94,
+          "node_id": "auth_00169",
+          "rating": "1",
+          "text": "no similar work but simialr theme material science could be a possible broad connection"
+        },
+        {
+          "source_line": 95,
+          "node_id": "auth_00013",
+          "rating": "1",
+          "text": "related to each other through materials"
+        },
+        {
+          "source_line": 96,
+          "node_id": "auth_00163",
+          "rating": "1",
+          "text": "related to materail science"
+        },
+        {
+          "source_line": 97,
+          "node_id": "auth_00157",
+          "rating": "1",
+          "text": "realted to each other"
+        },
+        {
+          "source_line": 98,
+          "node_id": "auth_00018",
+          "rating": "2",
+          "text": "realted to each other thorugh a similar work"
+        },
+        {
+          "source_line": 99,
+          "node_id": "auth_00142",
+          "rating": "2",
+          "text": "definitely related"
+        },
+        {
+          "source_line": 100,
+          "node_id": "auth_00182",
+          "rating": "2",
+          "text": "definitely realated"
+        },
+        {
+          "source_line": 102,
+          "node_id": "auth_00115",
+          "rating": "1",
+          "text": "related to material science"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2978",
+      "group_size": 55,
+      "displayed_rows": 15,
+      "recorded_ratings": 15,
+      "blank_rows": 0,
+      "rating_0": 0,
+      "rating_1": 4,
+      "rating_2": 5,
+      "unsure": 6,
+      "numeric_ratings": 9,
+      "numeric_rating_2_percent": 55.55555555555556,
+      "distinct_recorded_values": [
+        "1",
+        "2",
+        "unsure"
+      ],
+      "notes": [
+        {
+          "source_line": 77,
+          "node_id": "clai_00315",
+          "rating": "2",
+          "text": "seemssomething realted to autominer all the central nodes seem connected through this key word."
+        },
+        {
+          "source_line": 86,
+          "node_id": "clai_00311",
+          "rating": "1",
+          "text": "realted to Matbench"
+        },
+        {
+          "source_line": 90,
+          "node_id": "prob_00278",
+          "rating": "1",
+          "text": "might be related to ML technique"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2986",
+      "group_size": 80,
+      "displayed_rows": 15,
+      "recorded_ratings": 15,
+      "blank_rows": 0,
+      "rating_0": 2,
+      "rating_1": 9,
+      "rating_2": 1,
+      "unsure": 3,
+      "numeric_ratings": 12,
+      "numeric_rating_2_percent": 8.333333333333334,
+      "distinct_recorded_values": [
+        "0",
+        "1",
+        "2",
+        "unsure"
+      ],
+      "notes": [
+        {
+          "source_line": 32,
+          "node_id": "clai_00659",
+          "rating": "0",
+          "text": "doestn belong here realted to quantum"
+        },
+        {
+          "source_line": 33,
+          "node_id": "clai_00485",
+          "rating": "1",
+          "text": "a method "
+        },
+        {
+          "source_line": 34,
+          "node_id": "clai_00475",
+          "rating": "1",
+          "text": "describes a model called DeepPMD which is successfully doing some calculation but not sure whther thsi realates to the above claim "
+        },
+        {
+          "source_line": 35,
+          "node_id": "prob_00206",
+          "rating": "1",
+          "text": "seems like a problem that the DeepPMD model is able to solve"
+        },
+        {
+          "source_line": 36,
+          "node_id": "task_00251",
+          "rating": "1",
+          "text": "seems coherent with the theme"
+        },
+        {
+          "source_line": 37,
+          "node_id": "task_00247",
+          "rating": "1",
+          "text": "soemthing related to batteries and lithium which might be scietifically coherent with the themes"
+        },
+        {
+          "source_line": 38,
+          "node_id": "clai_00652",
+          "rating": "unsure",
+          "text": " but seems realted to molecular dynamics"
+        },
+        {
+          "source_line": 39,
+          "node_id": "metr_00044",
+          "rating": "1",
+          "text": "possibly realted to chemistry "
+        },
+        {
+          "source_line": 40,
+          "node_id": "metr_00080",
+          "rating": "1",
+          "text": "realted to chemistry and a metric"
+        },
+        {
+          "source_line": 41,
+          "node_id": "clai_00475",
+          "rating": "2",
+          "text": "definitely related to the central claims"
+        },
+        {
+          "source_line": 42,
+          "node_id": "metr_00079",
+          "rating": "unsure",
+          "text": "could be a metric"
+        },
+        {
+          "source_line": 43,
+          "node_id": "data_00150",
+          "rating": "unsure",
+          "text": "might me some material"
+        },
+        {
+          "source_line": 44,
+          "node_id": "comp_00363",
+          "rating": "1",
+          "text": "might be related to coating of electrolytes"
+        },
+        {
+          "source_line": 45,
+          "node_id": "prob_00203",
+          "rating": "1",
+          "text": "possibly related to the problem"
+        },
+        {
+          "source_line": 46,
+          "node_id": "futu_00174",
+          "rating": "0",
+          "text": "thsi is something realted to quantum doestn belong here"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2988",
+      "group_size": 100,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2989",
+      "group_size": 54,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2991",
+      "group_size": 361,
+      "displayed_rows": 15,
+      "recorded_ratings": 15,
+      "blank_rows": 0,
+      "rating_0": 1,
+      "rating_1": 7,
+      "rating_2": 2,
+      "unsure": 5,
+      "numeric_ratings": 10,
+      "numeric_rating_2_percent": 20.0,
+      "distinct_recorded_values": [
+        "0",
+        "1",
+        "2",
+        "unsure"
+      ],
+      "notes": [
+        {
+          "source_line": 17,
+          "node_id": "arti_00049",
+          "rating": "2",
+          "text": "article and realted claims seem related but that realtion could only be semantic"
+        },
+        {
+          "source_line": 18,
+          "node_id": "clai_00214",
+          "rating": "2",
+          "text": "relates to the aricle headline"
+        },
+        {
+          "source_line": 19,
+          "node_id": "tech_00637",
+          "rating": "1",
+          "text": "could be a technique"
+        },
+        {
+          "source_line": 20,
+          "node_id": "clai_00036",
+          "rating": "unsure",
+          "text": "unsure whter JARVIS is related to AFLOW"
+        },
+        {
+          "source_line": 22,
+          "node_id": "comp_00395",
+          "rating": "1",
+          "text": "could be an internal technique"
+        },
+        {
+          "source_line": 26,
+          "node_id": "tech_00354",
+          "rating": "1",
+          "text": "could be a technique"
+        },
+        {
+          "source_line": 27,
+          "node_id": "tech_00325",
+          "rating": "1",
+          "text": "could be realted to technical implementation"
+        },
+        {
+          "source_line": 28,
+          "node_id": "tech_00324",
+          "rating": "1",
+          "text": "might be related"
+        },
+        {
+          "source_line": 29,
+          "node_id": "comp_00343",
+          "rating": "1",
+          "text": "seems realted to a technique"
+        },
+        {
+          "source_line": 31,
+          "node_id": "tech_00326",
+          "rating": "1",
+          "text": "the sampled data seems coherent especially since it is not too semantic"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2994",
+      "group_size": 430,
+      "displayed_rows": 15,
+      "recorded_ratings": 15,
+      "blank_rows": 0,
+      "rating_0": 0,
+      "rating_1": 4,
+      "rating_2": 9,
+      "unsure": 2,
+      "numeric_ratings": 13,
+      "numeric_rating_2_percent": 69.23076923076923,
+      "distinct_recorded_values": [
+        "1",
+        "2",
+        "unsure"
+      ],
+      "notes": [
+        {
+          "source_line": 2,
+          "node_id": "arti_00021",
+          "rating": "2",
+          "text": "The sampled members appear to describe the article ‘Universal Machine Learning for Molecules and Crystals.’ This suggests a shared article context, but I have not yet established whether they form a coherent scientific theme beyond that connection"
+        },
+        {
+          "source_line": 3,
+          "node_id": "cite_00352",
+          "rating": "2",
+          "text": "maybe be scientifcally coherent and thematically similar describe a possible solution to the problem"
+        },
+        {
+          "source_line": 4,
+          "node_id": "meth_00218",
+          "rating": "2",
+          "text": "describes a method seems reasonable adn fitting"
+        },
+        {
+          "source_line": 5,
+          "node_id": "cite_00142",
+          "rating": "2",
+          "text": "could possibly be a optimiser used for machine learning technique"
+        },
+        {
+          "source_line": 6,
+          "node_id": "tech_00032",
+          "rating": "2",
+          "text": "techinque seems related"
+        },
+        {
+          "source_line": 7,
+          "node_id": "prob_00130",
+          "rating": "unsure",
+          "text": "not sure whether it connects to the article hard to Say"
+        },
+        {
+          "source_line": 8,
+          "node_id": "cite_00135",
+          "rating": "1",
+          "text": "could possibly be a technique used for graph convolution networks but hard to establish scientifical coherence"
+        },
+        {
+          "source_line": 9,
+          "node_id": "task_00698",
+          "rating": "1",
+          "text": "might be a sub task"
+        },
+        {
+          "source_line": 10,
+          "node_id": "task_00198",
+          "rating": "1",
+          "text": "could be an internal task related to molecular or crystal interatomic interaction"
+        },
+        {
+          "source_line": 11,
+          "node_id": "meth_00015",
+          "rating": "1",
+          "text": "could be something related to moment estimation in molecular dynamics"
+        },
+        {
+          "source_line": 12,
+          "node_id": "data_00052",
+          "rating": "2",
+          "text": "possibly a chemical name for a molecule"
+        },
+        {
+          "source_line": 13,
+          "node_id": "data_00068",
+          "rating": "2",
+          "text": "a method to calculate some distance"
+        },
+        {
+          "source_line": 14,
+          "node_id": "data_00053",
+          "rating": "2",
+          "text": "possibly a chemical name"
+        },
+        {
+          "source_line": 15,
+          "node_id": "comp_00290",
+          "rating": "unsure",
+          "text": "not sure this could be a some basic irreducible set of molecules but it is not clear"
+        },
+        {
+          "source_line": 16,
+          "node_id": "data_00050",
+          "rating": "2",
+          "text": "could possibly point to a molecule"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2996",
+      "group_size": 120,
+      "displayed_rows": 15,
+      "recorded_ratings": 15,
+      "blank_rows": 0,
+      "rating_0": 0,
+      "rating_1": 3,
+      "rating_2": 8,
+      "unsure": 4,
+      "numeric_ratings": 11,
+      "numeric_rating_2_percent": 72.72727272727273,
+      "distinct_recorded_values": [
+        "1",
+        "2",
+        "unsure"
+      ],
+      "notes": [
+        {
+          "source_line": 47,
+          "node_id": "prob_00606",
+          "rating": "2",
+          "text": "seems coherent since it is realted to other claims in thsi group realted to amorphous carbon"
+        },
+        {
+          "source_line": 48,
+          "node_id": "task_00687",
+          "rating": "2",
+          "text": "realted but could also be a semantic connection"
+        },
+        {
+          "source_line": 49,
+          "node_id": "prob_00602",
+          "rating": "2",
+          "text": "related"
+        },
+        {
+          "source_line": 51,
+          "node_id": "clai_00686",
+          "rating": "2",
+          "text": "realted to carbon and its interatomic potential"
+        },
+        {
+          "source_line": 52,
+          "node_id": "task_00696",
+          "rating": "2",
+          "text": "related"
+        },
+        {
+          "source_line": 53,
+          "node_id": "meth_00384",
+          "rating": "1",
+          "text": "realted to the theme of molecular dynamics"
+        },
+        {
+          "source_line": 55,
+          "node_id": "task_00176",
+          "rating": "1",
+          "text": "related to MD simulation"
+        },
+        {
+          "source_line": 56,
+          "node_id": "data_00204",
+          "rating": "1",
+          "text": "might be a chemical name of something related to C"
+        },
+        {
+          "source_line": 58,
+          "node_id": "auth_00059",
+          "rating": "2",
+          "text": "definitely realted work concerns amorphous carbon and silicon multiple documents related"
+        },
+        {
+          "source_line": 59,
+          "node_id": "prob_00607",
+          "rating": "unsure",
+          "text": "could be realted to molecular dynamics"
+        },
+        {
+          "source_line": 60,
+          "node_id": "metr_00088",
+          "rating": "2",
+          "text": "related to elasticity"
+        },
+        {
+          "source_line": 61,
+          "node_id": "metr_00084",
+          "rating": "unsure",
+          "text": "related to physics"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2997",
+      "group_size": 143,
+      "displayed_rows": 15,
+      "recorded_ratings": 15,
+      "blank_rows": 0,
+      "rating_0": 0,
+      "rating_1": 8,
+      "rating_2": 4,
+      "unsure": 3,
+      "numeric_ratings": 12,
+      "numeric_rating_2_percent": 33.333333333333336,
+      "distinct_recorded_values": [
+        "1",
+        "2",
+        "unsure"
+      ],
+      "notes": [
+        {
+          "source_line": 62,
+          "node_id": "task_00337",
+          "rating": "2",
+          "text": "all central claims and tasks seem to be related to material properties"
+        },
+        {
+          "source_line": 64,
+          "node_id": "prob_00269",
+          "rating": "2",
+          "text": "hard to know whether they are semantically connected"
+        },
+        {
+          "source_line": 65,
+          "node_id": "task_00345",
+          "rating": "1",
+          "text": "realted to materail science"
+        },
+        {
+          "source_line": 66,
+          "node_id": "task_00344",
+          "rating": "1",
+          "text": "could be related"
+        },
+        {
+          "source_line": 67,
+          "node_id": "meth_00231",
+          "rating": "1",
+          "text": "related to material science"
+        },
+        {
+          "source_line": 68,
+          "node_id": "task_00232",
+          "rating": "1",
+          "text": "could be a task in the material scienece property prediction theme"
+        },
+        {
+          "source_line": 69,
+          "node_id": "task_00332",
+          "rating": "1",
+          "text": "possibly a task "
+        },
+        {
+          "source_line": 71,
+          "node_id": "meth_00230",
+          "rating": "1",
+          "text": "might be a model used to predict fracture in materials"
+        },
+        {
+          "source_line": 72,
+          "node_id": "tech_00925",
+          "rating": "2",
+          "text": "realted to elasticity and materials"
+        },
+        {
+          "source_line": 74,
+          "node_id": "clai_00013",
+          "rating": "unsure",
+          "text": "thsi seems realteedt o ion batteries"
+        },
+        {
+          "source_line": 75,
+          "node_id": "meth_00033",
+          "rating": "1",
+          "text": "could be method or a model prediction"
+        },
+        {
+          "source_line": 76,
+          "node_id": "meth_00270",
+          "rating": "1",
+          "text": "definitely related to the theme"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2784",
+      "group_size": 23,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 0,
+      "rating_1": 1,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "1"
+      ],
+      "notes": [
+        {
+          "source_line": 227,
+          "node_id": "prob_00168",
+          "rating": "1",
+          "text": "fracture realted doesnt really mean they are scientifcally related"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2858",
+      "group_size": 20,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 1,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "0"
+      ],
+      "notes": [
+        {
+          "source_line": 347,
+          "node_id": "data_00223",
+          "rating": "0",
+          "text": "all the chemical names are grouped together even in random and peripheral"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2958",
+      "group_size": 41,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 0,
+      "rating_1": 1,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "1"
+      ],
+      "notes": [
+        {
+          "source_line": 257,
+          "node_id": "task_00687",
+          "rating": "1",
+          "text": "carbon related papers"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2963",
+      "group_size": 44,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 0,
+      "rating_1": 1,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "1"
+      ],
+      "notes": [
+        {
+          "source_line": 242,
+          "node_id": "comp_00447",
+          "rating": "1",
+          "text": "automatminer and Matbench realted paper might be scientifcallycoherretn but not so sure"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2971",
+      "group_size": 143,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2973",
+      "group_size": 39,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2975",
+      "group_size": 28,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2977",
+      "group_size": 95,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2985",
+      "group_size": 102,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2986",
+      "group_size": 108,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 0,
+      "rating_1": 1,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "1"
+      ],
+      "notes": [
+        {
+          "source_line": 302,
+          "node_id": "auth_00190",
+          "rating": "1",
+          "text": "all authors who have worked on similar papers are grouped together"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2996",
+      "group_size": 340,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_B",
+      "group_id": "L0_c2997",
+      "group_size": 522,
+      "displayed_rows": 15,
+      "recorded_ratings": 2,
+      "blank_rows": 13,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 2,
+      "unsure": 0,
+      "numeric_ratings": 2,
+      "numeric_rating_2_percent": 100.0,
+      "distinct_recorded_values": [
+        "2"
+      ],
+      "notes": [
+        {
+          "source_line": 198,
+          "node_id": "task_00177",
+          "rating": "2",
+          "text": "quantum related"
+        },
+        {
+          "source_line": 203,
+          "node_id": "futu_00174",
+          "rating": "2",
+          "text": "quantum related"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2833",
+      "group_size": 23,
+      "displayed_rows": 15,
+      "recorded_ratings": 2,
+      "blank_rows": 13,
+      "rating_0": 0,
+      "rating_1": 1,
+      "rating_2": 1,
+      "unsure": 0,
+      "numeric_ratings": 2,
+      "numeric_rating_2_percent": 50.0,
+      "distinct_recorded_values": [
+        "1",
+        "2"
+      ],
+      "notes": [
+        {
+          "source_line": 437,
+          "node_id": "prob_00168",
+          "rating": "2",
+          "text": "seems related to fracture in materails but seems too semantic"
+        },
+        {
+          "source_line": 451,
+          "node_id": "comp_00294",
+          "rating": "1",
+          "text": "seems connected with carbon but not necessarily scientifically coherent"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2856",
+      "group_size": 20,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 1,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "0"
+      ],
+      "notes": [
+        {
+          "source_line": 527,
+          "node_id": "data_00223",
+          "rating": "0",
+          "text": "everything related to chemical names is grouped together not sure whther they ae scientifcally coherent"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2902",
+      "group_size": 28,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2929",
+      "group_size": 33,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2935",
+      "group_size": 79,
+      "displayed_rows": 15,
+      "recorded_ratings": 3,
+      "blank_rows": 12,
+      "rating_0": 0,
+      "rating_1": 1,
+      "rating_2": 2,
+      "unsure": 0,
+      "numeric_ratings": 3,
+      "numeric_rating_2_percent": 66.66666666666667,
+      "distinct_recorded_values": [
+        "1",
+        "2"
+      ],
+      "notes": [
+        {
+          "source_line": 512,
+          "node_id": "auth_00142",
+          "rating": "2",
+          "text": "this is similar to dev_run_A all the authors of material science related papers are linked together but there are some incoherencies also"
+        },
+        {
+          "source_line": 514,
+          "node_id": "auth_00157",
+          "rating": "2",
+          "text": "they have collaborated in the arti_00024"
+        },
+        {
+          "source_line": 521,
+          "node_id": "auth_00272",
+          "rating": "1",
+          "text": "collaborated on AFLOW not necessarilythe the same article as the above or below authors"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2960",
+      "group_size": 73,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 1,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [
+        "unsure"
+      ],
+      "notes": [
+        {
+          "source_line": 407,
+          "node_id": "prob_00269",
+          "rating": "unsure",
+          "text": "evenrything seems connected together by the keyword materials property"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2975",
+      "group_size": 52,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 0,
+      "rating_1": 1,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "1"
+      ],
+      "notes": [
+        {
+          "source_line": 467,
+          "node_id": "tech_00361",
+          "rating": "1",
+          "text": "seems related to dft and AFLOW"
+        }
+      ]
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2982",
+      "group_size": 140,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2994",
+      "group_size": 264,
+      "displayed_rows": 15,
+      "recorded_ratings": 1,
+      "blank_rows": 14,
+      "rating_0": 0,
+      "rating_1": 1,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 1,
+      "numeric_rating_2_percent": 0.0,
+      "distinct_recorded_values": [
+        "1"
+      ],
+      "notes": [
+        {
+          "source_line": 423,
+          "node_id": "prob_00588",
+          "rating": "1",
+          "text": "the central nodes seem connected "
+        }
+      ]
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2995",
+      "group_size": 230,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2996",
+      "group_size": 203,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    },
+    {
+      "run": "dev_run_C",
+      "group_id": "L0_c2997",
+      "group_size": 360,
+      "displayed_rows": 15,
+      "recorded_ratings": 0,
+      "blank_rows": 15,
+      "rating_0": 0,
+      "rating_1": 0,
+      "rating_2": 0,
+      "unsure": 0,
+      "numeric_ratings": 0,
+      "numeric_rating_2_percent": null,
+      "distinct_recorded_values": [],
+      "notes": []
+    }
+  ],
+  "duplicate_rated_node_keys": [
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2986",
+      "node_id": "clai_00475",
+      "source_lines": [
+        34,
+        41
+      ],
+      "ratings": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2978",
+      "node_id": "metr_00022",
+      "source_lines": [
+        83,
+        87
+      ],
+      "ratings": [
+        "1",
+        "unsure"
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2978",
+      "node_id": "cite_00578",
+      "source_lines": [
+        85,
+        88
+      ],
+      "ratings": [
+        "unsure",
+        "unsure"
+      ]
+    },
+    {
+      "run": "dev_run_A",
+      "group_id": "L0_c2972",
+      "node_id": "auth_00142",
+      "source_lines": [
+        93,
+        99
+      ],
+      "ratings": [
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "dedup_sensitivity": {
+    "unique_run_group_node_keys_with_rating": 116,
+    "counts": {
+      "2": 36,
+      "unsure": 23,
+      "1": 47,
+      "0": 7,
+      "unresolved_multiple_values": 3
+    }
+  },
+  "original_source_unchanged": true
+}

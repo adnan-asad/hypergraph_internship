@@ -1,0 +1,938 @@
+{
+  "note": "Mapping independent of retrieved rank/system identity. Aliases not inferred automatically.",
+  "mappings": [
+    {
+      "question_id": "Q1",
+      "target": "MACE",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00048",
+          "type": "cited_work",
+          "surface_form": "MACE"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q1",
+      "target": "M3GNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00037",
+          "type": "method",
+          "surface_form": "M3GNet"
+        },
+        {
+          "id": "comp_00482",
+          "type": "component",
+          "surface_form": "M3GNet"
+        },
+        {
+          "id": "cite_00062",
+          "type": "cited_work",
+          "surface_form": "M3GNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q1",
+      "target": "CHGNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00038",
+          "type": "method",
+          "surface_form": "CHGNet"
+        },
+        {
+          "id": "comp_00481",
+          "type": "component",
+          "surface_form": "CHGNet"
+        },
+        {
+          "id": "cite_00063",
+          "type": "cited_work",
+          "surface_form": "CHGNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q1",
+      "target": "GAP",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00191",
+          "type": "cited_work",
+          "surface_form": "GAP"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q1",
+      "target": "NequIP",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00058",
+          "type": "method",
+          "surface_form": "NequIP"
+        },
+        {
+          "id": "cite_00049",
+          "type": "cited_work",
+          "surface_form": "NequIP"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q1",
+      "target": "ACE",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00209",
+          "type": "cited_work",
+          "surface_form": "ACE"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q1",
+      "target": "EquiformerV2",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00081",
+          "type": "method",
+          "surface_form": "EquiformerV2"
+        },
+        {
+          "id": "cite_00050",
+          "type": "cited_work",
+          "surface_form": "Equiformerv2"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q2",
+      "target": "DeepH",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00254",
+          "type": "cited_work",
+          "surface_form": "DeepH"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q2",
+      "target": "D4FT",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00222",
+          "type": "method",
+          "surface_form": "D4FT"
+        },
+        {
+          "id": "comp_00273",
+          "type": "component",
+          "surface_form": "D4FT"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q2",
+      "target": "HamGNN",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q3",
+      "target": "xDeepH",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q3",
+      "target": "DeepH-E3",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00118",
+          "type": "method",
+          "surface_form": "DeepH-E3"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q4",
+      "target": "Hessian training",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q4",
+      "target": "VGNN",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00409",
+          "type": "cited_work",
+          "surface_form": "VGNN"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q4",
+      "target": "MACE-F",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q5",
+      "target": "Bead-mapping",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q5",
+      "target": "GNN+GPP",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q6",
+      "target": "DeePMD+AL",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q6",
+      "target": "LiFlow",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00239",
+          "type": "method",
+          "surface_form": "LiFlow"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q6",
+      "target": "MLIP descriptors",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q7",
+      "target": "GNN free energies",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q7",
+      "target": "symbolic regression",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00068",
+          "type": "method",
+          "surface_form": "symbolic regression"
+        },
+        {
+          "id": "cite_00016",
+          "type": "cited_work",
+          "surface_form": "Symbolic Regression"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q8",
+      "target": "ConvLSTM",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00001",
+          "type": "cited_work",
+          "surface_form": "ConvLSTM"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q8",
+      "target": "GNN stress fields",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q9",
+      "target": "E(3)-equivariant GNNs",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q9",
+      "target": "physics-informed",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q9",
+      "target": "NequIP",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00058",
+          "type": "method",
+          "surface_form": "NequIP"
+        },
+        {
+          "id": "cite_00049",
+          "type": "cited_work",
+          "surface_form": "NequIP"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q10",
+      "target": "GNNs + ACE descriptors",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q10",
+      "target": "SchNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00050",
+          "type": "method",
+          "surface_form": "SchNet"
+        },
+        {
+          "id": "cite_00005",
+          "type": "cited_work",
+          "surface_form": "SchNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q11",
+      "target": "CE→MC→NN→PF",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q11",
+      "target": "hybrid frameworks",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q12",
+      "target": "MACE",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00048",
+          "type": "cited_work",
+          "surface_form": "MACE"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "NequIP",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00058",
+          "type": "method",
+          "surface_form": "NequIP"
+        },
+        {
+          "id": "cite_00049",
+          "type": "cited_work",
+          "surface_form": "NequIP"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "CHGNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00038",
+          "type": "method",
+          "surface_form": "CHGNet"
+        },
+        {
+          "id": "comp_00481",
+          "type": "component",
+          "surface_form": "CHGNet"
+        },
+        {
+          "id": "cite_00063",
+          "type": "cited_work",
+          "surface_form": "CHGNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "M3GNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00037",
+          "type": "method",
+          "surface_form": "M3GNet"
+        },
+        {
+          "id": "comp_00482",
+          "type": "component",
+          "surface_form": "M3GNet"
+        },
+        {
+          "id": "cite_00062",
+          "type": "cited_work",
+          "surface_form": "M3GNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "SevenNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00054",
+          "type": "cited_work",
+          "surface_form": "SevenNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "GAP",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00191",
+          "type": "cited_work",
+          "surface_form": "GAP"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "DeePMD",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00214",
+          "type": "cited_work",
+          "surface_form": "DeepMD"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "MatterSim",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00091",
+          "type": "method",
+          "surface_form": "MatterSim"
+        },
+        {
+          "id": "cite_00060",
+          "type": "cited_work",
+          "surface_form": "MatterSim"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "Orb",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00011",
+          "type": "cited_work",
+          "surface_form": "Orb"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "eSEN",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00293",
+          "type": "method",
+          "surface_form": "eSEN"
+        },
+        {
+          "id": "cite_00053",
+          "type": "cited_work",
+          "surface_form": "eSEN"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "PET",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00044",
+          "type": "cited_work",
+          "surface_form": "PET"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "UMA",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00046",
+          "type": "cited_work",
+          "surface_form": "UMA"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q12",
+      "target": "EquiformerV2",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00081",
+          "type": "method",
+          "surface_form": "EquiformerV2"
+        },
+        {
+          "id": "cite_00050",
+          "type": "cited_work",
+          "surface_form": "Equiformerv2"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q13",
+      "target": "CGCNN",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00054",
+          "type": "method",
+          "surface_form": "CGCNN"
+        },
+        {
+          "id": "cite_00354",
+          "type": "cited_work",
+          "surface_form": "CGCNN"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q13",
+      "target": "SchNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00050",
+          "type": "method",
+          "surface_form": "SchNet"
+        },
+        {
+          "id": "cite_00005",
+          "type": "cited_work",
+          "surface_form": "SchNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q13",
+      "target": "MEGNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00036",
+          "type": "method",
+          "surface_form": "MEGNet"
+        },
+        {
+          "id": "cite_00334",
+          "type": "cited_work",
+          "surface_form": "MEGNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q13",
+      "target": "M3GNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00037",
+          "type": "method",
+          "surface_form": "M3GNet"
+        },
+        {
+          "id": "comp_00482",
+          "type": "component",
+          "surface_form": "M3GNet"
+        },
+        {
+          "id": "cite_00062",
+          "type": "cited_work",
+          "surface_form": "M3GNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q13",
+      "target": "NequIP",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00058",
+          "type": "method",
+          "surface_form": "NequIP"
+        },
+        {
+          "id": "cite_00049",
+          "type": "cited_work",
+          "surface_form": "NequIP"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q13",
+      "target": "MACE",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00048",
+          "type": "cited_work",
+          "surface_form": "MACE"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q13",
+      "target": "CHGNet",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00038",
+          "type": "method",
+          "surface_form": "CHGNet"
+        },
+        {
+          "id": "comp_00481",
+          "type": "component",
+          "surface_form": "CHGNet"
+        },
+        {
+          "id": "cite_00063",
+          "type": "cited_work",
+          "surface_form": "CHGNet"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q13",
+      "target": "EquiformerV2",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00081",
+          "type": "method",
+          "surface_form": "EquiformerV2"
+        },
+        {
+          "id": "cite_00050",
+          "type": "cited_work",
+          "surface_form": "Equiformerv2"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Matbench Discovery",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "data_00013",
+          "type": "dataset",
+          "surface_form": "Matbench Discovery"
+        },
+        {
+          "id": "meth_00159",
+          "type": "method",
+          "surface_form": "Matbench Discovery"
+        },
+        {
+          "id": "cite_00302",
+          "type": "cited_work",
+          "surface_form": "Matbench discovery"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Matbench",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "comp_00448",
+          "type": "component",
+          "surface_form": "Matbench"
+        },
+        {
+          "id": "data_00114",
+          "type": "dataset",
+          "surface_form": "Matbench"
+        },
+        {
+          "id": "meth_00348",
+          "type": "method",
+          "surface_form": "Matbench"
+        },
+        {
+          "id": "cite_00362",
+          "type": "cited_work",
+          "surface_form": "Matbench"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "JARVIS-DFT",
+      "status": "absent_or_alias_needed",
+      "graph_nodes": [],
+      "mapping_decision": "unresolved; kept in denominator"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Materials Project",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00143",
+          "type": "method",
+          "surface_form": "Materials Project"
+        },
+        {
+          "id": "data_00061",
+          "type": "dataset",
+          "surface_form": "Materials Project"
+        },
+        {
+          "id": "cite_00018",
+          "type": "cited_work",
+          "surface_form": "Materials Project"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "MPtrj",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "data_00102",
+          "type": "dataset",
+          "surface_form": "MPtrj"
+        },
+        {
+          "id": "cite_00372",
+          "type": "cited_work",
+          "surface_form": "MPTrj"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "OQMD",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "data_00095",
+          "type": "dataset",
+          "surface_form": "OQMD"
+        },
+        {
+          "id": "cite_00370",
+          "type": "cited_work",
+          "surface_form": "OQMD"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "AFLOW",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "cite_00274",
+          "type": "cited_work",
+          "surface_form": "AFLOW"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "Alexandria",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00295",
+          "type": "method",
+          "surface_form": "Alexandria"
+        },
+        {
+          "id": "cite_00369",
+          "type": "cited_work",
+          "surface_form": "Alexandria"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "GNoME",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "meth_00169",
+          "type": "method",
+          "surface_form": "GNoME"
+        },
+        {
+          "id": "comp_00589",
+          "type": "component",
+          "surface_form": "GNoME"
+        },
+        {
+          "id": "data_00144",
+          "type": "dataset",
+          "surface_form": "GNoME"
+        },
+        {
+          "id": "cite_00330",
+          "type": "cited_work",
+          "surface_form": "GNoME"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "WBM",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "data_00175",
+          "type": "dataset",
+          "surface_form": "WBM"
+        },
+        {
+          "id": "cite_00376",
+          "type": "cited_work",
+          "surface_form": "WBM"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    },
+    {
+      "question_id": "Q14",
+      "target": "OMat24",
+      "status": "exact",
+      "graph_nodes": [
+        {
+          "id": "data_00101",
+          "type": "dataset",
+          "surface_form": "OMat24"
+        },
+        {
+          "id": "cite_00311",
+          "type": "cited_work",
+          "surface_form": "OMat24"
+        }
+      ],
+      "mapping_decision": "exact surface match only"
+    }
+  ]
+}

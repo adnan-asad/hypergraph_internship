@@ -1,0 +1,21 @@
+{
+  "note": "Payload estimates exclude dictionaries, Python allocator overhead, stale lazy-heap entries, embeddings, and quotient export objects.",
+  "snapshots": [
+    {
+      "snapshot": "data/processed/baseline_input/snapshot_2022.json",
+      "nodes": 2164,
+      "hyperedges": 526,
+      "initial_candidate_pairs": 2340366,
+      "heap_payload_estimate_gib_200B": 0.4359271377325058,
+      "heap_payload_estimate_gib_300B": 0.6538907065987587
+    },
+    {
+      "snapshot": "data/processed/baseline_input/snapshot_2024.json",
+      "nodes": 4164,
+      "hyperedges": 983,
+      "initial_candidate_pairs": 8667366,
+      "heap_payload_estimate_gib_200B": 1.6144227236509323,
+      "heap_payload_estimate_gib_300B": 2.4216340854763985
+    }
+  ]
+}

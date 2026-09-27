@@ -1,0 +1,218 @@
+{
+  "lambda": 0.1,
+  "note": "development descriptive comparison only; gamma settings are controls, not tuned winners",
+  "runs": [
+    {
+      "snapshot": 2022,
+      "gamma": 0,
+      "path": "results/temporal_lambda_0p1_gamma_0_2022",
+      "runtime_seconds": 94.4607109130011,
+      "peak_memory_kb": 1479440,
+      "levels": [
+        {
+          "level_name": "k12",
+          "actual_groups": 12,
+          "normalized_sse": 0.8849023563417193,
+          "fragmentation": 0.2748936145588675,
+          "largest_group_fraction": 0.2208872458410351,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.19151410192973775,
+          "shared_node_ari": 0.3228684502614618,
+          "combined_objective_with_stage_temporal": 0.9123917177976061
+        },
+        {
+          "level_name": "k48",
+          "actual_groups": 48,
+          "normalized_sse": 0.7597609587018271,
+          "fragmentation": 0.3894233163362799,
+          "largest_group_fraction": 0.057763401109057304,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.03353361136636743,
+          "shared_node_ari": 0.43274216857255204,
+          "combined_objective_with_stage_temporal": 0.7987032903354552
+        },
+        {
+          "level_name": "k120",
+          "actual_groups": 120,
+          "normalized_sse": 0.6340572793352274,
+          "fragmentation": 0.4275727112706844,
+          "largest_group_fraction": 0.030499075785582256,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.00946843853820598,
+          "shared_node_ari": 0.6185465519980207,
+          "combined_objective_with_stage_temporal": 0.6768145504622958
+        },
+        {
+          "level_name": "leaves",
+          "actual_groups": 2164,
+          "normalized_sse": 0.0,
+          "fragmentation": 1.0,
+          "largest_group_fraction": 0.0004621072088724584,
+          "singleton_count": 2164,
+          "shared_node_temporal_disagreement": 0.0,
+          "shared_node_ari": 1.0,
+          "combined_objective_with_stage_temporal": 0.1
+        }
+      ]
+    },
+    {
+      "snapshot": 2022,
+      "gamma": 0.1,
+      "path": "results/temporal_lambda_0p1_gamma_0p1_2022",
+      "runtime_seconds": 91.1374427970004,
+      "peak_memory_kb": 1073680,
+      "levels": [
+        {
+          "level_name": "k12",
+          "actual_groups": 12,
+          "normalized_sse": 0.8876333074536547,
+          "fragmentation": 0.2518421720669709,
+          "largest_group_fraction": 0.32624768946395566,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.12357301901463208,
+          "shared_node_ari": 0.5899099427961185,
+          "combined_objective_with_stage_temporal": 0.9251748265618149
+        },
+        {
+          "level_name": "k48",
+          "actual_groups": 48,
+          "normalized_sse": 0.7602488954943115,
+          "fragmentation": 0.38957547678040255,
+          "largest_group_fraction": 0.05730129390018484,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.030391602459885488,
+          "shared_node_ari": 0.4716006215916442,
+          "combined_objective_with_stage_temporal": 0.8022456034183404
+        },
+        {
+          "level_name": "k120",
+          "actual_groups": 120,
+          "normalized_sse": 0.63394554199968,
+          "fragmentation": 0.4319998326607335,
+          "largest_group_fraction": 0.034195933456561925,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.008898529723616315,
+          "shared_node_ari": 0.6375677820976661,
+          "combined_objective_with_stage_temporal": 0.678035378238115
+        },
+        {
+          "level_name": "leaves",
+          "actual_groups": 2164,
+          "normalized_sse": 0.0,
+          "fragmentation": 1.0,
+          "largest_group_fraction": 0.0004621072088724584,
+          "singleton_count": 2164,
+          "shared_node_temporal_disagreement": 0.0,
+          "shared_node_ari": 1.0,
+          "combined_objective_with_stage_temporal": 0.1
+        }
+      ]
+    },
+    {
+      "snapshot": 2024,
+      "gamma": 0,
+      "path": "results/temporal_lambda_0p1_gamma_0_2024",
+      "runtime_seconds": 354.9433262429957,
+      "peak_memory_kb": 4050788,
+      "levels": [
+        {
+          "level_name": "k12",
+          "actual_groups": 12,
+          "normalized_sse": 0.8981695788537473,
+          "fragmentation": 0.27470498707436775,
+          "largest_group_fraction": 0.3174831892411143,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.16686919909108233,
+          "shared_node_ari": 0.3666307632012392,
+          "combined_objective_with_stage_temporal": 0.925640077561184
+        },
+        {
+          "level_name": "k48",
+          "actual_groups": 48,
+          "normalized_sse": 0.7905412885833446,
+          "fragmentation": 0.36490948380169796,
+          "largest_group_fraction": 0.07372718539865514,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.043509006710916155,
+          "shared_node_ari": 0.3070966643479059,
+          "combined_objective_with_stage_temporal": 0.8270322369635144
+        },
+        {
+          "level_name": "k120",
+          "actual_groups": 120,
+          "normalized_sse": 0.6893715997262028,
+          "fragmentation": 0.40391896630633706,
+          "largest_group_fraction": 0.04442843419788665,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.0135923184664279,
+          "shared_node_ari": 0.4575583598364279,
+          "combined_objective_with_stage_temporal": 0.7297634963568365
+        },
+        {
+          "level_name": "leaves",
+          "actual_groups": 4164,
+          "normalized_sse": 0.0,
+          "fragmentation": 1.0,
+          "largest_group_fraction": 0.00024015369836695484,
+          "singleton_count": 4164,
+          "shared_node_temporal_disagreement": 0.0,
+          "shared_node_ari": 1.0,
+          "combined_objective_with_stage_temporal": 0.1
+        }
+      ]
+    },
+    {
+      "snapshot": 2024,
+      "gamma": 0.1,
+      "path": "results/temporal_lambda_0p1_gamma_0p1_2024",
+      "runtime_seconds": 358.7816132500011,
+      "peak_memory_kb": 3627000,
+      "levels": [
+        {
+          "level_name": "k12",
+          "actual_groups": 12,
+          "normalized_sse": 0.898994392595831,
+          "fragmentation": 0.25502838127376154,
+          "largest_group_fraction": 0.2963496637848223,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.17610237031301942,
+          "shared_node_ari": 0.38577186479222075,
+          "combined_objective_with_stage_temporal": 0.9421074677545092
+        },
+        {
+          "level_name": "k48",
+          "actual_groups": 48,
+          "normalized_sse": 0.7898978294476373,
+          "fragmentation": 0.368032191671961,
+          "largest_group_fraction": 0.06628242074927954,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.04000271752366937,
+          "shared_node_ari": 0.3350111847735711,
+          "combined_objective_with_stage_temporal": 0.8307013203672003
+        },
+        {
+          "level_name": "k120",
+          "actual_groups": 120,
+          "normalized_sse": 0.6894889935479699,
+          "fragmentation": 0.40393993484459956,
+          "largest_group_fraction": 0.04442843419788665,
+          "singleton_count": 0,
+          "shared_node_temporal_disagreement": 0.013060777673235725,
+          "shared_node_ari": 0.4874340857039484,
+          "combined_objective_with_stage_temporal": 0.7311890647997534
+        },
+        {
+          "level_name": "leaves",
+          "actual_groups": 4164,
+          "normalized_sse": 0.0,
+          "fragmentation": 1.0,
+          "largest_group_fraction": 0.00024015369836695484,
+          "singleton_count": 4164,
+          "shared_node_temporal_disagreement": 0.0,
+          "shared_node_ari": 1.0,
+          "combined_objective_with_stage_temporal": 0.1
+        }
+      ]
+    }
+  ]
+}

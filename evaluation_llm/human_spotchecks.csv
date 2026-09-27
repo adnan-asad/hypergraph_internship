@@ -1,0 +1,7 @@
+packet_id,task,llm_judgment,human_agrees,human_rating,human_notes
+C004,coherence,1,,1,"The group is too large for me to agree or disagree confidently; I give it 1. This rating reflects uncertainty about group size/coverage, not an exhaustive assessment of all members."
+C006,coherence,1,,,The examples have author names and only some connection. No explicit numerical rating or agreement decision was supplied.
+F002,faithfulness,accurate_informative,,,"The group is very large, but the examples appear related to energy potentials and DFT transforms. No explicit categorical rating was supplied."
+F003,faithfulness,accurate_informative,,,"High-throughput and DFT keywords occur, but I cannot say for sure that they are semantically connected or form a scientifically coherent meaning. No explicit categorical rating was supplied."
+F001,faithfulness,supported_but_vague,,,"Vague, but searching methods appear together. No explicit support/overclaim category was supplied."
+F005,faithfulness,supported_but_vague,,,"Same assessment as F001: vague, with searching methods together. No explicit support/overclaim category was supplied."

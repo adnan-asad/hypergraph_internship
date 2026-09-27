@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "L0_c8315",
+    "size": 1123,
+    "type_counts": {
+      "technique": 385,
+      "component": 261,
+      "problem": 128,
+      "method": 97,
+      "cited_work": 75,
+      "task": 68,
+      "claim": 46,
+      "metric": 23,
+      "future_topic": 19,
+      "dataset": 18,
+      "article": 3
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "tech_00010",
+        "type": "technique",
+        "surface_form": "AdamW optimizer"
+      },
+      {
+        "id": "tech_00800",
+        "type": "technique",
+        "surface_form": "Weak-scaling evaluation"
+      },
+      {
+        "id": "tech_00801",
+        "type": "technique",
+        "surface_form": "Strong-scaling evaluation"
+      },
+      {
+        "id": "cite_00142",
+        "type": "cited_work",
+        "surface_form": "Adam optimizer"
+      },
+      {
+        "id": "meth_00018",
+        "type": "method",
+        "surface_form": "Adam optimizer"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "comp_00012",
+        "type": "component",
+        "surface_form": "embedding layer"
+      },
+      {
+        "id": "comp_00005",
+        "type": "component",
+        "surface_form": "Output layer"
+      },
+      {
+        "id": "meth_00044",
+        "type": "method",
+        "surface_form": "ResNets"
+      },
+      {
+        "id": "clai_00410",
+        "type": "claim",
+        "surface_form": "ML can accelerate the solution of inverse problems by providing direct design solutions without requiring traditional iterative optimization processes."
+      },
+      {
+        "id": "tech_00338",
+        "type": "technique",
+        "surface_form": "Rule‑of‑mixtures analysis"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00343",
+        "type": "component",
+        "surface_form": "REST‑API"
+      },
+      {
+        "id": "prob_00274",
+        "type": "problem",
+        "surface_form": "Researcher intervention requirement"
+      },
+      {
+        "id": "comp_00388",
+        "type": "component",
+        "surface_form": "Aconvasp command‑line tool"
+      },
+      {
+        "id": "tech_00325",
+        "type": "technique",
+        "surface_form": "RESTful JSON API"
+      },
+      {
+        "id": "tech_00360",
+        "type": "technique",
+        "surface_form": "REST‑API data exchange"
+      }
+    ]
+  },
+  {
+    "id": "L0_c8311",
+    "size": 1339,
+    "type_counts": {
+      "claim": 338,
+      "task": 247,
+      "problem": 149,
+      "component": 123,
+      "technique": 110,
+      "method": 103,
+      "cited_work": 94,
+      "future_topic": 58,
+      "dataset": 49,
+      "metric": 40,
+      "article": 23,
+      "author": 5
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "clai_00545",
+        "type": "claim",
+        "surface_form": "Final GNoME models predict energies with a mean absolute error of 11 meV per atom on relaxed structures, improved from 21 meV per atom in the initial model trained on Materials Project data."
+      },
+      {
+        "id": "clai_00298",
+        "type": "claim",
+        "surface_form": "Training U-MLIPs on energies, forces, and stresses yields the most physically accurate potential, with stresses required for modeling structural phase transformations or NPT ensemble molecular dynamics."
+      },
+      {
+        "id": "arti_00015",
+        "type": "article",
+        "surface_form": "CHGNet: Pretrained universal neural network potential for charge-informed atomistic modeling"
+      },
+      {
+        "id": "clai_00149",
+        "type": "claim",
+        "surface_form": "Training the GNN on high‑fidelity Monte‑Carlo integration data enables accurate prediction of phase‑averaged energies and their derivatives for atomic clusters."
+      },
+      {
+        "id": "arti_00016",
+        "type": "article",
+        "surface_form": "Deep Potential Molecular Dynamics: a scalable model with the accuracy of quantum mechanics"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "task_00248",
+        "type": "task",
+        "surface_form": "Screening of metal‑oxide cathode coatings for HF scavenging"
+      },
+      {
+        "id": "task_00314",
+        "type": "task",
+        "surface_form": "Energy gap (∆ε) prediction"
+      },
+      {
+        "id": "prob_00077",
+        "type": "problem",
+        "surface_form": "Quantitative interface‑energy calculation for coherent anti‑phase boundaries"
+      },
+      {
+        "id": "prob_00588",
+        "type": "problem",
+        "surface_form": "Accuracy-efficiency gap in atomistic simulations"
+      },
+      {
+        "id": "prob_00408",
+        "type": "problem",
+        "surface_form": "Computational efficiency for GNN potentials"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "clai_00224",
+        "type": "claim",
+        "surface_form": "The AFLOWLIB data is accessible through a REST-API for standardized data exchange."
+      },
+      {
+        "id": "cite_00236",
+        "type": "cited_work",
+        "surface_form": "Plasma synthesis of electrolyte nanopowders"
+      },
+      {
+        "id": "meth_00050",
+        "type": "method",
+        "surface_form": "SchNet"
+      },
+      {
+        "id": "task_00248",
+        "type": "task",
+        "surface_form": "Screening of metal‑oxide cathode coatings for HF scavenging"
+      },
+      {
+        "id": "prob_00203",
+        "type": "problem",
+        "surface_form": "HF‑induced cathode degradation mitigation"
+      }
+    ]
+  },
+  {
+    "id": "L0_c7979",
+    "size": 85,
+    "type_counts": {
+      "task": 30,
+      "claim": 21,
+      "problem": 15,
+      "method": 5,
+      "dataset": 3,
+      "component": 3,
+      "technique": 3,
+      "future_topic": 2,
+      "article": 2,
+      "metric": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "task_00388",
+        "type": "task",
+        "surface_form": "Full phonon prediction"
+      },
+      {
+        "id": "prob_00315",
+        "type": "problem",
+        "surface_form": "Phonon prediction for complex materials"
+      },
+      {
+        "id": "task_00392",
+        "type": "task",
+        "surface_form": "Phonon spectra prediction"
+      },
+      {
+        "id": "task_00064",
+        "type": "task",
+        "surface_form": "Phonon band structure prediction"
+      },
+      {
+        "id": "task_00279",
+        "type": "task",
+        "surface_form": "Phonon frequency prediction"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "task_00386",
+        "type": "task",
+        "surface_form": "Phonon prediction for topological Weyl semimetals"
+      },
+      {
+        "id": "data_00041",
+        "type": "dataset",
+        "surface_form": "Phonon DOS benchmark"
+      },
+      {
+        "id": "task_00279",
+        "type": "task",
+        "surface_form": "Phonon frequency prediction"
+      },
+      {
+        "id": "task_00063",
+        "type": "task",
+        "surface_form": "High‑throughput screening of materials for phononic properties"
+      },
+      {
+        "id": "arti_00043",
+        "type": "article",
+        "surface_form": "Virtual Node Graph Neural Network for Full Phonon Prediction"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "meth_00320",
+        "type": "method",
+        "surface_form": "Virtual Node Graph Neural Network"
+      },
+      {
+        "id": "clai_00609",
+        "type": "claim",
+        "surface_form": "Virtual Node Graph Neural Network (VGNN) enables graph neural networks to handle variable output dimensions by incorporating virtual nodes that resemble phonon dynamical matrices."
+      },
+      {
+        "id": "clai_00416",
+        "type": "claim",
+        "surface_form": "The E(3)-equivariant graph neural network architecture automatically preserves crystalline symmetries, yielding the correct acoustic‑sum‑rule zero modes without additional corrections."
+      },
+      {
+        "id": "clai_00664",
+        "type": "claim",
+        "surface_form": "AFLOW reproduces experimental phonon dispersion curves for face‑centered cubic Rhodium, showing excellent agreement with measured data."
+      },
+      {
+        "id": "clai_00623",
+        "type": "claim",
+        "surface_form": "The Γ-phonon database exhibits a hyperbolic relationship between average frequency and average atomic mass following ω̄ = C m̄^(-1/2) with C ≈ 1993."
+      }
+    ]
+  },
+  {
+    "id": "L0_c8310",
+    "size": 301,
+    "type_counts": {
+      "task": 119,
+      "problem": 45,
+      "claim": 36,
+      "future_topic": 26,
+      "component": 25,
+      "technique": 16,
+      "dataset": 13,
+      "method": 11,
+      "article": 5,
+      "cited_work": 3,
+      "metric": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "prob_00143",
+        "type": "problem",
+        "surface_form": "Accurate prediction of material properties"
+      },
+      {
+        "id": "task_00337",
+        "type": "task",
+        "surface_form": "Materials property prediction"
+      },
+      {
+        "id": "prob_00269",
+        "type": "problem",
+        "surface_form": "Automated materials property prediction"
+      },
+      {
+        "id": "task_00163",
+        "type": "task",
+        "surface_form": "Prediction of material properties"
+      },
+      {
+        "id": "task_00122",
+        "type": "task",
+        "surface_form": "Material property prediction"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "data_00043",
+        "type": "dataset",
+        "surface_form": "Top 1000 oxide materials"
+      },
+      {
+        "id": "task_00473",
+        "type": "task",
+        "surface_form": "High-throughput materials database construction"
+      },
+      {
+        "id": "comp_00447",
+        "type": "component",
+        "surface_form": "Automatminer"
+      },
+      {
+        "id": "task_00344",
+        "type": "task",
+        "surface_form": "Materials property prediction from composition"
+      },
+      {
+        "id": "task_00487",
+        "type": "task",
+        "surface_form": "materials genomics"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "metr_00088",
+        "type": "metric",
+        "surface_form": "Young's modulus"
+      },
+      {
+        "id": "tech_00925",
+        "type": "technique",
+        "surface_form": "Young's modulus averaging"
+      },
+      {
+        "id": "metr_00049",
+        "type": "metric",
+        "surface_form": "stable percentage"
+      },
+      {
+        "id": "task_00249",
+        "type": "task",
+        "surface_form": "Stability assessment of Mg‑based LPSO precipitates"
+      },
+      {
+        "id": "comp_00364",
+        "type": "component",
+        "surface_form": "LPSO precipitate stability evaluator"
+      }
+    ]
+  },
+  {
+    "id": "L0_c8285",
+    "size": 97,
+    "type_counts": {
+      "method": 24,
+      "cited_work": 21,
+      "component": 18,
+      "claim": 10,
+      "technique": 7,
+      "dataset": 7,
+      "problem": 4,
+      "task": 3,
+      "article": 2,
+      "future_topic": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "cite_00500",
+        "type": "cited_work",
+        "surface_form": "Crystal Graph Convolutional Neural Network"
+      },
+      {
+        "id": "meth_00056",
+        "type": "method",
+        "surface_form": "Crystal Graph Convolutional Neural Network"
+      },
+      {
+        "id": "cite_00352",
+        "type": "cited_work",
+        "surface_form": "Crystal Graph Convolutional Neural Networks"
+      },
+      {
+        "id": "cite_00015",
+        "type": "cited_work",
+        "surface_form": "Graph Neural Network"
+      },
+      {
+        "id": "meth_00031",
+        "type": "method",
+        "surface_form": "graph neural network"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "clai_00563",
+        "type": "claim",
+        "surface_form": "The GNN framework generalizes across defect types (grain boundaries, vacancies) and material dimensionalities (2D graphene, 3D aluminum), and to unseen defect configurations in over 10⁶ porous graphene structures, maintaining high prediction accuracy despite being trained on only about 1,200 random samples."
+      },
+      {
+        "id": "comp_00265",
+        "type": "component",
+        "surface_form": "Graph convolution layer"
+      },
+      {
+        "id": "meth_00180",
+        "type": "method",
+        "surface_form": "Crystal Hamiltonian Graph neural Network"
+      },
+      {
+        "id": "tech_00052",
+        "type": "technique",
+        "surface_form": "Graph convolution"
+      },
+      {
+        "id": "meth_00028",
+        "type": "method",
+        "surface_form": "Graph Attention"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "meth_00037",
+        "type": "method",
+        "surface_form": "M3GNet"
+      },
+      {
+        "id": "data_00089",
+        "type": "dataset",
+        "surface_form": "Materials Project formation energy"
+      },
+      {
+        "id": "tech_00628",
+        "type": "technique",
+        "surface_form": "Continuous convolution"
+      },
+      {
+        "id": "comp_00019",
+        "type": "component",
+        "surface_form": "Continuous-filter convolution (cfconv) layer"
+      },
+      {
+        "id": "clai_00078",
+        "type": "claim",
+        "surface_form": "Continuous-filter convolutional (cfconv) layers enable convolution on arbitrarily positioned inputs, overcoming the limitations of discrete filters that require grid-aligned data."
+      }
+    ]
+  },
+  {
+    "id": "L0_c8314",
+    "size": 238,
+    "type_counts": {
+      "dataset": 55,
+      "technique": 51,
+      "component": 47,
+      "cited_work": 19,
+      "task": 17,
+      "problem": 15,
+      "method": 13,
+      "claim": 12,
+      "future_topic": 5,
+      "metric": 3,
+      "article": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "data_00105",
+        "type": "dataset",
+        "surface_form": "OC20 S2EF-2M"
+      },
+      {
+        "id": "cite_00545",
+        "type": "cited_work",
+        "surface_form": "OC20-Dense"
+      },
+      {
+        "id": "data_00130",
+        "type": "dataset",
+        "surface_form": "OC2M"
+      },
+      {
+        "id": "data_00229",
+        "type": "dataset",
+        "surface_form": "MD-17 Toluene (original)"
+      },
+      {
+        "id": "data_00112",
+        "type": "dataset",
+        "surface_form": "OC22 IS2RE-Total"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "tech_00287",
+        "type": "technique",
+        "surface_form": "Sigmoid + softplus activation combo"
+      },
+      {
+        "id": "data_00016",
+        "type": "dataset",
+        "surface_form": "WBM test set"
+      },
+      {
+        "id": "tech_00956",
+        "type": "technique",
+        "surface_form": "Vectorized fingerprint generation"
+      },
+      {
+        "id": "data_00024",
+        "type": "dataset",
+        "surface_form": "MD-17 Salicylic acid"
+      },
+      {
+        "id": "data_00006",
+        "type": "dataset",
+        "surface_form": "Si"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00628",
+        "type": "component",
+        "surface_form": "Diffusion coefficient convergence criterion"
+      },
+      {
+        "id": "tech_00405",
+        "type": "technique",
+        "surface_form": "Miedema and Hume‑Rothery miscibility rules"
+      },
+      {
+        "id": "meth_00371",
+        "type": "method",
+        "surface_form": "Davidson blocked scheme"
+      },
+      {
+        "id": "cite_00298",
+        "type": "cited_work",
+        "surface_form": "Davidson blocked scheme"
+      },
+      {
+        "id": "tech_00561",
+        "type": "technique",
+        "surface_form": "Smooth switching function"
+      }
+    ]
+  },
+  {
+    "id": "L0_c8292",
+    "size": 80,
+    "type_counts": {
+      "task": 22,
+      "claim": 22,
+      "problem": 15,
+      "dataset": 12,
+      "method": 3,
+      "cited_work": 2,
+      "article": 2,
+      "future_topic": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "prob_00602",
+        "type": "problem",
+        "surface_form": "Fourfold ring prediction in amorphous carbon"
+      },
+      {
+        "id": "task_00687",
+        "type": "task",
+        "surface_form": "Atomistic simulations of amorphous carbon"
+      },
+      {
+        "id": "prob_00606",
+        "type": "problem",
+        "surface_form": "accurate interatomic potential for amorphous carbon"
+      },
+      {
+        "id": "prob_00605",
+        "type": "problem",
+        "surface_form": "Large-scale amorphous carbon simulation"
+      },
+      {
+        "id": "data_00208",
+        "type": "dataset",
+        "surface_form": "Amorphous carbon"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "task_00701",
+        "type": "task",
+        "surface_form": "Tetrahedral amorphous carbon (ta-C) modeling"
+      },
+      {
+        "id": "clai_00680",
+        "type": "claim",
+        "surface_form": "GAP recovers three- and four-membered rings that are key features of liquid and low-density amorphous carbon structures, which empirical potentials (Tersoff/Brenner) fail to predict."
+      },
+      {
+        "id": "task_00167",
+        "type": "task",
+        "surface_form": "Liquid silicon structural analysis"
+      },
+      {
+        "id": "arti_00051",
+        "type": "article",
+        "surface_form": "Discovering Melting Temperature Prediction Models of Inorganic Solids by Combining Supervised and Unsupervised Learning"
+      },
+      {
+        "id": "task_00620",
+        "type": "task",
+        "surface_form": "amorphous materials"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "clai_00425",
+        "type": "claim",
+        "surface_form": "D4FT correctly predicts the paramagnetic ground state of O₂ and the diamagnetic ground state of CO₂ by comparing spin‑restricted and spin‑unrestricted calculations."
+      },
+      {
+        "id": "clai_00681",
+        "type": "claim",
+        "surface_form": "GAP fully reproduces the stability ordering of ta-C surface energies compared to DFT calculations, with differences less than 0.01 J m−2 for the most stable surface."
+      },
+      {
+        "id": "clai_00685",
+        "type": "claim",
+        "surface_form": "Diamond exhibits strong force locality with force deviations vanishing practically at rfix = 5.5 Å, while graphite is highly nonlocal with larger force deviations that do not decay as rapidly."
+      },
+      {
+        "id": "task_00167",
+        "type": "task",
+        "surface_form": "Liquid silicon structural analysis"
+      },
+      {
+        "id": "clai_00055",
+        "type": "claim",
+        "surface_form": "Cluster 1 (198 compounds, mostly ionic halides and oxides) achieves 136±5 K MAE and 0.92 R², while Cluster 2 (222 compounds, mostly covalent carbides and nitrides) achieves 189±7 K MAE and 0.90 R²."
+      }
+    ]
+  },
+  {
+    "id": "L0_c8022",
+    "size": 85,
+    "type_counts": {
+      "author": 81,
+      "cited_work": 2,
+      "method": 1,
+      "dataset": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "auth_00126",
+        "type": "author",
+        "surface_form": "Jihui Yang"
+      },
+      {
+        "id": "auth_00004",
+        "type": "author",
+        "surface_form": "Yixiao Chen"
+      },
+      {
+        "id": "auth_00245",
+        "type": "author",
+        "surface_form": "Fengbo Yuan"
+      },
+      {
+        "id": "auth_00259",
+        "type": "author",
+        "surface_form": "Hai-Chen Wang"
+      },
+      {
+        "id": "auth_00012",
+        "type": "author",
+        "surface_form": "Ting Wang"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "auth_00174",
+        "type": "author",
+        "surface_form": "Subhasish Mandal"
+      },
+      {
+        "id": "auth_00252",
+        "type": "author",
+        "surface_form": "Wenshuo Liang"
+      },
+      {
+        "id": "auth_00237",
+        "type": "author",
+        "surface_form": "Ping Tuo"
+      },
+      {
+        "id": "auth_00124",
+        "type": "author",
+        "surface_form": "Yang Zhong"
+      },
+      {
+        "id": "auth_00028",
+        "type": "author",
+        "surface_form": "Zun Wang"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "auth_00115",
+        "type": "author",
+        "surface_form": "Shyue Ping Ong"
+      },
+      {
+        "id": "cite_00457",
+        "type": "cited_work",
+        "surface_form": "Xie & Grossman"
+      },
+      {
+        "id": "auth_00237",
+        "type": "author",
+        "surface_form": "Ping Tuo"
+      },
+      {
+        "id": "meth_00335",
+        "type": "method",
+        "surface_form": "Horovod"
+      },
+      {
+        "id": "auth_00011",
+        "type": "author",
+        "surface_form": "Teodoro Laino"
+      }
+    ]
+  },
+  {
+    "id": "L0_c8313",
+    "size": 487,
+    "type_counts": {
+      "author": 164,
+      "cited_work": 158,
+      "method": 60,
+      "dataset": 43,
+      "component": 31,
+      "technique": 19,
+      "metric": 4,
+      "claim": 3,
+      "task": 3,
+      "future_topic": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "cite_00405",
+        "type": "cited_work",
+        "surface_form": "Allen-Cahn"
+      },
+      {
+        "id": "auth_00190",
+        "type": "author",
+        "surface_form": "Michal Jahnatek"
+      },
+      {
+        "id": "cite_00128",
+        "type": "cited_work",
+        "surface_form": "ChebNet"
+      },
+      {
+        "id": "data_00080",
+        "type": "dataset",
+        "surface_form": "Na"
+      },
+      {
+        "id": "auth_00278",
+        "type": "author",
+        "surface_form": "Ekin Dogus Cubuk"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "comp_00566",
+        "type": "component",
+        "surface_form": "CGAT-1/2/3 network series"
+      },
+      {
+        "id": "data_00001",
+        "type": "dataset",
+        "surface_form": "QM9"
+      },
+      {
+        "id": "cite_00413",
+        "type": "cited_work",
+        "surface_form": "posym"
+      },
+      {
+        "id": "cite_00187",
+        "type": "cited_work",
+        "surface_form": "QM/MM"
+      },
+      {
+        "id": "cite_00358",
+        "type": "cited_work",
+        "surface_form": "Ren et al."
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "tech_00642",
+        "type": "technique",
+        "surface_form": "DBS-to-RMM-DIIS switching"
+      },
+      {
+        "id": "comp_00275",
+        "type": "component",
+        "surface_form": "QR‑based orthogonal constraint enforcement"
+      },
+      {
+        "id": "clai_00031",
+        "type": "claim",
+        "surface_form": "The meta‑GGA TBmBJ potential predicts band gaps with accuracy comparable to the hybrid HSE06 functional while requiring up to ten times less computational effort."
+      },
+      {
+        "id": "tech_00793",
+        "type": "technique",
+        "surface_form": "per-layer TorchScript files"
+      },
+      {
+        "id": "task_00416",
+        "type": "task",
+        "surface_form": "QM/MM energy correction"
+      }
+    ]
+  },
+  {
+    "id": "L0_c8312",
+    "size": 221,
+    "type_counts": {
+      "component": 88,
+      "technique": 65,
+      "cited_work": 25,
+      "method": 20,
+      "problem": 13,
+      "claim": 5,
+      "task": 4,
+      "future_topic": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "prob_00163",
+        "type": "problem",
+        "surface_form": "Rotationally Invariant Tensorial Property Representation"
+      },
+      {
+        "id": "tech_00531",
+        "type": "technique",
+        "surface_form": "Radial basis function encoding"
+      },
+      {
+        "id": "tech_00309",
+        "type": "technique",
+        "surface_form": "Spherical‑Harmonic Expansion of Cartesian Tensors"
+      },
+      {
+        "id": "comp_00037",
+        "type": "component",
+        "surface_form": "Learnable radial basis with Bessel functions"
+      },
+      {
+        "id": "tech_00285",
+        "type": "technique",
+        "surface_form": "Gaussian radial basis functions for distance encoding"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "prob_00384",
+        "type": "problem",
+        "surface_form": "Aliasing errors in Fourier transforms"
+      },
+      {
+        "id": "comp_00110",
+        "type": "component",
+        "surface_form": "Symmetry‑respecting polynomial features via Reynolds operator"
+      },
+      {
+        "id": "prob_00253",
+        "type": "problem",
+        "surface_form": "High computational complexity of SO(3) tensor products"
+      },
+      {
+        "id": "comp_00554",
+        "type": "component",
+        "surface_form": "se e2 a descriptor"
+      },
+      {
+        "id": "comp_00289",
+        "type": "component",
+        "surface_form": "Orthogonal Single‑Atom Basis Functions φ_v"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "cite_00200",
+        "type": "cited_work",
+        "surface_form": "SOAP"
+      },
+      {
+        "id": "tech_00081",
+        "type": "technique",
+        "surface_form": "Logarithmic transformation"
+      },
+      {
+        "id": "comp_00290",
+        "type": "component",
+        "surface_form": "Irreducible Basis Set B"
+      },
+      {
+        "id": "clai_00155",
+        "type": "claim",
+        "surface_form": "None of the tested descriptors outperforms the others in terms of accuracy across all datasets."
+      },
+      {
+        "id": "tech_00547",
+        "type": "technique",
+        "surface_form": "Eigenvalue problem solving"
+      }
+    ]
+  },
+  {
+    "id": "L0_c7992",
+    "size": 45,
+    "type_counts": {
+      "problem": 21,
+      "claim": 6,
+      "technique": 6,
+      "task": 3,
+      "cited_work": 3,
+      "future_topic": 2,
+      "component": 2,
+      "method": 2
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "tech_00361",
+        "type": "technique",
+        "surface_form": "High‑throughput DFT calculations"
+      },
+      {
+        "id": "task_00483",
+        "type": "task",
+        "surface_form": "High-throughput DFT calculations"
+      },
+      {
+        "id": "tech_00616",
+        "type": "technique",
+        "surface_form": "High-throughput DFT calculations"
+      },
+      {
+        "id": "prob_00032",
+        "type": "problem",
+        "surface_form": "Accuracy‑efficiency trade‑off in large‑scale DFT"
+      },
+      {
+        "id": "prob_00029",
+        "type": "problem",
+        "surface_form": "Computational cost of large‑scale DFT"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "prob_00039",
+        "type": "problem",
+        "surface_form": "Bias from DFT approximations"
+      },
+      {
+        "id": "prob_00032",
+        "type": "problem",
+        "surface_form": "Accuracy‑efficiency trade‑off in large‑scale DFT"
+      },
+      {
+        "id": "clai_00254",
+        "type": "claim",
+        "surface_form": "Approximately 40% of the UK's academic HPC was spent on DFT calculations in a recent year, most of which was AIMD."
+      },
+      {
+        "id": "prob_00129",
+        "type": "problem",
+        "surface_form": "DFT‑level accuracy with linear scaling"
+      },
+      {
+        "id": "futu_00109",
+        "type": "future_topic",
+        "surface_form": "Improving scalability of KS‑DFT for large molecules and solid cells using deep learning"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "clai_00254",
+        "type": "claim",
+        "surface_form": "Approximately 40% of the UK's academic HPC was spent on DFT calculations in a recent year, most of which was AIMD."
+      },
+      {
+        "id": "clai_00010",
+        "type": "claim",
+        "surface_form": "The workflow software FireWorks together with the custodian job‑management tool automatically manages high‑throughput DFT calculations, self‑heals failed runs, and applies material‑type‑specific workflows."
+      },
+      {
+        "id": "clai_00662",
+        "type": "claim",
+        "surface_form": "AFLOW detects most calculation failures, automatically corrects input parameters, restarts calculations, and can run as a Unix daemon to generate, run, correct, and converge many DFT jobs per day, yielding higher throughput than manual management."
+      },
+      {
+        "id": "prob_00381",
+        "type": "problem",
+        "surface_form": "Self-interaction error in DFT"
+      },
+      {
+        "id": "clai_00274",
+        "type": "claim",
+        "surface_form": "GNoME was trained on an in-house database of roughly 80 million DFT calculations."
+      }
+    ]
+  },
+  {
+    "id": "L0_c8172",
+    "size": 63,
+    "type_counts": {
+      "method": 13,
+      "technique": 11,
+      "component": 10,
+      "problem": 10,
+      "cited_work": 9,
+      "claim": 6,
+      "future_topic": 3,
+      "task": 1
+    },
+    "nearest_to_centroid": [
+      {
+        "id": "tech_00124",
+        "type": "technique",
+        "surface_form": "E(3)-equivariant neural network"
+      },
+      {
+        "id": "meth_00120",
+        "type": "method",
+        "surface_form": "Equivariant Neural Networks"
+      },
+      {
+        "id": "comp_00070",
+        "type": "component",
+        "surface_form": "E(3)-equivariant GNN architecture"
+      },
+      {
+        "id": "cite_00120",
+        "type": "cited_work",
+        "surface_form": "E(3)-equivariant GNN"
+      },
+      {
+        "id": "meth_00318",
+        "type": "method",
+        "surface_form": "E(3)-equivariant graph neural networks"
+      }
+    ],
+    "random_sample_seed": 0,
+    "random_sample": [
+      {
+        "id": "cite_00256",
+        "type": "cited_work",
+        "surface_form": "SE(3)-equivariant network"
+      },
+      {
+        "id": "comp_00062",
+        "type": "component",
+        "surface_form": "Symmetry‑aware E(3)‑equivariant GNN energy model"
+      },
+      {
+        "id": "comp_00226",
+        "type": "component",
+        "surface_form": "E(3)×{I,T} equivariant neural network architecture"
+      },
+      {
+        "id": "prob_00091",
+        "type": "problem",
+        "surface_form": "Lack of rotational equivariance in existing GNN‑IPs"
+      },
+      {
+        "id": "cite_00452",
+        "type": "cited_work",
+        "surface_form": "E(3)-Equivariant Potentials"
+      }
+    ],
+    "farthest_from_centroid": [
+      {
+        "id": "comp_00253",
+        "type": "component",
+        "surface_form": "Local Coordinate Message Passing (LCMP) layer"
+      },
+      {
+        "id": "clai_00383",
+        "type": "claim",
+        "surface_form": "The use of a local‑coordinate message‑passing (LCMP) layer is critical for achieving high prediction accuracy of rotation‑covariant Hamiltonian blocks."
+      },
+      {
+        "id": "meth_00416",
+        "type": "method",
+        "surface_form": "E(3)-Equivariant Atom-Centered Interatomic Potentials"
+      },
+      {
+        "id": "prob_00245",
+        "type": "problem",
+        "surface_form": "Out-of-memory errors with high-degree equivariant models"
+      },
+      {
+        "id": "prob_00246",
+        "type": "problem",
+        "surface_form": "Speed-accuracy trade-off in equivariant Transformers"
+      }
+    ]
+  }
+]

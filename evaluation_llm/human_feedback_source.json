@@ -1,0 +1,6 @@
+{
+  "source": "Developer user message in this conversation",
+  "verbatim": "for C004 the group size is too large for me to agree, or not agree so i will giv ethis a 1, for c006 the authors ahve all author names and only some connection, for F002 the group size is also very large but all of them are realted to energy potentials and DFT transforms, for F003 we all the keywords of high thoruput and dft but we cannot say for sure whether they are semantically connected or make any scientifc coheretn meaning, F001 is vauue  but has searching methods all together, same for F005",
+  "coding_policy": "Preserve six qualitative comments; only C004 supplies an explicit numeric rating. Do not infer agreement or a supported/wrong label category from the other comments.",
+  "reviewer_role": "developer, not independent domain expert"
+}

@@ -1,0 +1,19 @@
+{
+  "snapshot": "data/processed/baseline_input/snapshot_2024.json",
+  "run": "results/temporal_lambda_0p1_gamma_0p1_2024",
+  "frontier": [
+    7990,
+    8215,
+    8272,
+    8302,
+    8303,
+    8306,
+    8307,
+    8309,
+    8310,
+    8313,
+    8314,
+    8315
+  ],
+  "note": "Frontier merge_tree_ids are local to this run, not temporal persistent IDs."
+}

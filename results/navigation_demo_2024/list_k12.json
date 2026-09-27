@@ -1,0 +1,137 @@
+{
+  "frontier_size": 12,
+  "groups": [
+    {
+      "merge_tree_id": 7990,
+      "size": 85,
+      "representative_text_unvalidated": [
+        "Augmenting a minimal 1×1×1 supercell training set with Hessian data yields more accurate phonon predictions than training on a larger 3×3×3 supercell alone.",
+        "Application of equivariant GNN phonon predictions to drug‑discovery related molecular systems",
+        "The E(3)-equivariant graph neural network architecture automatically preserves crystalline symmetries, yielding the correct acoustic‑sum‑rule zero modes without additional corrections.",
+        "Phonon predictions with E(3)-equivariant graph neural networks",
+        "Phonax (E(3)-equivariant graph neural network framework for phonon and Hessian prediction)"
+      ]
+    },
+    {
+      "merge_tree_id": 8215,
+      "size": 72,
+      "representative_text_unvalidated": [
+        "high-throughput DFT validation",
+        "High‑throughput DFT",
+        "Scalable high‑throughput DFT management",
+        "Computational cost of large‑scale DFT",
+        "Computational cost in high-throughput DFT"
+      ]
+    },
+    {
+      "merge_tree_id": 8272,
+      "size": 51,
+      "representative_text_unvalidated": [
+        "Spherical‑harmonics embedding",
+        "Spherical‑harmonic embedding of geometric inputs",
+        "Spherical harmonic encoding",
+        "Spherical harmonics encoding",
+        "Spherical harmonics encoding"
+      ]
+    },
+    {
+      "merge_tree_id": 8302,
+      "size": 172,
+      "representative_text_unvalidated": [
+        "Parallel equivariant graph attention",
+        "Equivariant graph attention block",
+        "Equivariant graph attention",
+        "equivariant graph attention",
+        "Euclidean equivariance in graph neural networks"
+      ]
+    },
+    {
+      "merge_tree_id": 8303,
+      "size": 646,
+      "representative_text_unvalidated": [
+        "Automatminer pipeline",
+        "Descriptor-based Automatminer and RF models have lower errors on small datasets but their improvement rates are shallower, with AutoML's advantage over conventional techniques narrowing as sample count increases and essentially lost near 10^5 samples.",
+        "For small datasets (<10^4 samples), inexpensive Automatminer presets (~1-5 minute training) retain the bulk of performance compared to expensive presets (24h+ training), with Express retaining 95% or more of the accuracy of more expensive presets at less than 50% of the computational cost on data-scarce tasks.",
+        "Automatminer's auto-generated models outperform or equal the Random Forest model across all Matbench tasks except predicting formation energies across the Materials Project.",
+        "Automatminer"
+      ]
+    },
+    {
+      "merge_tree_id": 8306,
+      "size": 151,
+      "representative_text_unvalidated": [
+        "Crystal-Graph Attention Network",
+        "Crystal Graph Attention Network",
+        "Crystal-graph attention networks",
+        "Crystal Graph Attention Networks",
+        "Graph Attention"
+      ]
+    },
+    {
+      "merge_tree_id": 8307,
+      "size": 350,
+      "representative_text_unvalidated": [
+        "Semi‑Grand Canonical Monte Carlo with umbrella sampling",
+        "Semi-Grand Canonical Monte Carlo",
+        "kinetic Monte Carlo",
+        "Parallel Monte Carlo",
+        "Monte Carlo simulation"
+      ]
+    },
+    {
+      "merge_tree_id": 8309,
+      "size": 571,
+      "representative_text_unvalidated": [
+        "Local scaling transformation",
+        "Neural basis with local scaling transformation",
+        "Neural local scaling transformation",
+        "Neural local scaling",
+        "N (local scaling)"
+      ]
+    },
+    {
+      "merge_tree_id": 8310,
+      "size": 284,
+      "representative_text_unvalidated": [
+        "Yibo Wang",
+        "Yingze Wang",
+        "Han Wang",
+        "Qi Wang",
+        "Shidong Wang"
+      ]
+    },
+    {
+      "merge_tree_id": 8313,
+      "size": 1234,
+      "representative_text_unvalidated": [
+        "AMBER force field",
+        "Universal Force Field",
+        "Force‑field benchmarking",
+        "Classical force‑field property benchmarking",
+        "Accuracy limitations of classical force fields"
+      ]
+    },
+    {
+      "merge_tree_id": 8314,
+      "size": 343,
+      "representative_text_unvalidated": [
+        "Malonaldehyde",
+        "MD-17 Malonaldehyde (original)",
+        "MD-17 Malonaldehyde",
+        "MD-17 Malonaldehyde (revised)",
+        "Ethanol"
+      ]
+    },
+    {
+      "merge_tree_id": 8315,
+      "size": 205,
+      "representative_text_unvalidated": [
+        "Feature selection for materials property prediction",
+        "Data heterogeneity in materials property prediction",
+        "Materials property prediction benchmarking",
+        "Prediction of material properties",
+        "Accurate prediction of material properties"
+      ]
+    }
+  ]
+}

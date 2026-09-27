@@ -1,0 +1,198 @@
+{
+  "baseline": "semantic_all-MiniLM-L6-v2_euclidean_ward_lambda0_gamma0",
+  "scientific_quality_warning": "Semantic-only control; no hypergraph or temporal terms and no validated scientific glosses.",
+  "snapshot_meta": {
+    "cutoff": 2020,
+    "policy": "node:first_seen; edge:max(year,article_year,endpoint_first_seen)",
+    "node_text_versioned": false,
+    "contains_historical_metadata": true,
+    "warning": "Filter future provenance/last_seen from generation inputs; text is unversioned."
+  },
+  "node_count": 1505,
+  "edge_count": 374,
+  "budgets": [
+    12,
+    48,
+    120
+  ],
+  "levels": [
+    {
+      "level": 0,
+      "level_name": "k12",
+      "requested_groups": 12,
+      "actual_groups": 12,
+      "fragmentation": 0.5025564070440603,
+      "group_size_distribution": {
+        "min": 20,
+        "max": 360,
+        "histogram": {
+          "20": 1,
+          "23": 1,
+          "28": 1,
+          "33": 1,
+          "52": 1,
+          "73": 1,
+          "79": 1,
+          "140": 1,
+          "203": 1,
+          "230": 1,
+          "264": 1,
+          "360": 1
+        }
+      }
+    },
+    {
+      "level": 1,
+      "level_name": "k48",
+      "requested_groups": 48,
+      "actual_groups": 48,
+      "fragmentation": 0.6480247173480108,
+      "group_size_distribution": {
+        "min": 10,
+        "max": 80,
+        "histogram": {
+          "10": 3,
+          "11": 1,
+          "12": 1,
+          "13": 2,
+          "15": 2,
+          "16": 2,
+          "17": 2,
+          "20": 2,
+          "21": 1,
+          "22": 1,
+          "23": 1,
+          "25": 3,
+          "26": 2,
+          "27": 2,
+          "28": 3,
+          "29": 1,
+          "30": 1,
+          "31": 1,
+          "32": 1,
+          "33": 2,
+          "35": 1,
+          "36": 1,
+          "37": 1,
+          "41": 1,
+          "47": 1,
+          "48": 1,
+          "50": 1,
+          "57": 2,
+          "63": 1,
+          "68": 1,
+          "73": 1,
+          "79": 1,
+          "80": 1
+        }
+      }
+    },
+    {
+      "level": 2,
+      "level_name": "k120",
+      "requested_groups": 120,
+      "actual_groups": 120,
+      "fragmentation": 0.7212220591628427,
+      "group_size_distribution": {
+        "min": 3,
+        "max": 43,
+        "histogram": {
+          "3": 3,
+          "4": 5,
+          "5": 4,
+          "6": 10,
+          "7": 8,
+          "8": 7,
+          "9": 8,
+          "10": 14,
+          "11": 10,
+          "12": 8,
+          "13": 3,
+          "14": 6,
+          "15": 2,
+          "16": 10,
+          "17": 2,
+          "18": 1,
+          "19": 2,
+          "20": 1,
+          "21": 3,
+          "22": 1,
+          "23": 3,
+          "25": 1,
+          "28": 1,
+          "29": 2,
+          "30": 2,
+          "33": 1,
+          "42": 1,
+          "43": 1
+        }
+      }
+    },
+    {
+      "level": 3,
+      "level_name": "leaves",
+      "requested_groups": 1505,
+      "actual_groups": 1505,
+      "fragmentation": 1.0,
+      "group_size_distribution": {
+        "min": 1,
+        "max": 1,
+        "histogram": {
+          "1": 1505
+        }
+      }
+    }
+  ],
+  "embedding_metadata": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "device": "cpu",
+    "max_seq_length": 256,
+    "tokenizer_class": "BertTokenizerFast",
+    "tokenizer_settings": {
+      "padding": false,
+      "truncation": false,
+      "add_special_tokens_for_count": true
+    },
+    "truncation_count": 0,
+    "truncated_node_ids": [],
+    "max_observed_token_length": 129,
+    "encoding_runtime_seconds": 6.63676253399899,
+    "dependencies": {
+      "python_requires": ">=3.10",
+      "sentence-transformers": "3.0.1",
+      "transformers": "4.41.2",
+      "torch": "2.2.2+cpu",
+      "huggingface-hub": "0.23.5",
+      "tokenizers": "0.19.1",
+      "numpy": "1.26.4",
+      "scikit-learn": "1.4.2",
+      "scipy": "1.15.3",
+      "certifi": "2026.07.22",
+      "charset-normalizer": "3.4.4",
+      "filelock": "4.0.1",
+      "fsspec": "2026.7.0",
+      "idna": "3.11",
+      "jinja2": "3.1.6",
+      "networkx": "3.4.2",
+      "packaging": "26.3",
+      "Pillow": "12.3.0",
+      "requests": "2.34.2",
+      "safetensors": "0.4.5",
+      "sympy": "1.14.0",
+      "tqdm": "4.70.1",
+      "urllib3": "2.6.2"
+    },
+    "input_sha256": "11e25c97ca0ee5107287909344efffe94f5b88b5eb5432315d6f028ed026a3cb"
+  },
+  "clustering_runtime_seconds": 0.32263741699716775,
+  "distance": "Euclidean over L2-normalized sentence-transformer embeddings",
+  "linkage": "ward",
+  "lambda": 0,
+  "gamma": 0,
+  "centroid_policy": "arithmetic means of normalized node vectors; group centroids are not renormalized",
+  "runtime_seconds": 9.868005076001282,
+  "input_path": "data/processed/baseline_input/snapshot_2020.json",
+  "input_sha256": "11e25c97ca0ee5107287909344efffe94f5b88b5eb5432315d6f028ed026a3cb",
+  "embedding_cache": "results/semantic_ward_2020/embeddings.npz"
+}

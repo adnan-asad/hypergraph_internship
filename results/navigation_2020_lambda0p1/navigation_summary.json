@@ -1,0 +1,15 @@
+{
+  "source_run": "results/hypergraph_agglomerative_lambda_0p1_2020",
+  "snapshot": "data/processed/baseline_input/snapshot_2020.json",
+  "note": "Additional cuts replay existing merge history; not independently optimized temporal resolutions.",
+  "cuts": {
+    "k80": {
+      "groups": 80,
+      "fragmentation": 0.3697792330408719
+    },
+    "k24": {
+      "groups": 24,
+      "fragmentation": 0.2942864056972268
+    }
+  }
+}
