@@ -318,6 +318,29 @@ frontier quotient, collapsed back, and verified the original 12-group frontier w
 recovered exactly. Ran `PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v`
 (57 tests, OK). No clustering/routing changes, commits, or pushes were made.
 
+## Extends direction inference layer
+
+Tool: OpenAI assistant in Pi.
+
+Tasks: inspected `docs/assessment.md` and `docs/ASSESSOR_CLARIFICATIONS.md`, then
+implemented a separate temporal heuristic layer for `extends` direction in
+`src/tkh_abstraction/extends_direction.py` with tests in
+`tests/test_extends_direction.py`. Generated per-snapshot artifacts in
+`results/extends_direction/`.
+
+Major requests: preserve original member order/source data and existing clustering
+results; never infer direction from `member[0]`; export original edge IDs/members,
+method year evidence, inferred source or null, candidate targets, non-method
+context, uncertainty reasons, and policy version; report member[0] agreement only
+as a diagnostic.
+
+Verification: ran targeted tests for unique date match, unique newest candidate,
+tied dates, missing dates, future-origin contradictions, permutation invariance,
+and original hyperedge/context preservation. Generated stats for 2020/2022/2024/2026.
+For 2026, 4/50 `extends` edges resolved and 46 remained unresolved; h_00003 is
+unresolved due to missing method origin years. Direction accuracy is not claimed,
+and no clustering/evaluation outputs were changed. No commit/push was made.
+
 ## Submission audit and writing — 26 September 2026
 
 Tool: OpenAI Codex desktop assistant. The developer supplied the actual repository archive and edited developer-review CSV. Major request: finish the project, prepare the assessment deliverables, audit measured evidence and identify what to commit. The assistant was instructed to prioritize rubric coverage; no invented experiments, ratings or performance improvements were accepted.

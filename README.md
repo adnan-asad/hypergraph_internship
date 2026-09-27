@@ -7,6 +7,7 @@ Start with **[report.md](report.md)** (final concise report), **[metrics.json](m
 - `submission/2020/hierarchy.json`, `submission/2022/hierarchy.json`, `submission/2024/hierarchy.json`, `submission/2026/hierarchy.json`: canonical labelled nested exports with corrected stable singleton identities.
 - Each snapshot directory also contains `temporal_events.json`. Original quotients, merge logs, controls, perturbations and summaries remain under `results/`.
 - `docs/developer_review/`: actual developer annotations, reproducible descriptive counts, and limitations. Not an independent expert review.
+- `results/extends_direction/`: separate inferred direction metadata for `extends` hyperedges. This does not alter clustering/evaluation outputs.
 - `verification/`: this packaging pass's test log and recomputed saved-result checks.
 - `COMMIT_CHECKLIST.md`: what to copy and commit to the existing repository.
 
@@ -42,6 +43,25 @@ PYTHONPATH=src python -m tkh_abstraction.submission_audit \
 ```
 
 This reads ground truth only to score already frozen retrieval outputs. It does not select weights or change rankings. Use ordinary Python, not `python -O`, because the audit uses assertions. Original saved results are preserved; canonical submission exports and root metrics are regenerated.
+
+To regenerate the separate `extends` direction-inference artifacts:
+
+```bash
+mkdir -p results/extends_direction
+for y in 2020 2022 2024 2026; do
+  PYTHONPATH=src python -m tkh_abstraction.extends_direction \
+    --snapshot data/processed/baseline_input/snapshot_${y}.json \
+    --output results/extends_direction/snapshot_${y}_extends_direction.json
+done
+```
+
+The policy is conservative: unique edge-year match first, then unique newest known
+method only when all method dates are known and compatible. Missing method dates,
+ties and future-origin contradictions abstain. The 2026 artifact resolves 4/50
+`extends` edges (8%); 43 are unresolved because of insufficient origin-year
+information. Agreement with `member[0]` is reported only as a diagnostic, not as
+accuracy validation. Direction metadata does not gate snapshot visibility and is
+not used in clustering scores.
 
 ## Full reproduction
 

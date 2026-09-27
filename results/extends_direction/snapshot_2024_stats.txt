@@ -1,0 +1,21 @@
+{
+  "extends_edges": 37,
+  "resolved": 4,
+  "unresolved": 33,
+  "member0_diagnostic": {
+    "denominator_resolved_edges": 4,
+    "agreements_with_member0": 4,
+    "disagreements_with_member0": 0,
+    "note": "Diagnostic only; member[0] is not used as a direction contract."
+  },
+  "status_by_reason": {
+    "missing origin_year ambiguity among method endpoints": 30,
+    "future-origin contradiction relative to edge year": 2,
+    "heuristic inference; not independently corroborated": 4,
+    "tie: multiple newest method origin_year values": 1
+  },
+  "rule_counts": {
+    "unresolved": 33,
+    "unique_method_origin_equals_edge_year": 4
+  }
+}

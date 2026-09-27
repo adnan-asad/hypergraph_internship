@@ -1,0 +1,6298 @@
+{
+  "policy_version": "extends_direction_temporal_heuristic_v1",
+  "limitation": "Earlier implementation preserved extends hyperedges without resolving direction. This layer adds a temporal heuristic with explicit abstention; unit tests/date consistency do not establish direction accuracy.",
+  "statistics": {
+    "extends_edges": 37,
+    "resolved": 4,
+    "unresolved": 33,
+    "member0_diagnostic": {
+      "denominator_resolved_edges": 4,
+      "agreements_with_member0": 4,
+      "disagreements_with_member0": 0,
+      "note": "Diagnostic only; member[0] is not used as a direction contract."
+    },
+    "status_by_reason": {
+      "missing origin_year ambiguity among method endpoints": 30,
+      "future-origin contradiction relative to edge year": 2,
+      "heuristic inference; not independently corroborated": 4,
+      "tie: multiple newest method origin_year values": 1
+    },
+    "rule_counts": {
+      "unresolved": 33,
+      "unique_method_origin_equals_edge_year": 4
+    }
+  },
+  "representative_exceptions": [
+    {
+      "edge_id": "h_00003",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00030",
+        "meth_00045",
+        "meth_00046",
+        "meth_00026",
+        "meth_00047",
+        "meth_00048",
+        "meth_00005",
+        "meth_00066"
+      ],
+      "edge_year": 2017,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00030",
+        "meth_00045",
+        "meth_00046",
+        "meth_00026",
+        "meth_00047",
+        "meth_00048",
+        "meth_00005",
+        "meth_00066"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00030",
+          "position": 0,
+          "surface_form": "Message Passing Neural Network",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00045",
+          "position": 1,
+          "surface_form": "Neural fingerprint",
+          "origin_year": 2015,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00046",
+          "position": 2,
+          "surface_form": "Gated Graph Neural Networks",
+          "origin_year": null,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00026",
+          "position": 3,
+          "surface_form": "Interaction Networks",
+          "origin_year": null,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00047",
+          "position": 4,
+          "surface_form": "Molecular Graph Convolution",
+          "origin_year": 2016,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00048",
+          "position": 5,
+          "surface_form": "deep tensor neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00005",
+          "position": 6,
+          "surface_form": "Graph Convolutional Network",
+          "origin_year": 2013,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00066",
+          "position": 7,
+          "surface_form": "Set2Set",
+          "origin_year": 2015,
+          "first_seen_year": 2017
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00008",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00050",
+        "meth_00051",
+        "meth_00048",
+        "meth_00052",
+        "meth_00042",
+        "meth_00044"
+      ],
+      "edge_year": 2017,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00050",
+        "meth_00051",
+        "meth_00048",
+        "meth_00052",
+        "meth_00042",
+        "meth_00044"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00050",
+          "position": 0,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00051",
+          "position": 1,
+          "surface_form": "Gradient-domain machine learning",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00048",
+          "position": 2,
+          "surface_form": "deep tensor neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00052",
+          "position": 3,
+          "surface_form": "Edge-conditioned neural network",
+          "origin_year": null,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00042",
+          "position": 4,
+          "surface_form": "Dynamic filter networks",
+          "origin_year": 2016,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00044",
+          "position": 5,
+          "surface_form": "ResNets",
+          "origin_year": null,
+          "first_seen_year": 2017
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00017",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00090",
+        "meth_00077",
+        "meth_00050",
+        "meth_00108",
+        "meth_00109",
+        "meth_00110",
+        "meth_00111",
+        "meth_00103",
+        "meth_00078",
+        "meth_00058",
+        "meth_00112",
+        "meth_00113",
+        "meth_00114",
+        "meth_00115",
+        "meth_00048",
+        "meth_00116",
+        "meth_00117"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00090",
+        "meth_00077",
+        "meth_00050",
+        "meth_00108",
+        "meth_00109",
+        "meth_00110",
+        "meth_00111",
+        "meth_00103",
+        "meth_00078",
+        "meth_00058",
+        "meth_00112",
+        "meth_00113",
+        "meth_00114",
+        "meth_00115",
+        "meth_00048",
+        "meth_00116",
+        "meth_00117"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00090",
+          "position": 0,
+          "surface_form": "MACE-MP-0",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00077",
+          "position": 1,
+          "surface_form": "Atomic Cluster Expansion",
+          "origin_year": 2019,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00050",
+          "position": 2,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00108",
+          "position": 3,
+          "surface_form": "DimeNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00109",
+          "position": 4,
+          "surface_form": "GemNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00110",
+          "position": 5,
+          "surface_form": "SphereNet",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00111",
+          "position": 6,
+          "surface_form": "Tensor Field Networks",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00103",
+          "position": 7,
+          "surface_form": "E(n)-equivariant graph neural network",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00078",
+          "position": 8,
+          "surface_form": "PaiNN",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00058",
+          "position": 9,
+          "surface_form": "NequIP",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00112",
+          "position": 10,
+          "surface_form": "Equivariant Transformers",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00113",
+          "position": 11,
+          "surface_form": "SEGNN",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00114",
+          "position": 12,
+          "surface_form": "BOTNet",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00115",
+          "position": 13,
+          "surface_form": "Allegro",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00048",
+          "position": 14,
+          "surface_form": "deep tensor neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00116",
+          "position": 15,
+          "surface_form": "HIP-NN",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00117",
+          "position": 16,
+          "surface_form": "PhysNet",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00023",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00118",
+        "meth_00102",
+        "meth_00030",
+        "meth_00119",
+        "meth_00120",
+        "meth_00121",
+        "meth_00050",
+        "meth_00122"
+      ],
+      "edge_year": 2022,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00118",
+        "meth_00102",
+        "meth_00030",
+        "meth_00119",
+        "meth_00120",
+        "meth_00121",
+        "meth_00050",
+        "meth_00122"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00118",
+          "position": 0,
+          "surface_form": "DeepH-E3",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00102",
+          "position": 1,
+          "surface_form": "deep-learning DFT Hamiltonian",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00030",
+          "position": 2,
+          "surface_form": "Message Passing Neural Network",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00119",
+          "position": 3,
+          "surface_form": "TensorField Networks",
+          "origin_year": 2020,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00120",
+          "position": 4,
+          "surface_form": "Equivariant Neural Networks",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00121",
+          "position": 5,
+          "surface_form": "E(3)-equivariant graph neural network",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00050",
+          "position": 6,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00122",
+          "position": 7,
+          "surface_form": "Equivariant message passing",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00028",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00123",
+        "meth_00058",
+        "meth_00090",
+        "meth_00115",
+        "meth_00124",
+        "meth_00125",
+        "meth_00126",
+        "meth_00074",
+        "meth_00098",
+        "meth_00087",
+        "meth_00127"
+      ],
+      "edge_year": 2024,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00123",
+        "meth_00058",
+        "meth_00090",
+        "meth_00115",
+        "meth_00124",
+        "meth_00125",
+        "meth_00126",
+        "meth_00074",
+        "meth_00098",
+        "meth_00087",
+        "meth_00127"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00123",
+          "position": 0,
+          "surface_form": "Phonax (E(3)-equivariant graph neural network framework for phonon and Hessian prediction)",
+          "origin_year": 2024,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00058",
+          "position": 1,
+          "surface_form": "NequIP",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00090",
+          "position": 2,
+          "surface_form": "MACE-MP-0",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00115",
+          "position": 3,
+          "surface_form": "Allegro",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00124",
+          "position": 4,
+          "surface_form": "e3nn",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00125",
+          "position": 5,
+          "surface_form": "JAX-MD",
+          "origin_year": 2020,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00126",
+          "position": 6,
+          "surface_form": "virtual node method",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00074",
+          "position": 7,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00098",
+          "position": 8,
+          "surface_form": "density functional perturbation theory",
+          "origin_year": 2001,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00087",
+          "position": 9,
+          "surface_form": "JAX",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00127",
+          "position": 10,
+          "surface_form": "trajectory reweighting",
+          "origin_year": 2021,
+          "first_seen_year": 2024
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00034",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00128",
+        "meth_00121",
+        "meth_00129",
+        "meth_00130",
+        "meth_00131",
+        "meth_00132",
+        "meth_00058",
+        "meth_00133"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00128",
+        "meth_00121",
+        "meth_00129",
+        "meth_00130",
+        "meth_00131",
+        "meth_00132",
+        "meth_00058",
+        "meth_00133"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00128",
+          "position": 0,
+          "surface_form": "E(3)-equivariant Graph Neural Network for phase‑space integration",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00121",
+          "position": 1,
+          "surface_form": "E(3)-equivariant graph neural network",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00129",
+          "position": 2,
+          "surface_form": "Gaussian quadrature",
+          "origin_year": 1960,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00130",
+          "position": 3,
+          "surface_form": "Diffusive Molecular Dynamics",
+          "origin_year": 2015,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00131",
+          "position": 4,
+          "surface_form": "Maximum Entropy (max‑ent) method",
+          "origin_year": 2014,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00132",
+          "position": 5,
+          "surface_form": "Gaussian Phase Packets",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00058",
+          "position": 6,
+          "surface_form": "NequIP",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00133",
+          "position": 7,
+          "surface_form": "Metropolis Monte Carlo",
+          "origin_year": 1953,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00050",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00144",
+        "meth_00100",
+        "meth_00145",
+        "meth_00146",
+        "meth_00147",
+        "meth_00093",
+        "meth_00148",
+        "meth_00062",
+        "meth_00149",
+        "meth_00150",
+        "meth_00151",
+        "meth_00152",
+        "meth_00074",
+        "meth_00153",
+        "meth_00154",
+        "meth_00007",
+        "meth_00155",
+        "meth_00156",
+        "meth_00157",
+        "meth_00158"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00144",
+        "meth_00100",
+        "meth_00145",
+        "meth_00146",
+        "meth_00147",
+        "meth_00093",
+        "meth_00148",
+        "meth_00062",
+        "meth_00149",
+        "meth_00150",
+        "meth_00151",
+        "meth_00152",
+        "meth_00074",
+        "meth_00153",
+        "meth_00154",
+        "meth_00007",
+        "meth_00155",
+        "meth_00156",
+        "meth_00157",
+        "meth_00158"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00144",
+          "position": 0,
+          "surface_form": "Integrable Deep Neural Network (IDNN) for learning high‑dimensional free‑energy density and chemical potential functions",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00100",
+          "position": 1,
+          "surface_form": "DFT+U",
+          "origin_year": 1998,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00145",
+          "position": 2,
+          "surface_form": "Cluster expansion",
+          "origin_year": 1998,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00146",
+          "position": 3,
+          "surface_form": "Semi-Grand Canonical Monte Carlo",
+          "origin_year": 1990,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00147",
+          "position": 4,
+          "surface_form": "Cahn-Hilliard equation",
+          "origin_year": 1958,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00093",
+          "position": 5,
+          "surface_form": "Allen-Cahn equation",
+          "origin_year": 1979,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00148",
+          "position": 6,
+          "surface_form": "Integrable deep neural networks",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00062",
+          "position": 7,
+          "surface_form": "Umbrella sampling",
+          "origin_year": 1977,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00149",
+          "position": 8,
+          "surface_form": "Billiard Walk",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00150",
+          "position": 9,
+          "surface_form": "mixed finite element method",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00151",
+          "position": 10,
+          "surface_form": "deal.II library",
+          "origin_year": 2010,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00152",
+          "position": 11,
+          "surface_form": "classical nucleation theory",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00074",
+          "position": 12,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00153",
+          "position": 13,
+          "surface_form": "van der Waals density functional",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00154",
+          "position": 14,
+          "surface_form": "Monte Carlo simulation",
+          "origin_year": 1953,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00007",
+          "position": 15,
+          "surface_form": "Genetic Algorithms",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00155",
+          "position": 16,
+          "surface_form": "Finite-element DFT",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00156",
+          "position": 17,
+          "surface_form": "Quantum Espresso",
+          "origin_year": 2009,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00157",
+          "position": 18,
+          "surface_form": "Cahn–Hilliard phase field model",
+          "origin_year": 1958,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00158",
+          "position": 19,
+          "surface_form": "Allen–Cahn phase field model",
+          "origin_year": 1979,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00056",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00159",
+        "meth_00013",
+        "meth_00031",
+        "meth_00160",
+        "meth_00161",
+        "meth_00162",
+        "meth_00037",
+        "meth_00090",
+        "meth_00038",
+        "meth_00163",
+        "meth_00054",
+        "meth_00036",
+        "meth_00164",
+        "meth_00165",
+        "meth_00166",
+        "meth_00135",
+        "meth_00167",
+        "meth_00168",
+        "meth_00058",
+        "meth_00169",
+        "meth_00077",
+        "meth_00170",
+        "meth_00008"
+      ],
+      "edge_year": 2024,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00159",
+        "meth_00013",
+        "meth_00031",
+        "meth_00160",
+        "meth_00161",
+        "meth_00162",
+        "meth_00037",
+        "meth_00090",
+        "meth_00038",
+        "meth_00163",
+        "meth_00054",
+        "meth_00036",
+        "meth_00164",
+        "meth_00165",
+        "meth_00166",
+        "meth_00135",
+        "meth_00167",
+        "meth_00168",
+        "meth_00058",
+        "meth_00169",
+        "meth_00077",
+        "meth_00170",
+        "meth_00008"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00159",
+          "position": 0,
+          "surface_form": "Matbench Discovery",
+          "origin_year": 2024,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00013",
+          "position": 1,
+          "surface_form": "Random Forest",
+          "origin_year": 2001,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00031",
+          "position": 2,
+          "surface_form": "graph neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00160",
+          "position": 3,
+          "surface_form": "One-shot predictor",
+          "origin_year": 2022,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00161",
+          "position": 4,
+          "surface_form": "Iterative Bayesian optimizer",
+          "origin_year": 2020,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00162",
+          "position": 5,
+          "surface_form": "universal interatomic potentials",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00037",
+          "position": 6,
+          "surface_form": "M3GNet",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00090",
+          "position": 7,
+          "surface_form": "MACE-MP-0",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00038",
+          "position": 8,
+          "surface_form": "CHGNet",
+          "origin_year": 2022,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00163",
+          "position": 9,
+          "surface_form": "ALIGNN",
+          "origin_year": 2020,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00054",
+          "position": 10,
+          "surface_form": "CGCNN",
+          "origin_year": 2017,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00036",
+          "position": 11,
+          "surface_form": "MEGNet",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00164",
+          "position": 12,
+          "surface_form": "Voronoi RF",
+          "origin_year": 2021,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00165",
+          "position": 13,
+          "surface_form": "Wrenformer",
+          "origin_year": 2022,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00166",
+          "position": 14,
+          "surface_form": "BOWSR",
+          "origin_year": 2021,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00135",
+          "position": 15,
+          "surface_form": "ML‑IAP",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00167",
+          "position": 16,
+          "surface_form": "Equiformer",
+          "origin_year": 2023,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00168",
+          "position": 17,
+          "surface_form": "eSCN convolution",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00058",
+          "position": 18,
+          "surface_form": "NequIP",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00169",
+          "position": 19,
+          "surface_form": "GNoME",
+          "origin_year": 2023,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00077",
+          "position": 20,
+          "surface_form": "Atomic Cluster Expansion",
+          "origin_year": 2019,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00170",
+          "position": 21,
+          "surface_form": "Wren",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00008",
+          "position": 22,
+          "surface_form": "Bayesian Optimization",
+          "origin_year": null,
+          "first_seen_year": 2024
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00062",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00171",
+        "meth_00050",
+        "meth_00108",
+        "meth_00172",
+        "meth_00124",
+        "meth_00173",
+        "meth_00078",
+        "meth_00174",
+        "meth_00109",
+        "meth_00175",
+        "meth_00012",
+        "meth_00077",
+        "meth_00075",
+        "meth_00176",
+        "meth_00177",
+        "meth_00095",
+        "meth_00178"
+      ],
+      "edge_year": 2021,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00171",
+        "meth_00050",
+        "meth_00108",
+        "meth_00172",
+        "meth_00124",
+        "meth_00173",
+        "meth_00078",
+        "meth_00174",
+        "meth_00109",
+        "meth_00175",
+        "meth_00012",
+        "meth_00077",
+        "meth_00075",
+        "meth_00176",
+        "meth_00177",
+        "meth_00095",
+        "meth_00178"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00171",
+          "position": 0,
+          "surface_form": "Neural Equivariant Interatomic Potentials",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00050",
+          "position": 1,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00108",
+          "position": 2,
+          "surface_form": "DimeNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00172",
+          "position": 3,
+          "surface_form": "Tensor-Field Networks",
+          "origin_year": 2018,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00124",
+          "position": 4,
+          "surface_form": "e3nn",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00173",
+          "position": 5,
+          "surface_form": "Cormorant",
+          "origin_year": 2019,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00078",
+          "position": 6,
+          "surface_form": "PaiNN",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00174",
+          "position": 7,
+          "surface_form": "NewtonNet",
+          "origin_year": 2021,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00109",
+          "position": 8,
+          "surface_form": "GemNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00175",
+          "position": 9,
+          "surface_form": "SpookyNet",
+          "origin_year": 2022,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00012",
+          "position": 10,
+          "surface_form": "Universal Network for Identifying Tampered and synthEtic videos",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00077",
+          "position": 11,
+          "surface_form": "Atomic Cluster Expansion",
+          "origin_year": 2019,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00075",
+          "position": 12,
+          "surface_form": "Gaussian approximation potentials",
+          "origin_year": 2010,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00176",
+          "position": 13,
+          "surface_form": "ANAKIN-ME",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00177",
+          "position": 14,
+          "surface_form": "sGDML",
+          "origin_year": 2017,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00095",
+          "position": 15,
+          "surface_form": "FCHL19",
+          "origin_year": 2019,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00178",
+          "position": 16,
+          "surface_form": "Deep Potential MD",
+          "origin_year": null,
+          "first_seen_year": 2021
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "future-origin contradiction relative to edge year",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00073",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00188",
+        "meth_00031",
+        "meth_00030",
+        "meth_00108",
+        "meth_00189",
+        "meth_00099",
+        "meth_00190",
+        "meth_00053",
+        "meth_00076",
+        "meth_00191",
+        "meth_00192",
+        "meth_00036",
+        "meth_00193",
+        "meth_00194",
+        "meth_00177",
+        "meth_00195",
+        "meth_00171",
+        "meth_00078",
+        "meth_00117"
+      ],
+      "edge_year": 2022,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00188",
+        "meth_00031",
+        "meth_00030",
+        "meth_00108",
+        "meth_00189",
+        "meth_00099",
+        "meth_00190",
+        "meth_00053",
+        "meth_00076",
+        "meth_00191",
+        "meth_00192",
+        "meth_00036",
+        "meth_00193",
+        "meth_00194",
+        "meth_00177",
+        "meth_00195",
+        "meth_00171",
+        "meth_00078",
+        "meth_00117"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00188",
+          "position": 0,
+          "surface_form": "graph neural networks with three-body interactions",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00031",
+          "position": 1,
+          "surface_form": "graph neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00030",
+          "position": 2,
+          "surface_form": "Message Passing Neural Network",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00108",
+          "position": 3,
+          "surface_form": "DimeNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00189",
+          "position": 4,
+          "surface_form": "Tersoff bond order potential",
+          "origin_year": 1988,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00099",
+          "position": 5,
+          "surface_form": "embedded-atom-method",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00190",
+          "position": 6,
+          "surface_form": "Modified Embedded Atom Method",
+          "origin_year": 2005,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00053",
+          "position": 7,
+          "surface_form": "Behler‑Parrinello Neural Network Potential",
+          "origin_year": 2007,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00076",
+          "position": 8,
+          "surface_form": "Moment Tensor Potentials",
+          "origin_year": 2016,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00191",
+          "position": 9,
+          "surface_form": "AMBER force field",
+          "origin_year": 2004,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00192",
+          "position": 10,
+          "surface_form": "Universal Force Field",
+          "origin_year": 1992,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00036",
+          "position": 11,
+          "surface_form": "MEGNet",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00193",
+          "position": 12,
+          "surface_form": "MODNet",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00194",
+          "position": 13,
+          "surface_form": "AtomSets",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00177",
+          "position": 14,
+          "surface_form": "sGDML",
+          "origin_year": 2017,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00195",
+          "position": 15,
+          "surface_form": "EANN",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00171",
+          "position": 16,
+          "surface_form": "Neural Equivariant Interatomic Potentials",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00078",
+          "position": 17,
+          "surface_form": "PaiNN",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00117",
+          "position": 18,
+          "surface_form": "PhysNet",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "h_00003",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00030",
+        "meth_00045",
+        "meth_00046",
+        "meth_00026",
+        "meth_00047",
+        "meth_00048",
+        "meth_00005",
+        "meth_00066"
+      ],
+      "edge_year": 2017,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00030",
+        "meth_00045",
+        "meth_00046",
+        "meth_00026",
+        "meth_00047",
+        "meth_00048",
+        "meth_00005",
+        "meth_00066"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00030",
+          "position": 0,
+          "surface_form": "Message Passing Neural Network",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00045",
+          "position": 1,
+          "surface_form": "Neural fingerprint",
+          "origin_year": 2015,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00046",
+          "position": 2,
+          "surface_form": "Gated Graph Neural Networks",
+          "origin_year": null,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00026",
+          "position": 3,
+          "surface_form": "Interaction Networks",
+          "origin_year": null,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00047",
+          "position": 4,
+          "surface_form": "Molecular Graph Convolution",
+          "origin_year": 2016,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00048",
+          "position": 5,
+          "surface_form": "deep tensor neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00005",
+          "position": 6,
+          "surface_form": "Graph Convolutional Network",
+          "origin_year": 2013,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00066",
+          "position": 7,
+          "surface_form": "Set2Set",
+          "origin_year": 2015,
+          "first_seen_year": 2017
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00008",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00050",
+        "meth_00051",
+        "meth_00048",
+        "meth_00052",
+        "meth_00042",
+        "meth_00044"
+      ],
+      "edge_year": 2017,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00050",
+        "meth_00051",
+        "meth_00048",
+        "meth_00052",
+        "meth_00042",
+        "meth_00044"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00050",
+          "position": 0,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00051",
+          "position": 1,
+          "surface_form": "Gradient-domain machine learning",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00048",
+          "position": 2,
+          "surface_form": "deep tensor neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00052",
+          "position": 3,
+          "surface_form": "Edge-conditioned neural network",
+          "origin_year": null,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00042",
+          "position": 4,
+          "surface_form": "Dynamic filter networks",
+          "origin_year": 2016,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00044",
+          "position": 5,
+          "surface_form": "ResNets",
+          "origin_year": null,
+          "first_seen_year": 2017
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00017",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00090",
+        "meth_00077",
+        "meth_00050",
+        "meth_00108",
+        "meth_00109",
+        "meth_00110",
+        "meth_00111",
+        "meth_00103",
+        "meth_00078",
+        "meth_00058",
+        "meth_00112",
+        "meth_00113",
+        "meth_00114",
+        "meth_00115",
+        "meth_00048",
+        "meth_00116",
+        "meth_00117"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00090",
+        "meth_00077",
+        "meth_00050",
+        "meth_00108",
+        "meth_00109",
+        "meth_00110",
+        "meth_00111",
+        "meth_00103",
+        "meth_00078",
+        "meth_00058",
+        "meth_00112",
+        "meth_00113",
+        "meth_00114",
+        "meth_00115",
+        "meth_00048",
+        "meth_00116",
+        "meth_00117"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00090",
+          "position": 0,
+          "surface_form": "MACE-MP-0",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00077",
+          "position": 1,
+          "surface_form": "Atomic Cluster Expansion",
+          "origin_year": 2019,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00050",
+          "position": 2,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00108",
+          "position": 3,
+          "surface_form": "DimeNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00109",
+          "position": 4,
+          "surface_form": "GemNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00110",
+          "position": 5,
+          "surface_form": "SphereNet",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00111",
+          "position": 6,
+          "surface_form": "Tensor Field Networks",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00103",
+          "position": 7,
+          "surface_form": "E(n)-equivariant graph neural network",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00078",
+          "position": 8,
+          "surface_form": "PaiNN",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00058",
+          "position": 9,
+          "surface_form": "NequIP",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00112",
+          "position": 10,
+          "surface_form": "Equivariant Transformers",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00113",
+          "position": 11,
+          "surface_form": "SEGNN",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00114",
+          "position": 12,
+          "surface_form": "BOTNet",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00115",
+          "position": 13,
+          "surface_form": "Allegro",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00048",
+          "position": 14,
+          "surface_form": "deep tensor neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00116",
+          "position": 15,
+          "surface_form": "HIP-NN",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00117",
+          "position": 16,
+          "surface_form": "PhysNet",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00023",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00118",
+        "meth_00102",
+        "meth_00030",
+        "meth_00119",
+        "meth_00120",
+        "meth_00121",
+        "meth_00050",
+        "meth_00122"
+      ],
+      "edge_year": 2022,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00118",
+        "meth_00102",
+        "meth_00030",
+        "meth_00119",
+        "meth_00120",
+        "meth_00121",
+        "meth_00050",
+        "meth_00122"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00118",
+          "position": 0,
+          "surface_form": "DeepH-E3",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00102",
+          "position": 1,
+          "surface_form": "deep-learning DFT Hamiltonian",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00030",
+          "position": 2,
+          "surface_form": "Message Passing Neural Network",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00119",
+          "position": 3,
+          "surface_form": "TensorField Networks",
+          "origin_year": 2020,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00120",
+          "position": 4,
+          "surface_form": "Equivariant Neural Networks",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00121",
+          "position": 5,
+          "surface_form": "E(3)-equivariant graph neural network",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00050",
+          "position": 6,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00122",
+          "position": 7,
+          "surface_form": "Equivariant message passing",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00028",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00123",
+        "meth_00058",
+        "meth_00090",
+        "meth_00115",
+        "meth_00124",
+        "meth_00125",
+        "meth_00126",
+        "meth_00074",
+        "meth_00098",
+        "meth_00087",
+        "meth_00127"
+      ],
+      "edge_year": 2024,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00123",
+        "meth_00058",
+        "meth_00090",
+        "meth_00115",
+        "meth_00124",
+        "meth_00125",
+        "meth_00126",
+        "meth_00074",
+        "meth_00098",
+        "meth_00087",
+        "meth_00127"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00123",
+          "position": 0,
+          "surface_form": "Phonax (E(3)-equivariant graph neural network framework for phonon and Hessian prediction)",
+          "origin_year": 2024,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00058",
+          "position": 1,
+          "surface_form": "NequIP",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00090",
+          "position": 2,
+          "surface_form": "MACE-MP-0",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00115",
+          "position": 3,
+          "surface_form": "Allegro",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00124",
+          "position": 4,
+          "surface_form": "e3nn",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00125",
+          "position": 5,
+          "surface_form": "JAX-MD",
+          "origin_year": 2020,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00126",
+          "position": 6,
+          "surface_form": "virtual node method",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00074",
+          "position": 7,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00098",
+          "position": 8,
+          "surface_form": "density functional perturbation theory",
+          "origin_year": 2001,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00087",
+          "position": 9,
+          "surface_form": "JAX",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00127",
+          "position": 10,
+          "surface_form": "trajectory reweighting",
+          "origin_year": 2021,
+          "first_seen_year": 2024
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00034",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00128",
+        "meth_00121",
+        "meth_00129",
+        "meth_00130",
+        "meth_00131",
+        "meth_00132",
+        "meth_00058",
+        "meth_00133"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00128",
+        "meth_00121",
+        "meth_00129",
+        "meth_00130",
+        "meth_00131",
+        "meth_00132",
+        "meth_00058",
+        "meth_00133"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00128",
+          "position": 0,
+          "surface_form": "E(3)-equivariant Graph Neural Network for phase‑space integration",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00121",
+          "position": 1,
+          "surface_form": "E(3)-equivariant graph neural network",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00129",
+          "position": 2,
+          "surface_form": "Gaussian quadrature",
+          "origin_year": 1960,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00130",
+          "position": 3,
+          "surface_form": "Diffusive Molecular Dynamics",
+          "origin_year": 2015,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00131",
+          "position": 4,
+          "surface_form": "Maximum Entropy (max‑ent) method",
+          "origin_year": 2014,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00132",
+          "position": 5,
+          "surface_form": "Gaussian Phase Packets",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00058",
+          "position": 6,
+          "surface_form": "NequIP",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00133",
+          "position": 7,
+          "surface_form": "Metropolis Monte Carlo",
+          "origin_year": 1953,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00050",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00144",
+        "meth_00100",
+        "meth_00145",
+        "meth_00146",
+        "meth_00147",
+        "meth_00093",
+        "meth_00148",
+        "meth_00062",
+        "meth_00149",
+        "meth_00150",
+        "meth_00151",
+        "meth_00152",
+        "meth_00074",
+        "meth_00153",
+        "meth_00154",
+        "meth_00007",
+        "meth_00155",
+        "meth_00156",
+        "meth_00157",
+        "meth_00158"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00144",
+        "meth_00100",
+        "meth_00145",
+        "meth_00146",
+        "meth_00147",
+        "meth_00093",
+        "meth_00148",
+        "meth_00062",
+        "meth_00149",
+        "meth_00150",
+        "meth_00151",
+        "meth_00152",
+        "meth_00074",
+        "meth_00153",
+        "meth_00154",
+        "meth_00007",
+        "meth_00155",
+        "meth_00156",
+        "meth_00157",
+        "meth_00158"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00144",
+          "position": 0,
+          "surface_form": "Integrable Deep Neural Network (IDNN) for learning high‑dimensional free‑energy density and chemical potential functions",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00100",
+          "position": 1,
+          "surface_form": "DFT+U",
+          "origin_year": 1998,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00145",
+          "position": 2,
+          "surface_form": "Cluster expansion",
+          "origin_year": 1998,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00146",
+          "position": 3,
+          "surface_form": "Semi-Grand Canonical Monte Carlo",
+          "origin_year": 1990,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00147",
+          "position": 4,
+          "surface_form": "Cahn-Hilliard equation",
+          "origin_year": 1958,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00093",
+          "position": 5,
+          "surface_form": "Allen-Cahn equation",
+          "origin_year": 1979,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00148",
+          "position": 6,
+          "surface_form": "Integrable deep neural networks",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00062",
+          "position": 7,
+          "surface_form": "Umbrella sampling",
+          "origin_year": 1977,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00149",
+          "position": 8,
+          "surface_form": "Billiard Walk",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00150",
+          "position": 9,
+          "surface_form": "mixed finite element method",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00151",
+          "position": 10,
+          "surface_form": "deal.II library",
+          "origin_year": 2010,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00152",
+          "position": 11,
+          "surface_form": "classical nucleation theory",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00074",
+          "position": 12,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00153",
+          "position": 13,
+          "surface_form": "van der Waals density functional",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00154",
+          "position": 14,
+          "surface_form": "Monte Carlo simulation",
+          "origin_year": 1953,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00007",
+          "position": 15,
+          "surface_form": "Genetic Algorithms",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00155",
+          "position": 16,
+          "surface_form": "Finite-element DFT",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00156",
+          "position": 17,
+          "surface_form": "Quantum Espresso",
+          "origin_year": 2009,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00157",
+          "position": 18,
+          "surface_form": "Cahn–Hilliard phase field model",
+          "origin_year": 1958,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00158",
+          "position": 19,
+          "surface_form": "Allen–Cahn phase field model",
+          "origin_year": 1979,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00056",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00159",
+        "meth_00013",
+        "meth_00031",
+        "meth_00160",
+        "meth_00161",
+        "meth_00162",
+        "meth_00037",
+        "meth_00090",
+        "meth_00038",
+        "meth_00163",
+        "meth_00054",
+        "meth_00036",
+        "meth_00164",
+        "meth_00165",
+        "meth_00166",
+        "meth_00135",
+        "meth_00167",
+        "meth_00168",
+        "meth_00058",
+        "meth_00169",
+        "meth_00077",
+        "meth_00170",
+        "meth_00008"
+      ],
+      "edge_year": 2024,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00159",
+        "meth_00013",
+        "meth_00031",
+        "meth_00160",
+        "meth_00161",
+        "meth_00162",
+        "meth_00037",
+        "meth_00090",
+        "meth_00038",
+        "meth_00163",
+        "meth_00054",
+        "meth_00036",
+        "meth_00164",
+        "meth_00165",
+        "meth_00166",
+        "meth_00135",
+        "meth_00167",
+        "meth_00168",
+        "meth_00058",
+        "meth_00169",
+        "meth_00077",
+        "meth_00170",
+        "meth_00008"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00159",
+          "position": 0,
+          "surface_form": "Matbench Discovery",
+          "origin_year": 2024,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00013",
+          "position": 1,
+          "surface_form": "Random Forest",
+          "origin_year": 2001,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00031",
+          "position": 2,
+          "surface_form": "graph neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00160",
+          "position": 3,
+          "surface_form": "One-shot predictor",
+          "origin_year": 2022,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00161",
+          "position": 4,
+          "surface_form": "Iterative Bayesian optimizer",
+          "origin_year": 2020,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00162",
+          "position": 5,
+          "surface_form": "universal interatomic potentials",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00037",
+          "position": 6,
+          "surface_form": "M3GNet",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00090",
+          "position": 7,
+          "surface_form": "MACE-MP-0",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00038",
+          "position": 8,
+          "surface_form": "CHGNet",
+          "origin_year": 2022,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00163",
+          "position": 9,
+          "surface_form": "ALIGNN",
+          "origin_year": 2020,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00054",
+          "position": 10,
+          "surface_form": "CGCNN",
+          "origin_year": 2017,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00036",
+          "position": 11,
+          "surface_form": "MEGNet",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00164",
+          "position": 12,
+          "surface_form": "Voronoi RF",
+          "origin_year": 2021,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00165",
+          "position": 13,
+          "surface_form": "Wrenformer",
+          "origin_year": 2022,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00166",
+          "position": 14,
+          "surface_form": "BOWSR",
+          "origin_year": 2021,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00135",
+          "position": 15,
+          "surface_form": "ML‑IAP",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00167",
+          "position": 16,
+          "surface_form": "Equiformer",
+          "origin_year": 2023,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00168",
+          "position": 17,
+          "surface_form": "eSCN convolution",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00058",
+          "position": 18,
+          "surface_form": "NequIP",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00169",
+          "position": 19,
+          "surface_form": "GNoME",
+          "origin_year": 2023,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00077",
+          "position": 20,
+          "surface_form": "Atomic Cluster Expansion",
+          "origin_year": 2019,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00170",
+          "position": 21,
+          "surface_form": "Wren",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00008",
+          "position": 22,
+          "surface_form": "Bayesian Optimization",
+          "origin_year": null,
+          "first_seen_year": 2024
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00062",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00171",
+        "meth_00050",
+        "meth_00108",
+        "meth_00172",
+        "meth_00124",
+        "meth_00173",
+        "meth_00078",
+        "meth_00174",
+        "meth_00109",
+        "meth_00175",
+        "meth_00012",
+        "meth_00077",
+        "meth_00075",
+        "meth_00176",
+        "meth_00177",
+        "meth_00095",
+        "meth_00178"
+      ],
+      "edge_year": 2021,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00171",
+        "meth_00050",
+        "meth_00108",
+        "meth_00172",
+        "meth_00124",
+        "meth_00173",
+        "meth_00078",
+        "meth_00174",
+        "meth_00109",
+        "meth_00175",
+        "meth_00012",
+        "meth_00077",
+        "meth_00075",
+        "meth_00176",
+        "meth_00177",
+        "meth_00095",
+        "meth_00178"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00171",
+          "position": 0,
+          "surface_form": "Neural Equivariant Interatomic Potentials",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00050",
+          "position": 1,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00108",
+          "position": 2,
+          "surface_form": "DimeNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00172",
+          "position": 3,
+          "surface_form": "Tensor-Field Networks",
+          "origin_year": 2018,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00124",
+          "position": 4,
+          "surface_form": "e3nn",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00173",
+          "position": 5,
+          "surface_form": "Cormorant",
+          "origin_year": 2019,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00078",
+          "position": 6,
+          "surface_form": "PaiNN",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00174",
+          "position": 7,
+          "surface_form": "NewtonNet",
+          "origin_year": 2021,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00109",
+          "position": 8,
+          "surface_form": "GemNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00175",
+          "position": 9,
+          "surface_form": "SpookyNet",
+          "origin_year": 2022,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00012",
+          "position": 10,
+          "surface_form": "Universal Network for Identifying Tampered and synthEtic videos",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00077",
+          "position": 11,
+          "surface_form": "Atomic Cluster Expansion",
+          "origin_year": 2019,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00075",
+          "position": 12,
+          "surface_form": "Gaussian approximation potentials",
+          "origin_year": 2010,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00176",
+          "position": 13,
+          "surface_form": "ANAKIN-ME",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00177",
+          "position": 14,
+          "surface_form": "sGDML",
+          "origin_year": 2017,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00095",
+          "position": 15,
+          "surface_form": "FCHL19",
+          "origin_year": 2019,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00178",
+          "position": 16,
+          "surface_form": "Deep Potential MD",
+          "origin_year": null,
+          "first_seen_year": 2021
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "future-origin contradiction relative to edge year",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00073",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00188",
+        "meth_00031",
+        "meth_00030",
+        "meth_00108",
+        "meth_00189",
+        "meth_00099",
+        "meth_00190",
+        "meth_00053",
+        "meth_00076",
+        "meth_00191",
+        "meth_00192",
+        "meth_00036",
+        "meth_00193",
+        "meth_00194",
+        "meth_00177",
+        "meth_00195",
+        "meth_00171",
+        "meth_00078",
+        "meth_00117"
+      ],
+      "edge_year": 2022,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00188",
+        "meth_00031",
+        "meth_00030",
+        "meth_00108",
+        "meth_00189",
+        "meth_00099",
+        "meth_00190",
+        "meth_00053",
+        "meth_00076",
+        "meth_00191",
+        "meth_00192",
+        "meth_00036",
+        "meth_00193",
+        "meth_00194",
+        "meth_00177",
+        "meth_00195",
+        "meth_00171",
+        "meth_00078",
+        "meth_00117"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00188",
+          "position": 0,
+          "surface_form": "graph neural networks with three-body interactions",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00031",
+          "position": 1,
+          "surface_form": "graph neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00030",
+          "position": 2,
+          "surface_form": "Message Passing Neural Network",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00108",
+          "position": 3,
+          "surface_form": "DimeNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00189",
+          "position": 4,
+          "surface_form": "Tersoff bond order potential",
+          "origin_year": 1988,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00099",
+          "position": 5,
+          "surface_form": "embedded-atom-method",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00190",
+          "position": 6,
+          "surface_form": "Modified Embedded Atom Method",
+          "origin_year": 2005,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00053",
+          "position": 7,
+          "surface_form": "Behler‑Parrinello Neural Network Potential",
+          "origin_year": 2007,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00076",
+          "position": 8,
+          "surface_form": "Moment Tensor Potentials",
+          "origin_year": 2016,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00191",
+          "position": 9,
+          "surface_form": "AMBER force field",
+          "origin_year": 2004,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00192",
+          "position": 10,
+          "surface_form": "Universal Force Field",
+          "origin_year": 1992,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00036",
+          "position": 11,
+          "surface_form": "MEGNet",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00193",
+          "position": 12,
+          "surface_form": "MODNet",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00194",
+          "position": 13,
+          "surface_form": "AtomSets",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00177",
+          "position": 14,
+          "surface_form": "sGDML",
+          "origin_year": 2017,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00195",
+          "position": 15,
+          "surface_form": "EANN",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00171",
+          "position": 16,
+          "surface_form": "Neural Equivariant Interatomic Potentials",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00078",
+          "position": 17,
+          "surface_form": "PaiNN",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00117",
+          "position": 18,
+          "surface_form": "PhysNet",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00078",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00180",
+        "meth_00108",
+        "meth_00171",
+        "meth_00181",
+        "meth_00090",
+        "meth_00037",
+        "meth_00178",
+        "meth_00182",
+        "meth_00071",
+        "meth_00183",
+        "meth_00184",
+        "meth_00185",
+        "meth_00186",
+        "meth_00187",
+        "meth_00056"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00180",
+        "meth_00108",
+        "meth_00171",
+        "meth_00181",
+        "meth_00090",
+        "meth_00037",
+        "meth_00178",
+        "meth_00182",
+        "meth_00071",
+        "meth_00183",
+        "meth_00184",
+        "meth_00185",
+        "meth_00186",
+        "meth_00187",
+        "meth_00056"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00180",
+          "position": 0,
+          "surface_form": "Crystal Hamiltonian Graph neural Network",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00108",
+          "position": 1,
+          "surface_form": "DimeNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00171",
+          "position": 2,
+          "surface_form": "Neural Equivariant Interatomic Potentials",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00181",
+          "position": 3,
+          "surface_form": "TeaNet",
+          "origin_year": 2020,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00090",
+          "position": 4,
+          "surface_form": "MACE-MP-0",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00037",
+          "position": 5,
+          "surface_form": "M3GNet",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00178",
+          "position": 6,
+          "surface_form": "Deep Potential MD",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00182",
+          "position": 7,
+          "surface_form": "ænet",
+          "origin_year": 2019,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00071",
+          "position": 8,
+          "surface_form": "electronegativity equalization method",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00183",
+          "position": 9,
+          "surface_form": "chemical potential equalization",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00184",
+          "position": 10,
+          "surface_form": "charge equilibration",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00185",
+          "position": 11,
+          "surface_form": "Perdew–Burke–Ernzerhof functional",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00186",
+          "position": 12,
+          "surface_form": "GGA+U",
+          "origin_year": 2006,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00187",
+          "position": 13,
+          "surface_form": "SmoothRBF",
+          "origin_year": 2020,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00056",
+          "position": 14,
+          "surface_form": "Crystal Graph Convolutional Neural Network",
+          "origin_year": 2018,
+          "first_seen_year": 2022
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00084",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00206",
+        "meth_00207",
+        "meth_00101",
+        "meth_00208",
+        "meth_00051",
+        "meth_00209",
+        "meth_00210",
+        "meth_00015",
+        "meth_00014",
+        "meth_00094",
+        "meth_00211",
+        "meth_00212"
+      ],
+      "edge_year": 2017,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00206",
+        "meth_00207",
+        "meth_00101",
+        "meth_00208",
+        "meth_00051",
+        "meth_00209",
+        "meth_00210",
+        "meth_00015",
+        "meth_00014",
+        "meth_00094",
+        "meth_00211",
+        "meth_00212"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00206",
+          "position": 0,
+          "surface_form": "Deep Potential Molecular Dynamics",
+          "origin_year": null,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00207",
+          "position": 1,
+          "surface_form": "Car-Parrinello molecular dynamics",
+          "origin_year": 1985,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00101",
+          "position": 2,
+          "surface_form": "ab initio molecular dynamics",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00208",
+          "position": 3,
+          "surface_form": "Behler-Parrinello neural network",
+          "origin_year": 2007,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00051",
+          "position": 4,
+          "surface_form": "Gradient-domain machine learning",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00209",
+          "position": 5,
+          "surface_form": "Deep Potential method",
+          "origin_year": 2018,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00210",
+          "position": 6,
+          "surface_form": "Deep Potential",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00015",
+          "position": 7,
+          "surface_form": "Adaptive Moment Estimation",
+          "origin_year": null,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00014",
+          "position": 8,
+          "surface_form": "Batch Normalization",
+          "origin_year": 2015,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00094",
+          "position": 9,
+          "surface_form": "i-PI",
+          "origin_year": 2011,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00211",
+          "position": 10,
+          "surface_form": "Martyna–Klein–Tuckerman barostat",
+          "origin_year": 1992,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00212",
+          "position": 11,
+          "surface_form": "Parrinello–Rahman barostat",
+          "origin_year": 1980,
+          "first_seen_year": 2017
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "future-origin contradiction relative to edge year",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00090",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00213",
+        "meth_00074",
+        "meth_00030",
+        "meth_00056",
+        "meth_00214",
+        "meth_00215",
+        "meth_00172",
+        "meth_00173",
+        "meth_00216",
+        "meth_00217"
+      ],
+      "edge_year": 2022,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00213",
+        "meth_00074",
+        "meth_00030",
+        "meth_00056",
+        "meth_00214",
+        "meth_00215",
+        "meth_00172",
+        "meth_00173",
+        "meth_00216",
+        "meth_00217"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00213",
+          "position": 0,
+          "surface_form": "deep neural network approach to represent DFT Hamiltonian",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00074",
+          "position": 1,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00030",
+          "position": 2,
+          "surface_form": "Message Passing Neural Network",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00056",
+          "position": 3,
+          "surface_form": "Crystal Graph Convolutional Neural Network",
+          "origin_year": 2018,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00214",
+          "position": 4,
+          "surface_form": "Directional Message Passing",
+          "origin_year": 2020,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00215",
+          "position": 5,
+          "surface_form": "Symmetry-adapted Graph Neural Network",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00172",
+          "position": 6,
+          "surface_form": "Tensor-Field Networks",
+          "origin_year": 2018,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00173",
+          "position": 7,
+          "surface_form": "Cormorant",
+          "origin_year": 2019,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00216",
+          "position": 8,
+          "surface_form": "SE(3)-Transformer",
+          "origin_year": 2020,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00217",
+          "position": 9,
+          "surface_form": "Tensor‑product‑based equivariant network",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00096",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00199",
+        "meth_00102",
+        "meth_00118",
+        "meth_00200",
+        "meth_00201",
+        "meth_00202",
+        "meth_00121",
+        "meth_00203",
+        "meth_00204",
+        "meth_00030",
+        "meth_00205"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00199",
+        "meth_00102",
+        "meth_00118",
+        "meth_00200",
+        "meth_00201",
+        "meth_00202",
+        "meth_00121",
+        "meth_00203",
+        "meth_00204",
+        "meth_00030",
+        "meth_00205"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00199",
+          "position": 0,
+          "surface_form": "deep equivariant neural network method",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00102",
+          "position": 1,
+          "surface_form": "deep-learning DFT Hamiltonian",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00118",
+          "position": 2,
+          "surface_form": "DeepH-E3",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00200",
+          "position": 3,
+          "surface_form": "SE(3)-equivariant network",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00201",
+          "position": 4,
+          "surface_form": "Graph neural network for DFT Hamiltonian",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00202",
+          "position": 5,
+          "surface_form": "e(3)-equivariant Hamiltonian parameterization",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00121",
+          "position": 6,
+          "surface_form": "E(3)-equivariant graph neural network",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00203",
+          "position": 7,
+          "surface_form": "Equivariant representations for atomistic dynamics",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00204",
+          "position": 8,
+          "surface_form": "Directional message passing neural network",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00030",
+          "position": 9,
+          "surface_form": "Message Passing Neural Network",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00205",
+          "position": 10,
+          "surface_form": "Constrained DFT",
+          "origin_year": 1984,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00102",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00222",
+        "meth_00223",
+        "meth_00224",
+        "meth_00059",
+        "meth_00087",
+        "meth_00225",
+        "meth_00086",
+        "meth_00226",
+        "meth_00227"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00222",
+        "meth_00223",
+        "meth_00224",
+        "meth_00059",
+        "meth_00087",
+        "meth_00225",
+        "meth_00086",
+        "meth_00226",
+        "meth_00227"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00222",
+          "position": 0,
+          "surface_form": "D4FT",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00223",
+          "position": 1,
+          "surface_form": "self-consistent field",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00224",
+          "position": 2,
+          "surface_form": "Linear Combination of Atomic Orbitals",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00059",
+          "position": 3,
+          "surface_form": "Stochastic Gradient Descent",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00087",
+          "position": 4,
+          "surface_form": "JAX",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00225",
+          "position": 5,
+          "surface_form": "Kohn-Sham density-functional theory",
+          "origin_year": null,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00086",
+          "position": 6,
+          "surface_form": "Python-based Simulations of Chemistry Framework",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00226",
+          "position": 7,
+          "surface_form": "GPAW",
+          "origin_year": 2014,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00227",
+          "position": 8,
+          "surface_form": "Psi4",
+          "origin_year": 2012,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00108",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00218",
+        "meth_00219",
+        "meth_00045",
+        "meth_00049",
+        "meth_00220"
+      ],
+      "edge_year": 2018,
+      "inferred_source_method": "meth_00218",
+      "candidate_target_methods": [
+        "meth_00219",
+        "meth_00045",
+        "meth_00049",
+        "meth_00220"
+      ],
+      "status": "resolved",
+      "rule_applied": "unique_method_origin_equals_edge_year",
+      "method_evidence": [
+        {
+          "id": "meth_00218",
+          "position": 0,
+          "surface_form": "crystal graph convolutional neural networks",
+          "origin_year": 2018,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00219",
+          "position": 1,
+          "surface_form": "CNN for NLP",
+          "origin_year": 2008,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00045",
+          "position": 2,
+          "surface_form": "Neural fingerprint",
+          "origin_year": 2015,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00049",
+          "position": 3,
+          "surface_form": "Spectral graph convolution",
+          "origin_year": 2015,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00220",
+          "position": 4,
+          "surface_form": "Neural Message Passing",
+          "origin_year": 2017,
+          "first_seen_year": 2018
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "heuristic inference; not independently corroborated",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00114",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00057",
+        "meth_00050",
+        "meth_00030",
+        "meth_00218",
+        "meth_00228"
+      ],
+      "edge_year": 2019,
+      "inferred_source_method": "meth_00057",
+      "candidate_target_methods": [
+        "meth_00050",
+        "meth_00030",
+        "meth_00218",
+        "meth_00228"
+      ],
+      "status": "resolved",
+      "rule_applied": "unique_method_origin_equals_edge_year",
+      "method_evidence": [
+        {
+          "id": "meth_00057",
+          "position": 0,
+          "surface_form": "Materials Graph Network",
+          "origin_year": 2019,
+          "first_seen_year": 2019
+        },
+        {
+          "id": "meth_00050",
+          "position": 1,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00030",
+          "position": 2,
+          "surface_form": "Message Passing Neural Network",
+          "origin_year": 2009,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00218",
+          "position": 3,
+          "surface_form": "crystal graph convolutional neural networks",
+          "origin_year": 2018,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00228",
+          "position": 4,
+          "surface_form": "Graph Networks",
+          "origin_year": 2018,
+          "first_seen_year": 2019
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "heuristic inference; not independently corroborated",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00119",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00229",
+        "meth_00077"
+      ],
+      "edge_year": 2020,
+      "inferred_source_method": "meth_00229",
+      "candidate_target_methods": [
+        "meth_00077"
+      ],
+      "status": "resolved",
+      "rule_applied": "unique_method_origin_equals_edge_year",
+      "method_evidence": [
+        {
+          "id": "meth_00229",
+          "position": 0,
+          "surface_form": "Atomic Cluster Expansion extended to scalar, vectorial, tensorial properties with magnetic moments and charge transfer",
+          "origin_year": 2020,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00077",
+          "position": 1,
+          "surface_form": "Atomic Cluster Expansion",
+          "origin_year": 2019,
+          "first_seen_year": 2020
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "heuristic inference; not independently corroborated",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00125",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00232",
+        "meth_00031",
+        "meth_00089",
+        "meth_00233",
+        "meth_00007",
+        "meth_00234",
+        "meth_00235",
+        "meth_00236",
+        "meth_00043",
+        "meth_00028",
+        "meth_00237",
+        "meth_00238"
+      ],
+      "edge_year": 2022,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00232",
+        "meth_00031",
+        "meth_00089",
+        "meth_00233",
+        "meth_00007",
+        "meth_00234",
+        "meth_00235",
+        "meth_00236",
+        "meth_00043",
+        "meth_00028",
+        "meth_00237",
+        "meth_00238"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00232",
+          "position": 0,
+          "surface_form": "Graph Neural Network for atomic property prediction in defective crystalline solids",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00031",
+          "position": 1,
+          "surface_form": "graph neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00089",
+          "position": 2,
+          "surface_form": "Molecular dynamics",
+          "origin_year": 1957,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00233",
+          "position": 3,
+          "surface_form": "Non‑equilibrium molecular dynamics",
+          "origin_year": 2022,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00007",
+          "position": 4,
+          "surface_form": "Genetic Algorithms",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00234",
+          "position": 5,
+          "surface_form": "Voronoi tessellation",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00235",
+          "position": 6,
+          "surface_form": "Principal Neighborhood Aggregation",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00236",
+          "position": 7,
+          "surface_form": "Non-equilibrium Molecular Dynamics",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00043",
+          "position": 8,
+          "surface_form": "Global Convolution Networks",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00028",
+          "position": 9,
+          "surface_form": "Graph Attention",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00237",
+          "position": 10,
+          "surface_form": "equivariant message passing neural networks",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00238",
+          "position": 11,
+          "surface_form": "Partial Node Assignment",
+          "origin_year": null,
+          "first_seen_year": 2022
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00130",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00247",
+        "meth_00074",
+        "meth_00096",
+        "meth_00248",
+        "meth_00249",
+        "meth_00250",
+        "meth_00251",
+        "meth_00252",
+        "meth_00253",
+        "meth_00254",
+        "meth_00255",
+        "meth_00156",
+        "meth_00256",
+        "meth_00002",
+        "meth_00257",
+        "meth_00258",
+        "meth_00259",
+        "meth_00069",
+        "meth_00260",
+        "meth_00261",
+        "meth_00262",
+        "meth_00263",
+        "meth_00139",
+        "meth_00264",
+        "meth_00265",
+        "meth_00266",
+        "meth_00267"
+      ],
+      "edge_year": 2020,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00247",
+        "meth_00074",
+        "meth_00096",
+        "meth_00248",
+        "meth_00249",
+        "meth_00250",
+        "meth_00251",
+        "meth_00252",
+        "meth_00253",
+        "meth_00254",
+        "meth_00255",
+        "meth_00156",
+        "meth_00256",
+        "meth_00002",
+        "meth_00257",
+        "meth_00258",
+        "meth_00259",
+        "meth_00069",
+        "meth_00260",
+        "meth_00261",
+        "meth_00262",
+        "meth_00263",
+        "meth_00139",
+        "meth_00264",
+        "meth_00265",
+        "meth_00266",
+        "meth_00267"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00247",
+          "position": 0,
+          "surface_form": "JARVIS integrated materials design infrastructure",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00074",
+          "position": 1,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00096",
+          "position": 2,
+          "surface_form": "generalized gradient approximation",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00248",
+          "position": 3,
+          "surface_form": "van der Waals functional OptB88",
+          "origin_year": 2012,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00249",
+          "position": 4,
+          "surface_form": "Tran-Blaha modified Becke-Johnson (TBmBJ) meta‑GGA",
+          "origin_year": 2011,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00250",
+          "position": 5,
+          "surface_form": "Hybrid functional HSE06",
+          "origin_year": 2003,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00251",
+          "position": 6,
+          "surface_form": "Hybrid functional PBE0",
+          "origin_year": 1999,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00252",
+          "position": 7,
+          "surface_form": "G0W0 many‑body perturbation theory",
+          "origin_year": 1998,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00253",
+          "position": 8,
+          "surface_form": "Dynamical Mean Field Theory",
+          "origin_year": 2006,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00254",
+          "position": 9,
+          "surface_form": "Wannier90",
+          "origin_year": 2012,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00255",
+          "position": 10,
+          "surface_form": "Vienna Ab‑initio simulation package",
+          "origin_year": null,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00156",
+          "position": 11,
+          "surface_form": "Quantum Espresso",
+          "origin_year": 2009,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00256",
+          "position": 12,
+          "surface_form": "Large‑scale Atomic/Molecular Massively Parallel Simulator",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00002",
+          "position": 13,
+          "surface_form": "Atomic Simulation Environment",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00257",
+          "position": 14,
+          "surface_form": "Automated Interactive Infrastructure and Database",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00258",
+          "position": 15,
+          "surface_form": "MPInterfaces",
+          "origin_year": 2020,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00259",
+          "position": 16,
+          "surface_form": "Gradient Boosting Decision Tree",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00069",
+          "position": 17,
+          "surface_form": "Light Gradient-Boosting Machine",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00260",
+          "position": 18,
+          "surface_form": "Keras",
+          "origin_year": 2015,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00261",
+          "position": 19,
+          "surface_form": "Scikit‑learn",
+          "origin_year": 2011,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00262",
+          "position": 20,
+          "surface_form": "Python Materials Genomics",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00263",
+          "position": 21,
+          "surface_form": "Phase-Field Hub",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00139",
+          "position": 22,
+          "surface_form": "Scikit-learn",
+          "origin_year": 2011,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00264",
+          "position": 23,
+          "surface_form": "WannierTools",
+          "origin_year": 2018,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00265",
+          "position": 24,
+          "surface_form": "Matminer",
+          "origin_year": 2018,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00266",
+          "position": 25,
+          "surface_form": "BoltzTraP",
+          "origin_year": 2006,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00267",
+          "position": 26,
+          "surface_form": "LAMMPS",
+          "origin_year": 1993,
+          "first_seen_year": 2019
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00142",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00268",
+        "meth_00074",
+        "meth_00084",
+        "meth_00269",
+        "meth_00270",
+        "meth_00271",
+        "meth_00272",
+        "meth_00013",
+        "meth_00273"
+      ],
+      "edge_year": 2013,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00268",
+        "meth_00074",
+        "meth_00084",
+        "meth_00269",
+        "meth_00270",
+        "meth_00271",
+        "meth_00272",
+        "meth_00013",
+        "meth_00273"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00268",
+          "position": 0,
+          "surface_form": "Open Quantum Materials Database",
+          "origin_year": 2013,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00074",
+          "position": 1,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00084",
+          "position": 2,
+          "surface_form": "Vienna Ab Initio simulation Package",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00269",
+          "position": 3,
+          "surface_form": "grand canonical linear programming",
+          "origin_year": 2010,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00270",
+          "position": 4,
+          "surface_form": "Convex hull stability analysis",
+          "origin_year": 2000,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00271",
+          "position": 5,
+          "surface_form": "Muggianu model",
+          "origin_year": 1975,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00272",
+          "position": 6,
+          "surface_form": "Hillert model",
+          "origin_year": 1998,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00013",
+          "position": 7,
+          "surface_form": "Random Forest",
+          "origin_year": 2001,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00273",
+          "position": 8,
+          "surface_form": "Machine‑learning stability prediction for crystal structures",
+          "origin_year": 2006,
+          "first_seen_year": 2013
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00148",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00282",
+        "meth_00084",
+        "meth_00283",
+        "meth_00096",
+        "meth_00284",
+        "meth_00285",
+        "meth_00286",
+        "meth_00287",
+        "meth_00288",
+        "meth_00289",
+        "meth_00290",
+        "meth_00100",
+        "meth_00291"
+      ],
+      "edge_year": 2013,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00282",
+        "meth_00084",
+        "meth_00283",
+        "meth_00096",
+        "meth_00284",
+        "meth_00285",
+        "meth_00286",
+        "meth_00287",
+        "meth_00288",
+        "meth_00289",
+        "meth_00290",
+        "meth_00100",
+        "meth_00291"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00282",
+          "position": 0,
+          "surface_form": "AFLOW high-throughput materials discovery framework",
+          "origin_year": 2013,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00084",
+          "position": 1,
+          "surface_form": "Vienna Ab Initio simulation Package",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00283",
+          "position": 2,
+          "surface_form": "projector-augmented wave",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00096",
+          "position": 3,
+          "surface_form": "generalized gradient approximation",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00284",
+          "position": 4,
+          "surface_form": "Monkhorst‑Pack k‑point sampling",
+          "origin_year": 1976,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00285",
+          "position": 5,
+          "surface_form": "Findsym symmetry analysis",
+          "origin_year": 2003,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00286",
+          "position": 6,
+          "surface_form": "cluster expansions",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00287",
+          "position": 7,
+          "surface_form": "Direct force‑constant method",
+          "origin_year": 1992,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00288",
+          "position": 8,
+          "surface_form": "Linear response phonon method",
+          "origin_year": 1994,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00289",
+          "position": 9,
+          "surface_form": "Frozen‑phonon method",
+          "origin_year": 1995,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00290",
+          "position": 10,
+          "surface_form": "convex hull",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00100",
+          "position": 11,
+          "surface_form": "DFT+U",
+          "origin_year": 1998,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00291",
+          "position": 12,
+          "surface_form": "hybrid functional",
+          "origin_year": null,
+          "first_seen_year": 2013
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00153",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00196",
+        "meth_00075",
+        "meth_00197",
+        "meth_00061",
+        "meth_00198"
+      ],
+      "edge_year": 2018,
+      "inferred_source_method": "meth_00196",
+      "candidate_target_methods": [
+        "meth_00075",
+        "meth_00197",
+        "meth_00061",
+        "meth_00198"
+      ],
+      "status": "resolved",
+      "rule_applied": "unique_method_origin_equals_edge_year",
+      "method_evidence": [
+        {
+          "id": "meth_00196",
+          "position": 0,
+          "surface_form": "Gaussian Approximation Potential (GAP) for silicon",
+          "origin_year": 2018,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00075",
+          "position": 1,
+          "surface_form": "Gaussian approximation potentials",
+          "origin_year": 2010,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00197",
+          "position": 2,
+          "surface_form": "SOAP kernel",
+          "origin_year": 2013,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00061",
+          "position": 3,
+          "surface_form": "Gaussian process regression",
+          "origin_year": 1995,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00198",
+          "position": 4,
+          "surface_form": "CUR matrix decomposition",
+          "origin_year": 2009,
+          "first_seen_year": 2018
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "heuristic inference; not independently corroborated",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00158",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00230",
+        "meth_00033",
+        "meth_00089"
+      ],
+      "edge_year": 2020,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00230",
+        "meth_00033",
+        "meth_00089"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00230",
+          "position": 0,
+          "surface_form": "ConvLSTM-based fracture prediction model",
+          "origin_year": 2020,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00033",
+          "position": 1,
+          "surface_form": "convolutional LSTM",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00089",
+          "position": 2,
+          "surface_form": "Molecular dynamics",
+          "origin_year": 1957,
+          "first_seen_year": 2020
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00169",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00231",
+        "meth_00074",
+        "meth_00084"
+      ],
+      "edge_year": 2013,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00231",
+        "meth_00074",
+        "meth_00084"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00231",
+          "position": 0,
+          "surface_form": "Materials Project high‑throughput computational workflow and open data platform",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00074",
+          "position": 1,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00084",
+          "position": 2,
+          "surface_form": "Vienna Ab Initio simulation Package",
+          "origin_year": null,
+          "first_seen_year": 2013
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00175",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00383",
+        "meth_00206",
+        "meth_00384",
+        "meth_00074",
+        "meth_00385",
+        "meth_00369",
+        "meth_00386",
+        "meth_00267",
+        "meth_00387"
+      ],
+      "edge_year": 2019,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00383",
+        "meth_00206",
+        "meth_00384",
+        "meth_00074",
+        "meth_00385",
+        "meth_00369",
+        "meth_00386",
+        "meth_00267",
+        "meth_00387"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00383",
+          "position": 0,
+          "surface_form": "DeePMD training protocol for diffusion coefficient computation",
+          "origin_year": 2019,
+          "first_seen_year": 2019
+        },
+        {
+          "id": "meth_00206",
+          "position": 1,
+          "surface_form": "Deep Potential Molecular Dynamics",
+          "origin_year": null,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00384",
+          "position": 2,
+          "surface_form": "First-principles molecular dynamics",
+          "origin_year": 1985,
+          "first_seen_year": 2019
+        },
+        {
+          "id": "meth_00074",
+          "position": 3,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00385",
+          "position": 4,
+          "surface_form": "Active learning for neural network potentials",
+          "origin_year": 2018,
+          "first_seen_year": 2019
+        },
+        {
+          "id": "meth_00369",
+          "position": 5,
+          "surface_form": "PBE functional",
+          "origin_year": 1996,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00386",
+          "position": 6,
+          "surface_form": "Grimme-D2",
+          "origin_year": 2006,
+          "first_seen_year": 2019
+        },
+        {
+          "id": "meth_00267",
+          "position": 7,
+          "surface_form": "LAMMPS",
+          "origin_year": 1993,
+          "first_seen_year": 2019
+        },
+        {
+          "id": "meth_00387",
+          "position": 8,
+          "surface_form": "Classical Force Field Molecular Dynamics",
+          "origin_year": 1980,
+          "first_seen_year": 2019
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00193",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00414",
+        "meth_00171",
+        "meth_00267",
+        "meth_00050",
+        "meth_00117",
+        "meth_00078",
+        "meth_00393",
+        "meth_00108",
+        "meth_00163",
+        "meth_00277",
+        "meth_00395",
+        "meth_00372",
+        "meth_00220",
+        "meth_00214",
+        "meth_00415",
+        "meth_00109",
+        "meth_00416"
+      ],
+      "edge_year": 2024,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00414",
+        "meth_00171",
+        "meth_00267",
+        "meth_00050",
+        "meth_00117",
+        "meth_00078",
+        "meth_00393",
+        "meth_00108",
+        "meth_00163",
+        "meth_00277",
+        "meth_00395",
+        "meth_00372",
+        "meth_00220",
+        "meth_00214",
+        "meth_00415",
+        "meth_00109",
+        "meth_00416"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00414",
+          "position": 0,
+          "surface_form": "Scalable EquiVariance-Enabled Neural NETwork",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00171",
+          "position": 1,
+          "surface_form": "Neural Equivariant Interatomic Potentials",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00267",
+          "position": 2,
+          "surface_form": "LAMMPS",
+          "origin_year": 1993,
+          "first_seen_year": 2019
+        },
+        {
+          "id": "meth_00050",
+          "position": 3,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00117",
+          "position": 4,
+          "surface_form": "PhysNet",
+          "origin_year": 2019,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00078",
+          "position": 5,
+          "surface_form": "PaiNN",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00393",
+          "position": 6,
+          "surface_form": "ACE with message passing",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00108",
+          "position": 7,
+          "surface_form": "DimeNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00163",
+          "position": 8,
+          "surface_form": "ALIGNN",
+          "origin_year": 2020,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00277",
+          "position": 9,
+          "surface_form": "Crystal Hamiltonian Graph Network",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00395",
+          "position": 10,
+          "surface_form": "Three-body Materials Graph Network",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00372",
+          "position": 11,
+          "surface_form": "graph networks for materials exploration",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00220",
+          "position": 12,
+          "surface_form": "Neural Message Passing",
+          "origin_year": 2017,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00214",
+          "position": 13,
+          "surface_form": "Directional Message Passing",
+          "origin_year": 2020,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00415",
+          "position": 14,
+          "surface_form": "SE(3)-Transformers",
+          "origin_year": 2020,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00109",
+          "position": 15,
+          "surface_form": "GemNet",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00416",
+          "position": 16,
+          "surface_form": "E(3)-Equivariant Atom-Centered Interatomic Potentials",
+          "origin_year": 2022,
+          "first_seen_year": 2024
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00223",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00081",
+        "meth_00167",
+        "meth_00300",
+        "meth_00040",
+        "meth_00301",
+        "meth_00302",
+        "meth_00010",
+        "meth_00303",
+        "meth_00304",
+        "meth_00305",
+        "meth_00306"
+      ],
+      "edge_year": 2024,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00081",
+        "meth_00167",
+        "meth_00300",
+        "meth_00040",
+        "meth_00301",
+        "meth_00302",
+        "meth_00010",
+        "meth_00303",
+        "meth_00304",
+        "meth_00305",
+        "meth_00306"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00081",
+          "position": 0,
+          "surface_form": "EquiformerV2",
+          "origin_year": 2023,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00167",
+          "position": 1,
+          "surface_form": "Equiformer",
+          "origin_year": 2023,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00300",
+          "position": 2,
+          "surface_form": "eSCN",
+          "origin_year": 2023,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00040",
+          "position": 3,
+          "surface_form": "sparse coding based network",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00301",
+          "position": 4,
+          "surface_form": "S2 activation",
+          "origin_year": 2018,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00302",
+          "position": 5,
+          "surface_form": "Gate activation",
+          "origin_year": 2018,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00010",
+          "position": 6,
+          "surface_form": "Layer Normalization",
+          "origin_year": 2016,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00303",
+          "position": 7,
+          "surface_form": "Noisy Nodes",
+          "origin_year": 2022,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00304",
+          "position": 8,
+          "surface_form": "Harmonic Networks",
+          "origin_year": 2016,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00305",
+          "position": 9,
+          "surface_form": "3D Steerable CNNs",
+          "origin_year": 2018,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00306",
+          "position": 10,
+          "surface_form": "Spherical CNNs",
+          "origin_year": 2018,
+          "first_seen_year": 2024
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00229",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00307",
+        "meth_00265",
+        "meth_00013",
+        "meth_00218",
+        "meth_00057",
+        "meth_00308",
+        "meth_00063",
+        "meth_00309",
+        "meth_00035",
+        "meth_00310",
+        "meth_00311"
+      ],
+      "edge_year": 2020,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00307",
+        "meth_00265",
+        "meth_00013",
+        "meth_00218",
+        "meth_00057",
+        "meth_00308",
+        "meth_00063",
+        "meth_00309",
+        "meth_00035",
+        "meth_00310",
+        "meth_00311"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00307",
+          "position": 0,
+          "surface_form": "Automatminer",
+          "origin_year": 2019,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00265",
+          "position": 1,
+          "surface_form": "Matminer",
+          "origin_year": 2018,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00013",
+          "position": 2,
+          "surface_form": "Random Forest",
+          "origin_year": 2001,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00218",
+          "position": 3,
+          "surface_form": "crystal graph convolutional neural networks",
+          "origin_year": 2018,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00057",
+          "position": 4,
+          "surface_form": "Materials Graph Network",
+          "origin_year": 2019,
+          "first_seen_year": 2019
+        },
+        {
+          "id": "meth_00308",
+          "position": 5,
+          "surface_form": "TPOT",
+          "origin_year": 2016,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00063",
+          "position": 6,
+          "surface_form": "Random Forests",
+          "origin_year": 2001,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00309",
+          "position": 7,
+          "surface_form": "FireWorks",
+          "origin_year": 2015,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00035",
+          "position": 8,
+          "surface_form": "Magpie",
+          "origin_year": 2016,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00310",
+          "position": 9,
+          "surface_form": "Sine Coulomb Matrix",
+          "origin_year": 2016,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00311",
+          "position": 10,
+          "surface_form": "Magpie featurizer",
+          "origin_year": 2016,
+          "first_seen_year": 2020
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "tie: multiple newest method origin_year values",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00235",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00320",
+        "meth_00031",
+        "meth_00321",
+        "meth_00124",
+        "meth_00218",
+        "meth_00111",
+        "meth_00322",
+        "meth_00323",
+        "meth_00324",
+        "meth_00098",
+        "meth_00325",
+        "meth_00326",
+        "meth_00327",
+        "meth_00328"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00320",
+        "meth_00031",
+        "meth_00321",
+        "meth_00124",
+        "meth_00218",
+        "meth_00111",
+        "meth_00322",
+        "meth_00323",
+        "meth_00324",
+        "meth_00098",
+        "meth_00325",
+        "meth_00326",
+        "meth_00327",
+        "meth_00328"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00320",
+          "position": 0,
+          "surface_form": "Virtual Node Graph Neural Network",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00031",
+          "position": 1,
+          "surface_form": "graph neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00321",
+          "position": 2,
+          "surface_form": "Euclidean Neural Network",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00124",
+          "position": 3,
+          "surface_form": "e3nn",
+          "origin_year": 2020,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00218",
+          "position": 4,
+          "surface_form": "crystal graph convolutional neural networks",
+          "origin_year": 2018,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00111",
+          "position": 5,
+          "surface_form": "Tensor Field Networks",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00322",
+          "position": 6,
+          "surface_form": "Euclidean neural networks",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00323",
+          "position": 7,
+          "surface_form": "Graph convolution",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00324",
+          "position": 8,
+          "surface_form": "symmetry-aware Euclidean neural networks",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00098",
+          "position": 9,
+          "surface_form": "density functional perturbation theory",
+          "origin_year": 2001,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00325",
+          "position": 10,
+          "surface_form": "frozen-phonon method",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00326",
+          "position": 11,
+          "surface_form": "matrix virtual nodes",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00327",
+          "position": 12,
+          "surface_form": "Virtual-Crystal Approximation",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00328",
+          "position": 13,
+          "surface_form": "Special Quasirandom Structures",
+          "origin_year": null,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00247",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00329",
+        "meth_00210",
+        "meth_00330",
+        "meth_00331",
+        "meth_00332",
+        "meth_00333",
+        "meth_00334",
+        "meth_00065",
+        "meth_00018",
+        "meth_00105",
+        "meth_00335",
+        "meth_00267",
+        "meth_00336",
+        "meth_00337",
+        "meth_00034",
+        "meth_00338",
+        "meth_00075",
+        "meth_00050",
+        "meth_00339"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00329",
+        "meth_00210",
+        "meth_00330",
+        "meth_00331",
+        "meth_00332",
+        "meth_00333",
+        "meth_00334",
+        "meth_00065",
+        "meth_00018",
+        "meth_00105",
+        "meth_00335",
+        "meth_00267",
+        "meth_00336",
+        "meth_00337",
+        "meth_00034",
+        "meth_00338",
+        "meth_00075",
+        "meth_00050",
+        "meth_00339"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00329",
+          "position": 0,
+          "surface_form": "DeePMD-kit v2",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00210",
+          "position": 1,
+          "surface_form": "Deep Potential",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00330",
+          "position": 2,
+          "surface_form": "DeepPot-SE",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00331",
+          "position": 3,
+          "surface_form": "DPA-1",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00332",
+          "position": 4,
+          "surface_form": "Deep Potential - Range Correction",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00333",
+          "position": 5,
+          "surface_form": "Deep Potential Long Range",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00334",
+          "position": 6,
+          "surface_form": "Ziegler-Biersack-Littmark (ZBL) potential",
+          "origin_year": 1985,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00065",
+          "position": 7,
+          "surface_form": "Residual CNN",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00018",
+          "position": 8,
+          "surface_form": "Adam optimizer",
+          "origin_year": 2015,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00105",
+          "position": 9,
+          "surface_form": "TensorFlow",
+          "origin_year": 2015,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00335",
+          "position": 10,
+          "surface_form": "Horovod",
+          "origin_year": 2018,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00267",
+          "position": 11,
+          "surface_form": "LAMMPS",
+          "origin_year": 1993,
+          "first_seen_year": 2019
+        },
+        {
+          "id": "meth_00336",
+          "position": 12,
+          "surface_form": "AMBER",
+          "origin_year": 1980,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00337",
+          "position": 13,
+          "surface_form": "DP-GEN",
+          "origin_year": 2020,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00034",
+          "position": 14,
+          "surface_form": "Residual Network",
+          "origin_year": 2016,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00338",
+          "position": 15,
+          "surface_form": "Behler-Parrinello neural network potentials",
+          "origin_year": 2007,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00075",
+          "position": 16,
+          "surface_form": "Gaussian approximation potentials",
+          "origin_year": 2010,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00050",
+          "position": 17,
+          "surface_form": "SchNet",
+          "origin_year": 2017,
+          "first_seen_year": 2017
+        },
+        {
+          "id": "meth_00339",
+          "position": 18,
+          "surface_form": "atom-centered symmetry functions",
+          "origin_year": 2011,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00253",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00340",
+        "meth_00341",
+        "meth_00342",
+        "meth_00218",
+        "meth_00343",
+        "meth_00156",
+        "meth_00344",
+        "meth_00345",
+        "meth_00283",
+        "meth_00346",
+        "meth_00347",
+        "meth_00348",
+        "meth_00349",
+        "meth_00350",
+        "meth_00057"
+      ],
+      "edge_year": 2022,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00340",
+        "meth_00341",
+        "meth_00342",
+        "meth_00218",
+        "meth_00343",
+        "meth_00156",
+        "meth_00344",
+        "meth_00345",
+        "meth_00283",
+        "meth_00346",
+        "meth_00347",
+        "meth_00348",
+        "meth_00349",
+        "meth_00350",
+        "meth_00057"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00340",
+          "position": 0,
+          "surface_form": "Crystal-Graph Attention Network",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00341",
+          "position": 1,
+          "surface_form": "coarse-grained message passing networks",
+          "origin_year": 2021,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00342",
+          "position": 2,
+          "surface_form": "Roost",
+          "origin_year": 2020,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00218",
+          "position": 3,
+          "surface_form": "crystal graph convolutional neural networks",
+          "origin_year": 2018,
+          "first_seen_year": 2018
+        },
+        {
+          "id": "meth_00343",
+          "position": 4,
+          "surface_form": "Transformer attention mechanism",
+          "origin_year": 2017,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00156",
+          "position": 5,
+          "surface_form": "Quantum Espresso",
+          "origin_year": 2009,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00344",
+          "position": 6,
+          "surface_form": "PBEsol",
+          "origin_year": 2008,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00345",
+          "position": 7,
+          "surface_form": "PseudoDojo",
+          "origin_year": 2018,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00283",
+          "position": 8,
+          "surface_form": "projector-augmented wave",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00346",
+          "position": 9,
+          "surface_form": "Allen-Dynes formula",
+          "origin_year": 1975,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00347",
+          "position": 10,
+          "surface_form": "McMillan's formula",
+          "origin_year": 1968,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00348",
+          "position": 11,
+          "surface_form": "Matbench",
+          "origin_year": 2020,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00349",
+          "position": 12,
+          "surface_form": "Crystal Graph Attention Network",
+          "origin_year": null,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00350",
+          "position": 13,
+          "surface_form": "pymatgen structure matcher",
+          "origin_year": 2012,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00057",
+          "position": 14,
+          "surface_form": "Materials Graph Network",
+          "origin_year": 2019,
+          "first_seen_year": 2019
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00258",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00351",
+        "meth_00352",
+        "meth_00353",
+        "meth_00354",
+        "meth_00021",
+        "meth_00001",
+        "meth_00017",
+        "meth_00022"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00351",
+        "meth_00352",
+        "meth_00353",
+        "meth_00354",
+        "meth_00021",
+        "meth_00001",
+        "meth_00017",
+        "meth_00022"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00351",
+          "position": 0,
+          "surface_form": "ml_multiscale_modeling_perspective",
+          "origin_year": 2023,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00352",
+          "position": 1,
+          "surface_form": "Hierarchical multiscale modeling",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00353",
+          "position": 2,
+          "surface_form": "Concurrent multiscale modeling",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00354",
+          "position": 3,
+          "surface_form": "Artificial Neural Networks",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00021",
+          "position": 4,
+          "surface_form": "Recurrent Neural Networks",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00001",
+          "position": 5,
+          "surface_form": "Generative Adversarial Networks",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00017",
+          "position": 6,
+          "surface_form": "transfer learning",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00022",
+          "position": 7,
+          "surface_form": "Meta-learning",
+          "origin_year": null,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00264",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00075",
+        "meth_00076",
+        "meth_00411",
+        "meth_00225",
+        "meth_00430",
+        "meth_00431",
+        "meth_00432",
+        "meth_00433",
+        "meth_00434",
+        "meth_00403",
+        "meth_00435",
+        "meth_00436"
+      ],
+      "edge_year": 2016,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00075",
+        "meth_00076",
+        "meth_00411",
+        "meth_00225",
+        "meth_00430",
+        "meth_00431",
+        "meth_00432",
+        "meth_00433",
+        "meth_00434",
+        "meth_00403",
+        "meth_00435",
+        "meth_00436"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00075",
+          "position": 0,
+          "surface_form": "Gaussian approximation potentials",
+          "origin_year": 2010,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00076",
+          "position": 1,
+          "surface_form": "Moment Tensor Potentials",
+          "origin_year": 2016,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00411",
+          "position": 2,
+          "surface_form": "Smooth Overlap of Atomic Positions",
+          "origin_year": null,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00225",
+          "position": 3,
+          "surface_form": "Kohn-Sham density-functional theory",
+          "origin_year": null,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00430",
+          "position": 4,
+          "surface_form": "Tersoff potential",
+          "origin_year": 1988,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00431",
+          "position": 5,
+          "surface_form": "Brenner potential",
+          "origin_year": 1990,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00432",
+          "position": 6,
+          "surface_form": "Screened Tersoff potential",
+          "origin_year": 2014,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00433",
+          "position": 7,
+          "surface_form": "SOAP descriptors",
+          "origin_year": 2010,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00434",
+          "position": 8,
+          "surface_form": "SOAP descriptor",
+          "origin_year": 2013,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00403",
+          "position": 9,
+          "surface_form": "Behler-Parrinello neural network potential",
+          "origin_year": 2007,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00435",
+          "position": 10,
+          "surface_form": "REBO potential",
+          "origin_year": 2002,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00436",
+          "position": 11,
+          "surface_form": "environment-dependent interaction potential",
+          "origin_year": null,
+          "first_seen_year": 2016
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00269",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00355",
+        "meth_00255",
+        "meth_00097",
+        "meth_00074",
+        "meth_00100",
+        "meth_00356",
+        "meth_00186",
+        "meth_00357",
+        "meth_00358",
+        "meth_00359",
+        "meth_00360",
+        "meth_00361",
+        "meth_00362",
+        "meth_00363",
+        "meth_00364",
+        "meth_00365",
+        "meth_00366",
+        "meth_00283",
+        "meth_00367",
+        "meth_00368",
+        "meth_00369",
+        "meth_00370",
+        "meth_00371"
+      ],
+      "edge_year": 2015,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00355",
+        "meth_00255",
+        "meth_00097",
+        "meth_00074",
+        "meth_00100",
+        "meth_00356",
+        "meth_00186",
+        "meth_00357",
+        "meth_00358",
+        "meth_00359",
+        "meth_00360",
+        "meth_00361",
+        "meth_00362",
+        "meth_00363",
+        "meth_00364",
+        "meth_00365",
+        "meth_00366",
+        "meth_00283",
+        "meth_00367",
+        "meth_00368",
+        "meth_00369",
+        "meth_00370",
+        "meth_00371"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00355",
+          "position": 0,
+          "surface_form": "AFLOW high-throughput DFT calculation protocol",
+          "origin_year": 2015,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00255",
+          "position": 1,
+          "surface_form": "Vienna Ab‑initio simulation package",
+          "origin_year": null,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00097",
+          "position": 2,
+          "surface_form": "Monkhorst-Pack k-point sampling",
+          "origin_year": 1976,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00074",
+          "position": 3,
+          "surface_form": "density functional theory",
+          "origin_year": 1964,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00100",
+          "position": 4,
+          "surface_form": "DFT+U",
+          "origin_year": 1998,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00356",
+          "position": 5,
+          "surface_form": "LDA+U",
+          "origin_year": 1994,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00186",
+          "position": 6,
+          "surface_form": "GGA+U",
+          "origin_year": 2006,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00357",
+          "position": 7,
+          "surface_form": "GW@LDA+U",
+          "origin_year": 2010,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00358",
+          "position": 8,
+          "surface_form": "LSDA+Hubbard U",
+          "origin_year": 1995,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00359",
+          "position": 9,
+          "surface_form": "RMM-DIIS",
+          "origin_year": 1996,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00360",
+          "position": 10,
+          "surface_form": "Davidson Block Subspace",
+          "origin_year": 1996,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00361",
+          "position": 11,
+          "surface_form": "Pulay charge mixing",
+          "origin_year": 1980,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00362",
+          "position": 12,
+          "surface_form": "Conjugate Gradients",
+          "origin_year": 1952,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00363",
+          "position": 13,
+          "surface_form": "Harris-Foulkes corrections",
+          "origin_year": 1985,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00364",
+          "position": 14,
+          "surface_form": "Tetrahedron method with Blöchl corrections",
+          "origin_year": 1994,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00365",
+          "position": 15,
+          "surface_form": "Methfessel-Paxton smearing",
+          "origin_year": 1989,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00366",
+          "position": 16,
+          "surface_form": "Ultra-soft pseudopotentials",
+          "origin_year": null,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00283",
+          "position": 17,
+          "surface_form": "projector-augmented wave",
+          "origin_year": null,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00367",
+          "position": 18,
+          "surface_form": "Local Density Approximation",
+          "origin_year": null,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00368",
+          "position": 19,
+          "surface_form": "PW91 functional",
+          "origin_year": 1991,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00369",
+          "position": 20,
+          "surface_form": "PBE functional",
+          "origin_year": 1996,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00370",
+          "position": 21,
+          "surface_form": "GW approximation",
+          "origin_year": 1965,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00371",
+          "position": 22,
+          "surface_form": "Davidson blocked scheme",
+          "origin_year": 1975,
+          "first_seen_year": 2015
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00280",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00437",
+        "meth_00438",
+        "meth_00439",
+        "meth_00041",
+        "meth_00031",
+        "meth_00068",
+        "meth_00440",
+        "meth_00441",
+        "meth_00032",
+        "meth_00106",
+        "meth_00225",
+        "meth_00442",
+        "meth_00443",
+        "meth_00444",
+        "meth_00445",
+        "meth_00446",
+        "meth_00064",
+        "meth_00447",
+        "meth_00448",
+        "meth_00069",
+        "meth_00079",
+        "meth_00013",
+        "meth_00029",
+        "meth_00072",
+        "meth_00020",
+        "meth_00061"
+      ],
+      "edge_year": 2024,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00437",
+        "meth_00438",
+        "meth_00439",
+        "meth_00041",
+        "meth_00031",
+        "meth_00068",
+        "meth_00440",
+        "meth_00441",
+        "meth_00032",
+        "meth_00106",
+        "meth_00225",
+        "meth_00442",
+        "meth_00443",
+        "meth_00444",
+        "meth_00445",
+        "meth_00446",
+        "meth_00064",
+        "meth_00447",
+        "meth_00448",
+        "meth_00069",
+        "meth_00079",
+        "meth_00013",
+        "meth_00029",
+        "meth_00072",
+        "meth_00020",
+        "meth_00061"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00437",
+          "position": 0,
+          "surface_form": "two-step supervised-unsupervised melting temperature prediction with symbolic regression",
+          "origin_year": 2021,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00438",
+          "position": 1,
+          "surface_form": "Lindemann melting criterion",
+          "origin_year": 1910,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00439",
+          "position": 2,
+          "surface_form": "CALculation of PHAse Diagram",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00041",
+          "position": 3,
+          "surface_form": "Support Vector Regression",
+          "origin_year": 1995,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00031",
+          "position": 4,
+          "surface_form": "graph neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00068",
+          "position": 5,
+          "surface_form": "symbolic regression",
+          "origin_year": 2009,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00440",
+          "position": 6,
+          "surface_form": "variable-selection assisted sure independence screening and sparsifying operator",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00441",
+          "position": 7,
+          "surface_form": "SISSO",
+          "origin_year": 2018,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00032",
+          "position": 8,
+          "surface_form": "k-means clustering",
+          "origin_year": 1967,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00106",
+          "position": 9,
+          "surface_form": "SHAP",
+          "origin_year": 2017,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00225",
+          "position": 10,
+          "surface_form": "Kohn-Sham density-functional theory",
+          "origin_year": null,
+          "first_seen_year": 2016
+        },
+        {
+          "id": "meth_00442",
+          "position": 11,
+          "surface_form": "PAW method",
+          "origin_year": 1994,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00443",
+          "position": 12,
+          "surface_form": "Silhouette score",
+          "origin_year": 1987,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00444",
+          "position": 13,
+          "surface_form": "Calinski-Harabasz score",
+          "origin_year": 1974,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00445",
+          "position": 14,
+          "surface_form": "Voigt-Reuss-Hill averaging",
+          "origin_year": 1952,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00446",
+          "position": 15,
+          "surface_form": "gradient-boosted tree regression",
+          "origin_year": 2001,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00064",
+          "position": 16,
+          "surface_form": "random forest regression",
+          "origin_year": 2001,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00447",
+          "position": 17,
+          "surface_form": "tree ensemble methods",
+          "origin_year": 2001,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00448",
+          "position": 18,
+          "surface_form": "Neural network model for melting temperature prediction",
+          "origin_year": 2021,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00069",
+          "position": 19,
+          "surface_form": "Light Gradient-Boosting Machine",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00079",
+          "position": 20,
+          "surface_form": "Extreme Gradient Boosting",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00013",
+          "position": 21,
+          "surface_form": "Random Forest",
+          "origin_year": 2001,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00029",
+          "position": 22,
+          "surface_form": "Principal Component Analysis",
+          "origin_year": 1901,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00072",
+          "position": 23,
+          "surface_form": "Linear Regression",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00020",
+          "position": 24,
+          "surface_form": "kernel ridge regression",
+          "origin_year": null,
+          "first_seen_year": 2024
+        },
+        {
+          "id": "meth_00061",
+          "position": 25,
+          "surface_form": "Gaussian process regression",
+          "origin_year": 1995,
+          "first_seen_year": 2018
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    },
+    {
+      "edge_id": "h_00286",
+      "relation_type": "extends",
+      "original_members": [
+        "meth_00372",
+        "meth_00023",
+        "meth_00373",
+        "meth_00143",
+        "meth_00268",
+        "meth_00374",
+        "meth_00019",
+        "meth_00375",
+        "meth_00171",
+        "meth_00276",
+        "meth_00318",
+        "meth_00376",
+        "meth_00377",
+        "meth_00378",
+        "meth_00342",
+        "meth_00379",
+        "meth_00262",
+        "meth_00031",
+        "meth_00255",
+        "meth_00369",
+        "meth_00380",
+        "meth_00381",
+        "meth_00382"
+      ],
+      "edge_year": 2023,
+      "inferred_source_method": null,
+      "candidate_target_methods": [
+        "meth_00372",
+        "meth_00023",
+        "meth_00373",
+        "meth_00143",
+        "meth_00268",
+        "meth_00374",
+        "meth_00019",
+        "meth_00375",
+        "meth_00171",
+        "meth_00276",
+        "meth_00318",
+        "meth_00376",
+        "meth_00377",
+        "meth_00378",
+        "meth_00342",
+        "meth_00379",
+        "meth_00262",
+        "meth_00031",
+        "meth_00255",
+        "meth_00369",
+        "meth_00380",
+        "meth_00381",
+        "meth_00382"
+      ],
+      "status": "unresolved",
+      "rule_applied": null,
+      "method_evidence": [
+        {
+          "id": "meth_00372",
+          "position": 0,
+          "surface_form": "graph networks for materials exploration",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00023",
+          "position": 1,
+          "surface_form": "Graph neural networks",
+          "origin_year": 2017,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00373",
+          "position": 2,
+          "surface_form": "Message-passing neural networks",
+          "origin_year": 2017,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00143",
+          "position": 3,
+          "surface_form": "Materials Project",
+          "origin_year": 2013,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00268",
+          "position": 4,
+          "surface_form": "Open Quantum Materials Database",
+          "origin_year": 2013,
+          "first_seen_year": 2013
+        },
+        {
+          "id": "meth_00374",
+          "position": 5,
+          "surface_form": "ab initio random structure searching",
+          "origin_year": 2011,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00019",
+          "position": 6,
+          "surface_form": "Deep ensembles",
+          "origin_year": 2017,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00375",
+          "position": 7,
+          "surface_form": "Equivariant interatomic potentials",
+          "origin_year": 2021,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00171",
+          "position": 8,
+          "surface_form": "Neural Equivariant Interatomic Potentials",
+          "origin_year": null,
+          "first_seen_year": 2021
+        },
+        {
+          "id": "meth_00276",
+          "position": 9,
+          "surface_form": "Materials 3-body Graph Network",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00318",
+          "position": 10,
+          "surface_form": "E(3)-equivariant graph neural networks",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00376",
+          "position": 11,
+          "surface_form": "XtalFinder",
+          "origin_year": 2020,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00377",
+          "position": 12,
+          "surface_form": "Open Quantum Mechanical Database",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00378",
+          "position": 13,
+          "surface_form": "Inorganic Crystal Structures Database",
+          "origin_year": null,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00342",
+          "position": 14,
+          "surface_form": "Roost",
+          "origin_year": 2020,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00379",
+          "position": 15,
+          "surface_form": "SMACT",
+          "origin_year": 2015,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00262",
+          "position": 16,
+          "surface_form": "Python Materials Genomics",
+          "origin_year": null,
+          "first_seen_year": 2020
+        },
+        {
+          "id": "meth_00031",
+          "position": 17,
+          "surface_form": "graph neural network",
+          "origin_year": 2017,
+          "first_seen_year": 2022
+        },
+        {
+          "id": "meth_00255",
+          "position": 18,
+          "surface_form": "Vienna Ab‑initio simulation package",
+          "origin_year": null,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00369",
+          "position": 19,
+          "surface_form": "PBE functional",
+          "origin_year": 1996,
+          "first_seen_year": 2015
+        },
+        {
+          "id": "meth_00380",
+          "position": 20,
+          "surface_form": "r2SCAN functional",
+          "origin_year": 2020,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00381",
+          "position": 21,
+          "surface_form": "JAX MD",
+          "origin_year": 2020,
+          "first_seen_year": 2023
+        },
+        {
+          "id": "meth_00382",
+          "position": 22,
+          "surface_form": "Graph Neural Network interatomic potentials",
+          "origin_year": 2022,
+          "first_seen_year": 2023
+        }
+      ],
+      "non_method_context": [],
+      "uncertainty_reason": "missing origin_year ambiguity among method endpoints",
+      "inference_policy_version": "extends_direction_temporal_heuristic_v1",
+      "note": "Direction is inferred from dates, not verified scientific fact; original hyperedge remains multi-target."
+    }
+  ]
+}

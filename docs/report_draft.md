@@ -14,7 +14,12 @@ settings, not tuned winners. Temporal runs are stagewise greedy: the previous
 partition reference changes at 120, 48, and 12 groups.
 
 Hyperedges are coarsened with the counted quotient representation. Original edge
-IDs, arities, attributes, and provenance are retained.
+IDs, arities, attributes, and provenance are retained. The original implementation
+preserved `extends` relations but did not resolve their direction because member
+order is not a source/target contract. A separate artifact now adds an auditable
+temporal direction heuristic for `extends` with explicit abstention; it does not
+change clustering scores, memberships, or previous evaluation results. Direction
+accuracy is not established by unit tests or date consistency.
 
 ## Main measured results
 
@@ -63,6 +68,16 @@ Claim evidence retrieval was weak under text matching: returned claim nodes rare
 matched required claim strings. Type B remains inadequately scored without richer
 claim/evidence judgment. See `results/retrieval_score_2026_gamma0p1.json` and
 `results/retrieval_claim_scoring_2026_gamma0p1.json`.
+
+## Extends direction inference
+
+The separate direction layer is in `results/extends_direction/`. It inspects
+method endpoints and origin years, never choosing an anchor solely because it is
+`member[0]`. In the 2026 snapshot, 4 of 50 `extends` hyperedges are resolved and
+46 remain unresolved, mostly because of missing method origin years. Edge `h_00003`
+remains unresolved despite one method dated to the edge year because other method
+origin years are missing. Resolved cases agree with member[0] in this data version
+(4/4), but that is only a diagnostic and not a schema guarantee.
 
 ## Pending human-review metrics
 

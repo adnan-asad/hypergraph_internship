@@ -18,12 +18,15 @@ This is a completed packaging/audit pass over the supplied implementation, not a
 - Added strict exact-name retrieval diagnostics and tests. Existing substring-proxy scores are preserved and relabelled accurately in the report.
 - Added exhaustive hierarchy, quotient, and extractive-integrity checks and a consolidated metrics file.
 - Integrated the actual developer CSV and its quantitative report. Mixed-scope annotations remain mixed-scope; blanks remain missing.
+- Added a separate `extends` direction-inference layer. The original method preserved `extends` edges without resolving direction; the new artifact infers direction only when temporal metadata supports a unique method anchor and otherwise abstains. It does not affect visibility, clustering, partitions, labels, retrieval or previous evaluation results.
 
 ## Important interpretation
 
 Neither unit-test success nor zero extractive copy errors measures scientific label overclaim. A new, separately blinded level-0/1 sample was actually judged: 16 informative, 16 supported-but-vague, zero unsupported/wrong. Observed overclaim is 0/32 with descriptive Wilson interval 0–10.7%; this is source-extraction faithfulness, not proof of external scientific truth. Old development review packets remain historical/unrated; the new `evaluation_llm/` artifacts are authoritative. Human spot-check completion remains separate.
 
 The strict retrieval audit was added after answers had been inspected. It is a diagnostic of the frozen outputs, not a new preregistered headline benchmark. No weights, groupings, candidate pools, or rankings were changed based on those answers.
+
+`Extends` direction inference is also diagnostic metadata. Coverage is limited: in 2026 only 4/50 `extends` edges resolve (8%); 43 lack sufficient origin-year information under the documented heuristic. Agreement with `member[0]` among the four resolved edges is not accuracy validation because member order is not a guaranteed direction field. Candidate targets remain candidate method endpoints of a multi-target hyperedge, not independently verified targets.
 
 ## What to do before submitting
 

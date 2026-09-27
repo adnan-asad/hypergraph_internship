@@ -4842,5 +4842,110 @@
       "Human completion is reported separately; prior developer review is not substituted for new checks.",
       "Post-hoc evidence scoring of frozen coarse-filter retrieval; no generated answers or multilevel routing measured."
     ]
+  },
+  "extends_direction_inference": {
+    "policy_version": "extends_direction_temporal_heuristic_v1",
+    "status": "separate inferred metadata; does not affect visibility, clustering, or evaluation memberships",
+    "coverage_by_snapshot": {
+      "2020": {
+        "extends_edges": 16,
+        "resolved": 4,
+        "unresolved": 12,
+        "coverage": 0.25,
+        "unresolved_reasons": {
+          "missing origin_year ambiguity among method endpoints": 10,
+          "future-origin contradiction relative to edge year": 1,
+          "heuristic inference; not independently corroborated": 4,
+          "tie: multiple newest method origin_year values": 1
+        },
+        "member0_diagnostic": {
+          "denominator_resolved_edges": 4,
+          "agreements_with_member0": 4,
+          "disagreements_with_member0": 0,
+          "note": "Diagnostic only; member[0] is not used as a direction contract."
+        },
+        "rule_counts": {
+          "unresolved": 12,
+          "unique_method_origin_equals_edge_year": 4
+        },
+        "artifact": "results/extends_direction/snapshot_2020_extends_direction.json"
+      },
+      "2022": {
+        "extends_edges": 22,
+        "resolved": 4,
+        "unresolved": 18,
+        "coverage": 0.18181818181818182,
+        "unresolved_reasons": {
+          "missing origin_year ambiguity among method endpoints": 15,
+          "future-origin contradiction relative to edge year": 2,
+          "heuristic inference; not independently corroborated": 4,
+          "tie: multiple newest method origin_year values": 1
+        },
+        "member0_diagnostic": {
+          "denominator_resolved_edges": 4,
+          "agreements_with_member0": 4,
+          "disagreements_with_member0": 0,
+          "note": "Diagnostic only; member[0] is not used as a direction contract."
+        },
+        "rule_counts": {
+          "unresolved": 18,
+          "unique_method_origin_equals_edge_year": 4
+        },
+        "artifact": "results/extends_direction/snapshot_2022_extends_direction.json"
+      },
+      "2024": {
+        "extends_edges": 37,
+        "resolved": 4,
+        "unresolved": 33,
+        "coverage": 0.10810810810810811,
+        "unresolved_reasons": {
+          "missing origin_year ambiguity among method endpoints": 30,
+          "future-origin contradiction relative to edge year": 2,
+          "heuristic inference; not independently corroborated": 4,
+          "tie: multiple newest method origin_year values": 1
+        },
+        "member0_diagnostic": {
+          "denominator_resolved_edges": 4,
+          "agreements_with_member0": 4,
+          "disagreements_with_member0": 0,
+          "note": "Diagnostic only; member[0] is not used as a direction contract."
+        },
+        "rule_counts": {
+          "unresolved": 33,
+          "unique_method_origin_equals_edge_year": 4
+        },
+        "artifact": "results/extends_direction/snapshot_2024_extends_direction.json"
+      },
+      "2026": {
+        "extends_edges": 50,
+        "resolved": 4,
+        "unresolved": 46,
+        "coverage": 0.08,
+        "unresolved_reasons": {
+          "missing origin_year ambiguity among method endpoints": 43,
+          "future-origin contradiction relative to edge year": 2,
+          "heuristic inference; not independently corroborated": 4,
+          "tie: multiple newest method origin_year values": 1
+        },
+        "member0_diagnostic": {
+          "denominator_resolved_edges": 4,
+          "agreements_with_member0": 4,
+          "disagreements_with_member0": 0,
+          "note": "Diagnostic only; member[0] is not used as a direction contract."
+        },
+        "rule_counts": {
+          "unresolved": 46,
+          "unique_method_origin_equals_edge_year": 4
+        },
+        "artifact": "results/extends_direction/snapshot_2026_extends_direction.json"
+      }
+    },
+    "2026_explicit_coverage": "4/50 = 8%",
+    "limitations": [
+      "43 of 50 2026 extends edges lack sufficient origin-year information under this heuristic",
+      "agreement with member[0] is diagnostic, not accuracy validation",
+      "candidate targets are remaining method endpoints, not independently verified targets",
+      "direction accuracy is not established by tests or date consistency"
+    ]
   }
 }
