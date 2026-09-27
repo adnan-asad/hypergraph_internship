@@ -9,4 +9,6 @@ __pycache__/
 .pi/
 data/raw/
 data/processed/
-results/
+*.npz
+results/reproduced/
+verification_environment/
