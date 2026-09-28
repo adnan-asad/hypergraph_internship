@@ -40,7 +40,7 @@ Do not index ground_truth.json or benchmark evidence snippets as retrieval conte
 Keep questions out of clustering and paper-task selection. Select the initial
 paper pilot by graph coverage/date/method diversity, before looking at test scores.
 
-## Five-day schedule
+## Schedule
 
 | Day | Required output | Evidence/agent work |
 |---|---|---|
