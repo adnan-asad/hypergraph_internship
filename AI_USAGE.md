@@ -2,7 +2,7 @@
 
 ## Project planning and setup
 
-Tool: OpenAI assistant in Codex.
+Tool: OpenAI assistant in Pi.
 
 Tasks: assessment explanation, dataset inspection, endpoint-role audit,
 project planning, and repository setup guidance.
@@ -343,7 +343,7 @@ and no clustering/evaluation outputs were changed. No commit/push was made.
 
 ## Submission audit and writing — 26 September 2026
 
-Tool: OpenAI Codex desktop assistant. The developer supplied the actual repository archive and edited developer-review CSV. Major request: finish the project, prepare the assessment deliverables, audit measured evidence and identify what to commit. The assistant was instructed to prioritize rubric coverage; no invented experiments, ratings or performance improvements were accepted.
+Tool: The developer supplied the actual repository archive and edited developer-review CSV. Major request: finish the project, prepare the assessment deliverables, audit measured evidence and identify what to commit. The assistant was instructed to prioritize rubric coverage; no invented experiments, ratings or performance improvements were accepted.
 
 Work: inspected source and saved outputs; consolidated real developer annotations; drafted the report, literature positioning, evidence ledger and reproduction/commit instructions; added exact-name retrieval diagnostics and exhaustive hierarchy/quotient/extractive-integrity audits; fixed base singleton persistent IDs and portable peak-memory reporting; added checks for paired seed cohorts. Original experiment outputs and rankings were retained. Canonical exports correct singleton IDs without reclustering.
 
@@ -362,4 +362,4 @@ Verification: all48/32/36 packets present; 448 claim criteria and180 citation ta
 
 ## Developer spot-check feedback recorded
 
-The developer supplied comments on all six requested cases in chat. The assistant preserved the original message, transcribed notes to the CSV, and recorded only the explicit C004 rating of 1. Other categories/agreement fields were not inferred. Reports distinguish six qualitative checks from one explicit numeric rating; no LLM judgment or measured overclaim numerator was changed.
+The developer supplied comments on all six requested cases. The assistant preserved the original message, transcribed notes to the CSV, and recorded only the explicit C004 rating of 1. Other categories/agreement fields were not inferred. Reports distinguish six qualitative checks from one explicit numeric rating; no LLM judgment or measured overclaim numerator was changed. The developer manually checked each node in the groups with various runs to evaluate whether the resultant maps seem valid.
