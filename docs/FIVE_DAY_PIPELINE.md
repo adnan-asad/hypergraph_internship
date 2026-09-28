@@ -1,4 +1,4 @@
-# Five-day implementation pipeline
+# Implementation pipeline
 
 ## Decision
 
